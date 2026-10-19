@@ -1,0 +1,566 @@
+[
+  {
+    "name": "3/4 Sit-Up",
+    "force": "trazione",
+    "level": "principiante",
+    "mechanic": "composto",
+    "equipment": "corpo libero",
+    "primaryMuscles": [
+      "addominali"
+    ],
+    "secondaryMuscles": [],
+    "instructions": [
+      "Sdraiati sul pavimento e fissa i piedi. Le gambe devono essere piegate all'altezza delle ginocchia.",
+      "Posiziona le mani dietro o ai lati della testa. Inizierai con la schiena a terra. Questa sarà la tua posizione di partenza.",
+      "Fletti i fianchi e la colonna vertebrale per sollevare il torso verso le ginocchia.",
+      "Nella fase di massima contrazione, il torso dovrebbe essere perpendicolare al terreno. Inverti il movimento, scendendo solo per ¾ del percorso.",
+      "Ripeti per il numero di ripetizioni consigliato."
+    ],
+    "category": "forza",
+    "id": "3_4_Sit-Up"
+  },
+  {
+    "name": "90/90 Hamstring",
+    "force": "spinta",
+    "level": "principiante",
+    "mechanic": null,
+    "equipment": "corpo libero",
+    "primaryMuscles": [
+      "femorali"
+    ],
+    "secondaryMuscles": [
+      "polpacci"
+    ],
+    "instructions": [
+      "Sdraiati sulla schiena con una gamba completamente distesa.",
+      "Piega l'altra gamba formando un angolo di 90 gradi tra anca e ginocchio. Se necessario, puoi sostenere la gamba con le mani. Questa sarà la tua posizione di partenza.",
+      "Estendi la gamba verso l'alto rendendola dritta, facendo una breve pausa in cima. Riporta la gamba nella posizione di partenza.",
+      "Ripeti per 10-20 ripetizioni, quindi passa all'altra gamba."
+    ],
+    "category": "stretching",
+    "id": "90_90_Hamstring"
+  },
+  {
+    "name": "Ab Crunch Machine",
+    "force": "trazione",
+    "level": "intermedio",
+    "mechanic": "isolamento",
+    "equipment": "macchinario",
+    "primaryMuscles": [
+      "addominali"
+    ],
+    "secondaryMuscles": [],
+    "instructions": [
+      "Seleziona un carico leggero e siediti sulla macchina per addominali posizionando i piedi sotto gli appositi cuscini e afferrando le maniglie superiori. Le braccia devono essere piegate a 90 gradi appoggiando i tricipiti sui cuscini. Questa sarà la tua posizione di partenza.",
+      "Contemporaneamente, inizia a sollevare le gambe mentre esegui il crunch con il busto. Espira durante l'esecuzione del movimento. Consiglio: Assicurati di usare un movimento lento e controllato. Concentrati sull'uso degli addominali per spostare il peso, rilassando gambe e piedi.",
+      "Dopo una pausa di un secondo, torna lentamente alla posizione di partenza inspirando.",
+      "Ripeti il movimento per il numero prescritto di ripetizioni."
+    ],
+    "category": "forza",
+    "id": "Ab_Crunch_Machine"
+  },
+  {
+    "name": "Ab Roller",
+    "force": "trazione",
+    "level": "intermedio",
+    "mechanic": "composto",
+    "equipment": "altro",
+    "primaryMuscles": [
+      "addominali"
+    ],
+    "secondaryMuscles": [
+      "spalle"
+    ],
+    "instructions": [
+      "Impugna l'Ab Roller con entrambe le mani e inginocchiati sul pavimento.",
+      "Posiziona l'Ab Roller a terra davanti a te in modo da trovarti a quattro zampe (come nella posizione di partenza dei piegamenti sulle ginocchia). Questa sarà la tua posizione di partenza.",
+      "Fai rotolare lentamente l'Ab Roller in avanti, allungando il corpo fino a distenderlo completamente. Consiglio: Scendi il più possibile senza toccare il pavimento con il corpo. Inspira durante questa fase del movimento.",
+      "Dopo una pausa nella posizione di massimo allungamento, inizia a tirarti indietro fino alla posizione di partenza espirando. Consiglio: Procedi lentamente e mantieni gli addominali contratti per tutto il tempo."
+    ],
+    "category": "forza",
+    "id": "Ab_Roller"
+  },
+  {
+    "name": "Adductor",
+    "force": "stazionario",
+    "level": "intermedio",
+    "mechanic": "isolamento",
+    "equipment": "foam roller",
+    "primaryMuscles": [
+      "adduttori"
+    ],
+    "secondaryMuscles": [],
+    "instructions": [
+      "Sdraiati a pancia in giù con una gamba appoggiata su un foam roller.",
+      "Ruota la gamba in modo che il foam roller sia a contatto con l'interno coscia. Scarica sul foam roller tutto il peso corporeo che riesci a tollerare.",
+      "Cercando di rilassare i muscoli dell'interno coscia, fai scorrere il foam roller tra l'anca e il ginocchio, mantenendo la pressione sui punti di tensione per 10-30 secondi. Ripeti con l'altra gamba."
+    ],
+    "category": "stretching",
+    "id": "Adductor"
+  },
+  {
+    "name": "Adductor/Groin",
+    "force": "stazionario",
+    "level": "intermedio",
+    "mechanic": null,
+    "equipment": null,
+    "primaryMuscles": [
+      "adduttori"
+    ],
+    "secondaryMuscles": [],
+    "instructions": [
+      "Sdraiati sulla schiena con le gambe sollevate verso il soffitto.",
+      "Fai in modo che il tuo partner ti tenga i piedi o le caviglie. Divarica le gambe il più possibile. Questa sarà la tua posizione di partenza.",
+      "Cerca di stringere le gambe per 10 o più secondi, mentre il partner ti impedisce di farlo.",
+      "Ora rilassa i muscoli delle gambe mentre il partner spinge i piedi verso l'esterno, allungando fin dove ti è confortevole. Assicurati di comunicare al partner quando l'allungamento è adeguato per evitare stiramenti o infortuni."
+    ],
+    "category": "stretching",
+    "id": "Adductor_Groin"
+  },
+  {
+    "name": "Advanced Kettlebell Windmill",
+    "force": "spinta",
+    "level": "intermedio",
+    "mechanic": "isolamento",
+    "equipment": "kettlebell",
+    "primaryMuscles": [
+      "addominali"
+    ],
+    "secondaryMuscles": [
+      "glutei",
+      "femorali",
+      "spalle"
+    ],
+    "instructions": [
+      "Esegui una girata (clean) e una distensione sopra la testa (press) con un kettlebell usando un braccio.",
+      "Mantenendo il braccio con il kettlebell ben disteso in alto per tutto il tempo, spingi il bacino all'indietro nella direzione del braccio bloccato. Mantieni il braccio libero dietro la schiena e ruota i piedi verso l'esterno di 45 gradi rispetto al braccio con il kettlebell.",
+      "Abbassati il più possibile piegando il busto di lato.",
+      "Fai una pausa di un secondo e inverti il movimento per tornare alla posizione di partenza."
+    ],
+    "category": "forza",
+    "id": "Advanced_Kettlebell_Windmill"
+  },
+  {
+    "name": "Air Bike",
+    "force": "trazione",
+    "level": "principiante",
+    "mechanic": "composto",
+    "equipment": "corpo libero",
+    "primaryMuscles": [
+      "addominali"
+    ],
+    "secondaryMuscles": [],
+    "instructions": [
+      "Sdraiati a terra con la parte inferiore della schiena ben aderente al pavimento. Per questo esercizio posiziona le mani ai lati della testa, facendo attenzione a non sforzare il collo durante l'esecuzione. Solleva le spalle nella posizione di crunch.",
+      "Porta le ginocchia in alto in modo che siano perpendicolari al pavimento, con i polpacci paralleli ad esso. Questa sarà la tua posizione di partenza.",
+      "Contemporaneamente e lentamente, simula il movimento della pedalata spingendo in avanti la gamba destra e avvicinando il ginocchio sinistro al petto. Avvicina il gomito destro al ginocchio sinistro eseguendo una torsione laterale del busto ed espirando.",
+      "Torna alla posizione iniziale inspirando.",
+      "Esegui la torsione dal lato opposto pedalando con le gambe e avvicinando il gomito sinistro al ginocchio destro ed espira.",
+      "Continua ad alternare i lati in questo modo fino a completare le ripetizioni consigliate per ciascun lato."
+    ],
+    "category": "forza",
+    "id": "Air_Bike"
+  },
+  {
+    "name": "All Fours Quad Stretch",
+    "force": "stazionario",
+    "level": "intermedio",
+    "mechanic": null,
+    "equipment": "corpo libero",
+    "primaryMuscles": [
+      "quadricipiti"
+    ],
+    "secondaryMuscles": [
+      "quadricipiti"
+    ],
+    "instructions": [
+      "Inizia a quattro zampe (mani e ginocchia a terra), poi solleva un piede dal pavimento e afferralo con la mano omolaterale.",
+      "Usa la mano per tenere il piede o la caviglia mantenendo il ginocchio completamente piegato, allungando così il quadricipite e i flessori dell'anca.",
+      "Concentrati sull'estensione delle anche, spingendole verso il pavimento. Mantieni la posizione per 10-20 secondi e poi cambia lato."
+    ],
+    "category": "stretching",
+    "id": "All_Fours_Quad_Stretch"
+  },
+  {
+    "name": "Alternate Hammer Curl",
+    "force": "trazione",
+    "level": "principiante",
+    "mechanic": "isolamento",
+    "equipment": "manubri",
+    "primaryMuscles": [
+      "bicipiti"
+    ],
+    "secondaryMuscles": [
+      "avambracci"
+    ],
+    "instructions": [
+      "Rimani in piedi con il busto eretto tenendo un manubrio per mano lungo i fianchi. I gomiti devono essere vicini al busto.",
+      "I palmi delle mani devono essere rivolti verso il busto (presa neutra). Questa sarà la tua posizione di partenza.",
+      "Mantenendo la parte superiore del braccio ferma, piega il braccio destro portando il peso in avanti e contraendo il bicipite mentre espiri. Continua il movimento finché il bicipite non è completamente contratto e i manubri si trovano all'altezza delle spalle. Mantieni la posizione contratta per un secondo spremendo il bicipite. Consiglio: Devono muoversi solo gli avambracci.",
+      "Inizia a riportare lentamente il manubrio nella posizione di partenza inspirando.",
+      "Ripeti il movimento con la mano sinistra. Questo equivale a una ripetizione.",
+      "Continua ad alternare le braccia per il numero prescritto di ripetizioni."
+    ],
+    "category": "forza",
+    "id": "Alternate_Hammer_Curl"
+  },
+  {
+    "name": "Alternate Heel Touchers",
+    "force": "trazione",
+    "level": "principiante",
+    "mechanic": "isolamento",
+    "equipment": "corpo libero",
+    "primaryMuscles": [
+      "addominali"
+    ],
+    "secondaryMuscles": [],
+    "instructions": [
+      "Sdraiati sul pavimento con le ginocchia piegate e i piedi appoggiati a terra a circa 45-60 cm di distanza tra loro. Le braccia devono essere distese lungo i fianchi. Questa sarà la tua posizione di partenza.",
+      "Fletti il busto in avanti e verso destra di circa 8-10 cm e tocca il tallone destro mantenendo la contrazione per un secondo. Espira durante l'esecuzione.",
+      "Ora torna lentamente alla posizione iniziale inspirando.",
+      "Fletti il busto in avanti e verso sinistra di circa 8-10 cm e tocca il tallone sinistro mantenendo la contrazione per un secondo. Espira durante l'esecuzione e torna alla posizione iniziale inspirando. Toccare entrambi i talloni equivale a 1 ripetizione.",
+      "Continua ad alternare i lati in questo modo fino a completare le ripetizioni prescritte."
+    ],
+    "category": "forza",
+    "id": "Alternate_Heel_Touchers"
+  },
+  {
+    "name": "Alternate Incline Dumbbell Curl",
+    "force": "trazione",
+    "level": "principiante",
+    "mechanic": "isolamento",
+    "equipment": "manubri",
+    "primaryMuscles": [
+      "bicipiti"
+    ],
+    "secondaryMuscles": [
+      "avambracci"
+    ],
+    "instructions": [
+      "Siediti su una panca inclinata tenendo un manubrio in ciascuna mano a braccia distese. Consiglio: Mantieni i gomiti vicini al busto. Questa sarà la tua posizione di partenza.",
+      "Mantenendo il braccio fermo, piega il gomito destro portando il peso in avanti e contraendo il bicipite mentre espiri. Mentre lo fai, ruota la mano in modo che il palmo sia rivolto verso l'alto (supinazione). Continua il movimento finché il bicipite non è completamente contratto e il manubrio è all'altezza delle spalle. Mantieni la contrazione per un secondo spremendo il bicipite. Consiglio: Soltanto gli avambracci devono muoversi.",
+      "Inizia a riportare lentamente il manubrio nella posizione di partenza inspirando.",
+      "Ripeti il movimento con la mano sinistra. Questo equivale a una ripetizione.",
+      "Continua ad alternare in questo modo per il numero di ripetizioni raccomandato."
+    ],
+    "category": "forza",
+    "id": "Alternate_Incline_Dumbbell_Curl"
+  },
+  {
+    "name": "Alternate Leg Diagonal Bound",
+    "force": "spinta",
+    "level": "principiante",
+    "mechanic": "composto",
+    "equipment": null,
+    "primaryMuscles": [
+      "quadricipiti"
+    ],
+    "secondaryMuscles": [
+      "abduttori",
+      "adduttori",
+      "polpacci",
+      "glutei",
+      "femorali"
+    ],
+    "instructions": [
+      "Assumi una posizione comoda con un piede leggermente davanti all'altro.",
+      "Inizia spingendo con la gamba anteriore, guidando il ginocchio opposto in avanti e il più in alto possibile prima di atterrare. Cerca di coprire la maggiore distanza laterale possibile a ogni balzo.",
+      "Può essere utile usare una linea sul pavimento per misurare lo spostamento da un lato all'altro.",
+      "Ripeti la sequenza con l'altra gamba."
+    ],
+    "category": "pliometria",
+    "id": "Alternate_Leg_Diagonal_Bound"
+  },
+  {
+    "name": "Alternating Cable Shoulder Press",
+    "force": "spinta",
+    "level": "principiante",
+    "mechanic": "composto",
+    "equipment": "cavi",
+    "primaryMuscles": [
+      "spalle"
+    ],
+    "secondaryMuscles": [
+      "tricipiti"
+    ],
+    "instructions": [
+      "Sposta i cavi nella parte inferiore della torretta e seleziona il carico appropriato.",
+      "Afferra le maniglie e tienile all'altezza delle spalle, con i palmi rivolti in avanti. Questa sarà la tua posizione di partenza.",
+      "Mantenendo la testa e il petto ben elevati, estendi il gomito per distendere un lato direttamente sopra la testa.",
+      "Dopo una pausa in cima, torna alla posizione di partenza e ripeti sul lato opposto."
+    ],
+    "category": "forza",
+    "id": "Alternating_Cable_Shoulder_Press"
+  },
+  {
+    "name": "Alternating Deltoid Raise",
+    "force": "spinta",
+    "level": "principiante",
+    "mechanic": "isolamento",
+    "equipment": "manubri",
+    "primaryMuscles": [
+      "spalle"
+    ],
+    "secondaryMuscles": [],
+    "instructions": [
+      "In posizione eretta, tieni una coppia di manubri lungo i fianchi.",
+      "Mantenendo i gomiti leggermente piegati, solleva i pesi direttamente davanti a te fino all'altezza delle spalle, evitando slanci o compensazioni.",
+      "Riporta i pesi lungo i fianchi.",
+      "Nella ripetizione successiva, solleva i pesi lateralmente verso l'esterno fino all'altezza delle spalle.",
+      "Riporta i pesi alla posizione iniziale e continua ad alternare le alzate frontali e quelle laterali."
+    ],
+    "category": "forza",
+    "id": "Alternating_Deltoid_Raise"
+  },
+  {
+    "name": "Alternating Floor Press",
+    "force": "spinta",
+    "level": "principiante",
+    "mechanic": "composto",
+    "equipment": "kettlebell",
+    "primaryMuscles": [
+      "petto"
+    ],
+    "secondaryMuscles": [
+      "addominali",
+      "spalle",
+      "tricipiti"
+    ],
+    "instructions": [
+      "Sdraiati sul pavimento con due kettlebell accanto alle spalle.",
+      "Posiziona prima un kettlebell sul petto e poi l'altro, afferrandoli per la maniglia con i palmi rivolti in avanti.",
+      "Estendi entrambe le braccia per sostenere i kettlebell sopra il petto. Abbassa un kettlebell portandolo verso il petto e ruotando il polso nella direzione del braccio rimasto disteso.",
+      "Solleva di nuovo il kettlebell e ripeti sul lato opposto."
+    ],
+    "category": "forza",
+    "id": "Alternating_Floor_Press"
+  },
+  {
+    "name": "Alternating Hang Clean",
+    "force": "trazione",
+    "level": "intermedio",
+    "mechanic": "composto",
+    "equipment": "kettlebell",
+    "primaryMuscles": [
+      "femorali"
+    ],
+    "secondaryMuscles": [
+      "bicipiti",
+      "polpacci",
+      "avambracci",
+      "glutei",
+      "lombari",
+      "trapezi"
+    ],
+    "instructions": [
+      "Posiziona due kettlebell tra i piedi. Per metterti nella posizione di partenza, spingi il bacino all'indietro e guarda dritto davanti a te.",
+      "Porta un kettlebell alla spalla (clean) mantenendo l'altro kettlebell a braccio teso verso il basso. Esegui la girata estendendo gambe e anche mentre tiri il peso verso la spalla, ruotando il polso durante il movimento.",
+      "Riappendi il kettlebell eseguito verso il basso ed esegui la girata con l'altro kettlebell. Ripeti."
+    ],
+    "category": "forza",
+    "id": "Alternating_Hang_Clean"
+  },
+  {
+    "name": "Alternating Kettlebell Press",
+    "force": "spinta",
+    "level": "intermedio",
+    "mechanic": "composto",
+    "equipment": "kettlebell",
+    "primaryMuscles": [
+      "spalle"
+    ],
+    "secondaryMuscles": [
+      "tricipiti"
+    ],
+    "instructions": [
+      "Esegui una girata con due kettlebell per portarli alle spalle. Sollevali estendendo gambe e anche e ruotando i polsi durante la salita.",
+      "Spingi un kettlebell direttamente sopra la testa estendendo il gomito e ruotando la mano in modo che il palmo sia rivolto in avanti, mentre mantieni l'altro kettlebell fermo sulla spalla.",
+      "Abbassa il kettlebell disteso alla posizione di partenza e spingi immediatamente verso l'alto con l'altro braccio."
+    ],
+    "category": "forza",
+    "id": "Alternating_Kettlebell_Press"
+  },
+  {
+    "name": "Alternating Kettlebell Row",
+    "force": "trazione",
+    "level": "intermedio",
+    "mechanic": "isolamento",
+    "equipment": "kettlebell",
+    "primaryMuscles": [
+      "dorsali"
+    ],
+    "secondaryMuscles": [
+      "bicipiti",
+      "gran dorsale"
+    ],
+    "instructions": [
+      "Posiziona due kettlebell davanti ai piedi. Piega leggermente le ginocchia e spingi il bacino all'indietro il più possibile. Flettiti in avanti e afferra entrambi i kettlebell dalle maniglie.",
+      "Tira un kettlebell staccandolo dal pavimento mentre continui a tenere l'altro. Adduci la scapola del lato attivo mentre fletti il gomito, portando il kettlebell verso lo stomaco o la gabbia toracica.",
+      "Riappoggia il kettlebell atteso e ripeti con l'altro braccio."
+    ],
+    "category": "forza",
+    "id": "Alternating_Kettlebell_Row"
+  },
+  {
+    "name": "Alternating Renegade Row",
+    "force": "trazione",
+    "level": "esperto",
+    "mechanic": "composto",
+    "equipment": "kettlebell",
+    "primaryMuscles": [
+      "dorsali"
+    ],
+    "secondaryMuscles": [
+      "addominali",
+      "bicipiti",
+      "petto",
+      "gran dorsale",
+      "tricipiti"
+    ],
+    "instructions": [
+      "Posiziona due kettlebell a terra a una distanza pari a quella delle spalle. Mettiti in posizione di plank sulle punte dei piedi e con le mani sulle maniglie dei kettlebell come per fare i piegamenti, mantenendo il corpo dritto ed esteso. Puoi allargare i piedi per maggiore stabilità.",
+      "Spingi un kettlebell contro il pavimento ed esegui il rematore con l'altro, adducendo la scapola del lato attivo e piegando il gomito per tirare il peso al fianco.",
+      "Poi abbassa il kettlebell a terra e ripeti il movimento con la mano opposta. Ripeti per diverse ripetizioni."
+    ],
+    "category": "forza",
+    "id": "Alternating_Renegade_Row"
+  },
+  {
+    "name": "Ankle Circles",
+    "force": "trazione",
+    "level": "principiante",
+    "mechanic": "isolamento",
+    "equipment": null,
+    "primaryMuscles": [
+      "polpacci"
+    ],
+    "secondaryMuscles": [],
+    "instructions": [
+      "Manteniti a un oggetto solido come il rack per lo squat per sostenerti.",
+      "Solleva la gamba destra da terra (a circa 5 cm dal pavimento) ed esegui un movimento circolare con l'alluce. Immagina di disegnare un grande cerchio con la punta del piede. Consiglio: Un cerchio completo equivale a 1 ripetizione. Respira normalmente durante l'esercizio.",
+      "Quando hai terminato con il piede destro, ripeti con la gamba sinistra."
+    ],
+    "category": "stretching",
+    "id": "Ankle_Circles"
+  },
+  {
+    "name": "Ankle On The Knee",
+    "force": "stazionario",
+    "level": "principiante",
+    "mechanic": null,
+    "equipment": null,
+    "primaryMuscles": [
+      "glutei"
+    ],
+    "secondaryMuscles": [],
+    "instructions": [
+      "Da sdraiato a terra, piega le ginocchia mantenendo le piante dei piedi appoggiate al pavimento.",
+      "Appoggia la caviglia di un piede sul ginocchio della gamba opposta.",
+      "Afferra la coscia o il ginocchio della gamba a terra e tira entrambe le gambe verso il petto. Rilassa collo e spalle. Mantieni la posizione per 10-20 secondi e poi cambia lato."
+    ],
+    "category": "stretching",
+    "id": "Ankle_On_The_Knee"
+  },
+  {
+    "name": "Anterior Tibialis-SMR",
+    "force": "stazionario",
+    "level": "intermedio",
+    "mechanic": null,
+    "equipment": "altro",
+    "primaryMuscles": [
+      "polpacci"
+    ],
+    "secondaryMuscles": [],
+    "instructions": [
+      "Inizia da seduto a terra con le gambe piegate e i piedi appoggiati al pavimento.",
+      "Usando un rullo per massaggio muscolare o un mattarello, applica pressione sui muscoli esterni degli stinchi. Lavora da poco sotto il ginocchio a sopra la caviglia, fermandoti sui punti di maggiore tensione per 10-30 secondi. Ripeti sull'altra gamba."
+    ],
+    "category": "stretching",
+    "id": "Anterior_Tibialis-SMR"
+  },
+  {
+    "name": "Anti-Gravity Press",
+    "force": "spinta",
+    "level": "principiante",
+    "mechanic": "composto",
+    "equipment": "bilanciere",
+    "primaryMuscles": [
+      "spalle"
+    ],
+    "secondaryMuscles": [
+      "dorsali",
+      "trapezi",
+      "tricipiti"
+    ],
+    "instructions": [
+      "Posiziona un bilanciere a terra dietro la testa di una panca inclinata.",
+      "Sdraiati sulla panca a pancia in giù (prono). Con una presa prona, solleva il bilanciere da terra. Piega i gomiti effettuando un curl inverso per portare il bilanciere vicino al petto. Questa sarà la tua posizione di partenza.",
+      "Per iniziare, distendi il bilanciere in avanti oltre la testa estendendo i gomiti. Mantieni le braccia parallele al terreno per tutto il movimento.",
+      "Ritorna alla posizione di partenza e ripeti per completare la serie."
+    ],
+    "category": "forza",
+    "id": "Anti-Gravity_Press"
+  },
+  {
+    "name": "Arm Circles",
+    "force": "spinta",
+    "level": "principiante",
+    "mechanic": "isolamento",
+    "equipment": null,
+    "primaryMuscles": [
+      "spalle"
+    ],
+    "secondaryMuscles": [
+      "trapezi"
+    ],
+    "instructions": [
+      "Mettiti in piedi ed estendi le braccia verso l'esterno ai lati del corpo. Le braccia devono essere parallele al pavimento e perpendicolari (90 gradi) al busto. Questa sarà la tua posizione di partenza.",
+      "Inizia lentamente a tracciare dei cerchi di circa 30 cm di diametro con le braccia distese. Respira normalmente durante l'esecuzione.",
+      "Continua il movimento circolare delle braccia per circa dieci secondi. Quindi inverti il senso di rotazione."
+    ],
+    "category": "stretching",
+    "id": "Arm_Circles"
+  },
+  {
+    "name": "Arnold Dumbbell Press",
+    "force": "spinta",
+    "level": "intermedio",
+    "mechanic": "composto",
+    "equipment": "manubri",
+    "primaryMuscles": [
+      "spalle"
+    ],
+    "secondaryMuscles": [
+      "tricipiti"
+    ],
+    "instructions": [
+      "Siediti su una panca con schienale e tieni due manubri davanti a te all'altezza della parte superiore del petto, con i palmi rivolti verso il corpo e i gomiti piegati. Consiglio: Le braccia devono essere aderenti al busto. La posizione iniziale deve assomigliare alla fase contratta di un curl con manubri.",
+      "Ora, per eseguire il movimento, solleva i manubri ruotando contemporaneamente i palmi fino a rivolgerli in avanti.",
+      "Continua a sollevare i manubri finché le braccia non sono completamente distese sopra di te. Espira mentre esegui questa fase della salita.",
+      "Dopo una pausa di un secondo in cima, inizia ad abbassare i manubri nella posizione originale ruotando i palmi delle mani verso di te. Consiglio: Il braccio sinistro ruoterà in senso antiorario mentre il destro in senso orario. Inspira mentre esegui la discesa.",
+      "Ripeti per il numero di ripetizioni raccomandato."
+    ],
+    "category": "forza",
+    "id": "Arnold_Dumbbell_Press"
+  },
+  {
+    "name": "Around The Worlds",
+    "force": "spinta",
+    "level": "intermedio",
+    "mechanic": "composto",
+    "equipment": "manubri",
+    "primaryMuscles": [
+      "petto"
+    ],
+    "secondaryMuscles": [
+      "spalle"
+    ],
+    "instructions": [
+      "Sdraiati su una panca piana impugnando un manubrio per mano con i palmi rivolti verso il soffitto. Consiglio: Le braccia devono essere parallele al pavimento e vicine alle cosce. Per evitare infortuni, mantieni i gomiti leggermente piegati. Questa sarà la tua posizione di partenza.",
+      "Ora sposta i manubri creando un semicerchio, spostandoli dalla posizione iniziale fino a sopra la testa. Tutto il movimento deve avvenire con le braccia sempre parallele al pavimento. Inspira durante l'esecuzione di questo movimento.",
+      "Inverti il movimento per riportare i pesi alla posizione di partenza mentre espiri."
+    ],
+    "category": "forza",
+    "id": "Around_The_Worlds"
+  }
+]
