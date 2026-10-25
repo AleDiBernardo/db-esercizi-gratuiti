@@ -1,0 +1,28 @@
+{
+  "id": "90_90_Hamstring",
+  "createdAt": "2026-10-25",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-partenza.png",
+      "description": "Supino, anca e ginocchio a 90°, altra gamba a terra",
+      "prompt": "Create ONE exercise illustration, landscape 3:2. Explicit authoritative identity reference: /workspace/db-esercizi-gratuiti/references/misurami-personaggio.png, attached. Reproduce same male face, short curly dark hair, athletic proportions, charcoal shirt with small Misurami logo on left chest, charcoal shorts yellow side stripe, black shoes. Realistic clean illustration on warm ivory floor/background. Entire body visible with generous margins. NO panels, text, numbers, captions, arrows. Exercise 90/90 hamstring stretch, PHASE 1 INITIAL POSITION: man lying supine with head, shoulders and back fully resting on floor, head toward left, feet toward right. Left leg extended straight resting on floor. Right hip flexed 90 degrees, right thigh vertical, right knee bent 90 degrees, lower leg horizontal pointing toward right. Both hands gently support BACK OF RIGHT THIGH just above knee (not shin). Relaxed neutral head. Clear side three-quarter view, anatomically correct joints, two arms/two legs only. Keep raised right thigh and floor-resting left leg clearly separated in projection. No equipment."
+    },
+    {
+      "file": "02-estensione.png",
+      "description": "Estensione del ginocchio mantenendo la coscia sollevata e sostenuta",
+      "prompt": "Create ONE exercise illustration landscape 3:2, phase 2 of 90/90 hamstring stretch. AUTHORITATIVE CHARACTER REFERENCE is attached /workspace/db-esercizi-gratuiti/references/misurami-personaggio.png; the second attached image /workspace/generated_images/exec-2cceb890-5705-4550-a422-c8751499b503.png is for exact camera, lighting, body scale, scene and clothing continuity. Same man supine head to left, feet to right, head shoulders back on ivory floor. Left leg remains straight resting on floor exactly as phase 1. Right THIGH stays vertical, hip flexed 90 degrees, hands support back of right thigh in same position. CHANGE ONLY RIGHT KNEE: extend it so raised right lower leg continues upward in line with vertical thigh, right foot pointing toward ceiling, comfortable nearly straight knee without forced hyperextension. Both entire legs and raised shoe fully visible with generous margin above. Anatomically correct arms hands joints. Same character face curly hair shirt chest logo shorts yellow stripe shoes. Full body, no cropping, no arrows text captions numbers panels. Realistic clean illustration warm ivory background. Show an extended raised leg, NOT another bent-knee pose."
+    }
+  ],
+  "sources": [
+    "exercises.json:90_90_Hamstring",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "passed: inspected both images for anatomy, hands, head and back support, movement, character, branding and framing; slight framing shift between phases",
+    "trainerReview": "not performed",
+    "technicalScope": "Illustrates repository instructions; not a professionally validated prescription"
+  },
+  "rejectedDrafts": 0
+}

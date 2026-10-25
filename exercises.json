@@ -43,7 +43,11 @@
       "Esegui 10–20 ripetizioni, poi cambia gamba."
     ],
     "category": "stretching",
-    "id": "90_90_Hamstring"
+    "id": "90_90_Hamstring",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/90_90_Hamstring/01-partenza.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/90_90_Hamstring/02-estensione.png"
+    ]
   },
   {
     "name": "Crunch alla macchina",
