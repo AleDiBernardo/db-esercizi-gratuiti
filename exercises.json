@@ -17,7 +17,12 @@
       "Ripeti per il numero di ripetizioni previsto."
     ],
     "category": "forza",
-    "id": "3_4_Sit-Up"
+    "id": "3_4_Sit-Up",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/3_4_Sit-Up/01-partenza.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/3_4_Sit-Up/02-salita.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/3_4_Sit-Up/03-ritorno-parziale.png"
+    ]
   },
   {
     "name": "Allungamento degli ischiocrurali 90/90",
