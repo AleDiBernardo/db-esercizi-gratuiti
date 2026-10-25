@@ -62,3 +62,9 @@ Le concessioni CC BY 4.0 già ricevute non sono revocabili per chi rispetta le c
 ## Nota sull'esecuzione
 
 Il catalogo ha finalità informative e non costituisce un programma personalizzato. Le istruzioni tradotte non risultano sottoposte a una revisione tecnica completa. Cinque esercizi non hanno istruzioni nella fonte: il relativo array è lasciato vuoto. Eventuali indicazioni ambigue della fonte sono segnalate nel testo.
+
+## Immagini dimostrative Misurami
+
+Il campo opzionale `images` contiene gli URL pubblici delle immagini, ordinati per fase di esecuzione. Gli esercizi non ancora illustrati non hanno questo campo. Le immagini sono generate con AI usando il personaggio in `references/misurami-personaggio.png`; il controllo visivo automatico non equivale a una revisione tecnica del trainer.
+
+La procedura è documentata in [IMAGE-ROUTINE.md](IMAGE-ROUTINE.md). Il registro `generation-progress.json` consente di riprendere senza duplicati.

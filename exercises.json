@@ -19146,7 +19146,13 @@
       "Ripeti per il numero di ripetizioni previsto."
     ],
     "category": "forza",
-    "id": "Zercher_Squats"
+    "id": "Zercher_Squats",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Zercher_Squats/01-partenza.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Zercher_Squats/02-discesa.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Zercher_Squats/03-posizione-bassa.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Zercher_Squats/04-ritorno.png"
+    ]
   },
   {
     "name": "Curl Zottman",
