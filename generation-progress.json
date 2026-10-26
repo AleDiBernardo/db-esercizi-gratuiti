@@ -1,5 +1,5 @@
 {
-  "successfulRuns": 5,
+  "successfulRuns": 6,
   "completed": [
     "Zercher_Squats",
     "90_90_Hamstring",
@@ -22,7 +22,9 @@
     "All_Fours_Quad_Stretch",
     "Advanced_Kettlebell_Windmill",
     "Ball_Leg_Curl",
-    "Backward_Drag"
+    "Backward_Drag",
+    "Plank",
+    "Crunches"
   ],
   "needsReview": [
     {

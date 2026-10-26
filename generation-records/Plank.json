@@ -1,0 +1,36 @@
+{
+  "id": "Plank",
+  "phases": [
+    {
+      "file": "01-tenuta.png",
+      "description": "Tenuta sugli avambracci e sulle punte, corpo allineato.",
+      "prompt": "ONE landscape3:2 realistic fitness illustration PNG ivory floor/background softshadow no text labels panels captions arrows. Attached ORIGINAL Misurami reference defines exact man curls beard face athletic proportions charcoal shirt small original yellow/white logo anatomical LEFT chest, charcoal shorts yellow stripe black shoes. Forearm PLANK static HOLD: whole body side three-quarter front view headtowardRIGHT feettowardLEFT. Both forearms firmly resting on floor, elbows exactly under shoulders bent90deg, hands relaxed separate palms downward, shoulders stable. Both legs straight behind supported on toes, heels elevated, head neck spine pelvis knees in one neutral straight line diagonal floor-to-shoulder. Braced abdomen flat neutral lumbar NO sagging, NO raised pike hips, eyes floor ahead between hands. Entire head hands both shoes all body visible with generous margins. Exactly twoarms twolegs anatomically accurate joints fingers; no extra equipment or floor mats. Original shirt chest logo naturally visible from near side view."
+    }
+  ],
+  "executionOrder": [
+    "01-tenuta.png"
+  ],
+  "executionNotes": "Assumere la posizione e mantenerla con corpo allineato; terminare appoggiando le ginocchia e rilassando. Nessuna variante con arti sollevati inventata.",
+  "createdAt": "2026-10-26",
+  "status": "accepted",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "sources": [
+    "IMAGE-ROUTINE.md",
+    "exercises.json:Plank"
+  ],
+  "checks": {
+    "automaticVisualInspection": "Provisional pass: each generated image inspected for anatomy, contact, original identity/clothes/logo, complete frame and phase correspondence; pending independent cross-review",
+    "fileValidation": "PNG decode and3:2 aspect verified",
+    "trainerReview": "not performed"
+  },
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Plank.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

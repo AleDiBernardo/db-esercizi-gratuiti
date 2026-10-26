@@ -1,0 +1,13 @@
+{
+  "id": "Plank",
+  "verdict": "accepted",
+  "reviewer": "images_e",
+  "filesViewed": [
+    "01-tenuta.png"
+  ],
+  "findings": [
+    "Body supported on toes and both forearms; elbows approximately below shoulders, shoulders/pelvis/knees align without pike or lumbar sag.",
+    "Palms and fingers naturally planted; neck looks down ahead, original identity/clothing/logo and whole body visible.",
+    "Static hold complete in one pose; no invented optional arm/leg lift or need for duplicate start/end."
+  ]
+}

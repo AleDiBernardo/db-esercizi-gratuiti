@@ -1,0 +1,14 @@
+{
+  "id": "Crunches",
+  "verdict": "accepted",
+  "reviewer": "images_e",
+  "filesViewed": [
+    "01-partenza.png",
+    "02-contrazione.png"
+  ],
+  "findings": [
+    "Both PNG inspected after full instructions read. First shows supine head/shoulders resting, feet planted knees flexed and hands light at temples.",
+    "Second lifts thoracic region/shoulderblades with pelvis and lumbar support maintained; distinct small crunch not situp.",
+    "Foot/hip coordinates, identity/logo and framing consistent, no clear hand/joint defect. Reverse order gives controlled return with no duplicate PNG."
+  ]
+}

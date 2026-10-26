@@ -4264,7 +4264,11 @@
       "Ripeti per il numero previsto."
     ],
     "category": "forza",
-    "id": "Crunches"
+    "id": "Crunches",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Crunches/01-partenza.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Crunches/02-contrazione.png"
+    ]
   },
   {
     "name": "Cuban press con manubri",
@@ -11949,7 +11953,10 @@
       "Mantieni il corpo sempre allineato e tieni la posizione il più a lungo possibile. Per aumentare la difficoltà puoi sollevare un braccio o una gamba."
     ],
     "category": "forza",
-    "id": "Plank"
+    "id": "Plank",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Plank/01-tenuta.png"
+    ]
   },
   {
     "name": "Presa a pinza con dischi",

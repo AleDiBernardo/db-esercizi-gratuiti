@@ -1,0 +1,49 @@
+{
+  "id": "Crunches",
+  "phases": [
+    {
+      "file": "01-partenza.png",
+      "description": "Supino con piedi a terra, ginocchia piegate e mani leggere alle tempie.",
+      "prompt": "Correct SECOND crunch starting reference. FIRST original Misurami identity authoritative. THIS IS RESTING SUPINE START, NOT CRUNCH HOLD: lower ENTIRE HEAD AND BOTH SHOULDER BLADES onto floor. Back of skull must visibly CONTACT SAME FLOOR PLANE as pelvis and shoe soles. Neutral neck gaze straight upward ceiling, face NOT facing forward toward knees. Hands still LIGHTLY touch temples at ears, elbows floorward. Bothfeet flat knees bent hips lumbar pelvis all restingfloor unchanged. Same camera scale exactfeetandpelvis coordinates originalmanclotheslogo ivory3:2 realistic no labels arrows. Clearly relaxed initial body fully flat until knees, no gap under upperback."
+    },
+    {
+      "file": "02-contrazione.png",
+      "description": "Piccolo sollevamento delle scapole mantenendo bacino e zona lombare a terra.",
+      "prompt": "Create Crunch phase2 small thoracic CURL from SECOND correct supine start reference, FIRST original Misurami character authoritative identity clothing leftchestlogo. EXACT same camera floor pelvis and feet positions/body scale. Bothfeetflat kneesbent unchanged. Lift ONLY head and shoulderblades about10cm OFF FLOOR, curl ribs gently toward pelvis, upperthoracicspine rounds slightly. LOWER BACK AND PELVIS/SACRUM stay visibly pressed flat to SAMEfloor; this is NOT situp NOT V-sit, torso never approaches upright. Hands lightlyattemples without pullinghead, elbowscomfortableforward, neck neutral aligned with upperthoraciccurve chin notjammed down. Eyes lookdiagonallyup not forwardtofeet. Originalman faceclothes naturalanatomy2arms2legs all visible generousmargin. One realisticlandscape3:2 PNG warmivory no captions labels numbers arrows. Keep no equipment."
+    }
+  ],
+  "executionOrder": [
+    "01-partenza.png",
+    "02-contrazione.png",
+    "01-partenza.png"
+  ],
+  "executionNotes": "Espirare sollevando le spalle di pochi centimetri, mantenere un secondo, inspirare tornando lentamente all'appoggio iniziale. Nessun sit-up/V-sit.",
+  "corrections": [
+    {
+      "prompt": "ONE landscape3:2 realistic fitness PNG warmivoryfloor/background. Original Misurami character sheet attached authoritative exact male identity curlyhair beard athletic build charcoalTshirt small original yellowwhite Misurami logo anatomicalLEFTchest charcoalshorts yellowstripe blackshoes. Crunch exercise PHASE1 relaxed SUPINE position. Man lies on BACK headtowardLEFT feettowardRIGHT, head neck shoulders entire lowerback and PELVIS/SACRUM firmly resting flat on floor. Both knees bent about90degrees, BOTHFEET flat on floor hipwidth. Both hands lightly touch sidesofhead at temples fingertips near ears, elbows comfortably slightlyforward, NO interlaced fingers behindhead. Abdomen softlybraced ribsdown no lumbar arch. Side/front slightly elevated camera so floor contact and legs distinguish; full man including both hands head shoes visible with generousmargins. Exactly2arms2legs natural fingersjoints. No equipment mats arrows captions labels numbers. Keep camera and ground feet/hips fixed nextphase; only upperthoracic curl will occur.",
+      "reason": "Initial draft head was lifted; corrected resting skull and scapula support."
+    }
+  ],
+  "createdAt": "2026-10-26",
+  "status": "accepted",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "sources": [
+    "IMAGE-ROUTINE.md",
+    "exercises.json:Crunches"
+  ],
+  "checks": {
+    "automaticVisualInspection": "Provisional pass: each generated image inspected for anatomy, contact, original identity/clothes/logo, complete frame and phase correspondence; pending independent cross-review",
+    "fileValidation": "PNG decode and3:2 aspect verified",
+    "trainerReview": "not performed"
+  },
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Crunches.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}
