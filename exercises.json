@@ -452,7 +452,12 @@
       "Riappoggia il kettlebell e ripeti con l'altra mano. Continua per più ripetizioni."
     ],
     "category": "forza",
-    "id": "Alternating_Renegade_Row"
+    "id": "Alternating_Renegade_Row",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternating_Renegade_Row/01-plank-v2.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternating_Renegade_Row/02-remata-destra-v2.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternating_Renegade_Row/03-remata-sinistra-v2.png"
+    ]
   },
   {
     "name": "Circonduzioni delle caviglie",

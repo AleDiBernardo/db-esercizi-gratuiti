@@ -1,0 +1,68 @@
+{
+  "id": "Alternating_Renegade_Row",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-plank-v2.png",
+      "description": "Plank stabile con entrambe le mani sulle maniglie dei kettlebell e piedi larghi.",
+      "prompt": "Edit second attached RENEGade ROW starting plank image to fix HEAD/NECK ONLY. First original Misurami character sheet authoritative exact face hair clothes original left chest logo. Freeze every other pixel/pose as closely as possible: same plank body hips spine feet toes wide stance, arms straight, both hands gripping grounded black kettlebell handles, camera scale ivory floor light. Lower chin and rotate head downward until NECK IS IN LINE WITH TORSO (back of head follows extension of upper back), gaze at floor about 30cm ahead of handles. Do NOT face viewer or crane neck upward. Keep face identity recognizable from partial downward threequarter view, curly hair beard. No changes to wrists elbows load shoes bells footing. Full body equipment original 3:2 no clipping no text arrows captions."
+    },
+    {
+      "file": "02-remata-destra-v2.png",
+      "description": "Remata del braccio destro con mano sinistra e punte dei piedi in appoggio.",
+      "prompt": "Edit second attached RIGHT RENEGade ROW to fix HEAD/NECK ONLY. First original Misurami sheet authoritative identity face hair beard charcoal leftchest logo shirt yellow shorts trim shoes. Third corrected starting plank shows desired neutral neck alignment. Preserve second image exact right-row arms: anatomical RIGHT arm viewerLEFT bends elbow close to ribs and lifts black kettlebell beside waist; LEFT arm viewerRIGHT straight supports other grounded bell. Keep hips/spine braced, feet toes fixed wide, camera floor equipment size exact. Lower chin/rotate head until neck naturally aligned with inclined torso, gaze to floor shortly ahead of grounded handle. Do not crane chin forward/up. Same head/face recognizable angled down, no changes to other anatomy grip equipment. Entire body both shoes both bells in3:2 ivory frame no cropping captions arrows labels panels."
+    },
+    {
+      "file": "03-remata-sinistra-v2.png",
+      "description": "Remata del braccio sinistro con mano destra e punte dei piedi in appoggio.",
+      "prompt": "Edit second LEFT RENEGade ROW image HEAD/NECK ONLY. First ORIGINAL Misurami sheet exact identity clothes original left chest branding. Third corrected plank desired neutral neck: lower chin/rotate head slightly downward so back of head continues upper spine line and gaze is on floor ahead of grounded handles rather than facing forward. Preserve second image EXACT arms: anatomical LEFT viewerRIGHT rows black bell toward waist elbow bent back, anatomical RIGHT viewerLEFT straight hand gripping grounded bell. Do NOT swap arms. Preserve fixed feet toes wide contact, braced trunk hips neutral, exact camera scale bell sizes ivory background floor light. Recognizable same face hair beard angle down naturally, precise fingers grips. Full body head bothshoes bells no clipping landscape3:2. No captions labels arrows panels."
+    }
+  ],
+  "executionSequence": [
+    "01-plank-v2.png",
+    "02-remata-destra-v2.png",
+    "01-plank-v2.png",
+    "03-remata-sinistra-v2.png",
+    "01-plank-v2.png"
+  ],
+  "returnDescription": "Riappoggiare con controllo ogni kettlebell nella posizione iniziale prima di remare con l'altro braccio.",
+  "sources": [
+    "IMAGE-ROUTINE.md",
+    "exercises.json:Alternating_Renegade_Row"
+  ],
+  "checks": {
+    "automaticVisualInspection": "passed: inspected all images for anatomy, hands gripping handles, grounded flat kettlebell support, wide foot support, braced plank alignment, bilateral rows and returns, identity/logo, full body framing and equipment continuity",
+    "trainerReview": "not performed"
+  },
+  "rejectedDrafts": 0,
+  "status": "accepted",
+  "correctionHistory": [
+    {
+      "date": "2026-10-26",
+      "reason": "Cross-review excessive neck extension in all3poses",
+      "oldFiles": [
+        "01-plank.png",
+        "02-remata-destra.png",
+        "03-remata-sinistra.png"
+      ],
+      "newFiles": [
+        "01-plank-v2.png",
+        "02-remata-destra-v2.png",
+        "03-remata-sinistra-v2.png"
+      ],
+      "prompts": [
+        "Edit second attached RENEGade ROW starting plank image to fix HEAD/NECK ONLY. First original Misurami character sheet authoritative exact face hair clothes original left chest logo. Freeze every other pixel/pose as closely as possible: same plank body hips spine feet toes wide stance, arms straight, both hands gripping grounded black kettlebell handles, camera scale ivory floor light. Lower chin and rotate head downward until NECK IS IN LINE WITH TORSO (back of head follows extension of upper back), gaze at floor about 30cm ahead of handles. Do NOT face viewer or crane neck upward. Keep face identity recognizable from partial downward threequarter view, curly hair beard. No changes to wrists elbows load shoes bells footing. Full body equipment original 3:2 no clipping no text arrows captions.",
+        "Edit second attached RIGHT RENEGade ROW to fix HEAD/NECK ONLY. First original Misurami sheet authoritative identity face hair beard charcoal leftchest logo shirt yellow shorts trim shoes. Third corrected starting plank shows desired neutral neck alignment. Preserve second image exact right-row arms: anatomical RIGHT arm viewerLEFT bends elbow close to ribs and lifts black kettlebell beside waist; LEFT arm viewerRIGHT straight supports other grounded bell. Keep hips/spine braced, feet toes fixed wide, camera floor equipment size exact. Lower chin/rotate head until neck naturally aligned with inclined torso, gaze to floor shortly ahead of grounded handle. Do not crane chin forward/up. Same head/face recognizable angled down, no changes to other anatomy grip equipment. Entire body both shoes both bells in3:2 ivory frame no cropping captions arrows labels panels.",
+        "Edit second LEFT RENEGade ROW image HEAD/NECK ONLY. First ORIGINAL Misurami sheet exact identity clothes original left chest branding. Third corrected plank desired neutral neck: lower chin/rotate head slightly downward so back of head continues upper spine line and gaze is on floor ahead of grounded handles rather than facing forward. Preserve second image EXACT arms: anatomical LEFT viewerRIGHT rows black bell toward waist elbow bent back, anatomical RIGHT viewerLEFT straight hand gripping grounded bell. Do NOT swap arms. Preserve fixed feet toes wide contact, braced trunk hips neutral, exact camera scale bell sizes ivory background floor light. Recognizable same face hair beard angle down naturally, precise fingers grips. Full body head bothshoes bells no clipping landscape3:2. No captions labels arrows panels."
+      ],
+      "result": "pending_root_review: lowered gaze and head-neck alignment corrected while preserving arm contractions, supports, body framing and original identity; all originals preserved"
+    }
+  ],
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}
