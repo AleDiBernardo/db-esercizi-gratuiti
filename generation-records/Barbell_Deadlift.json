@@ -1,0 +1,53 @@
+{
+  "id": "Barbell_Deadlift",
+  "phases": [
+    {
+      "file": "01-preparazione.png",
+      "description": "Barra a terra, anche e ginocchia flesse, presa prona e schiena neutra.",
+      "prompt": "ONE single realistic fitness instructional PNG landscape3:2 phase1 BARBELL DEADLIFT SETUP. Authoritative ORIGINAL attached Misurami man exact face curly dark hair beard athletic proportions charcoal shirt original small yellowwhite Misurami logo on anatomical LEFT chest, charcoal shorts yellowstripe black shoes. Warm ivory floor/background soft shadow no captions titles labels arrows panels. Entire man and complete barbell both ends generous margins. Fixed front-left threequarter camera seeing left chest, feet shoulderwidth flat, toes slightly outward. Steel barbell loaded with ONE modest black full-diameter bumperplate per end collars visible, rests flat on floor just over midfeet very close to shins. Man hiphinges with hips above knees, knees flexed, shoulders slightly ahead of bar, straight neutral spine neck in line gaze floor ahead, no rounding. Both arms straight down and hands securely hold bar DOUBLE OVERHAND outside shins. Bar front of shins never behind legs, no flexed elbows. Exactly2hands2legs naturaljoints. Keep scene camera scale feet plate count and diameters unchanged for subsequent pull and upright lockout."
+    },
+    {
+      "file": "02-salita.png",
+      "description": "Sollevamento controllato con barra vicina alle tibie e braccia distese.",
+      "prompt": "ONE landscape3:2 realistic PNG phase2 deadlift BAR PASSING KNEES. Original first reference exact Misurami identity clothing original small leftchest logo. Second image setup fixes exact bar equipment ONE same black bumperplate eachend, same collars, feet camera scale floor shadows. Lift bar straight vertically until shaft just below kneecaps, plates now clearly above floor about15cm. Athlete extends knees and hips together, hips rise no faster than shoulders, torso remains inclined about40deg with braced neutral spine neck aligned. Both arms stay fully straight hands SAME doubleoverhand grip outside legs; bar skims shins stays close NOT held forward. Feet stay identical flat contact points. Entirefigure and fullbarequipment margins, same ivory background no text labels arrows panels. Exactly2hands2legs. This distinct midpull is between crouched setup and fully upright final."
+    },
+    {
+      "file": "03-eretto.png",
+      "description": "Estensione di anche e ginocchia senza iperestensione lombare.",
+      "prompt": "ONE landscape3:2 realistic PNG phase3 BARBELL DEADLIFT UPRIGHT LOCKOUT. First original Misurami identity clothing exact anatomical left-chest small logo authoritative. Second setup fixes feet floor camera scene bar ONE black fullsize bumperplate eachend collars size. Athlete now standing fully UPRIGHT straight hips knees extended comfortably, shoulders over hips over midfeet, spine neutral ribs down glutes engaged NO backward lean NO hyperextended lumbar NO shrug. Arms straight at sides SAME doubleoverhand grip bar just against FRONT of mid-thighs. Same bar length load collars both plates suspended and same diameter as setup. Feet fixed flat same shoulderwidth contacts. Need headroom while preserving fullbody and bar ends; if needed wholefigure modestly smaller across same canvas don't clip head. All equipment same, no extras. Warmivory background softshadow no captions labels arrows panels. Accurate hands arms joints."
+    }
+  ],
+  "executionSequence": [
+    "01-preparazione.png",
+    "02-salita.png",
+    "03-eretto.png",
+    "02-salita.png",
+    "01-preparazione.png"
+  ],
+  "sources": [
+    "IMAGE-ROUTINE.md",
+    "exercises.json:Barbell_Deadlift",
+    "https://www.nasm.org/resource-center/exercise-library/barbell-deadlift",
+    "https://ceu-quizzes-cdn.ncsf.org/training-programming/The_Ultimate_Deadlift_Guide.pdf"
+  ],
+  "technicalNotes": "Neutral upright lockout and controlled hip hinge descent; no exaggerated military chest or leanback.",
+  "status": "accepted",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "checks": {
+    "automaticVisualInspection": "passed: every generated PNG viewed for anatomy, grip, neutral spine, floor support, bar continuity, full framing, original identity/logo; slight rendering/framing shifts remain for independent review",
+    "trainerReview": "not performed",
+    "peerReview": "pending"
+  },
+  "rejectedDrafts": 0,
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Barbell_Deadlift.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

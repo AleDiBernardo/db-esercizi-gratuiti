@@ -1,0 +1,21 @@
+{
+  "id": "Barbell_Deadlift",
+  "status": "accepted",
+  "reviewer": "images_c independent review",
+  "inspected": [
+    "01-preparazione.png",
+    "02-salita.png",
+    "03-eretto.png"
+  ],
+  "reasons": [
+    "All3PNG individually opened and catalog/record instructions read.",
+    "Complete clear floor-setup→barofffloor→uprightlockout; reverse descentuses samepositions and explicitly recorded.",
+    "Two hands maintain doubleoverhand grip, arms straight, plausible neutralspine/hips motion, bothfeet planted; samebar plates collars count retained, bar stays near legs.",
+    "Entire figure/bar uncropped and original character/logo consistent."
+  ],
+  "limitations": [
+    "Minor stance/framing variation: topfeet modestly closertogether than setup; no gross support error. Rendering has small plate/marking variations. Automated visual review only."
+  ],
+  "neededCorrections": [],
+  "trainerReview": "not performed"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "Romanian_Deadlift",
+  "status": "accepted",
+  "reviewer": "images_c independent review",
+  "inspected": [
+    "01-eretto.png",
+    "02-hip-hinge.png"
+  ],
+  "reasons": [
+    "BothPNG individually opened and fullinstructions/record read.",
+    "Clearly distinct upright→hiphinge with softknees, hipsback, shins approximatelyvertical; notsquat. Reverse tostand is sufficientreturn, no redundantPNGneeded.",
+    "Straightarms consistentdoubleoverhand, barclosefrontlegs plates suspended atbottom, backvisiblyneutral, stablewholefootcontacts.",
+    "Original characterclothesleftchestlogo, samebarload/collars, wholebody/bar visible."
+  ],
+  "limitations": [
+    "Small floor/foot vertical framing shift (~50px) between poses; movement and support remain understandable, no change in intended equipment/load. Automated review not trainer."
+  ],
+  "neededCorrections": [],
+  "trainerReview": "not performed"
+}

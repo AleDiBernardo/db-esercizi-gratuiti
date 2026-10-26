@@ -28,7 +28,9 @@
     "Dumbbell_Shoulder_Press",
     "Standing_Military_Press",
     "Pullups",
-    "Chin-Up"
+    "Chin-Up",
+    "Barbell_Deadlift",
+    "Romanian_Deadlift"
   ],
   "needsReview": [
     {

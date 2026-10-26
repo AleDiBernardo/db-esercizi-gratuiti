@@ -1,0 +1,46 @@
+{
+  "id": "Romanian_Deadlift",
+  "phases": [
+    {
+      "file": "01-eretto.png",
+      "description": "Posizione eretta con ginocchia appena flesse e barra sulle cosce.",
+      "prompt": "ONE realistic landscape3:2 PNG phase1 ROMANIAN DEADLIFT UPRIGHT. ORIGINAL attached Misurami character exact face curly hair beard charcoal shirt small original anatomical LEFT chest yellowwhite logo charcoal shorts yellowtrim black shoes. Front-left threequarter view fullbody and wholebar generous margins ivory floor/background softshadow no labels text arrows panels. Athlete stands tall feet hipwidth flat, knees softly unlocked about10deg, neutral spine ribs pelvis stacked NO leanback. Both arms straight holding steelbar DOUBLEOVERHAND just outside legs, bar touching front upper thighs. ONE same modest full-diameter black bumperplate eachend collars visible. Camera sufficiently wide so later hinge leaves ample room horizontally. Fixed floor feet bar size/load character scale and camera for next hiphinge phase. Two hands gripsecure accuratejoints."
+    },
+    {
+      "file": "02-hip-hinge.png",
+      "description": "Bacino arretrato, tibie verticali, barra vicina alle gambe e schiena neutra.",
+      "prompt": "ONE PNG landscape3:2 phase2 ROMANIAN DEADLIFT BOTTOM HIPHINGE. First ORIGINAL Misurami identity/clothes small left chest logo authoritative. Second image fixes exact feet camera scale ivory floor bar and ONE same blackplate eachend collars. Keep FEET EXACT same location flat and bar size same. Push hips BACK, torso tilts forward at hips until almost horizontal about25deg above floor, spine neutral unrounded neck aligned gaze floor ahead. Knees stay only slightly flexed15–20degrees, SHINS VERTICAL no squat. Both straight arms and SAME doubleoverhand grip lower bar CLOSE ALONG front of thighs/shins to just below knees/midshin comfortable hamstring range. Plates hover ABOVE FLOOR; no raised platform and no touchingfloor required. Shoulder hip heel alignment plausible with balance over midfoot. Keep identical foot contactpoints and camera no zoom, fullbody bothbarends margins. Exactly2hands2legs, no text captions arrows panels. This must look like hiphinge NOT squat with bentknees."
+    }
+  ],
+  "executionSequence": [
+    "01-eretto.png",
+    "02-hip-hinge.png",
+    "01-eretto.png"
+  ],
+  "sources": [
+    "IMAGE-ROUTINE.md",
+    "exercises.json:Romanian_Deadlift",
+    "https://www.nsca.com/contentassets/24f7e187e9aa4a588439c9612231c7fd/tsac-module-3.0--3.3.pdf",
+    "https://ceu-quizzes-cdn.ncsf.org/training-programming/The_Ultimate_Deadlift_Guide.pdf"
+  ],
+  "technicalNotes": "Illustrates controlled working repetition from upright; slight knee flexion with range bounded by neutral spine, without optional deficit platform or forcing plates to floor.",
+  "status": "accepted",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "checks": {
+    "automaticVisualInspection": "passed: every generated PNG viewed for anatomy, grip, neutral spine, floor support, bar continuity, full framing, original identity/logo; slight rendering/framing shifts remain for independent review",
+    "trainerReview": "not performed",
+    "peerReview": "pending"
+  },
+  "rejectedDrafts": 0,
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Romanian_Deadlift.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

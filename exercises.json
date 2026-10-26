@@ -1109,7 +1109,12 @@
       "Esegui le ripetizioni previste dal programma."
     ],
     "category": "forza",
-    "id": "Barbell_Deadlift"
+    "id": "Barbell_Deadlift",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Barbell_Deadlift/01-preparazione.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Barbell_Deadlift/02-salita.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Barbell_Deadlift/03-eretto.png"
+    ]
   },
   {
     "name": "Squat profondo con bilanciere",
@@ -13444,7 +13449,11 @@
       "Ripeti per il numero di ripetizioni previsto."
     ],
     "category": "forza",
-    "id": "Romanian_Deadlift"
+    "id": "Romanian_Deadlift",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Romanian_Deadlift/01-eretto.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Romanian_Deadlift/02-hip-hinge.png"
+    ]
   },
   {
     "name": "Stacco rumeno su rialzo",
