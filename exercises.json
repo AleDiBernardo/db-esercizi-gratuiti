@@ -5043,7 +5043,11 @@
       "Ripeti per il numero di ripetizioni previsto dal programma."
     ],
     "category": "forza",
-    "id": "Dumbbell_Bench_Press"
+    "id": "Dumbbell_Bench_Press",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Dumbbell_Bench_Press/01-partenza.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Dumbbell_Bench_Press/02-distensione.png"
+    ]
   },
   {
     "name": "Distensioni con manubri su panca piana a presa neutra",
@@ -7694,7 +7698,11 @@
       "Al termine riporta i manubri sulle cosce e poi a terra, per posarli in modo controllato."
     ],
     "category": "forza",
-    "id": "Incline_Dumbbell_Press"
+    "id": "Incline_Dumbbell_Press",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Incline_Dumbbell_Press/01-partenza.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Incline_Dumbbell_Press/02-distensione.png"
+    ]
   },
   {
     "name": "Curl a martello su panca inclinata",

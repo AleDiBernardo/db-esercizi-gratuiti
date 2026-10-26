@@ -1,0 +1,10 @@
+{
+  "id": "Incline_Dumbbell_Press",
+  "verdict": "accepted",
+  "reviewer": "images_b",
+  "reviewedFiles": [
+    "01-partenza.png",
+    "02-distensione.png"
+  ],
+  "reason": "All fullsize PNGs and full catalog/record reviewed. Bench visibly inclined, supported body and planted feet; lower and raised dumbbells show proper press with both hands/weights clear. Same load and equipment, no collision or forced hyperextension. Upper image margin tight but entire weights intact; minor framing translation does not obscure motion."
+}

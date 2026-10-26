@@ -42,7 +42,9 @@
     "Butt_Lift_Bridge",
     "Barbell_Glute_Bridge",
     "Mountain_Climbers",
-    "Childs_Pose"
+    "Childs_Pose",
+    "Dumbbell_Bench_Press",
+    "Incline_Dumbbell_Press"
   ],
   "needsReview": [
     {

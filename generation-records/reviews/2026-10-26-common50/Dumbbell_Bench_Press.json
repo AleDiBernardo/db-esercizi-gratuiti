@@ -1,0 +1,10 @@
+{
+  "id": "Dumbbell_Bench_Press",
+  "verdict": "accepted",
+  "reviewer": "images_b",
+  "reviewedFiles": [
+    "01-partenza.png",
+    "02-distensione.png"
+  ],
+  "reason": "All fullsize PNGs independently inspected with full catalog/record. Clear elbow-flexed lower position then nearstraight arms above chest, both separate dumbbells and neutral wrists/thumbwrapped grips, head/shoulders/pelvis supported and feet flat. Same flat bench/weights; modest framing translation disclosed. Complete press and return readable."
+}

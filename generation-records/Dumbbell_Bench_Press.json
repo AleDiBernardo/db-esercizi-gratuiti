@@ -1,0 +1,44 @@
+{
+  "id": "Dumbbell_Bench_Press",
+  "status": "accepted",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-partenza.png",
+      "description": "Posizione iniziale della distensione con gomiti flessi e manubri ai lati del petto.",
+      "prompt": "ONE landscape3:2 realistic fitness illustration on warm ivory floor/background, full body all equipment generous margins no labels numbers captions panels. Original attached Misurami sheet authoritative exact face curlyhair beard athletic proportions charcoal shirt small original yellowwhite Misurami LEFT chest logo, charcoal shorts yellow stripe black shoes. Natural joints accurate hands closed thumbs safe grips. DUMBBELL FLAT BENCH PRESS phase1 BOTTOM starting press position after weights safely positioned. Man supine on horizontal black bench head LEFT feet RIGHT, head shoulders pelvis supported and feet flat. Elevated camera from foot/frontthreequarter shows BOTH hands and two entire IDENTICAL black hex dumbbells. Elbows flexed90degrees, upperarms35-45degrees from torso, forearms vertical holding dumbbells either side of MIDCHEST, palms forward towardfeet pronated. Wrists straight above elbows, closedthumb centered grips. Each dumbbell horizontal physical axis left-right, weights do not touch chest/head. Entire bench and frame shoes both weights visible no occlusion. No rack no other equipment. Natural modest backarch no excessive bridge. Camera defines fixedsupport floor bench/load for top phase."
+    },
+    {
+      "file": "02-distensione.png",
+      "description": "Distensione delle braccia con manubri separati sopra il petto.",
+      "prompt": "ONE landscape3:2 realistic fitness illustration on warm ivory floor/background, full body all equipment generous margins no labels numbers captions panels. Original attached Misurami sheet authoritative exact face curlyhair beard athletic proportions charcoal shirt small original yellowwhite Misurami LEFT chest logo, charcoal shorts yellow stripe black shoes. Natural joints accurate hands closed thumbs safe grips. Dumbbell flat benchpress phase2 TOP. Original first Misurami reference identity; second bottomimage EXACT camera scene bench supportpoints clothes logo and TWO sameblackhex weights. Extend both elbows pressing weights vertically ABOVE MIDCHEST, arms nearstraight not forcedlockout, dumbbells come closer to shoulderwidth but do NOT collide. Palms remain pronated towardfeet, wrists stacked over elbows, closedthumbcentergrips. Head shoulders pelvis remain on same bench positions, feet flat same floor. No body movement/bridge. Camera body scale floor bench size load identical. Need top weights and both fullarms visible with generous margins. Controlled descent returns to bottom same path. No labels."
+    }
+  ],
+  "executionOrder": [
+    "01-partenza.png",
+    "02-distensione.png",
+    "01-partenza.png"
+  ],
+  "executionNotes": "La seduta con manubri sulle cosce e il posizionamento assistito dalle cosce sono preparazione descritta nel catalogo. Le immagini mostrano l'intera ripetizione dalla posizione iniziale effettiva indicata dalla fonte: spinta, contrazione e discesa controllata lungo lo stesso percorso.",
+  "sources": [
+    "exercises.json:Dumbbell_Bench_Press",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "Bottom/top press distinct, both grips and forearms natural, head/back/pelvis supported and feet flat, same bench and weights; modest vertical framing translation.",
+    "fileValidation": "Separate readable 1536x1024 PNGs (3:2) verified",
+    "trainerReview": "not performed"
+  },
+  "rejectedDrafts": 0,
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Dumbbell_Bench_Press.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

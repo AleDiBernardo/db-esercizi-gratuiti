@@ -1,0 +1,44 @@
+{
+  "id": "Incline_Dumbbell_Press",
+  "status": "accepted",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-partenza.png",
+      "description": "Panca visibilmente inclinata con manubri ai lati della parte alta del petto.",
+      "prompt": "ONE landscape3:2 realistic fitness illustration on warm ivory floor/background, full body all equipment generous margins no labels numbers captions panels. Original attached Misurami sheet authoritative exact face curlyhair beard athletic proportions charcoal shirt small original yellowwhite Misurami LEFT chest logo, charcoal shorts yellow stripe black shoes. Natural joints accurate hands closed thumbs safe grips. INCLINE DUMBBELL CHEST PRESS phase1 BOTTOM. Threequarter FRONT SIDE camera clearly shows black adjustable BENCH BACKREST reclined35degrees ABOVE FLOOR, not upright chair, both hands and both entire black hex dumbbells unobstructed. Original man supine/reclined head upperLEFT feetlowerRIGHT, head back shoulders pelvis fully supported diagonal backrest, both feet firmly flat. BOTH dumbbells at sides of UPPER CHEST, elbows bent90degrees, upperarms about45degrees from torso, forearms vertical physically, palms pronated facing awayface towardfeet, wristsneutral. Dumbbells identical size mediumsmall load, closedthumbgrips. Full body entire bench metal frameincline strut feet allvisible generousmargins, no rack. This defines exact camera scale apparatus and contacts for top."
+    },
+    {
+      "file": "02-distensione.png",
+      "description": "Distensione con braccia quasi tese e manubri sopra la parte alta del petto.",
+      "prompt": "ONE landscape3:2 realistic fitness illustration on warm ivory floor/background, full body all equipment generous margins no labels numbers captions panels. Original attached Misurami sheet authoritative exact face curlyhair beard athletic proportions charcoal shirt small original yellowwhite Misurami LEFT chest logo, charcoal shorts yellow stripe black shoes. Natural joints accurate hands closed thumbs safe grips. INCLINE dumbbell CHESTPRESS phase2 TOP contraction. Original first character sheet authoritative identity, second bottom pose defines EXACT camera framing body bench incline and metalframe, head/back/pelvis support and feet points. Press SAME two blackhex dumbbells vertically UP above UPPER CHEST until elbows nearstraight nothyperlocked; hands shoulderwidth apart dumbbells remain separate notcollision. Maintain pronatedpalms facing awayface towardfeet, wristsneutral closedthumbgrips. Torso remains RECLINED on unchanged35degree backrest, do not sit upright, head/back/pelvis supported and feet flat. Both arms/hands all weights entirebench clear frame with margins. Samefloor softshadow originalclotheslogo, load equipment fixed. Lower incontrol to phase1 to repeat. No captions."
+    }
+  ],
+  "executionOrder": [
+    "01-partenza.png",
+    "02-distensione.png",
+    "01-partenza.png"
+  ],
+  "executionNotes": "Prima della ripetizione posizionare i manubri aiutandosi con le cosce come descritto nel catalogo; immagini della ripetizione completa: spinta verticale, breve contrazione in alto, discesa controllata inversa. Posare i pesi con controllo sulle cosce alla fine della serie.",
+  "sources": [
+    "exercises.json:Incline_Dumbbell_Press",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "Both grips and weights visible, incline bench clearly reclined, supported head/back/pelvis and planted feet, lower/top distinct with same apparatus load; minor framing shift and tight but intact upper margin.",
+    "fileValidation": "Separate readable 1536x1024 PNGs (3:2) verified",
+    "trainerReview": "not performed"
+  },
+  "rejectedDrafts": 0,
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Incline_Dumbbell_Press.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}
