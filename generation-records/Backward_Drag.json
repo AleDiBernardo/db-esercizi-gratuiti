@@ -1,0 +1,55 @@
+{
+  "id": "Backward_Drag",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "status": "accepted",
+  "phases": [
+    {
+      "file": "01-tensione.png",
+      "description": "Presa sulle due maniglie, cinghie tese e assetto pronto con lieve inclinazione indietro.",
+      "prompt": "Create ONE landscape3:2 PNG realistic fitness illustration ivory floor/background soft shadows. FIRST attached original Misurami character exact identity dark curly hair beard athletic build charcoal shirt original small yellow/white Misurami logo anatomical LEFT chest charcoal shorts yellow side trim black shoes. BACKWARD SLED DRAG phase1 READY WITH TAUT STRAPS. Side three-quarter FRONT view, man at LEFT HALF facing RIGHT toward sled at RIGHT HALF. Entire man and entire equipment visible with broad left margin for backward steps. Simple low gray metal pull sled with TWO black round plates stacked on central vertical loading pin, low front tow eye facing man. TWO BLACK FABRIC STRAPS run continuously TAUT from shared single tow eye to one closed handle in EACH hand, clear connected hardware; NO straps connected to belt or body. Man feet hipwidth roughly parallel knees softly bent, torso leans BACK to left about10degrees as a rigid whole neutral spine, straight arms reaching forward/down toward sled, closed grips neutral wrists. Soles planted, no deep squat, no elbow curl. Head neutral eyes toward sled. Full body head shoes hands all straps sled plates in frame no crop, exact anatomy fingers twoarms twolegs. No text captions numbers ghost limbs arrows. Same camera scene sledloadscale linkage will remain constant for later backward steps.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    },
+    {
+      "file": "02-primo-passo.png",
+      "description": "Primo passo corto indietro, slitta trascinata mantenendo braccia distese e cinghie tese.",
+      "prompt": "Create ONE phase2 PNG BACKWARD SLED DRAG first backward step. First original Misurami identity authoritative. Second scene reference fixes EXACT camera zoom floor scale equipment. Same man clothing original leftchest logo, same low gray sled with TWO stacked black plates central pin and same TWO continuous taut straps joined at SAME front metal towing ring to same two hand handles. Man still FACES RIGHT toward sled but travels BACKWARD LEFT. Show NEAR/right foot stepping BACK to LEFT about25cm and landing toe then sole; far/left foot remains forward near its previous spot with knee extending to propel backward. Thus legs visibly staggered with near foot at x~300 versus far foot x~540, moderate short step NOT lunge. Torso neutral leans backward as whole only10degrees, arms remain straight forward/down no rowing motion, closed grips. Translate sled a SMALL distance LEFT following man; do not change sled angle geometry/load or strap lengths, straps taut and contact ring continuous. Include small thin yellow arrow pointing LEFT on floor below straps clear of body/equipment to indicate backward travel. Same fixed framing includes whole man bothshoes entire sled all straps no crops ivory realistic3:2, no text captions numbers ghost limbs.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    },
+    {
+      "file": "03-passo-alternato.png",
+      "description": "Passo alternato con la gamba opposta, continuando a camminare indietro.",
+      "prompt": "Create ONE phase3 PNG BACKWARD SLED DRAG alternating next step. First original Misurami sheet authoritative identity clothes leftchest logo. Second previous step scene fixes camera zoom floor scale sled load and two tautstrap linkage. Same man FACES RIGHT while moving BACKWARD LEFT; DO NOT turn around. Now swap legs: FAR/left foot steps BACK LEFT and lands around x=100, NEAR/right foot has advanced backward with torso and is now forward support around x=350. Thus near leg visible in front is forward support, far leg extends behind left, a clear alternate of previous frame. Short controlled backward step with softly flexed knees, neutral body leans backward10degrees, straight arms same grips no rowing. Translate torso/handles and entire same sled modestly LEFT about60pixels, straps same constant lengths taut all way to SAME front tow ring. Exact two black plates same gray sled skids and central pin no new parts. Same thin small yellow LEFT direction arrow on floor. Full body shoes hands straps ENTIRE sled visible generous edges camera unchanged3:2 ivory realistic. No text captions numbers extra limbs. Preserve anatomical continuity leg joints feet contact.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    }
+  ],
+  "sources": [
+    "exercises.json:Backward_Drag",
+    "IMAGE-ROUTINE.md"
+  ],
+  "motionOrder": [
+    "01-tensione.png",
+    "02-primo-passo.png",
+    "03-passo-alternato.png"
+  ],
+  "executionCycle": "Preparare impugnatura e tensione; camminare indietro alternando passi brevi, mantenendo collegamento continuo tra mani e slitta, braccia distese e busto controllato. Proseguire l’alternanza per la distanza prevista e fermarsi con controllo.",
+  "phasePlanRationale": "Tre posizioni distinguono preparazione in tensione e due passi alternati; freccia gialla indica il verso all’indietro rispetto allo sguardo.",
+  "checks": {
+    "automaticVisualInspection": "Provisional: all3 inspected, clear backward direction and different alternating legs; neutral trunk mild backward lean, grips and soles plausible, exact2 straps tow ring and stacked2plates continuity, full framing. Root must review before accepting.",
+    "fileValidation": "passed PNG decode and1536x1024 3:2",
+    "trainerReview": "not performed"
+  },
+  "rejectedDrafts": 0,
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

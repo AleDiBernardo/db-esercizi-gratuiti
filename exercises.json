@@ -770,7 +770,12 @@
       "Cammina all'indietro per la distanza prevista. Inclina il busto indietro ed estendi le gambe con passi brevi, avanzando il più rapidamente possibile."
     ],
     "category": "strongman",
-    "id": "Backward_Drag"
+    "id": "Backward_Drag",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Backward_Drag/01-tensione.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Backward_Drag/02-primo-passo.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Backward_Drag/03-passo-alternato.png"
+    ]
   },
   {
     "name": "Lancio all'indietro della palla medica",
