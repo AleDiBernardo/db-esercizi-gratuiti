@@ -1,0 +1,16 @@
+{
+  "id": "Dead_Bug",
+  "verdict": "accepted",
+  "reviewer": "images_e",
+  "filesViewed": [
+    "01-partenza.png",
+    "02-gamba-destra.png",
+    "03-gamba-sinistra.png"
+  ],
+  "findings": [
+    "All3PNG viewed against catalog leg-only deadbug instructions: arms remain vertical throughout rather than invented contralateral arm extension.",
+    "Initial bent90/90 legs, second extends near leg with stripe across extended thigh, third extends far leg while near striped thigh stays raised: sides distinguishable.",
+    "Lumbar/pelvis/head remain grounded, no visible arch; extended heel close to floor as prescribed, opposite leg retains90/90. Natural fingers and fullbody framing.",
+    "Return via starting pose between alternate sides documented; no need duplicate returnPNG."
+  ]
+}

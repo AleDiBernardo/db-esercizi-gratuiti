@@ -1,0 +1,56 @@
+{
+  "id": "Dead_Bug",
+  "phases": [
+    {
+      "file": "01-partenza.png",
+      "description": "Supino con braccia verticali e anche/ginocchia90gradi.",
+      "prompt": "Edit SECOND deadbug start scene, FIRST original Misurami character identityclotheslogo authoritative. Preserve exact SUPINE tabletop pose armsvertical legs90degrees, head shoulders lumbar pelvis onfloor. ONLY zoom camera OUT25percent and move wholebodyvisual center slightlyLEFT so full straight leg can later extend towardRIGHT without changingcamera: leave at least400px EMPTYivorycanvas toRIGHT of current tabletop shoes in1536x1024. Handsstillvertical naturalfingers, no anatomy posechanges. Entire body visible warmivory3:2 realistic no labels arrows."
+    },
+    {
+      "file": "02-gamba-destra.png",
+      "description": "Estensione della gamba destra vicino al pavimento, braccia ferme.",
+      "prompt": "Deadbug LEGS-ONLY phase2 RIGHTLEG EXTENDED. FIRST originalMisurami identityclothesleftchestlogo authoritative. SECOND wide tabletop scene fixes exactcamera zoom bodyheadpelvisfloor coordinates handspositions. ONLY move anatomicalRIGHTLEG (nearleg inforeground): slowly straighten its knee and lower hip until full rightleg extends towardRIGHT with heel hovering5cmABOVEfloor, kneecomfortablystraight. AnatomicalLEFTLEG fartherfromcamera REMAINS hip90kneebent90 tabletop shinhorizontal asbefore. BOTH ARMS remainVERTICAL above shoulders unchanged. Entire backofhead shoulderblades lumbar/sacrum stay firmlyONFLOOR ribsdown braced, no arch nor pelvisrotation NO seatedVsit. Exacttwolegs distinguishing nearstraight vsfarbent, bothshoesallhands visible fullbody generousmargins no zoomchange. Naturaljoints fingers neutralneckeyesceiling, same originalmanclothes. Realisticivory landscape3:2 PNG noarrowscaptionslabels."
+    },
+    {
+      "file": "03-gamba-sinistra.png",
+      "description": "Estensione della gamba sinistra vicino al pavimento, braccia ferme.",
+      "prompt": "Deadbug LEGS-ONLY phase3 oppositeLEFTLEG EXTENDED. FIRST originalMisurami characterreference authoritative. SECOND tabletopwideframe fixes exactcamera bodyheadpelvisfloorandarmpositions. THIRD prior rightlegextended scene onlyillustrates desired extension but SWITCH sides: anatomicalRIGHTLEG NEARcamera RETURNS totabletop hip90kneebent90 shin horizontal pointingRIGHT; anatomicalLEFTLEG FARcamera nowstraightens towardRIGHT heelhoveringjustabovefloor. Mustvisibly opposite tothird reference: bent thigh foreground shows nearshorts yellowstripe; straightleg routesbehindit fromfarhip. Both arms remainverticallystill samehandspositions, headneckshoulderslumbarandsacrum fullyflatfloor braced noarch nopelvistwist noVsit. Exactly2legs 2arms sameclotheslogo shoes proportions equipmentnone fixedframe. Fullbodyallhands/shoes visible generousmargins3:2 realisticivory no captionsarrows."
+    }
+  ],
+  "executionOrder": [
+    "01-partenza.png",
+    "02-gamba-destra.png",
+    "01-partenza.png",
+    "03-gamba-sinistra.png",
+    "01-partenza.png"
+  ],
+  "executionNotes": "Versione del catalogo con sole gambe alternate: mantenere entrambe le braccia verticali e ferme. Estendere una gamba, contrastare l'arco lombare, riportare al tabletop e alternare. Bacino e schiena rimangono a terra.",
+  "corrections": [
+    {
+      "prompt": "ONE realistic landscape3:2 fitnessPNG warmivoryfloor/background. Original attached Misurami character authoritative exactface curls beard athleticproportions charcoalshirt originalsmall yellowwhite logo anatomicalLEFTchest charcoalshortsyellowstripe blackshoes. DEADBUG LEGS-ONLY phase1 TABLETOP. Man SUPINE headatLEFT feetatRIGHT, backofskull shoulderblades lowerback pelvis/sacrum firmly FLATONFLOOR, ribsdown bracedabdomen noarchedback. BOTHarmsstraight pointing vertically towardceiling above shoulders, parallel shoulderwidth apart, handsopen fingersrelaxed palmsfacingeachother. BOTHhipsandknees90degrees, thighsvertical shinsHORIZONTALpointRIGHT, legs separated hipwidth. Bothshoesofffloor. Side/front elevated3quartercamera lets bothlegsandarms visible separately. Fullbodyallhands shoes margins; originalleftchestlogo visible naturally. No mats equipment textarrows. IMPORTANT armswillremainverticallyfixed entireexercise; onlylegs alternate extension. Body neverseated noVsit, naturalrelaxedneckeyesceiling. Keepfixedcamera scale pelvis/headcoordinates fornextposes.",
+      "reason": "Widened initial frame before subsequent phases to allow full leg extension without camera changes."
+    }
+  ],
+  "createdAt": "2026-10-26",
+  "status": "accepted",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "sources": [
+    "IMAGE-ROUTINE.md",
+    "exercises.json:Dead_Bug"
+  ],
+  "checks": {
+    "automaticVisualInspection": "Provisional pass: allPNG visually inspected for complete movement, original identity/logo, anatomy, floor contact and phase continuity; pending independent review",
+    "fileValidation": "PNG decode3:2 verified",
+    "trainerReview": "not performed"
+  },
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Dead_Bug.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

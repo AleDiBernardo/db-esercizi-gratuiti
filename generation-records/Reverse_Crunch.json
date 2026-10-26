@@ -1,0 +1,43 @@
+{
+  "id": "Reverse_Crunch",
+  "phases": [
+    {
+      "file": "01-partenza.png",
+      "description": "Supino, braccia a terra e gambe in tabletop90gradi.",
+      "prompt": "ONE landscape3:2 realistic fitness PNG ivoryfloor/backgroundsoftshadow no text arrows labels captions. ORIGINAL attached Misurami character authoritative exactman darkcurls beard proportions charcoalshirt originalsmallleftchestMisurami yellowwhitelogo charcoalshortsyellowstripe blackshoes. REVERSECRUNCH phase1 tabletop START: man fullysupine headLEFT feetRIGHT, backofskull shoulderblades lumbarandsacrum restonfloor. Armsstraight alongbodysides palmsdown onfloor hands besidehips, remainstilleveryphase. Both hipsflexed90degrees thighsvertical, BOTHkneesbent90degrees shinsHORIZONTAL pointingRIGHT parallelfloor, feetunited lightcontact. No feetgrounded; both legsfloatattabletop. Headneutralfaceceiling neckrelaxed, ribcage down. Fullbodyallhands/shoes visible generousmargins and slightfrontside elevatedcamera so2legs2arms separable. Body NOT seated V-sit. No equipment. Fixedcamera scale floor fornextphase."
+    },
+    {
+      "file": "02-retroversione.png",
+      "description": "Piccola retroversione del bacino che solleva il sacro e avvicina le ginocchia al busto.",
+      "prompt": "Create REVERSECRUNCH phase2 PELVIC CURL from second scene, first ORIGINAL Misurami sheet authoritative identityclothesleftchestlogo. EXACT same camera scale head shoulderblades and arms/palms onfloor positions. Bothkneesremainbent90degrees feet together. Curl pelvis slightlyUP AND BACK so SACRUM lifts about5cmofffloor while knees approachchest; lumbar rounds gently, upperback shoulderblades and head stay fullysupported. This is a SMALL reversecrunch, NOT shoulderstand no rolling onto neck, NO seatedVsit. Pelvis visibly slightly separated fromfloor so motion distinct fromphase1; hips flex more than90degrees and shins angleup modestly. Arms remainstraight palmondown alongsides not lifting. Neutralrelaxedneck faceceiling, correct2legs2arms naturaljoints fingers allvisible; exact same man/shorts/shoes, ivory3:2 realistic PNG no textarrows."
+    }
+  ],
+  "executionOrder": [
+    "01-partenza.png",
+    "02-retroversione.png",
+    "01-partenza.png"
+  ],
+  "executionNotes": "Avvicinare le ginocchia al busto con piccola retroversione del bacino; mantenere un secondo e tornare lentamente al tabletop. Testa/spalle/braccia restano sostenute dal pavimento; nessun rotolamento sul collo.",
+  "createdAt": "2026-10-26",
+  "status": "accepted",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "sources": [
+    "IMAGE-ROUTINE.md",
+    "exercises.json:Reverse_Crunch"
+  ],
+  "checks": {
+    "automaticVisualInspection": "Provisional pass: allPNG visually inspected for complete movement, original identity/logo, anatomy, floor contact and phase continuity; pending independent review",
+    "fileValidation": "PNG decode3:2 verified",
+    "trainerReview": "not performed"
+  },
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Reverse_Crunch.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

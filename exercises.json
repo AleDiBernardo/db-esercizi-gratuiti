@@ -4347,7 +4347,12 @@
       "Ripeti dall'altro lato, alternando fino a completare la serie."
     ],
     "category": "forza",
-    "id": "Dead_Bug"
+    "id": "Dead_Bug",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Dead_Bug/01-partenza.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Dead_Bug/02-gamba-destra.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Dead_Bug/03-gamba-sinistra.png"
+    ]
   },
   {
     "name": "Stacco da terra con elastici",
@@ -13108,7 +13113,11 @@
       "Ripeti per il numero di ripetizioni previsto."
     ],
     "category": "forza",
-    "id": "Reverse_Crunch"
+    "id": "Reverse_Crunch",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Reverse_Crunch/01-partenza.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Reverse_Crunch/02-retroversione.png"
+    ]
   },
   {
     "name": "Aperture inverse con manubri su panca inclinata",

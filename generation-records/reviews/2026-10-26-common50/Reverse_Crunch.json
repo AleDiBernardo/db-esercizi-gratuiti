@@ -1,0 +1,14 @@
+{
+  "id": "Reverse_Crunch",
+  "verdict": "accepted",
+  "reviewer": "images_e",
+  "filesViewed": [
+    "01-partenza.png",
+    "02-retroversione.png"
+  ],
+  "findings": [
+    "Fullinstructions read and bothPNG viewed independently: initial thighs approximately vertical/shins horizontal, arms palms grounded.",
+    "Final shows actual posterior pelvic curl and sacral lift with knees toward torso; head/shoulders/arms remain supported. Distinguishable from simple hip flexion or leg raise.",
+    "Same floor body scale feet/shoe count and original identity/logo; neutral neck and plausible hands. Reverse poses complete return without duplicatePNG."
+  ]
+}
