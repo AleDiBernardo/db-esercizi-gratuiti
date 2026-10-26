@@ -1,0 +1,43 @@
+{
+  "id": "Leg_Press",
+  "createdAt": "2026-10-26",
+  "status": "accepted",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-gambe-distese.png",
+      "description": "Schiena e bacino appoggiati, piedi sulla pedana, ginocchia distese senza blocco.",
+      "prompt": "ONE landscape3:2 realistic PNG LEG PRESS phase1 EXTENDED start. ORIGINAL Misurami reference exact identityclothesleftchestlogo authoritative. Ivorybackgroundfloor subtle shadow entiremachine/athlete/rails/weights uncropped generousmargins. Side3/4camera showing man'sleftchestand bothfeet. Plausible 45-degree sledlegpress: darkgrayfixedtwo diagonal parallelrails, blackreclinedseat/backrest atlowerLEFT, one movinglargeblackrectangularfootplate atupperRIGHT fixedtosledonrails; two matching modestblackplates on eachsideof sled; safetyhandles besidehips. Man seated/reclinedbackheadpelvissupported, bothhandsgripfixedsidehandles, feetflatshoulderwidthmiddlefootplate toesoutslightly. Knees nearlystraight butcomfortablyunlocked about15degrees, nohyperextension. Straightline of feetkneeships in sameplane. Fix camera frame railangles seat anchor positions footplacement platecounts load fornextphase. Only sledmoves ALONGsame45degree rails on descent, framemustneverredesign. Clearaccurateanatomy no extra handslegs. No captionsarrowslabels panels."
+    },
+    {
+      "file": "02-ginocchia-flesse.png",
+      "description": "Slitta abbassata lungo le guide e ginocchia piegate a circa90gradi.",
+      "prompt": "ONE3:2PNG LEG PRESS phase2 LOWERED knees90degrees. First originalMisurami exactidentityclotheslogo authoritative; secondstart fixes ENTIREmachine floorcamera/body scale. FREEZEallfixedframe railangles topsbases seat/backrest handsheadpelvispoints. Slide ONLY complete sledfootplate AND attachedsameplates DOWN alongsame45degrails towardman by~30cm, footplateangle unchanged. Bothfeetkeepflat samefootplatepositions shoulderwidth; kneesbend90degrees trackingtoes, thighsapproachtorso but pelvislowerbackstayagainstseat notrolling. BOTHKNEESvisiblybent90, feetdonotdetach. Same2platesperend loadcountcollars. Originalface headneutralbackrelaxed, originalsmallleftchestlogo charcoalshirtshortsyellowstripe blackshoes. No newrails or partsmovingexceptsled; wholemachinebothfeet visible amplemargins no captionslabelsarrows panels. Controlledreturnto nearlyextendedknees withoutlocking."
+    }
+  ],
+  "executionSequence": [
+    "01-gambe-distese.png",
+    "02-ginocchia-flesse.png",
+    "01-gambe-distese.png"
+  ],
+  "returnDescription": "Spingere la pedana lungo le stesse guide tornando alla partenza senza bloccare le ginocchia, quindi ripetere.",
+  "sources": [
+    "IMAGE-ROUTINE.md",
+    "exercises.json:Leg_Press"
+  ],
+  "checks": {
+    "automaticVisualInspection": "reviewed bothPNGs: seatedback/pelvissupport, bothfeet flatpedana, knee90degreebend vsnearextension, sameframeguideangles/load, originalidentitybranding fullapparatusuncropped; independentpeerreviewpending",
+    "trainerReview": "not performed"
+  },
+  "rejectedDrafts": 0,
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Leg_Press.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

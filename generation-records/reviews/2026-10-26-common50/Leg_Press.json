@@ -1,0 +1,17 @@
+{
+  "id": "Leg_Press",
+  "verdict": "accepted",
+  "reviewer": "images_f",
+  "filesViewed": [
+    "01-gambe-distese.png",
+    "02-ginocchia-flesse.png"
+  ],
+  "observations": [
+    "Read complete catalog instructions and execution/return record.",
+    "Same fixed diagonal rails/base/seat and moving sled plate/load components; sled visibly travels down along same rails as knees bend.",
+    "Both soles remain flat on same footplate, knees track legs and bend to roughly90degrees; pelvis/back remain supported, hands maintain fixed grips.",
+    "Start knees comfortably near extension, no evident reverse-bending; all apparatus/body uncropped and original identity/logo retained."
+  ],
+  "requiredFixes": [],
+  "trainerReview": "not performed"
+}

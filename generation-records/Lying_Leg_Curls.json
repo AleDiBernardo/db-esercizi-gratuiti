@@ -1,0 +1,50 @@
+{
+  "id": "Lying_Leg_Curls",
+  "createdAt": "2026-10-26",
+  "status": "accepted",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-gambe-distese.png",
+      "description": "Prono con gambe distese, cosce sul cuscino e rullo dietro le caviglie.",
+      "prompt": "Reframe secondlyinglegcurl startimage to entireapparatus FULLYinside3:2canvas. Firstoriginal Misurami exactidentityclotheslogo. Zoom entire machine man downuniformly15percent with emptyivorymargin at least60px above weightstack and toes notcut. Keep exact pronebody grips straightlegs rollerBACKankles hips/thighs supported originalbenchframe hinge geometry blackplates selectorload unchanged. Stacktop must nottouchupperedge. No labelscaptionsarrows. Ivorybackgroundfloor same camera direction."
+    },
+    {
+      "file": "02-flessione.png",
+      "description": "Ginocchia flesse portando i talloni verso i glutei con cosce ferme sul cuscino.",
+      "prompt": "ONE3:2PNG LYING LEG CURL phase2 kneesFLEXED. FirstORIGINALMisurami exactidentityclotheslogo authoritative; secondfullmachine start freezes camera scale entireframe benchweightstack pivot anchor positions andman's headarms chestpelvisTHIGHS. Bend BOTH knees toabout100degrees bringingbothheels towardbuttocks while BOTH THIGHS/STOMACH remainpressedbench. Lowerlegs rotateUP fromknees; originalONEroller staysbehindankles justbelowcalves and moveswithlegs via same rigidlever rotatingaboutSAMEkneeaxis, noframehingemoves no extra joints. Bothfeetclearbenchelevated abovebuttocks no unnaturalhyperflexion. Weightstack SAMEselectorpin modestselectedplates lift while lowerunselectedstackstays stationary. Keeporiginalflatbase bench/legs/handles exact, bothhandsgripping samehandles, neckneutral gaze down. Entirebodytoes andfullstackmachine uncropped margins ivorybackground no labelsarrowscaptionpanels."
+    }
+  ],
+  "executionSequence": [
+    "01-gambe-distese.png",
+    "02-flessione.png",
+    "01-gambe-distese.png"
+  ],
+  "returnDescription": "Riabbassare lentamente la leva distendendo le ginocchia senza sollevare cosce e bacino, poi ripetere.",
+  "sources": [
+    "IMAGE-ROUTINE.md",
+    "exercises.json:Lying_Leg_Curls"
+  ],
+  "correctionHistory": [
+    {
+      "prompt": "ONE3:2landscape realistic PNG LYING LEG CURL phase1 STRAIGHTLEGS. ORIGINALMisurami reference authoritative exactmanfacehairbeard charcoalshirt smalloriginal anatomicalLEFTchestlogo shorts yellowtrim blackshoes. Ivorybackgroundfloor softshadow fullbody AND wholemachine frameweightstack uncropped margins. Side3/4view fromman'sleft, headviewerLEFT feetviewerRIGHT. Man lies PRONE on slightlyangled blackbench supporting chestabdomenhipsTHIGHS, knees atbenchend free tobend, bothlegs straightcomfortable and feetpointstraight. Bothhandsgriphandles belowfrontbench nearhead, neutralneck facefloor angledslightlyforidentity. ONE blackhorizontalroller rests on BACK ofankles justbelowcalves aboveheels. Rollerattachedvia rigidlever tohingeaxis nexttoknees atbenchend; fixedweightstack behindbench. Correct anatomy twolegsarms, no chestlogoontheback if occluded. Fixcamera bodyhipsbench stackframe pivot positions load for nextcurl, onlykneeslowerlegsrollerleverrotate. Nocaptionsarrowslabels panels.",
+      "reason": "Weightstack top initiallycropped",
+      "result": "reframed before phase2"
+    }
+  ],
+  "checks": {
+    "automaticVisualInspection": "bothfinalPNGs individually inspected: consistentpronesupporthips/thighs, handsgrips, rollerbehindankles withlegcurl motion, fullframebenchbody stackuncropped, selectedstackseparates fromstationaryremainder; peerreviewpending",
+    "trainerReview": "not performed"
+  },
+  "rejectedDrafts": 1,
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Lying_Leg_Curls.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

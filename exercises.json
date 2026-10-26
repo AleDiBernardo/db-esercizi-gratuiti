@@ -9293,7 +9293,11 @@
       "Ripeti per il numero previsto e al termine blocca correttamente le sicurezze, evitando che la pedana carica possa ricadere su di te."
     ],
     "category": "forza",
-    "id": "Leg_Press"
+    "id": "Leg_Press",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Leg_Press/01-gambe-distese.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Leg_Press/02-ginocchia-flesse.png"
+    ]
   },
   {
     "name": "Raccolta delle ginocchia da sdraiati",
@@ -10045,7 +10049,11 @@
       "Inspirando, torna alla posizione iniziale e ripeti per il numero previsto."
     ],
     "category": "forza",
-    "id": "Lying_Leg_Curls"
+    "id": "Lying_Leg_Curls",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Lying_Leg_Curls/01-gambe-distese.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Lying_Leg_Curls/02-flessione.png"
+    ]
   },
   {
     "name": "Squat da sdraiati alla macchina",

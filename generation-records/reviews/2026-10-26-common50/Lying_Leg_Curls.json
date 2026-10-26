@@ -1,0 +1,18 @@
+{
+  "id": "Lying_Leg_Curls",
+  "verdict": "accepted",
+  "reviewer": "images_f",
+  "filesViewed": [
+    "01-gambe-distese.png",
+    "02-flessione.png"
+  ],
+  "observations": [
+    "Read full catalog instructions and record including controlled return.",
+    "Prone chest/hips/thigh support maintained on same bench while lowerlegs rotate from straight to flexed about90-100degrees.",
+    "Same ankle/calf roller remains against back of legs and follows lift via rotating linkage; frame handles pivots and camera remain stable, full machine visible.",
+    "Selected weight plates separate upward while unselected lower stack stays fixed; small rendered stack-marking variations do not change depicted load/movement direction.",
+    "Both grips and head alignment natural, original character clothing/logo maintained."
+  ],
+  "requiredFixes": [],
+  "trainerReview": "not performed"
+}
