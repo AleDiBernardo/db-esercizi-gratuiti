@@ -1,0 +1,45 @@
+{
+  "id": "Alternating_Kettlebell_Row",
+  "createdAt": "2026-10-26",
+  "status": "needsReview",
+  "reason": "Opposite-side row repeats near-side arm after two failed correction attempts; no complete bilateral sequence accepted.",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [],
+  "attempts": [
+    {
+      "prompt": "ONE landscape 3:2 realistic fitness PNG phase 1 alternating bent-over kettlebell row. ORIGINAL attached Misurami man exact face curly dark hair beard athletic proportions charcoal original left-chest logo T-shirt yellow-trim charcoal shorts black shoes. Full body equipment all visible with margins, ivory floor background soft shadow no text labels arrows panels. Front three-quarter view slightly from left, head toward right. Feet shoulder width flat, knees slightly flexed, hips pushed back, trunk inclined about 45 degrees with neutral lumbar spine neck aligned. Both arms straight hanging vertically below shoulders, each hand firmly grips one identical matte black kettlebell handle. Bells suspended just below knees, clearly separate from legs and each other, neutral wrists. Exactly 2 bells, 2 hands. Stable feet and hips fixed throughout next phases, same camera scale and load.",
+      "file": "01-iniziale.png",
+      "result": "initial pose acceptable"
+    },
+    {
+      "prompt": "ONE landscape 3:2 PNG phase 2 alternating bent-over kettlebell row. Original first reference exact Misurami character identity clothing original logo left chest. Second reference fixes all scene camera floor feet knee hip spine head positions scale and both black bells size. Change ONLY RIGHT ARM viewer left: bend elbow and draw RIGHT upper arm backward close to torso until elbow behind ribs and kettlebell lifted beside lower right ribs/waist. Neutral wrist grip handle bell hangs below fist, elbow tracks back not outward. LEFT arm viewer right stays extended with its bell hanging below shoulder at exact old location. Trunk stays hinged 45 degrees no torso rotation, no standing up. Both feet hips knees fixed. Entire body and two bells visible separated, accurate hands joints. Ivory realistic fitness no captions labels arrows panels.",
+      "file": "02-destra.png",
+      "result": "right contraction acceptable"
+    },
+    {
+      "prompt": "ONE landscape 3:2 PNG phase 3 alternating bent-over kettlebell row LEFT contraction. First reference ORIGINAL exact Misurami identity charcoal clothes yellow trim small original anatomical left chest logo. Second reference phase 1 fixes entire body camera scale foot knee hip spine head positions. Maintain hinge around 45deg neutral spine and stable torso no rotation. RIGHT arm viewer left remains straight holding its bell suspended below shoulder in original spot. LEFT arm viewer right now bends elbow back close to torso, drawing left bell to left waist/lower ribs with left elbow behind trunk. Hand grips handle with neutral wrist, bell hangs below fist. Show left bent elbow and lifted bell clearly separated from torso, not hidden behind body. Exactly two arms hands bells, identical equal black bells same load. Full body all equipment margins ivory floor background subtle shadow. No text labels captions arrows panels.",
+      "file": "03-sinistra-rifiutata.png",
+      "result": "wrong arm repeated"
+    },
+    {
+      "prompt": "Edit second attached image to OPPOSITE arm row. First original Misurami character authoritative face clothing left chest logo. In current image the arm on LEFT SIDE OF CANVAS is bent and left-canvas bell high. THIS MUST SWAP: LEFT SIDE OF CANVAS ARM straight downward with bell hanging low at y680; RIGHT SIDE OF CANVAS ARM bent with ELBOW near right edge of torso and right-canvas kettlebell lifted beside waist at y430. This is man's anatomical LEFT row. Keep camera facing same direction, head same, foot hip knee spine exact positions, do NOT mirror image. Raise only right-canvas bell and lower left-canvas bell. Both two arms and two bells clearly visible; hand grips black handles neutral wrists. Ivory background realistic illustration full body landscape3:2 no text arrows captions panels.",
+      "file": "04-correzione-rifiutata.png",
+      "result": "wrong arm repeated"
+    },
+    {
+      "prompt": "Create opposite-arm LEFT row from second attached initial both-arms-down image. ORIGINAL first ref exact Misurami man face clothes small logo on left chest. Freeze feet knees hip spine head camera and background of second image. The arm visible on LEFT OF IMAGE must remain EXACTLY STRAIGHT DOWN in original position hand at x720 y600 and black kettlebell below hand x720 y690. The arm on RIGHT OF IMAGE must flex backward, elbow moving toward x980 y330 and hand at x890 y400, lifting RIGHT-OF-IMAGE kettlebell to x900 y480 beside lower ribs. This is anatomical LEFT arm row, NOT the arm closest to camera. Both hands wrists sound, same kettlebell size two total. Make enough separation to see far-side bent arm behind chest right edge; do not change viewpoint or mirror. Full body 3:2 realistic ivory no captions arrows panels.",
+      "file": "05-correzione-rifiutata.png",
+      "result": "wrong arm repeated"
+    }
+  ],
+  "sources": [
+    "IMAGE-ROUTINE.md",
+    "exercises.json:Alternating_Kettlebell_Row"
+  ],
+  "checks": {
+    "automaticVisualInspection": "failed: bilateral completeness",
+    "trainerReview": "not performed"
+  },
+  "rejectedDrafts": 3
+}

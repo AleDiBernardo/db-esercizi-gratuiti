@@ -5,7 +5,6 @@
     "90_90_Hamstring",
     "Alternating_Deltoid_Raise",
     "Alternate_Hammer_Curl",
-    "Ankle_Circles",
     "Ankle_On_The_Knee",
     "Alternating_Cable_Shoulder_Press",
     "Around_The_Worlds"
@@ -66,6 +65,14 @@
     {
       "id": "Arnold_Dumbbell_Press",
       "reason": "Manca una fase intermedia che renda visibile apertura e rotazione caratteristiche."
+    },
+    {
+      "id": "Ankle_Circles",
+      "reason": "Freccia orizzontale attorno alla tibia suggerisce rotazione della gamba; serve traiettoria circolare del piede centrata sulla caviglia."
+    },
+    {
+      "id": "Alternating_Kettlebell_Row",
+      "reason": "Opposite-side row repeats near-side arm after two failed correction attempts; no complete bilateral sequence accepted."
     }
   ]
 }

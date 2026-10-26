@@ -31,5 +31,10 @@
     "Tenere un appoggio stabile e sollevare un piede di circa 5 cm.",
     "Completare circonduzioni della caviglia; la freccia circolare rappresenta l’intero ciclo.",
     "Riappoggiare il piede e ripetere dall’altro lato."
-  ]
+  ],
+  "status": "pending_correction",
+  "independentReview": {
+    "verdict": "needs_correction",
+    "reason": "Freccia orizzontale attorno alla tibia suggerisce rotazione della gamba; serve traiettoria circolare del piede centrata sulla caviglia."
+  }
 }
