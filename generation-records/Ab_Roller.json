@@ -1,0 +1,42 @@
+{
+  "id": "Ab_Roller",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-partenza.png",
+      "description": "In ginocchio, presa sui manici della ruota davanti alle spalle.",
+      "prompt": "Create ONE landscape 3:2 realistic fitness illustration PNG, phase 1 of kneeling ab wheel rollout. ORIGINAL identity reference attached: reproduce this exact Misurami male character, curly hair beard athletic build charcoal T-shirt left-chest yellow/white Misurami logo, charcoal yellow-trim shorts black shoes. Warm ivory background/floor soft shadow, full body and entire wheel with generous margins, no text captions numbers arrows panels. Side three-quarter view showing left chest, head at right feet left. Man kneeling on both knees with shins behind on floor, hips above knees, trunk inclined slightly forward with neutral flat lumbar spine and braced abdomen. Both straight arms reach down to a single black rubber ab wheel with small yellow hub, both hands wrap the two short handles either side of wheel axle, wrists neutral. Wheel rests on floor below shoulders, knees bent about 90 degrees. Natural neck aligned with torso, gaze toward floor ahead of wheel. Precisely two arms two legs, accurate hands grip joints. No other equipment. Keep this camera, floor, character scale and wheel unchanged for next phase."
+    },
+    {
+      "file": "02-rollout.png",
+      "description": "Rollout parziale controllato in avanti, ginocchia ferme e ruota più lontana.",
+      "prompt": "Edit ONLY attached exercise image (second reference). Original character sheet first reference authoritative. Make a modest kneeling ab wheel rollout by rotating thighs forward from knees and extending shoulders forward. LOCK THE ENTIRE LEFT HALF OF IMAGE: shoes, shins, knees must remain exactly where they are in source, knees near horizontal center. DO NOT SHIFT BODY LEFT. Keep original wheel size and shift wheel only 200 pixels to right. Hands follow wheel with straight arms, hips lower forward modestly, stomach remains clear of floor, braced neutral spine. This is a partial controlled rollout, not maximal extended pose. Same face identity charcoal clothing yellow stripe original left-chest Misurami logo. Entire body and equipment in frame 3:2 ivory background original camera lighting and scale. No text captions arrows."
+    }
+  ],
+  "sources": [
+    "exercises.json:Ab_Roller",
+    "IMAGE-ROUTINE.md"
+  ],
+  "corrections": [
+    {
+      "prompt": "Create ONE separate landscape 3:2 PNG of phase 2 EXTENDED position of kneeling ab wheel rollout. First attached original Misurami character sheet is authoritative identity reference, second is phase 1 for camera lighting framing equipment continuity. Exact same man, clothing and original small left chest Misurami logo, same single black wheel with yellow hub and two handles. Ivory background floor, realistic illustration, NO titles captions numbers panels arrows. Camera fixed side three-quarter view, head toward right, feet left. Both knees stay at SAME floor positions as phase 1. Wheel now rolled far forward to the right, arms straight reaching above head along torso line. Knees stay grounded with shins trailing; hips extend and lower so shoulders hips knees form a controlled nearly straight diagonal, abdomen braced, lumbar spine neutral with NO sagging or hyperextension. Trunk hovers above floor, belly chest never touch. Both hands firmly gripping same axle handles, accurate wrists fingers elbows. Neck aligned eyes toward floor. Full body shoes wheel visible with margins. Keep same character and wheel scale by using available right-hand canvas; no camera zoom. Show a comfortable controlled rollout rather than maximum forced range.",
+      "result": "rejected: knee position and framing shift"
+    },
+    {
+      "prompt": "Edit second attached image (Ab roller initial position) into its rollout extended phase. First attached original Misurami character sheet remains authoritative identity and clothing including small original left chest logo; third attached is a rejected draft only to explain correct extended pose. CRITICAL FIX: keep exact same camera zoom and framing as second image; keep kneeling contact point at x=620 y=780 in the 1536x1024 canvas, feet around x=300,y=720, black yellow wheel original diameter 135px. Move ONLY wheel forward to around x=1310,y=800 and extend arms toward it, straighten hips lowering torso into a diagonal from same knees toward shoulders; neutral braced spine no lumbar sag. This should be a MODERATE rollout comfortable range, not full extension if insufficient space. Keep entire body and wheel in frame with margins, identical character size, shoes, shorts shirt colors material lighting warm ivory floor. Both hands grip handles either side of same wheel axle, two arms two legs accurate natural joints. Preserve original Misurami logo where visible on left chest; if partially occluded by arms render naturally. No text labels arrows numbers panels. ONE landscape 3:2 PNG.",
+      "result": "rejected: knee position still shifted"
+    },
+    {
+      "prompt": "Edit ONLY attached exercise image (second reference). Original character sheet first reference authoritative. Make a modest kneeling ab wheel rollout by rotating thighs forward from knees and extending shoulders forward. LOCK THE ENTIRE LEFT HALF OF IMAGE: shoes, shins, knees must remain exactly where they are in source, knees near horizontal center. DO NOT SHIFT BODY LEFT. Keep original wheel size and shift wheel only 200 pixels to right. Hands follow wheel with straight arms, hips lower forward modestly, stomach remains clear of floor, braced neutral spine. This is a partial controlled rollout, not maximal extended pose. Same face identity charcoal clothing yellow stripe original left-chest Misurami logo. Entire body and equipment in frame 3:2 ivory background original camera lighting and scale. No text captions arrows.",
+      "result": "accepted: fixed knees and camera; modest controlled rollout"
+    }
+  ],
+  "checks": {
+    "automaticVisualInspection": "passed: original identity, chest branding, hands gripping same wheel handles, knee support and equipment continuity; final phase illustrates a partial controlled range with fixed kneeling contact points",
+    "trainerReview": "not performed",
+    "fileValidation": "PNG decode, 3:2 aspect ratio, unique IDs, complete sequence and raw URL/local-file matching"
+  },
+  "rejectedDrafts": 2
+}

@@ -91,7 +91,11 @@
       "Fermati nella posizione allungata, poi espira e torna lentamente indietro, mantenendo sempre gli addominali contratti."
     ],
     "category": "forza",
-    "id": "Ab_Roller"
+    "id": "Ab_Roller",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Ab_Roller/01-partenza.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Ab_Roller/02-rollout.png"
+    ]
   },
   {
     "name": "Automassaggio degli adduttori con foam roller",
