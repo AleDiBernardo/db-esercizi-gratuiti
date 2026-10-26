@@ -1,11 +1,12 @@
 {
-  "successfulRuns": 4,
+  "successfulRuns": 5,
   "completed": [
     "Zercher_Squats",
     "3_4_Sit-Up",
     "90_90_Hamstring",
     "Ab_Crunch_Machine",
-    "Ab_Roller"
+    "Ab_Roller",
+    "Alternating_Deltoid_Raise"
   ],
   "needsReview": []
 }

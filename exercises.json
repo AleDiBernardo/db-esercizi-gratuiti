@@ -327,7 +327,12 @@
       "Torna alla posizione iniziale e continua alternando alzate frontali e laterali."
     ],
     "category": "forza",
-    "id": "Alternating_Deltoid_Raise"
+    "id": "Alternating_Deltoid_Raise",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternating_Deltoid_Raise/01-partenza.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternating_Deltoid_Raise/02-alzata-frontale.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternating_Deltoid_Raise/03-alzata-laterale.png"
+    ]
   },
   {
     "name": "Distensioni alternate a terra con kettlebell",

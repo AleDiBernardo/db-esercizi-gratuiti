@@ -1,0 +1,33 @@
+{
+  "id": "Alternating_Deltoid_Raise",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-partenza.png",
+      "description": "Braccia lungo i fianchi con manubri.",
+      "prompt": "ONE landscape 3:2 realistic fitness illustration PNG of Alternating Front and Lateral Dumbbell Raises, phase 1 START. Original Misurami character sheet attached is authoritative: exact same adult man curly dark hair beard athletic proportions charcoal shirt original yellow/white Misurami small logo left chest, charcoal shorts yellow stripe black shoes. Warm ivory floor and background soft shadow, full body entire dumbbells generous margins, no labels numbers captions arrows. Fixed front three-quarter camera showing left chest and both arms clearly. Man stands erect feet shoulder-width knees soft torso neutral, two matching modest black hex dumbbells one in each hand, both arms hanging beside thighs with slight elbow bend palms toward thighs. Natural anatomically sound joints five-finger grips wrist neutral. One man one pose no panels. Keep this framing scale lighting dumbbell weight for subsequent phases."
+    },
+    {
+      "file": "02-alzata-frontale.png",
+      "description": "Alzata frontale bilaterale all’altezza delle spalle.",
+      "prompt": "ONE separate landscape 3:2 PNG phase 2 FRONT RAISE of alternating front/lateral dumbbell raises. First original Misurami sheet authoritative identity clothing branding; second exact start camera scene scale dumbbells. Keep feet body torso head camera lighting ivory floor fixed exactly. Change ONLY arms: raise BOTH matching black hex dumbbells forward in front of body to shoulder height, upper arms project straight forward horizontally, elbows softly bent about 10 degrees, wrists neutral palms down. Hands hold handles securely, one dumbbell per hand separated shoulder-width. Body erect no backward lean no shrug. Exact original face charcoal shirt small left chest Misurami logo charcoal yellow stripe shorts black shoes. Whole body and both weights visible generous margin, no captions numbers arrows panels. Arms forward not to sides."
+    },
+    {
+      "file": "03-alzata-laterale.png",
+      "description": "Alzata laterale bilaterale dopo ritorno alla partenza.",
+      "prompt": "ONE separate landscape 3:2 PNG phase 3 LATERAL RAISE of alternating front/lateral dumbbell raises. Original character sheet first authoritative; second attached starting pose fixes exact body feet head camera scale lighting scene dumbbells. Body unchanged erect neutral no leaning. Raise BOTH arms laterally out to sides, about shoulder height, forming wide T; elbows softly bent about 10 degrees wrists neutral, palms face down, secure accurate five-finger grips on same matching black hex dumbbells. Both weights same size/load. Keep original Misurami identity charcoal T-shirt left chest logo yellow trim shorts black shoes. Ivory full body generous side margin including both entire dumbbells, no clipping, no labels captions arrows panels. Arms to sides NOT forward; keep camera 3/4 angle from starting image."
+    }
+  ],
+  "sequence": "01→02→01→03→01; repeat alternating front/lateral raises",
+  "sources": [
+    "exercises.json:Alternating_Deltoid_Raise",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "passed: all 3 images inspected for anatomy, grip, neutral torso, front/lateral distinction, constant dumbbells and character identity/left-chest branding; fixed camera and body scale",
+    "trainerReview": "not performed"
+  },
+  "rejectedDrafts": 0
+}
