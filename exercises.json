@@ -3589,7 +3589,11 @@
       "Ripeti per il numero previsto."
     ],
     "category": "forza",
-    "id": "Chin-Up"
+    "id": "Chin-Up",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Chin-Up/01-sospensione.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Chin-Up/02-trazione.png"
+    ]
   },
   {
     "name": "Allungamento del collo con mento al petto",
@@ -5498,7 +5502,11 @@
       "Ripeti per il numero di ripetizioni previsto."
     ],
     "category": "forza",
-    "id": "Dumbbell_Shoulder_Press"
+    "id": "Dumbbell_Shoulder_Press",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Dumbbell_Shoulder_Press/01-partenza.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Dumbbell_Shoulder_Press/02-distensione.png"
+    ]
   },
   {
     "name": "Scrollate con manubri",
@@ -12455,7 +12463,11 @@
       "Ripeti per il numero di ripetizioni previsto."
     ],
     "category": "forza",
-    "id": "Pullups"
+    "id": "Pullups",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Pullups/01-sospensione.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Pullups/02-trazione.png"
+    ]
   },
   {
     "name": "Piegamenti a mani larghe",
@@ -17089,7 +17101,11 @@
       "Ripeti per il numero di ripetizioni previsto."
     ],
     "category": "forza",
-    "id": "Standing_Military_Press"
+    "id": "Standing_Military_Press",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Standing_Military_Press/01-sopra-testa.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Standing_Military_Press/02-clavicole.png"
+    ]
   },
   {
     "name": "Chiusure della presa con dischi olimpici",

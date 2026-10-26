@@ -1,0 +1,50 @@
+{
+  "id": "Standing_Military_Press",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "status": "accepted",
+  "phases": [
+    {
+      "file": "01-sopra-testa.png",
+      "description": "Posizione iniziale dichiarata dal catalogo: barra sopra la testa e braccia distese.",
+      "prompt": "ONE PNG standing military press OVERHEAD position, original first Misurami reference identityexact, second lowerposition scene EXACT camera scale body face feet barload. Preserve all torso pelvis knees feet at exact coordinates. Raise SAME straight silverbar with ONE same blackplate eachend silvercollars until arms extended naturally overhead, bar over shoulderline slightly in front ofhead, hands same pronated gripwidth. Forearms/wrists stacked neutral no elbow hyperextension. No legdrive no backwardlean no spinearch, neutral head looking forward. Bar clears head, fullbar bothplates allbody in same3:2 frame with min30px topmargin. Ivoryrealistic original leftchestlogo clothesproportions no text captionsnumbersarrows.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    },
+    {
+      "file": "02-clavicole.png",
+      "description": "Abbassamento controllato davanti al viso fino alle clavicole.",
+      "prompt": "Create ONE fitness illustration PNG landscape3:2 warm ivory floor background. ORIGINAL attached Misurami identity authoritative exact curls beard face proportions charcoalshirt original small yellowwhite Misurami logo LEFT chest charcoalshorts yellowstripes blackshoes. STANDING MILITARY PRESS lower position. Man stands feet shoulderwidth firmly planted knees softly unlocked no leg drive, neutral pelvis ribs spine no backward lean. Holds straight silver barbell just in front of clavicles/upperchest, pronated overhand grip slightly wider shoulders, wrists stacked overforearms, elbows underbar slightly forward. Each end ONE matching small black round plate and silver collar, fullbar visible. Threequarter FRONT view clarifies bar in frontofneck not behind. Natural hands fivefingers closedthumbgrips. Fullbody bothshoes barplates inframe generousmargins; character centered LOWER with at least300pixels above head for later overhead press without zoom. No rack needed once unracked. No text numbers arrows captions panels. Fixedcamera scale equipment for nextphase.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    }
+  ],
+  "motionOrder": [
+    "01-sopra-testa.png",
+    "02-clavicole.png",
+    "01-sopra-testa.png"
+  ],
+  "executionCycle": "Staccare il bilanciere dal rack e portarlo sopra la testa; come da catalogo partire da questa posa, abbassare davanti al viso alle clavicole e rispingere senza slancio delle gambe.",
+  "sources": [
+    "exercises.json:Standing_Military_Press",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "passed provisional: each PNG inspected for same original identity/clothing/logo, natural closed grips and wrists, clear distinct endpoints, neutral torso, grounded feet, consistent equipment load, full framing; pending independent review",
+    "fileValidation": "PNG decode and1536x1024 3:2 passed",
+    "trainerReview": "not performed"
+  },
+  "rejectedDrafts": 0,
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Standing_Military_Press.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

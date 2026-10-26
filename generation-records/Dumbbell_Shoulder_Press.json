@@ -1,0 +1,50 @@
+{
+  "id": "Dumbbell_Shoulder_Press",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "status": "accepted",
+  "phases": [
+    {
+      "file": "01-partenza.png",
+      "description": "Seduto con schiena sostenuta, manubri alle spalle e palmi avanti.",
+      "prompt": "Create ONE realistic fitness exercise PNG landscape3:2 ivory background floor soft shadows. Original attached Misurami character sheet authoritative EXACT face curls beard athletic proportions charcoal shirt small original yellowwhite Misurami logo anatomical LEFT chest charcoal shorts yellow sides black shoes. DUMBBELL SHOULDER PRESS phase1. Entire man seated upright on simple black padded bench with backrest gray metal frame, back supported neutral ribs spine, feet flat shoulder width. TWO IDENTICAL moderate black round dumbbells held at shoulder/ear height palms FORWARD, forearms vertical wrists neutral elbows bent90degrees, upper arms open in scapular plane slightly forward of torso. Natural closed grips fivefingers. Clear front threequarter camera head facing forward. Entire man both shoes bench all equipment visible generous margins; leave at least250pixels blank ABOVE head in1536x1024 canvas to fit overhead endpoint with exact fixedcamera. No text arrows captions numbers panels ghostlimbs. Same scale floor benchweights for phase2.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    },
+    {
+      "file": "02-distensione.png",
+      "description": "Distensione sopra la testa senza inarcare il busto, manubri vicini ma separati.",
+      "prompt": "ONE PNG DUMBBELL SHOULDER PRESS phase2 overhead endpoint. Original first Misurami sheet identity exact. Second phase1 fixes EXACT camera scene man scale feetbenchbody coordinates same black round dumbbells load. Change ONLY arms: extend both elbows naturally overhead, palms stay FORWARD, wrists neutral dumbbells above shoulder width approaching each other but NOT touching or crossing, upper arms by ears. All fingersgrips valid. Back remains on same bench neutral torso no lumbar arch, feet unchanged. Include ENTIRE overhead dumbbells fully with minimum30pixels top margin using existing upper canvas; do not crop, keep manbenchscale footcoordinates. Landscape3:2 ivory realistic no text numbers arrows panels except exact original leftchest branding.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    }
+  ],
+  "motionOrder": [
+    "01-partenza.png",
+    "02-distensione.png",
+    "01-partenza.png"
+  ],
+  "executionCycle": "Portare i manubri dalle cosce alle spalle uno alla volta; dalla presa prona alle spalle estendere le braccia, fermarsi brevemente e riabbassare con controllo alla prima posa.",
+  "sources": [
+    "exercises.json:Dumbbell_Shoulder_Press",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "passed provisional: each PNG inspected for same original identity/clothing/logo, natural closed grips and wrists, clear distinct endpoints, neutral torso, grounded feet, consistent equipment load, full framing; pending independent review",
+    "fileValidation": "PNG decode and1536x1024 3:2 passed",
+    "trainerReview": "not performed"
+  },
+  "rejectedDrafts": 0,
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Dumbbell_Shoulder_Press.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

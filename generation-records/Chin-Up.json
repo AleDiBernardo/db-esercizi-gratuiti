@@ -1,0 +1,50 @@
+{
+  "id": "Chin-Up",
+  "createdAt": "2026-10-26",
+  "status": "accepted",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-sospensione.png",
+      "description": "Sospensione a presa supina stretta, braccia distese.",
+      "prompt": "Create CHIN-UP underhand/supinated grip starting hang by editing second pullup exercise reference. First original Misurami character sheet authoritative exact man clothes original leftchestlogo. SAME simple rack/camera floor framing all base feet fully visible with ample space abovebar for later top phase. CRITICAL GRIP CHANGE from pullup: both hands closer than shoulder width on bar, SUPINATED grip PALMS TURNED TOWARD ATHLETE'S FACE (chinup), thumbs wrapped, forearms anatomically rotated naturally. Elbows fully extended relaxed but controlled hang; torso upright vertical natural lumbar curve, head neutral chest open. Knees slightly bent shoes suspended abovefloor, no kicking. Both hands fingers correct visible and narrowgrip clear. Full body rack bar all shoes margins landscape3:2 realisticivory no captions panels arrows numbers.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    },
+    {
+      "file": "02-trazione.png",
+      "description": "Trazione verticale a gomiti vicini al corpo fino al mento sopra la sbarra.",
+      "prompt": "Edit second CHIN-UP underhand starting hang to TOP phase. First original Misurami sheet authoritative identity clothing left chestlogo. EXACT same rack/camera zoom floor bar placement at y160, both floor bases unchanged, same narrow supinated grip hands closer than shoulder width PALMS TOWARD ATHLETE with natural wristrotation. Pull athlete up vertically by elbowflexion until chin just abovebar, head fully visible in ivory space abovebar (no crop). Keep torso mostlyVERTICAL neutral lumbar chestopen, elbows closefront/sides ofribcage and pointingdown, no leaning/sway/kicking. Both knees same slightbend shoes suspend higher as bodyrises. Maintain identical athlete scale/proportions as initial, no machine motion. Both hands stay at EXACT grip points narrow supinated orientation. Full body rack all shoes headhands visible margins realistic3:2 ivory no labels captions arrows numbers panels.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    }
+  ],
+  "executionSequence": [
+    "01-sospensione.png",
+    "02-trazione.png",
+    "01-sospensione.png"
+  ],
+  "executionNotes": "Concentric movement from01to02, controlled eccentric return02to01, repeat. Return reuses same pose; no meaningless duplicate PNG.",
+  "sources": [
+    "exercises.json:Chin-Up",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "Narrow supinated grip, vertical torso, return-to-hang cycle and fixed rack camera visually checked; no kipping.",
+    "fileValidation": "Decodable PNG3:2 verified",
+    "trainerReview": "not performed"
+  },
+  "correctionHistory": [],
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Chin-Up.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

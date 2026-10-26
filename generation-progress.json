@@ -24,7 +24,11 @@
     "Ball_Leg_Curl",
     "Backward_Drag",
     "Plank",
-    "Crunches"
+    "Crunches",
+    "Dumbbell_Shoulder_Press",
+    "Standing_Military_Press",
+    "Pullups",
+    "Chin-Up"
   ],
   "needsReview": [
     {

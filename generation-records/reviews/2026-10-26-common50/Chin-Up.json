@@ -1,0 +1,14 @@
+{
+  "id": "Chin-Up",
+  "verdict": "accepted",
+  "reviewer": "images_a",
+  "filesReviewed": [
+    "01-sospensione.png",
+    "02-trazione.png"
+  ],
+  "findings": [
+    "Viewed every PNG against full instructions. Narrow underhand grip and elbows near torso readable; extended hang and chin above bar distinct.",
+    "Hands/forearms in supinated orientation, full body suspended with unchanged apparatus and no kipping leg swing.",
+    "Fullbody original identity/logo consistent; reverse controlled path represented by initial pose."
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "Pullups",
+  "createdAt": "2026-10-26",
+  "status": "accepted",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-sospensione.png",
+      "description": "Sospensione con presa prona e braccia distese.",
+      "prompt": "Reframe second pullup starting image WITHOUT changing athlete pose anatomy grip or rack proportions. First original Misurami sheet authoritative identity clothes/logo. Zoom camera OUT so entire rack and athlete are SMALLER uniformly: bar must lie around y=230 on1024highcanvas, feet of rack around y=910, leaving about220px EMPTY ivory space ABOVE BAR so upcoming top pullup head will fit fully above bar. Keep full entire rack all floor feet hands/shoes. Landscape3:2 warmivory realistic. No text arrows captions panels. Same overhand palmsaway grip extendedarms controlled hang and suspended shoes.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    },
+    {
+      "file": "02-trazione.png",
+      "description": "Trazione fino a portare mento sopra la sbarra e parte alta del petto vicino alla sbarra.",
+      "prompt": "Correct third reference pullup top image to MATCH second reference rack/camera EXACTLY. First original Misurami character sheet authoritative. Second reference initial hang is geometry master: rack upper post tops at y210, horizontalbar y235, floor feet y920. Restore rack dimensions/position from SECOND image, do not elongate posts or move bar upward. Third reference defines desired top pulled-up athlete: shift athlete DOWN together with bar by about35px preserving top elbow bend/chest-to-bar and hand exactgrip points. Same body scale as secondimage, no stretching body. Upper chest closebar chin abovebar, neutral neck, shoulders down/back, feet suspended. Keep full body rack margins ivory3:2 realistic no text.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    }
+  ],
+  "executionSequence": [
+    "01-sospensione.png",
+    "02-trazione.png",
+    "01-sospensione.png"
+  ],
+  "executionNotes": "Concentric movement from01to02, controlled eccentric return02to01, repeat. Return reuses same pose; no meaningless duplicate PNG.",
+  "sources": [
+    "exercises.json:Pullups",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "Both phases inspected for pronated grip, clear elbow flexion, scapular depression, full body, neutral neck, suspended feet. Minor rack rendering drift remains; independent review required.",
+    "fileValidation": "Decodable PNG3:2 verified",
+    "trainerReview": "not performed"
+  },
+  "correctionHistory": [
+    {
+      "prompt": "ONE realistic fitness instructional PNG landscape3:2 ivory background floor, full athlete and entire simple pullup frame with margins, no captions labels numbers panels. Original attached Misurami character sheet is authoritative: exact curly dark hair bearded athletic man, charcoal shirt original small yellow/white Misurami logo anatomical left chest, charcoal shorts yellow stripe black shoes. PULLUP overhand/pronated grip phase1 extended hang. Simple darkgray freestanding pullup rack with two upright posts and fixed straight horizontal bar overhead, both floor bases visible. Front threequarter camera reveals hands: grip slightly wider than shoulders, palms face AWAY from athlete toward rack front, thumbs wrap bar. Both elbows fully extended comfortable, scapulae controlled, trunk slightly leaned back20-30degrees as whole braced unit without lumbar hyperextension, neck neutral chest open. Both knees bent slightly so shoes suspended above floor, no kicking or crossed limbs. Exactly two arms2legs natural fingers joints. Entire head bar hands both shoes visible with space overhead and below. This defines fixed camera athlete scale grip/bar/frame for top phase.",
+      "reason": "Initial rack bar too near top edge; reframed to leave headroom for contraction."
+    },
+    {
+      "prompt": "Edit second exercise extended-hang image to PULLUP TOP phase. First original Misurami sheet authoritative identity clothing/logo. EXACT same camera zoom framing pullupbar location y230 frame all bolts floor bases unchanged, same hand positions overhand/pronated palmsaway grip. Raise athlete's entire braced body upward by elbow flexion and scapular depression/retraction until UPPER CHEST approaches bar and CHIN clearly above bar, head entirely visible in reserved space above bar. Elbows point down/back, upper arms close sides not flaring overhead. Torso leans back modest20-30degrees as one unit, natural lumbar curve no excessive arch, neck neutral not crane. Both knees retain same slight bend shoes suspended higher, no kicking. SAME athlete scale/proportions/load, no rack motion. Both hands remain gripping EXACT bar points, natural fingers/thumbs2arms2legs. Full body rack all footwear margins landscape3:2 realistic ivory no text arrows panels.",
+      "reason": "Top draft elongated rack upward slightly; corrected against initial geometry."
+    }
+  ],
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Pullups.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

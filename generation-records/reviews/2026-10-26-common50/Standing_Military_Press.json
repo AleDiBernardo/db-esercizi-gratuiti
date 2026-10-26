@@ -1,0 +1,16 @@
+{
+  "id": "Standing_Military_Press",
+  "verdict": "accepted",
+  "reviewer": "images_f",
+  "filesViewed": [
+    "01-sopra-testa.png",
+    "02-clavicole.png"
+  ],
+  "observations": [
+    "Full instructions explicitly name overhead position initial; record correctly orders overhead→clavicles→overhead.",
+    "Neutral torso without leg drive or excessive arch, stable feet, elbows flex to lower bar in front, clear two endpoints.",
+    "Same bar length plates/collars/grip-width and camera/floor, whole body equipment in frame, original character and branding maintained."
+  ],
+  "requiredFixes": [],
+  "trainerReview": "not performed"
+}

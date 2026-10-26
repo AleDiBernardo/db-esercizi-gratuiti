@@ -1,0 +1,14 @@
+{
+  "id": "Pullups",
+  "verdict": "accepted",
+  "reviewer": "images_a",
+  "filesReviewed": [
+    "01-sospensione.png",
+    "02-trazione.png"
+  ],
+  "findings": [
+    "Viewed every PNG against full instructions. Distinct extended-arm hang and top with upper chest at bar; feet remain suspended.",
+    "Overhand grip wider than shoulders visually distinct from narrow underhand Chin-Up; two closed hand contacts, natural elbows and shoulders.",
+    "Rack/camera/identity/logo consistent and fullbody framing. Controlled return can reuse hang pose."
+  ]
+}

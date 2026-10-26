@@ -1,0 +1,16 @@
+{
+  "id": "Dumbbell_Shoulder_Press",
+  "verdict": "accepted",
+  "reviewer": "images_f",
+  "filesViewed": [
+    "01-partenza.png",
+    "02-distensione.png"
+  ],
+  "observations": [
+    "Full instructions and record reviewed; operating cycle01→02→01 includes return.",
+    "Both palms forward, upright bench-supported torso and grounded soles, vertical forearms at shoulder rack, extended overhead endpoint.",
+    "Same dumbbells/bench/camera/feet remain stable, no crop, natural grip fingers and joints; original identity/logo retained."
+  ],
+  "requiredFixes": [],
+  "trainerReview": "not performed"
+}
