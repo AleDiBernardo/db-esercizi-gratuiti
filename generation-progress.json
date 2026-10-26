@@ -30,7 +30,9 @@
     "Pullups",
     "Chin-Up",
     "Barbell_Deadlift",
-    "Romanian_Deadlift"
+    "Romanian_Deadlift",
+    "Pushups",
+    "Incline_Push-Up"
   ],
   "needsReview": [
     {

@@ -1,0 +1,10 @@
+{
+  "id": "Incline_Push-Up",
+  "verdict": "accepted",
+  "reviewer": "images_b",
+  "reviewedFiles": [
+    "01-partenza.png",
+    "02-discesa.png"
+  ],
+  "reason": "Independently viewed both full-size PNGs and full instructions/record. Distinct upper/lower incline pushup, both palms contact same bench front edge, toes floor-supported, elbows bend alongside torso, chest approaches edge, straight body and consistent bench construction. Minor uniform vertical framing translation between phases disclosed in generation record does not obscure exercise."
+}

@@ -1,0 +1,44 @@
+{
+  "id": "Pushups",
+  "status": "accepted",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-plank.png",
+      "description": "Plank alto con braccia distese, appoggio su palmi e avampiedi.",
+      "prompt": "ONE landscape3:2 realistic fitness illustration on warm ivory floor/background, full body all equipment generous margins no labels numbers captions panels. Original attached Misurami sheet authoritative exact face curlyhair beard athletic proportions charcoal shirt small original yellowwhite Misurami LEFT chest logo, charcoal shorts yellow stripe black shoes. Natural joints accurate hands closed thumbs safe grips. STANDARD PUSH-UP phase1 HIGH PLANK. Fixed side threequarter view facing RIGHT headright feetleft, both palms flat on floor slightly wider than shoulders, arms straight vertical under shoulders, fingers point forward. Feet together/hipwidth on toes with heels raised. Entire body forms STRAIGHT LINE ears shoulders hips knees ankles, abdomen braced, glutes lightly active, NO lowback sag NO hip pike. Neck neutral gaze floor ahead hands, two arms and legs all fully visible, original chest logo visible naturally. No equipment. Wide grip comfortable rather than forced excessive width. This defines exact camera scale hands toes floorcontact points for low phase."
+    },
+    {
+      "file": "02-discesa.png",
+      "description": "Discesa con gomiti flessi, petto vicino al pavimento e corpo allineato.",
+      "prompt": "ONE landscape3:2 realistic fitness illustration on warm ivory floor/background, full body all equipment generous margins no labels numbers captions panels. Original attached Misurami sheet authoritative exact face curlyhair beard athletic proportions charcoal shirt small original yellowwhite Misurami LEFT chest logo, charcoal shorts yellow stripe black shoes. Natural joints accurate hands closed thumbs safe grips. Pushup phase2 LOWERED. First original Misurami reference authoritative, second topplank fixes EXACT camera scale hands toes floorlighting and clothes. Keep PALMS and TOES planted in EXACT locations. Bend BOTH elbows about90degrees tracking35-45degrees from torso, lower WHOLE straight body as one unit until sternum/chest hovers5cm above floor. Head shoulders hips knees ankles aligned no hip sag or pike, abdomen braced, neck neutral gaze floor ahead. Both knees remain straight lifted not touching floor. Shoulders approach palms with forearms nearvertical, hands accurate fivefingers. Chest NOT on floor, feet supported on toes. Full body margins, same floor camera no captions."
+    }
+  ],
+  "executionOrder": [
+    "01-plank.png",
+    "02-discesa.png",
+    "01-plank.png"
+  ],
+  "executionNotes": "Lower in control, then press back through the reverse path; repeated initial pose represents return without duplicate PNG.",
+  "sources": [
+    "exercises.json:Pushups",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "Clear upper/lower pushup poses, hands/toes support, neutral body line, natural joints, no sag/pike, same character logo scale and framing.",
+    "fileValidation": "Separate readable 1536x1024 PNGs (3:2) verified",
+    "trainerReview": "not performed"
+  },
+  "rejectedDrafts": 0,
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Pushups.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "Incline_Push-Up",
+  "status": "accepted",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-partenza.png",
+      "description": "Braccia distese, mani sul bordo della panca e corpo allineato.",
+      "prompt": "ONE landscape3:2 realistic fitness illustration on warm ivory floor/background, full body all equipment generous margins no labels numbers captions panels. Original attached Misurami sheet authoritative exact face curlyhair beard athletic proportions charcoal shirt small original yellowwhite Misurami LEFT chest logo, charcoal shorts yellow stripe black shoes. Natural joints accurate hands closed thumbs safe grips. INCLINE PUSHUP hands elevated phase1 TOP. Side threequarter camera head RIGHT feetLEFT. ONE sturdy BLACK flat horizontal padded exercisebench waist/knee height at image RIGHT, entire bench metal wide feet visible and firmly grounded. Both palms plant on FRONT EDGE TOP of bench slightly wider than shoulders, fingers wrap edge naturally. Step feet back on toes so body diagonal straight from ankles through knees hips shoulders ears, abdomen braced NO sag or pike. Arms extended supporting shoulders above palms, neckneutral gaze bench edge. Both legsstraight toes fixedfloor, full body shoes hands entire bench with margins, no hidden contact. Bench does not tilt. Original character same Misurami clothing small chestlogo. Camera defines fixed handtoe contact and equipment for lowering phase."
+    },
+    {
+      "file": "02-discesa.png",
+      "description": "Gomiti flessi e petto avvicinato al bordo, mantenendo il corpo allineato.",
+      "prompt": "ONE landscape3:2 realistic fitness illustration on warm ivory floor/background, full body all equipment generous margins no labels numbers captions panels. Original attached Misurami sheet authoritative exact face curlyhair beard athletic proportions charcoal shirt small original yellowwhite Misurami LEFT chest logo, charcoal shorts yellow stripe black shoes. Natural joints accurate hands closed thumbs safe grips. INCLINE PUSHUP phase2 LOWER. First original Misurami identity, second starting image fixes exact camera fullframing bench construction scale floor toe and palm points. Keep palms gripping same benchfrontedge and toes planted samefloor locations. Bend BOTH elbows back35-45degrees near torso to bring MIDCHEST within3cm of bench FRONT EDGE. WHOLE body descends as straight diagonal plank ears shoulders hips knees ankles, no lowback sag, no hips lifted, kneesstraight. Head neutral gaze bench ahead no jutting neck. Chest approaches edge rather than head, hands naturalaccurate. Bench remains horizontal FIXED no shape change, all shoes both arms fullbench visible with margins. Repeat by pressing back to extended starting pose. No labels."
+    }
+  ],
+  "executionOrder": [
+    "01-partenza.png",
+    "02-discesa.png",
+    "01-partenza.png"
+  ],
+  "executionNotes": "Lower in control, then press back through the reverse path; repeated initial pose represents return without duplicate PNG.",
+  "sources": [
+    "exercises.json:Incline_Push-Up",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "Distinct straight-arm/lowered poses, clear palms on same bench edge, toe support and straight plank line; same bench construction size and character; minor vertical framing translation between phases.",
+    "fileValidation": "Separate readable 1536x1024 PNGs (3:2) verified",
+    "trainerReview": "not performed"
+  },
+  "rejectedDrafts": 0,
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Incline_Push-Up.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

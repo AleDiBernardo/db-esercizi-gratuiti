@@ -7729,7 +7729,11 @@
       "Spingi fino a distendere le braccia e ripeti."
     ],
     "category": "forza",
-    "id": "Incline_Push-Up"
+    "id": "Incline_Push-Up",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Incline_Push-Up/01-partenza.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Incline_Push-Up/02-discesa.png"
+    ]
   },
   {
     "name": "Piegamenti su rialzo a presa stretta",
@@ -12648,7 +12652,11 @@
       "Dopo una breve pausa in alto, scendi nuovamente e completa le ripetizioni necessarie."
     ],
     "category": "forza",
-    "id": "Pushups"
+    "id": "Pushups",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Pushups/01-plank.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Pushups/02-discesa.png"
+    ]
   },
   {
     "name": "Piegamenti a mani strette o larghe",
