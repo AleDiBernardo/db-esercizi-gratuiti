@@ -1,0 +1,114 @@
+{
+  "id": "Alternate_Leg_Diagonal_Bound",
+  "status": "deferred",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [],
+  "reason": "Traiettoria diagonale e profondità dei contatti a terra incoerenti; freccia di direzione errata in una fase. Rinviato dopo correzioni.",
+  "sources": [
+    "IMAGE-ROUTINE.md",
+    "exercises.json:Alternate_Leg_Diagonal_Bound"
+  ],
+  "generationHistory": [
+    {
+      "round": "v1",
+      "status": "rejected",
+      "phases": [
+        {
+          "file": "01-partenza.png",
+          "description": "Partenza con appoggio sfalsato.",
+          "prompt": "ONE landscape 3:2 realistic fitness illustration PNG phase 1 of ALTERNATE LEG DIAGONAL BOUND. Original Misurami character sheet authoritative identity athletic man dark curly hair beard charcoal original left chest Misurami logo shirt yellow trim shorts black shoes. Warm ivory floor/background soft shadow. Full body generous margins. Fixed front three-quarter camera with wide floor space left/right for diagonal bounds. Show ready stance, anatomical RIGHT foot slightly forward and planted, left foot slightly behind, soft knee bend athletic upright torso inclines very slightly forward, arms relaxed ready to swing. Calm neutral gaze ahead, two anatomical arms legs hands. Put one thin subtle gray straight reference line on floor horizontally left-right beneath stance to help read lateral diagonal movement, no text numbers arrows. Entire shoes head in frame; no other equipment no panels. Keep camera character scale lighting and floor line consistent in every phase."
+        },
+        {
+          "file": "02-primo-volo.png",
+          "description": "Primo volo con ginocchio alto.",
+          "prompt": "ONE landscape 3:2 PNG phase 2 FIRST FLIGHT in alternate-leg diagonal bounds. First original sheet authoritative character clothing left chest logo; second ready stance fixes camera scene scale ivory floor gray line. Same man has pushed off anatomical RIGHT foot and is now airborne, moving forward-diagonally toward his LEFT (viewer RIGHT). Both shoes visibly clear of floor 10-20cm, shadow under him. LEFT knee drives high forward toward chest, hip flexed near 90 degrees lower leg hanging naturally, RIGHT trailing leg extends down/back after push-off without hyperextension. RIGHT arm swings forward elbow bent, LEFT arm swings back naturally, upright stable trunk slight forward athletic lean. Keep body centered slightly right of start, same character scale and ample space over head so no cropping. Same gray floor line coordinates, same fixed camera lighting. One man two legs two arms natural joints five-finger hands, no extra limbs. Head shoes all visible. No captions arrows labels numbers panels."
+        },
+        {
+          "file": "03-primo-atterraggio.png",
+          "description": "Atterraggio su una gamba.",
+          "prompt": "ONE landscape 3:2 PNG phase 3 LANDING after diagonal bound from second image. Original Misurami reference first authoritative identity clothing logo; second airborne pose establishes which leading knee will land. The leg with knee raised forward in second image now lowers to plant that SAME leading shoe on floor to viewer RIGHT of ready stance, knee softly bent about 25 degrees and aligned over toes, hip flexed slightly to absorb impact. Opposite trailing leg remains off floor behind ready to swing. Stable neutral athletic torso slightly forward, natural counterbalancing bent arms, safe controlled single-leg landing, no knee collapsing inward. Same face exact charcoal clothing original left-chest logo shorts yellow stripe black shoes. Same fixed camera body scale ivory background gray line fixed across floor under athlete, full body head feet visible generous margins. Show weight over supporting planted foot. NO labels numbers captions panels arrows."
+        },
+        {
+          "file": "04-volo-opposto.png",
+          "description": "Volo opposto.",
+          "prompt": "ONE landscape 3:2 PNG phase 4 OPPOSITE FLIGHT in alternating diagonal bounds. First ORIGINAL Misurami character authoritative identity exact clothing/logo; second accepted first-flight pose fixes camera scale floor line lighting. Create the opposite limb arrangement WITHOUT mirroring shirt logo or camera: this time the OTHER leg, anatomically LEFT leg (on viewer RIGHT side of pelvis), drives its knee high forward, while anatomical RIGHT leg (on viewer LEFT side of pelvis) trails down/back after push-off. Opposite RIGHT arm swings forward, LEFT arm swings backward. Both shoes clearly airborne above ivory floor, subtle shadow. Athlete has pushed off from preceding landing and travels diagonally toward viewer LEFT this time, torso remains facing same original direction and camera. Important switch knee high leg compared to attached first flight; do not copy same leg. Original left-chest Misurami logo stays correct left chest, yellow shorts side trim same. Full body head hands shoes visible ample margins and same thin gray floor line across scene. No labels captions numbers arrows panels."
+        },
+        {
+          "file": "05-secondo-atterraggio.png",
+          "description": "Secondo atterraggio.",
+          "prompt": "ONE landscape 3:2 realistic PNG phase 5 SECOND LANDING of alternate-leg diagonal bounds. First ORIGINAL Misurami character sheet authoritative identity exact shirt logo left chest clothing colors; second is opposite flight pose, use as immediate predecessor. The knee raised high in predecessor lowers and that same leading shoe now plants on floor slightly toward viewer LEFT, foot forward comfortable, knee soft about 25 degrees aligned over toes absorbing impact. Opposite trailing leg off floor behind ready for another alternating push. Athletic stable trunk slight forward lean, natural counterbalancing arms. Keep EXACT camera, body scale, ivory background floor thin gray line fixed coordinates, lighting. All body parts including head hands both shoes in frame ample margins. Accurate anatomy, no excessive knee valgus no strange limbs. Do not mirror logo: correct original small yellow/white Misurami left chest. Full sequence is ready→first flight→first landing→opposite flight→second landing. No captions numbers arrows panels."
+        }
+      ],
+      "checks": {
+        "automaticVisualInspection": "needsReview: individual anatomy appears plausible, flight/landing distinguishable; diagonal trajectory in depth unclear; body orientation changes side in opposite bound and logo minor render drift. Needs independent assessment before acceptance.",
+        "trainerReview": "not performed"
+      }
+    },
+    {
+      "round": "v2",
+      "status": "rejected",
+      "phases": [
+        {
+          "file": "01-partenza-v2.png",
+          "description": "Partenza con destro avanzato, vista frontale fissa.",
+          "prompt": "ONE SINGLE MAN, ONE SINGLE READY STANDING POSE ONLY, no other figures ghosts poses panels montage. Landscape3:2 realistic fitness PNG warm ivory fullbody with generous space around. Original attached Misurami character exact face hair beard athletic build charcoal small original logo shirt yellowstripe shorts black shoes. Direct FRONT VIEW, square shoulders hips facing viewer. Standing ready with RIGHT FOOT viewer LEFT slightly forward planted and LEFT foot viewer RIGHT slightly behind, soft knees arms ready relaxed. Centered on canvas. Only one thin gray line on floor receding into distance directly behind him to establish depth. NO ARROWS, no diagrams captions words numbers panels. Show precisely ONE MAN with two arms and two legs and two shoes. Fullbody head shoes margins. No jumping yet, no multiple positions."
+        },
+        {
+          "file": "02-primo-volo-v2.png",
+          "description": "Spinta dal destro e ginocchio sinistro alto.",
+          "prompt": "ONE SINGLE athlete ONE airborne pose ONLY, landscape3:2 realistic fitness PNG first diagonal bound flight. First attached ORIGINAL exact Misurami identity clothing left chest logo, second image fixes FRONT camera body orientation ivory floor line. Do NOT rotate or mirror man, face shoulders stay square facing camera. Both shoes visibly airborne above floor with soft shadow. Athlete pushes from anatomical RIGHT foot (viewer LEFT), right leg now trails extended down/back on LEFT SIDE OF IMAGE. Opposite anatomical LEFT knee (viewer RIGHT) drives high forward at hip height on RIGHT SIDE OF IMAGE, knee bent90deg shoe below knee. RIGHT arm viewer LEFT swings forward bent, LEFT arm viewer RIGHT swings back. Move body slightly viewer RIGHT and toward camera compared to source while preserve character scale enough all body visible generous margins. One small YELLOW ARROW ON FLOOR from starting area x730y880 pointing diagonally toward viewer RIGHT and FORWARD (toward camera) ending x1030y940 clarifies jump direction. No other arrow captions text figures. Exactly1 man2arms2legs. Same Misurami logo left chest viewer RIGHT."
+        },
+        {
+          "file": "03-primo-atterraggio-v2.png",
+          "description": "Atterraggio sul sinistro, destro sollevato dietro.",
+          "prompt": "ONE SINGLE MAN ONE LANDING POSE PNG landscape3:2 realistic ivory. Original first reference exact Misurami identity clothes small logo left chest. Second reference is airborne predecessor fixes FRONT camera head shoulders facing viewer and same character scale. Third reference original ready fixes floor horizontal gray line at y810. The high knee in predecessor is anatomical LEFT leg viewer RIGHT. Now LOWER THAT SAME LEFT LEG to land on its LEFT SHOE planted around x1000y950 (viewer RIGHT and closer to camera than starting right foot x650y920). Left supporting knee soft flexed25–35deg aligned over shoe; body weight centered above support, slight athletic forward lean. RIGHT LEG viewer LEFT stays airborne trailing back/left with bent knee shoe lifted aroundx650y830. Face and torso stay square facing viewer, no mirrored turn. Arms naturally counterbalance right armforward leftarmback. Need clear ground contact supporting leftfoot, rearfoot off ground. Remove yellow arrow entirely, keep same floor line and no text panels labels. Wholebody head hands shoes margins. Exact1man2arms2legs."
+        },
+        {
+          "file": "04-volo-opposto-v2.png",
+          "description": "Spinta dal sinistro e ginocchio destro alto.",
+          "prompt": "ONE SINGLE MAN ONE AIRBORNE POSE PNG landscape3:2 realistic ivory, second diagonal bound OPPOSITE LEGS. First original Misurami character sheet exact identity clothing logo left chest viewerRIGHT. Second image previous left-foot LANDING fixes front camera floor horizontal line body scale. Now after push off that LEFT foot (viewerRIGHT), LEFT leg trails down/back on RIGHTSIDE OF IMAGE. Opposite RIGHT KNEE (viewerLEFT) drives high to hip level on LEFTSIDE OF IMAGE, knee bent90degrees foot below knee. Both shoes clearly airborne with shadow floor. LEFT arm viewerRIGHT swings forward bent; RIGHT arm viewerLEFT swings back. Face shoulders pelvis KEEP SQUARE FACING VIEWER, absolutely no mirrored turn. Athlete moves diagonally forward and toward viewerLEFT, body center aroundx650. Same floor line horizontal samey810 fixedcamera. Fullbody head hands both shoes margins. No arrows labels text panels otherfigures. Exactly1man2arms2legs. Make clear RIGHT knee viewerLEFT high, LEFT leg viewerRIGHT trailing."
+        },
+        {
+          "file": "05-secondo-atterraggio-v2.png",
+          "description": "Atterraggio sul destro, sinistro sollevato dietro.",
+          "prompt": "ONE SINGLE MAN ONE LANDING POSE PNG landscape3:2 realistic ivory. First attached ORIGINAL exact Misurami identity clothes small left chest logo, second previous flight same FRONT camera and floorline fixes scene. HIGH RIGHT KNEE on viewerLEFT in predecessor now lowers to land RIGHT FOOT on viewerLEFT aroundx550y950. Knee flexed25–35degrees to absorb impact aligned over toes, body weight supported over right foot, athletic slightforward lean. LEFT LEG on viewerRIGHT remains trailing AIRBORNE behind with bent knee shoe off floor aroundx880y800. Natural counterbalance LEFT arm viewerRIGHT forward bent, RIGHTarm viewerLEFT back. Face shoulders hips remain FACING CAMERA square, no turn or mirror. Same body scale floorline at y810, keep fullbody head hands shoes margins. Exactly1man2legs2arms, correct joints. No arrows captions labels numbers panels. Show unmistakable grounded rightshoe and airborne trailing leftshoe, controlled singleleg landing."
+        }
+      ],
+      "correctionHistory": [
+        {
+          "version": "v1",
+          "location": "/workspace/scratch/bound-drafts",
+          "reason": "Opposite flight and landing turn torso/camera orientation, diagonal movement unreadable."
+        },
+        {
+          "version": "v2_initial",
+          "prompt": "ONE landscape3:2 realistic fitness PNG phase1 READY of alternating FORWARD DIAGONAL bounds. ORIGINAL Misurami man sheet authoritative exact face curly dark hair beard athletic build charcoal shirt ORIGINAL small yellowwhite logo anatomical LEFT chest (viewer right), charcoal shorts yellow stripe black shoes. Strictly FIXED FRONT VIEW camera at chest height looking slightly down, athlete faces camera square on, face nose and sternum face viewer throughout all phases; never rotate/mirror. Full body margins ivory floor background soft shadow. Man centered x720, athletic ready stance: RIGHT FOOT viewer LEFT slightly forward planted around x650 y850, LEFT FOOT viewer RIGHT behind around x820 y805, knees softly bent. Hands relaxed prepared, trunk slightforward lean. A thin gray straight ground centerline recedes away from camera from x768 y1000 toward x768 y640, to establish depth; remains fixed across all phases. TWO small yellow diagonal movement arrows on ground beside athlete, one points from right-foot start toward left-foot future landing at viewer RIGHT x1020 y790, next points forward-left toward x570 y730. These indicate forward zigzag path; no captions numbers letters panels. Same camera scale body identity for complete5phase sequence.",
+          "rejectedFile": "rejected-montage-v2.png",
+          "reason": "Generated five-man montage despite requesting one starting pose."
+        },
+        {
+          "version": "v2_corrected_start",
+          "prompt": "ONE SINGLE MAN, ONE SINGLE READY STANDING POSE ONLY, no other figures ghosts poses panels montage. Landscape3:2 realistic fitness PNG warm ivory fullbody with generous space around. Original attached Misurami character exact face hair beard athletic build charcoal small original logo shirt yellowstripe shorts black shoes. Direct FRONT VIEW, square shoulders hips facing viewer. Standing ready with RIGHT FOOT viewer LEFT slightly forward planted and LEFT foot viewer RIGHT slightly behind, soft knees arms ready relaxed. Centered on canvas. Only one thin gray line on floor receding into distance directly behind him to establish depth. NO ARROWS, no diagrams captions words numbers panels. Show precisely ONE MAN with two arms and two legs and two shoes. Fullbody head shoes margins. No jumping yet, no multiple positions.",
+          "result": "Single ready pose accepted as draft, sequence still needsReview."
+        }
+      ],
+      "checks": {
+        "automaticVisualInspection": "needsReview: viewed every generated image. Bilateral takeoff-opposite knee and landing now clear and torso remains front-facing; forward-diagonal trajectory/floor depth inconsistent, arrow wrong direction and slight scale drift. No catalog publication approved.",
+        "trainerReview": "not performed",
+        "rootReview": "pending"
+      }
+    }
+  ],
+  "checks": {
+    "automaticVisualInspection": "failed: complete comprehensible forward-diagonal trajectory and stable framing not achieved across both sides. All generated phases reviewed.",
+    "trainerReview": "not performed",
+    "rootReview": "deferred confirmed"
+  },
+  "publication": {
+    "acceptedImages": [],
+    "catalogUpdated": false,
+    "defectivePNGsIncluded": false
+  }
+}

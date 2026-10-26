@@ -1,0 +1,69 @@
+{
+  "reviewer": "images_f",
+  "createdAt": "2026-10-26",
+  "reviewType": "independent automated visual inspection, not trainer certification",
+  "results": [
+    {
+      "id": "Ankle_Circles",
+      "verdict": "needsFix",
+      "filesViewed": [
+        "01-circonduzione.png"
+      ],
+      "observations": [
+        "Full body and support visible; hand grip and stable left/image-left shoe anatomically plausible; character and logo match.",
+        "Raised foot is slightly above floor, suitable elevation.",
+        "Yellow arrow is a HORIZONTAL ellipse around the lower shin/ankle. It reads as rotation of the whole leg about a vertical axis, rather than toe-led ankle circumduction."
+      ],
+      "requiredFixes": [
+        "Replace arrow with a small arc/circle whose path is around the raised toes in a plane near the front of shoe, with knee/shin stationary. A clear ankle-only inset is unnecessary if the arrow can be made unambiguous."
+      ]
+    },
+    {
+      "id": "Ankle_On_The_Knee",
+      "verdict": "pass",
+      "filesViewed": [
+        "01-allungamento.png"
+      ],
+      "observations": [
+        "Clear figure-four: one ankle rests across opposite distal thigh above knee; both feet off floor.",
+        "Hands reach around/behind the underlying thigh; one arm threads through gap. No force directly on crossed knee.",
+        "Head and shoulders supported; two legs and two arms, clothing/logo consistent; one held static pose plus instructions for change of side is sufficient."
+      ],
+      "requiredFixes": []
+    },
+    {
+      "id": "All_Fours_Quad_Stretch",
+      "verdict": "needsFix",
+      "filesViewed": [
+        "01-allungamento.png"
+      ],
+      "observations": [
+        "Hand gripping elevated shoe, knee deep flexion, single hand and opposite knee support are plausible anatomically.",
+        "Torso and pelvis rotate OPEN TOWARD CAMERA substantially, raised thigh also abducts laterally. Reads as a kneeling bow/side-open stretch, rather than quadruped with hips facing floor as intended in prompt.",
+        "Supporting hand is laterally offset and trunk leans to side to accommodate pose; this obscures hip-extension focus."
+      ],
+      "requiredFixes": [
+        "Regenerate with shoulders and pelvis facing floor/square, support hand under shoulder and knee under hip, lifted thigh extends backward in sagittal plane, heel toward buttock. Keep neutral lumbar spine and minimize trunk rotation."
+      ]
+    },
+    {
+      "id": "Axle_Deadlift",
+      "verdict": "passWithMinorFramingCaveat",
+      "filesViewed": [
+        "01-partenza.png",
+        "02-estensione.png",
+        "03-discesa.png"
+      ],
+      "observations": [
+        "All3 show same thick bar, two bumper plates per side, silver collars and consistent mixed grip. Despite phase1 prompt saying one plate, actual equipment is consistent.",
+        "Ground setup, natural upright endpoint, and controlled hinge lowering are distinct and complete; downward arrow is unambiguous; arms straight, bar close, back appears neutral.",
+        "No major hand/anatomical defect found; original identity/clothing/logo retained.",
+        "Foot ground baseline shifts from about y840 to y930 to y870 and slight framing changes; not perfectly fixed camera. This is visible but does not reverse or obscure the exercise."
+      ],
+      "requiredFixes": [],
+      "recommendedFixes": [
+        "If enforcing literal fixed camera, align shoe/floor baselines across all3 with same framing; otherwise disclose minor framing variation in checks."
+      ]
+    }
+  ]
+}

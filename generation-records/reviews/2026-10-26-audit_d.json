@@ -1,0 +1,67 @@
+{
+  "reviewer": "images_d independent cross-review",
+  "date": "2026-10-26",
+  "scope": "Viewed every PNG listed; read catalog instructions and generation records. Visual/model review, not professional trainer review.",
+  "results": [
+    {
+      "id": "Alternating_Deltoid_Raise",
+      "verdict": "accept",
+      "viewedFiles": [
+        "01-partenza.png",
+        "02-alzata-frontale.png",
+        "03-alzata-laterale.png"
+      ],
+      "reason": "Three meaningfully distinct poses show arms down, bilateral front raise and bilateral lateral raise; camera, feet, dumbbells and original branding consistent. No missing unique mechanical transition. Return uses same arms-down pose.",
+      "necessaryFix": "Presentation must follow 01→02→01→03→01 rather than implying front-to-side motion while elevated. This is ordering/reuse, not a need for duplicate PNG."
+    },
+    {
+      "id": "Alternating_Cable_Shoulder_Press",
+      "verdict": "accept",
+      "viewedFiles": [
+        "01-partenza.png",
+        "02-spinta-destra.png",
+        "03-spinta-sinistra.png"
+      ],
+      "reason": "Start plus each distinct overhead arm shown, opposite hand remains at shoulder. Continuous taut cables attach to same low pulleys; active-side stack visibly separates, opposite stays down. No obvious change in selected plate count found, though stack travel/gap differs between sides and minor markings drift. Both hands and full equipment readable.",
+      "necessaryFix": "Present 01→02→01→03→01 and retain same selected load. Do not add a redundant midpress pose solely to inflate phase count.",
+      "limitations": "Rendered stack travel differs side-to-side; this is visual inconsistency worth improving if precise mechanical animation is needed, not a missing phase."
+    },
+    {
+      "id": "Alternating_Floor_Press",
+      "verdict": "needsCorrection",
+      "viewedFiles": [
+        "01-braccia-distese.png",
+        "02-discesa-destra.png",
+        "03-discesa-sinistra.png"
+      ],
+      "reason": "Top position and both opposite lowered-arm positions are distinguishable; no unique return pose missing. But near-side lowered kettlebell is drawn very close over nose/face rather than clearly above outside chest, and far-side elbow-floor contact is occluded by torso, so exact safe bottom geometry is not demonstrable from this view.",
+      "necessaryFix": "Correct lowered-arm images using a slightly more elevated frontal footward view across entire sequence if necessary: elbow visibly touches floor 30–45° from torso, forearm vertical, wrist directly above elbow, bell clearly outside chest and away from face. Keep opposite weight extended. Retain 01→02→01→03→01."
+    },
+    {
+      "id": "Alternate_Leg_Diagonal_Bound",
+      "verdict": "needsCorrection",
+      "viewedFiles": [
+        "/workspace/scratch/bound-drafts/01-partenza.png",
+        "/workspace/scratch/bound-drafts/02-primo-volo.png",
+        "/workspace/scratch/bound-drafts/03-primo-atterraggio.png",
+        "/workspace/scratch/bound-drafts/04-volo-opposto.png",
+        "/workspace/scratch/bound-drafts/05-secondo-atterraggio.png"
+      ],
+      "reason": "Five images include distinct takeoff-ready, flight, landing, opposite flight, opposite landing, so quantity is enough. However ready foreground right foot is advanced, then same near-side right knee appears raised rather than opposite knee; opposite pair turns torso/head facing the other direction and behaves like a mirrored first pair. Horizontal line and repeated contact depth do not establish forward-diagonal travel. Shirt branding shifts/lettering drifts.",
+      "necessaryFix": "Regenerate same fixed front-facing camera with constant torso orientation, explicit right-foot push→left-knee flight→left-foot landing→left-foot push→right-knee flight→right-foot landing. Use fixed floor depth cues and two diagonal landing locations to make trajectory readable; a subtle yellow directional arrow can help. Do not accept current draft."
+    },
+    {
+      "id": "Zercher_Squats",
+      "verdict": "accept",
+      "viewedFiles": [
+        "01-partenza.png",
+        "02-discesa.png",
+        "03-posizione-bassa.png",
+        "04-ritorno.png"
+      ],
+      "reason": "Full working repetition is visually readable: upright start→mid-descent→bottom→upright return. Same bar load, camera, foot contacts and elbow-crook support broadly consistent, no obvious missing unique phase. Yellow descent/ascent arrows clarify direction. No reason to regenerate merely to add a redundant return intermediate.",
+      "necessaryFix": "Create absent generation record/provenance if recoverable; independently verify controversial catalog cues about knees not passing toes and rising predominantly through forefoot before treating text as validated trainer guidance.",
+      "limitations": "No trainer review; three-quarter angle partly hides far elbow contact. Record was absent."
+    }
+  ]
+}

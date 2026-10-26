@@ -1,0 +1,99 @@
+{
+  "reviewer": "images_a independent cross-review",
+  "reviewedAt": "2026-10-26",
+  "scope": "Every PNG in five assigned IDs, compared against full exercises.json instructions and generation records. Visual audit only; no trainer review.",
+  "results": [
+    {
+      "id": "All_Fours_Quad_Stretch",
+      "status": "needs_correction",
+      "viewed": [
+        "01-allungamento.png"
+      ],
+      "findings": [
+        "Hand-shoe grip and planted opposite palm/knee are visible, but the held thigh is markedly abducted toward camera and torso/pelvis rotate into a side-open stance rather than remaining quadruped and extending hip back.",
+        "Raised knee appears only around 90-110 degrees flexed, heel remains well away from buttock; this weakens the intended deeply flexed quadriceps hold.",
+        "Character/logo/anatomy/full-body framing acceptable."
+      ],
+      "needed": [
+        "Regenerate held pose with shoulders and pelvis square toward floor, held thigh pointing back rather than sideways, knee deeply flexed and heel drawn toward buttock without lumbar arch. One static hold is sufficient; no invented dynamic phases."
+      ]
+    },
+    {
+      "id": "Alternate_Hammer_Curl",
+      "status": "accept",
+      "viewed": [
+        "01-partenza.png",
+        "02-destro.png",
+        "03-sinistro.png"
+      ],
+      "findings": [
+        "Both down position and visibly distinct right/left neutral-grip curls shown.",
+        "Hands wrap dumbbell handles, wrists appear neutral, upright torso and feet/camera consistent; no missing essential peak pose.",
+        "No separate return PNG needed for this simple reverse movement; existing initial posture can represent both returns."
+      ],
+      "needed": [],
+      "executionOrder": [
+        "01-partenza.png",
+        "02-destro.png",
+        "01-partenza.png",
+        "03-sinistro.png",
+        "01-partenza.png"
+      ]
+    },
+    {
+      "id": "Alternate_Heel_Touchers",
+      "status": "needs_correction",
+      "viewed": [
+        "01-partenza.png",
+        "02-tocco-destro.png",
+        "03-tocco-sinistro.png"
+      ],
+      "findings": [
+        "Near-side phase 02 clearly touches back of near shoe with modest trunk lift; foot/pelvic support consistent.",
+        "Far-side phase 03 fingers contact the upper ankle/shoe collar area rather than clearly reaching heel counter near sole, and lateral torso bend away from camera is difficult to distinguish.",
+        "Initial and return posture exists, so missing image count is not the problem: phase 03 target/contact clarity is."
+      ],
+      "needed": [
+        "Correct phase03 far hand to actual far shoe heel counter lower toward sole, with visibly left lateral trunk flexion and stable pelvis/feet. If camera prevents clear contact, regenerate consistent slightly elevated view for all three phases."
+      ]
+    },
+    {
+      "id": "Alternate_Incline_Dumbbell_Curl",
+      "status": "needs_correction",
+      "viewed": [
+        "01-partenza.png",
+        "02-curl-destro.png",
+        "03-curl-sinistro.png"
+      ],
+      "findings": [
+        "Distinct alternating curls and palm-up top grips are readable; supported body, feet and weights consistent.",
+        "Exactly frontal view makes backrest look vertical and torso upright, so this reads like seated chair curl; incline angle claimed in record is not visually established.",
+        "Return can reuse initial position; no redundant return PNG necessary."
+      ],
+      "needed": [
+        "Regenerate consistent modest three-quarter frontal viewpoint that clearly shows bench backrest reclined and torso supported on incline, while preserving visibility of BOTH hands/dumbbells. Keep initial and both alternating top poses."
+      ]
+    },
+    {
+      "id": "Ab_Roller",
+      "status": "needs_correction",
+      "viewed": [
+        "01-partenza.png",
+        "02-rollout.png"
+      ],
+      "findings": [
+        "Both images have plausible grip, grounded knees and same wheel/clothes/camera.",
+        "Phase02 wheel moves forward but hips remain high directly over knees; body scarcely lengthens. It looks like a small shoulder reach rather than clear ab rollout extension/end phase.",
+        "No isolated severe lumbar sag established from these images, but neutral bracing must remain explicit in replacement. Published record labels partial range, which does not satisfy user's full-motion clarity request."
+      ],
+      "needed": [
+        "Retain initial pose, replace/add a clearly extended controlled rollout phase: knees fixed, hips move forward/down, shoulder-hip-knee line elongates, arms reach forward above torso, abdomen elevated and lumbar not sagging. Add return direction/order using initial pose; no duplicate return file required."
+      ],
+      "executionOrder": [
+        "01-partenza.png",
+        "02-clear-extension-needed.png",
+        "01-partenza.png"
+      ]
+    }
+  ]
+}

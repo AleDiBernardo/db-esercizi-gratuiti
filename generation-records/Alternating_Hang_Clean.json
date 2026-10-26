@@ -3,11 +3,73 @@
   "createdAt": "2026-10-26",
   "generator": "integrated image_gen",
   "reference": "references/misurami-personaggio.png",
-  "phases": [
+  "phases": [],
+  "sources": [
+    "IMAGE-ROUTINE.md",
+    "exercises.json:Alternating_Hang_Clean"
+  ],
+  "checks": {
+    "automaticVisualInspection": "failed independent review: dynamic hipdrive transition not clear after two correction rounds",
+    "trainerReview": "not performed"
+  },
+  "rejectedDrafts": 0,
+  "executionSequence": [
+    "01-sospensione.png",
+    "02-transizione-destra-v3.png",
+    "02-girata-destra.png",
+    "02-transizione-destra-v3.png",
+    "01-sospensione.png",
+    "04-transizione-sinistra-v3.png",
+    "03-girata-sinistra.png",
+    "04-transizione-sinistra-v3.png",
+    "01-sospensione.png"
+  ],
+  "returnDescription": "Abbassare il carico con controllo alla posa iniziale prima di alternare lato; ripetere il ciclo.",
+  "status": "deferred",
+  "independentReview": {
+    "date": "2026-10-26",
+    "verdict": "needs_correction",
+    "reason": "Mancano transizioni leggibili di spinta delle anche e inserimento della mano nella girata."
+  },
+  "correctionHistory": [
+    {
+      "date": "2026-10-26",
+      "reason": "Cross-review found no dynamic hand-insertion transition, risk of depicting curl endpoints only.",
+      "addedFiles": [
+        "02-transizione-destra-v2.png",
+        "04-transizione-sinistra-v2.png"
+      ],
+      "result": "pending_root_review: distinct rising bell positions both sides; close-body rotation/hand insertion visible; minor perspective size variation between bells and transition elbow path must receive independent review."
+    },
+    {
+      "date": "2026-10-26",
+      "reason": "Root rejected upright transitions that read as curl; replacement preserves partial hip/knee extension and adds hip-drive arrow",
+      "oldFiles": [
+        "02-transizione-destra-v2.png",
+        "04-transizione-sinistra-v2.png"
+      ],
+      "newFiles": [
+        "02-transizione-destra-v3.png",
+        "04-transizione-sinistra-v3.png"
+      ],
+      "prompts": [
+        "ONE landscape3:2 PNG RIGHT kettlebell HANG CLEAN TRANSITION, NOT CURL. Original Misurami first reference exact character/logo/clothes. Second START HINGE is the base image. Keep its wide foot positions camera scale black bell sizes ivory floor. Athlete is HALFWAY EXTENDING HIPS/KNEES, trunk STILL INCLINED FORWARD ABOUT 30 DEGREES, hips still behind heels but moving forward, knees still flexed 20 degrees. Only RIGHT bell (viewer LEFT) is rising straight upward CLOSE TO BODY from knee level toward upper thigh/lower abdomen, hand just below navel. RIGHT ELBOW ONLY BEGINNING TO BEND ABOUT 20 DEGREES, arm MOSTLY STRAIGHT, bell not at chest. LEFT arm remains straight hanging holding its matching bell at knee. This must visibly demonstrate leg/hip drive BEFORE rack, not upright bent-elbow curl. Small simple curved YELLOW arrow at outer right hip points forward/up illustrating hip extension (no words). TWO equal original black bells same exact diameter as start, secure hands neutral wrist, no torso rotation. Head aligned with inclined trunk gaze forward/down. Full body all shoes equipment margins; original left chest logo visible. Do not stand fully upright; do not flex elbow90degrees; no panels captions labels.",
+        "ONE landscape3:2 PNG LEFT kettlebell HANG CLEAN early HIP DRIVE transition. Original first reference exact Misurami face/clothing/logo; second original both-bells-low hang is base; third right hipdrive transition is pattern for timing only, do opposite arm. KEEP original wide feet camera body scale ivory floor. Hips halfway driving forward/up from hinge, knees still20deg flexed, torso STILL inclined forward30degrees, never fully upright. LEFT kettlebell (viewer RIGHT) rises from knee toward upper thigh/lower abdomen staying CLOSE TO BODY; LEFT elbow only starting bend around20-40degrees, hand justbelow navel, bell below hand. RIGHT arm (viewer LEFT) stays straight hanging matching bell at knee. Small simple curved yellow hip-extension arrow OUTSIDE LEFT hip pointing forward/up, no words. NOT a bicepscurl, not elbow90degrees, not bell atchest. Two matching original black bells exactdiameter load, fingers gripping handles wrists neutral. Fixed ground feet hips no twist, head aligned trunk gaze slightly downward. Exact original Misurami left-chest logo charcoal shirt yellow stripe shorts black shoes. Full body bells uncropped no text labels panels."
+      ],
+      "result": "pending_root_review: forward-inclined torso and rising close-body bells eachside; decide whether hipdrive is sufficiently clear; no further correction if failed twice"
+    }
+  ],
+  "reason": "Le transizioni restano assimilabili a curl/rematore con gomito già flesso prima della chiara estensione delle anche; rinviato dopo due correzioni.",
+  "draftPhases": [
     {
       "file": "01-sospensione.png",
       "description": "Posizione di sospensione con anche arretrate e due kettlebell impugnati.",
       "prompt": "ONE realistic fitness illustration PNG landscape 3:2. ORIGINAL authoritative reference attached is Misurami character; reproduce exact adult male face curly dark hair beard athletic proportions, charcoal T-shirt with original small yellow-white Misurami logo on anatomical left chest, charcoal shorts yellow trim, black shoes. Ivory seamless floor background subtle shadow, full body and all equipment with margins, no captions panels numbers text except shirt logo. Exercise alternating kettlebell hang clean PHASE 1 hang: front three-quarter view slightly from man's left. Feet shoulder width flat, knees slightly bent, hip hinge with neutral flat spine chest open. Both arms extended downward, each hand gripping handle of one identical matte black spherical kettlebell. Bells hang between knees just clear of floor, neutral wrists, shoulders packed. Exactly 2 bells of equal size, clear separation between arms and legs. Body fully visible. Keep fixed camera scale feet positions bells/load for next phases."
+    },
+    {
+      "file": "02-transizione-destra-v3.png",
+      "description": "Transizione di salita e inserimento della mano destra.",
+      "prompt": "ONE landscape3:2 PNG RIGHT kettlebell HANG CLEAN TRANSITION, NOT CURL. Original Misurami first reference exact character/logo/clothes. Second START HINGE is the base image. Keep its wide foot positions camera scale black bell sizes ivory floor. Athlete is HALFWAY EXTENDING HIPS/KNEES, trunk STILL INCLINED FORWARD ABOUT 30 DEGREES, hips still behind heels but moving forward, knees still flexed 20 degrees. Only RIGHT bell (viewer LEFT) is rising straight upward CLOSE TO BODY from knee level toward upper thigh/lower abdomen, hand just below navel. RIGHT ELBOW ONLY BEGINNING TO BEND ABOUT 20 DEGREES, arm MOSTLY STRAIGHT, bell not at chest. LEFT arm remains straight hanging holding its matching bell at knee. This must visibly demonstrate leg/hip drive BEFORE rack, not upright bent-elbow curl. Small simple curved YELLOW arrow at outer right hip points forward/up illustrating hip extension (no words). TWO equal original black bells same exact diameter as start, secure hands neutral wrist, no torso rotation. Head aligned with inclined trunk gaze forward/down. Full body all shoes equipment margins; original left chest logo visible. Do not stand fully upright; do not flex elbow90degrees; no panels captions labels."
     },
     {
       "file": "02-girata-destra.png",
@@ -15,32 +77,14 @@
       "prompt": "ONE landscape 3:2 PNG phase 2 RIGHT kettlebell clean. ORIGINAL first reference authoritative Misurami identity clothing anatomical-left chest logo. Second reference phase 1 establishes exact camera ivory floor framing feet positions and two identical black kettlebells. Same man stands upright after extending knees hips, no backward lean. His anatomical RIGHT arm (viewer left) now holds its bell in secure front rack at RIGHT shoulder: elbow tucked near ribs, wrist neutral hand through handle, bell round body resting outside forearm against upper arm not above hand. LEFT arm remains straight beside body holding other kettlebell suspended at thigh. Keep both feet fixed same scale and bell size, full body and bells with margins. Clean is not a biceps curl: depict stable finished rack with knuckles upward forearm near vertical, palm oriented inward. Accurate hands joints exactly two arms two bells. Same original face clothing logo. No captions labels numbers arrows panels."
     },
     {
+      "file": "04-transizione-sinistra-v3.png",
+      "description": "Transizione di salita e inserimento della mano sinistra.",
+      "prompt": "ONE landscape3:2 PNG LEFT kettlebell HANG CLEAN early HIP DRIVE transition. Original first reference exact Misurami face/clothing/logo; second original both-bells-low hang is base; third right hipdrive transition is pattern for timing only, do opposite arm. KEEP original wide feet camera body scale ivory floor. Hips halfway driving forward/up from hinge, knees still20deg flexed, torso STILL inclined forward30degrees, never fully upright. LEFT kettlebell (viewer RIGHT) rises from knee toward upper thigh/lower abdomen staying CLOSE TO BODY; LEFT elbow only starting bend around20-40degrees, hand justbelow navel, bell below hand. RIGHT arm (viewer LEFT) stays straight hanging matching bell at knee. Small simple curved yellow hip-extension arrow OUTSIDE LEFT hip pointing forward/up, no words. NOT a bicepscurl, not elbow90degrees, not bell atchest. Two matching original black bells exactdiameter load, fingers gripping handles wrists neutral. Fixed ground feet hips no twist, head aligned trunk gaze slightly downward. Exact original Misurami left-chest logo charcoal shirt yellow stripe shorts black shoes. Full body bells uncropped no text labels panels."
+    },
+    {
       "file": "03-girata-sinistra.png",
       "description": "Kettlebell sinistro in rack alla spalla e destro sospeso.",
       "prompt": "ONE landscape 3:2 PNG phase 3 LEFT kettlebell clean. ORIGINAL first reference exact Misurami identity clothing small original yellow white logo on anatomical LEFT chest. Second image phase 2 establishes exact same camera floor lighting feet positions, character scale and both black kettlebell size. Change ONLY arms: anatomical RIGHT arm (viewer left) now straight at side holding its bell hanging beside thigh; anatomical LEFT arm (viewer right) holds the other bell in secure front rack against LEFT shoulder outside forearm. Left elbow tucked at ribs neutral wrist knuckles up, forearm close vertical; spherical bell rests against outside forearm/upper arm and not atop hand. Body upright hips knees extended no leaning, exactly same stance and feet as second image. Correct anatomy exactly two hands firmly gripping two handles two bells. Full figure and all equipment margins no clipping. Ivory realistic illustration same original character logo. No words captions labels arrows panels."
     }
-  ],
-  "sources": [
-    "IMAGE-ROUTINE.md",
-    "exercises.json:Alternating_Hang_Clean"
-  ],
-  "checks": {
-    "automaticVisualInspection": "passed: reviewed every image for anatomy, grip, stable rack wrist position, floor support, both alternating sides, original identity and chest branding, equipment and framing; slight stance-width variation between hinge and upright rack poses",
-    "trainerReview": "not performed"
-  },
-  "rejectedDrafts": 0,
-  "executionSequence": [
-    "01-sospensione.png",
-    "02-girata-destra.png",
-    "01-sospensione.png",
-    "03-girata-sinistra.png",
-    "01-sospensione.png"
-  ],
-  "returnDescription": "Abbassare il carico con controllo alla posa iniziale prima di alternare lato; ripetere il ciclo.",
-  "status": "pending_correction",
-  "independentReview": {
-    "date": "2026-10-26",
-    "verdict": "needs_correction",
-    "reason": "Mancano transizioni leggibili di spinta delle anche e inserimento della mano nella girata."
-  }
+  ]
 }

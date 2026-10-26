@@ -1,0 +1,69 @@
+{
+  "reviewer": "images_e",
+  "date": "2026-10-26",
+  "scope": "Cross-review after reading full exercises.json instructions and records and viewing every PNG individually; no trainer review",
+  "results": [
+    {
+      "id": "Arm_Circles",
+      "filesViewed": [
+        "01-circonduzioni.png"
+      ],
+      "verdict": "needs_correction_for_motion_clarity",
+      "findings": [
+        "Standing support, original character/branding and straight arms at shoulder height are clear; no missing body parts.",
+        "Yellow ellipse arrows are centered at wrist regions and can be read as wrist/forearm rotation rather than movement of both entire arms at shoulders. One static T pose does not disambiguate this for a viewer.",
+        "Reverse direction after10 seconds is only textual in record; no distinct anatomical pose required for reversal."
+      ],
+      "requiredCorrection": "Use a second distinct arm-circle position showing both straight arms a small distance forward/up while shoulder centers stay fixed, or redraw arrows to show hand trajectory around shoulder-driven circle with unambiguous direction. Do not add a duplicated return pose or ghost limbs.",
+      "severity": "motion ambiguity"
+    },
+    {
+      "id": "Arnold_Dumbbell_Press",
+      "filesViewed": [
+        "01-partenza.png",
+        "02-distensione.png"
+      ],
+      "verdict": "needs_intermediate_rotation_phase_for_motion_clarity",
+      "findings": [
+        "Starting supinated grip at upper chest and extended overhead palms-forward endpoint are anatomically plausible and different; back/feet support, dumbbells and camera match closely.",
+        "The characteristic opening/rotation between curl-like start and overhead press is not shown; endpoints alone can be mistaken for a supinated curl immediately followed by standard press.",
+        "No clear new anatomical defect in existing images; midpoint should preserve these endpoint poses."
+      ],
+      "requiredCorrection": "Add one true transition with elbows opening outward around shoulder level and palms rotating from facing body toward forward before full extension. Preserve bench, foot placement, dumbbells, camera. Return may reuse same poses in reverse order without duplicate PNG.",
+      "severity": "essential transition not explicit"
+    },
+    {
+      "id": "Around_The_Worlds",
+      "filesViewed": [
+        "01-partenza.png",
+        "02-apertura.png",
+        "03-oltre-testa.png"
+      ],
+      "verdict": "accepted",
+      "findings": [
+        "Three poses show dumbbells beside thighs, lateral T, and beyond head; this distinguishes a broad horizontal semicircle from press/pullover.",
+        "Camera, bench, feet, head and body remain effectively fixed. Both small hex dumbbells stay consistent.",
+        "Head/shoulders/pelvis supported and feet grounded. Arms remain near bench/shoulder plane, palms upward with soft elbows. No obvious hand/joint defect.",
+        "No extra static return PNG necessary; inverse order3→2→1 completes the same path."
+      ],
+      "requiredCorrection": null,
+      "severity": null
+    },
+    {
+      "id": "90_90_Hamstring",
+      "filesViewed": [
+        "01-partenza.png",
+        "02-estensione.png"
+      ],
+      "verdict": "accepted",
+      "findings": [
+        "Initial supported thigh vertical and knee bent90 degrees, final same thigh with knee extended upward; opposite leg remains straight on floor.",
+        "Head and shoulders grounded; hands support thigh rather than pull shin. Essential movement is clearly knee extension; no intermediate needed.",
+        "Minor framing/baseline shift and limited top margin in second image, but full raised shoe visible and movement remains understandable.",
+        "Return is reverse of same two poses; bilateral switch can be instructed without duplicate mirrored image."
+      ],
+      "requiredCorrection": null,
+      "severity": null
+    }
+  ]
+}

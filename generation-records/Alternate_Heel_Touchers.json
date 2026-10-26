@@ -1,0 +1,142 @@
+{
+  "id": "Alternate_Heel_Touchers",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [],
+  "executionOrder": [
+    "01-partenza.png",
+    "02-tocco-destro.png",
+    "01-partenza.png",
+    "03-tocco-sinistro.png",
+    "01-partenza.png"
+  ],
+  "executionNotes": "Initial pose, right contraction, controlled return to initial, left contraction, controlled return; no redundant PNG for the same return pose.",
+  "sources": [
+    "exercises.json:Alternate_Heel_Touchers",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "FAILED independent audit; replacement attempts rejected. Existing files preserved for history, not accepted for publication.",
+    "fileValidation": "PNG readability and landscape 3:2 verified",
+    "trainerReview": "not performed"
+  },
+  "rejectedDrafts": 2,
+  "corrections": [
+    {
+      "prompt": "Create phase 3 alternating heel touches by editing second exercise reference initial pose. First original Misurami character sheet authoritative identity. Preserve EXACT camera framing scale face clothing original logo and feet/knee positions. This time anatomical LEFT hand (far-side arm behind torso) reaches and visibly touches outer/back edge of LEFT heel (far shoe). Raise shoulders modestly 8-10cm and side-bend torso away from camera toward left heel. Right arm foreground straight along hip reaches only beside right hip, does NOT touch foreground heel. Both arms stay beside body, no cross-body reaching. Need far hand visible past far knee by slightly elevating far shoulder, but keep same camera. Pelvis lower back and feet remain grounded, neutral neck gaze toward knees. Exactly two arms two legs accurate hands, full body all feet with margin, realistic landscape3:2 ivory background no captions labels arrows numbers panels.",
+      "result": "far fingertips too high near ankle"
+    },
+    {
+      "prompt": "Edit third exercise reference heel-touch-left phase. First original Misurami sheet authoritative identity, second starting exercise for continuity. Keep all scene/camera/feet/anatomy/clothing unchanged. CORRECT FAR LEFT HAND: slide left hand lower down and forward so fingertips touch the BACK OF LEFT SHOE HEEL at floor level near white sole, NOT the calf or ankle above the shoe. This means additional modest side bend toward far heel while pelvis and feet stay fixed. Entire left forearm remains connected behind left hip, natural arm length fingers joints. Foreground right hand stays alongside right hip on floor without heel contact. Shoulders modestly elevated, lumbar grounded. No new limbs, exact original character/logo, landscape 3:2 ivory full body no captions arrows labels.",
+      "result": "far hand moved between legs; rejected"
+    },
+    {
+      "prompt": "Correct second exercise image for alternating LEFT heel touch. First original Misurami character sheet authoritative identity. Keep exact camera scale feet knees pelvis clothing floor unchanged. The FAR hand currently touches far ankle: move ONLY that hand downward 6 cm, fingertips contacting the black heel counter just ABOVE WHITE SOLE of FAR SHOE (the shoe at upper-right). Far hand must remain to LEFT of FAR SHOE heel in image, clearly on its back edge, NOT between legs and NEVER near foreground shoe. Add slight torso lateral bend away from camera to allow that reach. Foreground right arm hand remain beside hip with no heel contact. Exactly two natural arms, fingers, shoulder joints, small original Misurami chest logo. Landscape3:2 ivory background full body no text/captions/arrows.",
+      "result": "accepted back-of-shoe heel contact"
+    }
+  ],
+  "correctionHistory": [
+    {
+      "date": "2026-10-26",
+      "reason": "Independent full-motion visual audit after user reported unclear/incomplete images",
+      "previousRecord": {
+        "id": "Alternate_Heel_Touchers",
+        "createdAt": "2026-10-26",
+        "generator": "integrated image_gen",
+        "reference": "references/misurami-personaggio.png",
+        "phases": [
+          {
+            "file": "01-partenza.png",
+            "description": "Partenza supina con ginocchia flesse e braccia ai lati.",
+            "prompt": "Create ONE realistic exercise illustration PNG landscape 3:2, ivory background and floor, full body with margins, NO text captions numbers arrows panels. Original attached character sheet authoritative identity: same Misurami man curly dark hair beard athletic proportions charcoal shirt left chest original small yellow/white logo charcoal yellow stripe shorts black shoes. Alternate heel touches PHASE 1 starting: supine on floor with head at left, feet at right, knees bent about 90 degrees, both feet flat shoulder width (45-60cm), arms straight alongside torso with palms facing inward and hands beside hips. Head shoulders back relaxed on floor for starting position. Camera elevated diagonal three-quarter from feet-left side so BOTH heels and both hands clearly separated and visible, floor neutral. Natural two arms two legs five fingers each, proper shoulder hips knees. This image defines fixed camera feet body scale for subsequent side-bending touches."
+          },
+          {
+            "file": "02-tocco-destro.png",
+            "description": "Flessione laterale destra con tocco del tallone.",
+            "prompt": "Create phase 2 of alternating heel touches from second exercise reference. ORIGINAL first Misurami character sheet authoritative identity. Same fixed camera floor framing scale body clothing logo feet and bent knees, feet remain flat in EXACT positions. Raise shoulders 8-10cm and side-bend trunk toward anatomical RIGHT (near side facing camera), reach RIGHT fingertips to outer edge/back of RIGHT heel (foreground shoe). Right arm straight along side, right fingertips visibly contacting heel. Left arm straight alongside far hip, no crossing arms. Lumbar spine and pelvis remain grounded, knees and feet stationary, neck neutral gaze toward knees. This is lateral abdominal bend, not sit-up; no pelvic lift. Full body with margins. Accurate hands joints torso, 3:2 realistic ivory illustration no labels arrows captions panels."
+          },
+          {
+            "file": "03-tocco-sinistro.png",
+            "description": "Flessione laterale sinistra con tocco del retro della scarpa al tallone.",
+            "prompt": "Correct second exercise image for alternating LEFT heel touch. First original Misurami character sheet authoritative identity. Keep exact camera scale feet knees pelvis clothing floor unchanged. The FAR hand currently touches far ankle: move ONLY that hand downward 6 cm, fingertips contacting the black heel counter just ABOVE WHITE SOLE of FAR SHOE (the shoe at upper-right). Far hand must remain to LEFT of FAR SHOE heel in image, clearly on its back edge, NOT between legs and NEVER near foreground shoe. Add slight torso lateral bend away from camera to allow that reach. Foreground right arm hand remain beside hip with no heel contact. Exactly two natural arms, fingers, shoulder joints, small original Misurami chest logo. Landscape3:2 ivory background full body no text/captions/arrows."
+          }
+        ],
+        "executionOrder": [
+          "01-partenza.png",
+          "02-tocco-destro.png",
+          "01-partenza.png",
+          "03-tocco-sinistro.png",
+          "01-partenza.png"
+        ],
+        "executionNotes": "Initial pose, right contraction, controlled return to initial, left contraction, controlled return; no redundant PNG for the same return pose.",
+        "sources": [
+          "exercises.json:Alternate_Heel_Touchers",
+          "IMAGE-ROUTINE.md"
+        ],
+        "checks": {
+          "automaticVisualInspection": "FAILED independent audit; replacement attempts rejected. Existing files preserved for history, not accepted for publication.",
+          "fileValidation": "PNG readability and landscape 3:2 verified",
+          "trainerReview": "not performed"
+        },
+        "rejectedDrafts": 2,
+        "corrections": [
+          {
+            "prompt": "Create phase 3 alternating heel touches by editing second exercise reference initial pose. First original Misurami character sheet authoritative identity. Preserve EXACT camera framing scale face clothing original logo and feet/knee positions. This time anatomical LEFT hand (far-side arm behind torso) reaches and visibly touches outer/back edge of LEFT heel (far shoe). Raise shoulders modestly 8-10cm and side-bend torso away from camera toward left heel. Right arm foreground straight along hip reaches only beside right hip, does NOT touch foreground heel. Both arms stay beside body, no cross-body reaching. Need far hand visible past far knee by slightly elevating far shoulder, but keep same camera. Pelvis lower back and feet remain grounded, neutral neck gaze toward knees. Exactly two arms two legs accurate hands, full body all feet with margin, realistic landscape3:2 ivory background no captions labels arrows numbers panels.",
+            "result": "far fingertips too high near ankle"
+          },
+          {
+            "prompt": "Edit third exercise reference heel-touch-left phase. First original Misurami sheet authoritative identity, second starting exercise for continuity. Keep all scene/camera/feet/anatomy/clothing unchanged. CORRECT FAR LEFT HAND: slide left hand lower down and forward so fingertips touch the BACK OF LEFT SHOE HEEL at floor level near white sole, NOT the calf or ankle above the shoe. This means additional modest side bend toward far heel while pelvis and feet stay fixed. Entire left forearm remains connected behind left hip, natural arm length fingers joints. Foreground right hand stays alongside right hip on floor without heel contact. Shoulders modestly elevated, lumbar grounded. No new limbs, exact original character/logo, landscape 3:2 ivory full body no captions arrows labels.",
+            "result": "far hand moved between legs; rejected"
+          },
+          {
+            "prompt": "Correct second exercise image for alternating LEFT heel touch. First original Misurami character sheet authoritative identity. Keep exact camera scale feet knees pelvis clothing floor unchanged. The FAR hand currently touches far ankle: move ONLY that hand downward 6 cm, fingertips contacting the black heel counter just ABOVE WHITE SOLE of FAR SHOE (the shoe at upper-right). Far hand must remain to LEFT of FAR SHOE heel in image, clearly on its back edge, NOT between legs and NEVER near foreground shoe. Add slight torso lateral bend away from camera to allow that reach. Foreground right arm hand remain beside hip with no heel contact. Exactly two natural arms, fingers, shoulder joints, small original Misurami chest logo. Landscape3:2 ivory background full body no text/captions/arrows.",
+            "result": "accepted back-of-shoe heel contact"
+          }
+        ]
+      },
+      "attempts": [
+        {
+          "prompt": "ONE realistic fitness PNG landscape3:2 warm ivory floor, ORIGINAL Misurami character sheet attached authoritative identity same curly dark hair beard athletic man charcoal shirt small original left chest yellowwhite logo charcoal shorts yellow stripe black shoes. Alternating heel touches INITIAL position. Camera HIGH ELEVATED DIAGONAL FRONTAL view from foot end, enough top-down angle to see BOTH HANDS AND BOTH SHOE HEEL COUNTERS, body axis runs horizontally head LEFT feet RIGHT but view closer to overhead than side. Man supine back pelvis head supported floor, knees bent about90degrees, both feet flat shoulderwidth apart, heels close enough fingertips can reach with small lateral bend. Both arms straight palms toward body alongside hips, fingertips about10cm short of heels. Entire body all hands and feet visible with clear separation, no limbs occluded. Define fixed camera floor body scale feet positions for next phases. No numbers titles arrows captions panels.",
+          "file": "/workspace/generated_images/exec-80e0ef90-905b-4743-9ee4-dee5707cfd7e.png",
+          "result": "rejected: far hand occluded"
+        },
+        {
+          "prompt": "Generate ONE EXACT OVERHEAD TOP-DOWN orthographic realistic exercise illustration, camera directly ABOVE man looking vertically DOWN at floor, not diagonal, not side angle. ORIGINAL Misurami character sheet attached identity clothes small left chest logo. Supine starting alternating heel touches. Body axis VERTICAL in landscape3:2 image, head near upper center, feet lower center. Knees bent feet flat about45cm apart, viewed from above, heels drawn close enough to pelvis. BOTH straight arms along OUTSIDE of hips and thighs, shoulders relaxed, BOTH entire hands clearly visible in clear floor gaps OUTSIDE both knees. Fingertips end 10cm before heels. All body feet fingers fully in frame with margins. Neutral back pelvis head floor supported, original charcoal shirt shorts yellow stripes black shoes. Warm ivory background/floor, realistic fitness illustration. No captions titles arrows numbers panels. This camera must clearly reveal both hands and both heel counters for later reaches. Head at top feet at bottom, no perspective foreshortening.",
+          "file": "/workspace/generated_images/exec-8fe254cf-6122-4b87-ab4b-55ad8f2ef7ed.png",
+          "result": "draft initial overhead: both hands visible but floor posture ambiguous"
+        },
+        {
+          "prompt": "Edit second overhead exercise reference into alternating heel touch RIGHT contraction. First original Misurami character sheet authoritative identity and clothes. Keep exact overhead camera head at TOP feet BOTTOM, body scale floor light, pelvis knees feet fixed same locations. Man lies SUPINE on floor, not seated. Lift shoulders only8cm and SIDE-BEND trunk toward anatomical RIGHT (viewer LEFT) so RIGHT straight arm reaches along outside right leg and fingertips TOUCH BACK/OUTER HEEL COUNTER of RIGHT SHOE just above white sole (viewer LEFT shoe). Touch actual black shoe heel near floor, NOT shin/ankle. Torso visibly curves laterally right, right shoulder approaches right hip. Left arm viewer RIGHT relaxed extended alongside left hip, not touching heel. Head neck neutral aligned torso, gaze toward knees. Keep two natural arms two legs five fingers, all full body shoes visible, ivory background, landscape3:2 no captions arrows labels.",
+          "file": "/workspace/generated_images/exec-0bba0f21-5f2b-4952-990f-b8e5e89ee88c.png",
+          "result": "rejected: torso reads seated; fingertip reaches shoe collar/ankle rather than clear heel counter"
+        }
+      ]
+    }
+  ],
+  "status": "deferred",
+  "deferralReason": "Corrected camera attempts still do not show clear low heel contact on both sides: diagonal camera occludes far hand; overhead contraction reads seated and touches ankle/shoe collar. Do not count previous sequence as accepted until root decision.",
+  "reason": "Dopo due tentativi di correzione il contatto sul tallone e la flessione laterale non sono leggibili senza ambiguità.",
+  "rejectedVersions": [
+    {
+      "phases": [
+        {
+          "file": "01-partenza.png",
+          "description": "Partenza supina con ginocchia flesse e braccia ai lati.",
+          "prompt": "Create ONE realistic exercise illustration PNG landscape 3:2, ivory background and floor, full body with margins, NO text captions numbers arrows panels. Original attached character sheet authoritative identity: same Misurami man curly dark hair beard athletic proportions charcoal shirt left chest original small yellow/white logo charcoal yellow stripe shorts black shoes. Alternate heel touches PHASE 1 starting: supine on floor with head at left, feet at right, knees bent about 90 degrees, both feet flat shoulder width (45-60cm), arms straight alongside torso with palms facing inward and hands beside hips. Head shoulders back relaxed on floor for starting position. Camera elevated diagonal three-quarter from feet-left side so BOTH heels and both hands clearly separated and visible, floor neutral. Natural two arms two legs five fingers each, proper shoulder hips knees. This image defines fixed camera feet body scale for subsequent side-bending touches."
+        },
+        {
+          "file": "02-tocco-destro.png",
+          "description": "Flessione laterale destra con tocco del tallone.",
+          "prompt": "Create phase 2 of alternating heel touches from second exercise reference. ORIGINAL first Misurami character sheet authoritative identity. Same fixed camera floor framing scale body clothing logo feet and bent knees, feet remain flat in EXACT positions. Raise shoulders 8-10cm and side-bend trunk toward anatomical RIGHT (near side facing camera), reach RIGHT fingertips to outer edge/back of RIGHT heel (foreground shoe). Right arm straight along side, right fingertips visibly contacting heel. Left arm straight alongside far hip, no crossing arms. Lumbar spine and pelvis remain grounded, knees and feet stationary, neck neutral gaze toward knees. This is lateral abdominal bend, not sit-up; no pelvic lift. Full body with margins. Accurate hands joints torso, 3:2 realistic ivory illustration no labels arrows captions panels."
+        },
+        {
+          "file": "03-tocco-sinistro.png",
+          "description": "Flessione laterale sinistra con tocco del retro della scarpa al tallone.",
+          "prompt": "Correct second exercise image for alternating LEFT heel touch. First original Misurami character sheet authoritative identity. Keep exact camera scale feet knees pelvis clothing floor unchanged. The FAR hand currently touches far ankle: move ONLY that hand downward 6 cm, fingertips contacting the black heel counter just ABOVE WHITE SOLE of FAR SHOE (the shoe at upper-right). Far hand must remain to LEFT of FAR SHOE heel in image, clearly on its back edge, NOT between legs and NEVER near foreground shoe. Add slight torso lateral bend away from camera to allow that reach. Foreground right arm hand remain beside hip with no heel contact. Exactly two natural arms, fingers, shoulder joints, small original Misurami chest logo. Landscape3:2 ivory background full body no text/captions/arrows."
+        }
+      ],
+      "reason": "Dopo due tentativi di correzione il contatto sul tallone e la flessione laterale non sono leggibili senza ambiguità."
+    }
+  ]
+}

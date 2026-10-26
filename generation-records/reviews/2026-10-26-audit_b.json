@@ -1,0 +1,76 @@
+{
+  "reviewer": "images_b",
+  "date": "2026-10-26",
+  "scope": "Independent cross-review of every PNG, catalog instructions and generation records for assigned five exercises; no files edited except this report.",
+  "criteria": "Visual completeness/readability, anatomy, supports/contact, actual visible motion, equipment continuity; not professional trainer certification.",
+  "results": [
+    {
+      "id": "Adductor",
+      "status": "needs_correction",
+      "reviewedFiles": [
+        "01-appoggio.png",
+        "02-scorri.png"
+      ],
+      "findings": [
+        "The working leg is abducted but nearly straight in both PNGs; the intended frog-like externally rotated inner-thigh contact is not readable. The roller appears underneath the anterior/underside thigh rather than demonstrably under medial adductors.",
+        "The two images are almost identical. The roller remains under essentially the same proximal-mid thigh region; body translation/contact travel along muscle is not clearly visible. A consumer cannot infer the rolling motion from these two frames."
+      ],
+      "requiredCorrection": "Regenerate setup with working hip abducted and knee bent near90°, inner thigh clearly resting across roller while forearms support torso. Second frame must show clearly different proximal versus distal medial-thigh contact with same roller position and consistent body translation. Keep away from knee/groin; use a small yellow directional arrow if needed."
+    },
+    {
+      "id": "Adductor_Groin",
+      "status": "needs_correction",
+      "reviewedFiles": [
+        "01-allungamento-assistito.png"
+      ],
+      "findings": [
+        "Static assisted V stretch geometry, ankle holds, head/back support and both human anatomies are readable.",
+        "However instructions explicitly describe an isometric attempt to adduct against resistance followed by relaxation and gentle increased abduction. One unannotated held-pose PNG cannot communicate which direction athlete is attempting or distinguish resisted contraction from relaxation. Record-only explanation does not fix visible incompleteness."
+      ],
+      "requiredCorrection": "Retain current as setup if desired; add a resisted-contraction image with same pose and inward yellow force arrows plus clear assistant counter-support, then a relaxed comfortable slightly wider V hold. Do not invent extreme abduction or show actual closing during isometry. Professional technical review useful before depicting PNF."
+    },
+    {
+      "id": "Advanced_Kettlebell_Windmill",
+      "status": "needs_correction",
+      "reviewedFiles": [
+        "01-partenza.png",
+        "02-inclinazione.png"
+      ],
+      "findings": [
+        "The second PNG reads chiefly as a lateral side bend, with trunk still largely in frontal plane and no clear backward hip hinge or chest rotation upward. This can teach the wrong movement.",
+        "Feet are not visibly both oriented45° away from raised arm; the near shoe points almost toward camera whereas far shoe points right. Setup stance is inconsistent with intended instruction.",
+        "Hand grip, vertical support arm and behind-back free arm are otherwise readable. Two end positions show a bend but not the key hinge cue."
+      ],
+      "requiredCorrection": "Use a three-quarter camera permitting hips-back diagonal hinge to be visible; correct and lock foot orientation. Add visible hinge intermediate (hips translate back toward bell side, long neutral spine) and lower controlled windmill position with chest rotation and vertically stacked bell/shoulder. If setup clean/press considered within full catalog sequence, show rack and overhead preparation too rather than claiming whole exercise setup."
+    },
+    {
+      "id": "Air_Bike",
+      "status": "needs_correction",
+      "reviewedFiles": [
+        "01-partenza.png",
+        "02-pedalata-un-lato.png",
+        "03-pedalata-altro-lato.png"
+      ],
+      "findings": [
+        "Leg alternation is visible: second image near leg bent/far leg extended, third near leg extended/far leg bent. Tabletop initial pose is present and hands are light near temples.",
+        "Thoracic rotation does not clearly reverse between sides. Both contraction images keep almost same chest-facing-camera orientation and open elbows; neither clearly brings the opposite shoulder/elbow toward the bent knee. The second especially reads as leg pedaling plus centered crunch rather than a bicycle cross-crunch.",
+        "Near extended shoe in03 appears touching/near floor while second extended leg hovers, reducing support consistency. Pelvis/lumbar contact mostly acceptable, but rotation is key missing action."
+      ],
+      "requiredCorrection": "Regenerate two cross-crunch phases with unmistakably opposite shoulder rising and rotating toward contralateral bent knee, other shoulder lowering, without neck pulling or forced elbow/knee contact; keep both extended legs hovering. A higher frontal-oblique camera can show torso rotation and limb assignments better. Preserve central tabletop return between sides."
+    },
+    {
+      "id": "Ab_Crunch_Machine",
+      "status": "needs_correction",
+      "reviewedFiles": [
+        "01-partenza.png",
+        "02-contrazione.png"
+      ],
+      "findings": [
+        "Upright-to-flexed trunk and modest lower-leg lift are visibly distinct; hands/arm supports and character framing are good.",
+        "The machine geometry changes in the lower front assembly: first image shows the foot platform integrated with the front floor structure, second introduces a floating raised shoe platform while a different front frame crossbar remains on floor. The pivot/linkage carrying rollers/platform is not mechanically continuous/readable. This is more than plate-number cosmetic drift.",
+        "Weight stack split rises strongly despite modest movement, with selected load and linkage not reliably traceable. Upper arm pad support arms are also difficult to trace, making generated apparatus mechanically uncertain."
+      ],
+      "requiredCorrection": "Choose a technically verified real-style abdominal machine architecture first, with one clearly supported moving leg lever and visible fixed pivot/linkage. Regenerate both phases preserving exact count/shape of fixed and moving components and load selection, or defer instead of publishing invented machine mechanics. Once corrected, visible start/contract positions sufficient; explicit return is same start pose."
+    }
+  ]
+}

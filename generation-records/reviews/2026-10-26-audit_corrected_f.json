@@ -1,0 +1,68 @@
+{
+  "reviewer": "images_f",
+  "createdAt": "2026-10-26",
+  "reviewType": "Independent second automated visual review of every selected corrected PNG; not professional trainer approval",
+  "results": [
+    {
+      "id": "Adductor",
+      "verdict": "accept",
+      "filesViewed": [
+        "01-appoggio-v2.png",
+        "02-scorri-v2.png"
+      ],
+      "observations": [
+        "Corrected leg is visibly flexed rather than straight splayed; both forearms support torso, other leg remains extended.",
+        "Roller visibly contacts underside/medial region of working thigh and second pose shifts contact toward distal thigh above bent knee; yellow arrow clarifies longitudinal travel.",
+        "Shoe/leg shape changes modestly but no joint discontinuity or extra anatomy. Knee flexion is less than the 90-degree prompt in projection, but exercise text does not require exact angle and medial contact remains readable."
+      ],
+      "requiredFixes": []
+    },
+    {
+      "id": "Adductor_Groin",
+      "verdict": "accept",
+      "filesViewed": [
+        "01-contrazione-isometrica-v2.png",
+        "02-rilassamento-assistito-v2.png"
+      ],
+      "observations": [
+        "Two distinct phases now clear: inward arrows represent resisted attempted closing; second pose has visibly slightly wider V and outward arrows.",
+        "Helper hands contact ankles, not knees; balanced kneeling posture, athlete head/back supported, comfortable rather than extreme spread.",
+        "Camera and anatomy consistent; helper shirt plain and athlete branding retained. Isometric phase correctly has no actual inward motion."
+      ],
+      "requiredFixes": []
+    },
+    {
+      "id": "All_Fours_Quad_Stretch",
+      "verdict": "accept",
+      "filesViewed": [
+        "01-allungamento-v2.png"
+      ],
+      "observations": [
+        "Deep knee flexion now clear with heel near buttock and hand holding ankle/shoe.",
+        "Lifted knee now close to grounded knee and thigh no longer projects widely sideways as in rejected v1; working leg routes backward rather than sideways.",
+        "Some torso opening remains natural to ipsilateral reach and camera, but not enough to read as side plank/bow; planted palm under shoulder and opposite grounded knee/shin form clear supports. One static hold sufficient."
+      ],
+      "requiredFixes": []
+    },
+    {
+      "id": "Alternating_Hang_Clean",
+      "verdict": "defer",
+      "filesViewed": [
+        "01-sospensione.png",
+        "02-transizione-destra-v3.png",
+        "02-girata-destra.png",
+        "04-transizione-sinistra-v3.png",
+        "03-girata-sinistra.png"
+      ],
+      "observations": [
+        "Endpoints correctly alternate right/left rack while other bell hangs; neutral wrists and bell-on-forearm contact plausible.",
+        "Added transitions preserve hinge and show bell close to body with hip arrows, but torso and knees are essentially as flexed as starting hang while working elbow already flexes substantially (roughly 60-90 degrees in projection).",
+        "Transition consequently reads as a bent-over pull/row rather than clear hip/knee drive before hand insertion. Yellow hip arrow does not resolve this timing contradiction; actual rotation/hand insertion is still inferred abruptly from low bell to rack.",
+        "Other framing/equipment identity good; defect is movement instruction, not file quality."
+      ],
+      "requiredFixes": [
+        "Do not publish current clean sequence as accepted. After the prior two correction rounds, defer per routine. Future remake should explicitly show hip/knee extension first with bell rising near straight arm, then close-body hand insertion without high elbow row."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "reviewer": "images_c independent cross-review",
+  "createdAt": "2026-10-26",
+  "method": "Read entire catalog instructions and generation records; visually opened every available PNG individually with view_image. Original character sheet inspected. This is automated visual review, not trainer approval.",
+  "results": [
+    {
+      "id": "Alternating_Hang_Clean",
+      "status": "needsCorrection",
+      "inspected": [
+        "01-sospensione.png",
+        "02-girata-destra.png",
+        "03-girata-sinistra.png"
+      ],
+      "reason": "Hang and both finished shoulder-rack poses are individually intelligible, but the explosive hip-driven clean is not shown: endpoints could also describe alternating curls. The wrist insertion/close-to-body rising path needed to distinguish a clean from a curl is absent. Stance also narrows between hang and rack, minor equipment continuity otherwise plausible.",
+      "neededPhase": "Add a distinct rising/hip-extension transition before each shoulder rack, showing bell traveling close to body and hand insertion while opposite bell remains suspended. Keep feet fixed; return uses existing hang pose without duplicate PNG.",
+      "poseChecks": "Anatomy, grips and rack bell contact plausible. Original identity/clothes/logo consistent; full framing.",
+      "trainerReview": "not performed"
+    },
+    {
+      "id": "Alternating_Kettlebell_Press",
+      "status": "needsCorrection",
+      "inspected": [
+        "01-rack.png",
+        "02-distensione-destra.png",
+        "03-distensione-sinistra.png"
+      ],
+      "reason": "All necessary keyframes and both sides exist and communicate an alternating overhead press. However 03 shows visible lateral torso lean/shoulder displacement relative to pelvis unlike neutral upright 01/02, and changes head/body alignment rather than only moving arm. No need to add redundant intermediate/return phase.",
+      "neededPhase": "Correct 03-distensione-sinistra.png to retain neutral vertical torso, head, hips, feet and fixed body scale of starting rack while only left arm extends overhead.",
+      "poseChecks": "Two matching bells, hands, stable feet, visible original left-chest logo and uncropped overhead bells good. Correcting torso continuity is the material remaining issue.",
+      "trainerReview": "not performed"
+    },
+    {
+      "id": "Alternating_Kettlebell_Row",
+      "status": "needsCorrection",
+      "inspected": [
+        "generation-records/rejected/Alternating_Kettlebell_Row/01-iniziale.png",
+        "generation-records/rejected/Alternating_Kettlebell_Row/02-destra.png",
+        "generation-records/rejected/Alternating_Kettlebell_Row/03-sinistra-rifiutata.png",
+        "generation-records/rejected/Alternating_Kettlebell_Row/04-correzione-rifiutata.png",
+        "generation-records/rejected/Alternating_Kettlebell_Row/05-correzione-rifiutata.png"
+      ],
+      "reason": "Deferred correctly: all attempted opposite-side contractions still raise same near-side bell/arm. Complete bilateral movement is absent; rejected images must not enter catalog.",
+      "neededPhase": "A genuinely far-side arm contraction keeping near arm extended and torso fixed; preserve deferred status after already exhausted two corrections unless a later authorized new attempt succeeds.",
+      "poseChecks": "Initial hinge and first contraction plausible. Far-side bell never rises in rejected alternatives. No final accepted images directory exists.",
+      "trainerReview": "not performed"
+    },
+    {
+      "id": "Alternating_Renegade_Row",
+      "status": "needsCorrection",
+      "inspected": [
+        "01-plank.png",
+        "02-remata-destra.png",
+        "03-remata-sinistra.png"
+      ],
+      "reason": "Core sequence is complete and understandable: both grounded handles, first row, opposite row, stable wide foot contacts and return via initial pose. However every pose depicts chin/face lifted markedly forward while trunk is inclined, visibly extending neck rather than keeping head in line with trunk. This is a correction to the displayed technique, not a missing transition. Some torso rotation in unilateral row is visible but no gross sag or collapsing support.",
+      "neededPhase": "Correct head/neck alignment in all three existing keyframes, gaze toward floor ahead of grounded handles, while keeping original identity and hips/feet/grounded bell positions. No extra PNG needed.",
+      "poseChecks": "Both separate arm contractions visible, accurate two grips, grounded flat-base kettlebell support retained, body and equipment fully visible, original identity/clothes/logo consistent.",
+      "trainerReview": "not performed"
+    },
+    {
+      "id": "3_4_Sit-Up",
+      "status": "needsCorrection",
+      "inspected": [
+        "01-partenza.png",
+        "02-salita.png",
+        "03-ritorno-parziale.png"
+      ],
+      "reason": "Full movement is understandable and has required three distinct positions: initial supine, near-vertical top, partial descent clearly above floor. No missing intermediate necessary. But top frame moves feet/anchor roughly 150px lower on canvas and pelvis lower/right relative to fixed start/partial-descent scene; apparent camera/floor shift violates fixed equipment/camera continuity.",
+      "neededPhase": "Reframe/regenerate only 02-salita.png using identical anchor/feet/pelvis ground coordinates and camera as 01/03 while torso rotates upward. Keep full headroom and original character logo. Do not change required three-quarter return to full supine.",
+      "poseChecks": "Anatomy/hand placement/foot block plausible, no clipping, branding remains; 01 head resting and 03 head/shoulders raised correctly differ. 02 top is approximately upright.",
+      "trainerReview": "not performed"
+    }
+  ]
+}

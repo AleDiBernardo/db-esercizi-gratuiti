@@ -1,0 +1,69 @@
+{
+  "id": "Atlas_Stones",
+  "createdAt": "2026-10-26",
+  "status": "deferred",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [],
+  "motionOrder": [
+    "01-presa-terra.png",
+    "02-appoggio-cosce.png",
+    "03-estensione.png",
+    "04-caricamento.png"
+  ],
+  "executionCycle": "Presa sotto la sfera → distacco e passaggio oltre ginocchia → appoggio sulle cosce e cambio presa → estensione con sfera al busto → caricamento controllato sulla piattaforma. Il caricamento completa la ripetizione; il riposizionamento a terra è una fase separata sotto supervisione, non un invito a farla cadere né a recuperarla con presa instabile. Per una variante senza caricamento, il ritorno passa dal torace all'appoggio sulle cosce, cambio presa inferiore, flessione controllata fino a terra.",
+  "sources": [
+    "exercises.json:Atlas_Stones",
+    "IMAGE-ROUTINE.md",
+    "https://cdn.uksca.org.uk/assets/pdfs/UkscaIqPdfs/strongman-training-a-rationale-for-its-inclusion-in-sc-part-1-636830627182078399.pdf",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8418215/",
+    "https://www.roguefitness.com/theindex/movement/how-to-lift-an-atlas-stone"
+  ],
+  "technicalDecision": "Used UKSCA neutral-spine description rather than amplifying dataset backward torso-lean cue. Lap regrip and loading phases supported by primary biomechanical study.",
+  "checks": {
+    "automaticVisualInspection": "Movement, anatomy, hand contact, support and loading plausible in each image; requires independent review for residual visual equipment continuity differences: sphere appears modestly larger in standing/loading phase and platform shifts slightly in phase3 despite correction.",
+    "trainerReview": "not performed"
+  },
+  "drafts": [
+    {
+      "prompt": "Create ONE landscape 3:2 realistic fitness illustration PNG, ivory background floor soft shadows. Original attached Misurami character sheet authoritative exact male identity curly dark hair beard athletic proportions charcoal shirt original small yellow-white Misurami logo on anatomical LEFT chest, charcoal shorts yellow stripe black shoes. Atlas Stones exercise PHASE 1 ground grip: one gray rough concrete SPHERE about 40cm diameter on floor between feet, toes slightly open stance wide enough for stone and arms. Athlete bends hips and knees into crouch, braced torso with natural spine, both arms nearly straight wrapping DOWN around outside of sphere, both palms/fingers securely cupping its lower sides, no curled biceps lifting yet. Head follows neutral spine with gaze slightly ahead. Entire body stone and shoes visible. Include one simple solid stable square gray platform immediately in FRONT of athlete to his right in image, platform top around lower sternum height of standing athlete, EMPTY initially. Camera fixed three-quarter front view from his left side, body centered-left platform centered-right, generous margin overhead to include standing endpoint without zoom changes. Do not put sphere on platform yet. Accurate hands five fingers natural joints. No belts straps other people text numbers captions arrows. Keep this exact stone diameter platform shape load camera floor and body scale for subsequent phases.",
+      "reason": "insufficient standing clearance, reframed before subsequent phases"
+    },
+    {
+      "prompt": "Atlas Stones PHASE 3 SECOND PULL, ONE 3:2 PNG realistic ivory scene. FIRST original Misurami identity sheet authoritative face clothing logo; SECOND initial scene and THIRD lap phase fix exact camera scale scene platform texture geometry and same concrete sphere diameter. Athlete now STANDS TALL by extending hips and knees, torso BRACED nearly upright without excessive backward lumbar arch, same sphere hugs upper abdomen/lower chest guided with both arms wrapping upper sides, hands over upper hemisphere as lap regrip. Feet flat stable and same location as lap (may be a small step toward right-hand platform). Both legs comfortably straight without hyperextension. Stone lower edge is now around platform top height as he prepares to load onto it, but stone not resting on platform yet. Platform unchanged empty right side. Entire head feet hands stone platform fully visible; do not change body proportions/load or stone size. Original left chest logo partially occluded naturally if sphere overlaps it. No captions arrows numbers text.",
+      "reason": "sphere scale/platform shifted; correction applied"
+    },
+    {
+      "prompt": "Atlas Stones PHASE4 loaded endpoint: ONE realistic landscape3:2 PNG ivory background floor. First original Misurami reference authoritative male identity face clothes logo. SECOND exercise scene sets EXACT platform camera framing geometry and placement; THIRD standing pose sets man and same sphere. Athlete has taken a short step toward right-hand platform, leaned forward from hips with braced neutral spine and knees softly bent to GUIDE SAME concrete sphere onto TOP of platform. Sphere now fully rests on platform surface near its near-left edge but securely inside, its entire bottom in contact and supported, both hands remain on upper/back sides to control it. No backward arch, no tossing or extra stone. Athlete feet flat firmly planted beside platform, body facing stone naturally. Original man same body scale and same diameter sphere about165px; same platform dimension as phase1 and lap. Entire man head shoes hands stone platform visible no cropping no zoom, no arrows titles captions text. End is controlled placement on platform, not a curl at chest.",
+      "reason": "equipment scale drift"
+    },
+    {
+      "prompt": "Edit THIRD loaded endpoint draft to FIX EQUIPMENT SCALE AND CAMERA using SECOND lap image as immutable reference. FIRST original character identity exact clothes logo. Final scene MUST have exact same solid platform width370px (left905 right1275 top550 bottom865) and exact sphere diameter165px as SECOND reference in1536x1024. Shrink current endpoint platform and sphere to those dimensions; do not enlarge man. Athlete stands LEFT beside platform, hips slightly hinged neutral braced back and soft knees, holds stone already resting fully on top near left edge x1000,y470, both hands guiding upper sides; natural straight wrists fingers. Shoes aroundy850, head abouty150. Scene reads same camera as phase2 despite standing motion. Exact original man and charcoal/yellow clothing original Misurami logo left chest. No arrows text extra equipment. One landscape3:2 realistic ivory PNG.",
+      "reason": "platform moved; second correction applied"
+    }
+  ],
+  "rejectedDrafts": 4,
+  "reason": "Scala della sfera e posizione della piattaforma incoerenti fra le fasi dopo correzioni; sequenza non pubblicata.",
+  "draftPhases": [
+    {
+      "file": "01-presa-terra.png",
+      "description": "Presa bassa della sfera a terra con braccia quasi distese e anche/ginocchia flesse.",
+      "prompt": "Edit second Atlas Stones starting scene, original first Misurami identity remains authoritative. Keep exactly same crouched ground grip pose, same sphere same solid square platform and distances. ONLY zoom camera OUT 25 percent and center scene in lower-middle so athlete at full standing height will fit above his shoes without cropping or future zoom change: at least 300px ivory empty space above current crouched head in 1536x1024 canvas, shoes near y900. Neutral natural back, both nearly straight arms cupping stone lower sides. Entire body stone platform fully visible, same lighting clothing logo original left chest, no text. ONE landscape 3:2 realistic PNG."
+    },
+    {
+      "file": "02-appoggio-cosce.png",
+      "description": "Sfera appoggiata alle cosce, cambio della presa verso la porzione superiore.",
+      "prompt": "Generate Atlas Stones PHASE 2 lap-and-regrip from SECOND exercise scene reference. FIRST original Misurami sheet exact identity and charcoal clothing original left-chest logo authoritative. SAME exact fixed camera zoom body scale floor and platform dimensions position texture, same ONE concrete sphere diameter around 160px in 1536x1024 frame. Athlete has lifted stone past knees then sat back into supported squat: knees now slightly closer together creating thigh shelf, stone rests SECURELY ON BOTH THIGHS just above knees, pressed against lower chest and abdomen. Both hands have CHANGED GRIP to upper sides/top of stone with forearms hugging around upper hemisphere; fingers naturally spread downward onto stone, no curled underhand biceps grip now. Head torso braced natural alignment, feet flat close to previous spots. Platform still empty unchanged on right. Entire man stone platform in frame with generous upper margin, no text numbers arrows captions. Realistic ivory PNG 3:2."
+    },
+    {
+      "file": "03-estensione.png",
+      "description": "Estensione di anche e ginocchia con sfera guidata al torace senza iperestensione lombare.",
+      "prompt": "Correct THIRD exercise image (standing Atlas stone phase) using SECOND initial scene as exact equipment/camera anchor and FIRST original character identity. Keep standing pose neutral spine natural arms hugging stone upper sides and original man clothing. CRITICAL: sphere diameter must be same as SECOND image around165px NOT200px at 1536x1024, same rough concrete texture; shrink sphere modestly to match starting weight, adjust hands naturally around it. Platform MUST stay exact size and place of SECOND: left edge x905 top y550, right edge1275 bottom865, same concrete. Keep feet floor aroundy850, body original scene scale and head fully visible, no zoom or pan. Standing stone hugged at abdomen lower chest, bottom just above platform top, shoulders relaxed no biceps curling. ONE realistic ivory landscape3:2 PNG no text arrows."
+    },
+    {
+      "file": "04-caricamento.png",
+      "description": "Sfera controllata e interamente sostenuta dalla piattaforma.",
+      "prompt": "Transform SECOND scene reference ONLY from crouched starting grip into Atlas Stone LOADED endpoint. Preserve existing scene camera and EXACT existing gray cube platform: DO NOT redraw resize move or change texture of platform or floor. Keep exact original gray sphere diameter and texture, relocate it from floor to resting ON TOP of same cube. Move man naturally to stand adjacent LEFT side of cube, same body scale, slight forward hip hinge neutral spine knees soft, BOTH hands guiding sphere upper sides. His entire head and shoes in frame. Original FIRST character sheet authoritative face charcoal clothing yellow stripe and original small Misurami logo anatomical left chest. The cube stays EXACT where it is on right, sphere stays exact diameter as original. Full stable contact stone on platform, not floating. No other modifications, no text captions arrows. ONE landscape3:2 realistic ivory PNG."
+    }
+  ]
+}

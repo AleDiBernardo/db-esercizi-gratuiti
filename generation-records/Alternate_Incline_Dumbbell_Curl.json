@@ -1,0 +1,142 @@
+{
+  "id": "Alternate_Incline_Dumbbell_Curl",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [],
+  "executionOrder": [
+    "01-partenza.png",
+    "02-curl-destro.png",
+    "01-partenza.png",
+    "03-curl-sinistro.png",
+    "01-partenza.png"
+  ],
+  "executionNotes": "Initial pose, right contraction, controlled return to initial, left contraction, controlled return; no redundant PNG for the same return pose.",
+  "sources": [
+    "exercises.json:Alternate_Incline_Dumbbell_Curl",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "FAILED independent audit; replacement attempts rejected. Existing files preserved for history, not accepted for publication.",
+    "fileValidation": "PNG readability and landscape 3:2 verified",
+    "trainerReview": "not performed"
+  },
+  "rejectedDrafts": 2,
+  "corrections": [
+    {
+      "prompt": "ONE landscape3:2 realistic fitness PNG ivory floor background, all body bench dumbbells visible with generous margins. First attached original Misurami character is authoritative identity face hair beard proportions clothes original yellow/white left chest logo charcoal shirt shorts yellow stripe black shoes. Seated alternating incline dumbbell curl PHASE1 starting: black adjustable bench backrest inclined about 55degrees above horizontal, pelvis seat and entire back/head comfortably supported, feet flat shoulder width. Both upper arms hang down vertically beside torso, shoulders extended slightly relative inclined torso; both elbows extended comfortably with identical small black hex dumbbells beside bench, palms initially toward torso neutral. Accurate natural hands wrap center handles thumbs closed. Front three-quarter view showing both arms bench back feet with no occlusion. Same fixed camera scale bench weights load and floor for following phases. No labels numbers captions arrows panels.",
+      "result": "far dumbbell/hand occluded by bench"
+    },
+    {
+      "prompt": "Correct second reference incline curl starting image. Keep original Misurami man from first sheet exact identity clothing chest logo. Make camera much closer to FRONTAL, only slight three-quarter angle, so BOTH arms hands and BOTH identical black hex dumbbells are fully visible outside the bench and outer thighs, no occlusion by seat or knees. Both upper arms vertical beside torso, elbows extended, neutral grip palms toward torso. Same black adjustable bench back inclined about55degrees, same body back pelvis supported and both feet flat. Full body full bench all weights with margins on landscape3:2 ivory floor. Natural accurate fingers center grip and joints. No captions text numbers arrows panels.",
+      "result": "far dumbbell still occluded"
+    },
+    {
+      "prompt": "Create a new exercise PNG landscape3:2 realistic ivory background. EXACT FRONT VIEW CAMERA, camera directly facing man with perfect left-right symmetry, NOT three-quarter NOT side angle. Use attached original Misurami character identity and clothes exactly with original left chest logo. Man seated on black incline bench with backrest reclined 55degrees, feet flat wide enough at shoulder width, back pelvis head supported. Start of incline alternating dumbbell curl: BOTH arms hang vertically OUTSIDE thighs and bench, hands separated from thighs by small visible gap, each hand holds identical black hex dumbbell centered with neutral palms toward torso. Camera must show BOTH entire dumbbells and BOTH entire hands UNOBSTRUCTED, never hidden behind seat or legs. Use a narrow bench seat to keep dumbbells clear at sides. All body bench frame shoes weights visible with large margins. Arms extended no curling yet. Accurate natural hands fingers wrists anatomy. Ivory floor subtle shadows. No text numbers arrows panels.",
+      "result": "accepted frontal view with both weights and hands visible"
+    }
+  ],
+  "correctionHistory": [
+    {
+      "date": "2026-10-26",
+      "reason": "Independent full-motion visual audit after user reported unclear/incomplete images",
+      "previousRecord": {
+        "id": "Alternate_Incline_Dumbbell_Curl",
+        "createdAt": "2026-10-26",
+        "generator": "integrated image_gen",
+        "reference": "references/misurami-personaggio.png",
+        "phases": [
+          {
+            "file": "01-partenza.png",
+            "description": "Seduto sulla panca inclinata, entrambi i manubri abbassati.",
+            "prompt": "Create a new exercise PNG landscape3:2 realistic ivory background. EXACT FRONT VIEW CAMERA, camera directly facing man with perfect left-right symmetry, NOT three-quarter NOT side angle. Use attached original Misurami character identity and clothes exactly with original left chest logo. Man seated on black incline bench with backrest reclined 55degrees, feet flat wide enough at shoulder width, back pelvis head supported. Start of incline alternating dumbbell curl: BOTH arms hang vertically OUTSIDE thighs and bench, hands separated from thighs by small visible gap, each hand holds identical black hex dumbbell centered with neutral palms toward torso. Camera must show BOTH entire dumbbells and BOTH entire hands UNOBSTRUCTED, never hidden behind seat or legs. Use a narrow bench seat to keep dumbbells clear at sides. All body bench frame shoes weights visible with large margins. Arms extended no curling yet. Accurate natural hands fingers wrists anatomy. Ivory floor subtle shadows. No text numbers arrows panels."
+          },
+          {
+            "file": "02-curl-destro.png",
+            "description": "Flessione del gomito destro e supinazione della mano.",
+            "prompt": "Edit second exercise reference incline dumbbell curl frontal image into PHASE2 right-arm contraction. ORIGINAL first character sheet authoritative. Lock exact front camera framing, bench geometry recline angle, face clothing original left chest logo, feet floor lighting scale and same two black hex dumbbells. Change ONLY right forearm viewer LEFT: flex right elbow to lift dumbbell toward right shoulder while supinating wrist PALM UP; dumbbell axis horizontal left-to-right at shoulder height, fingers naturally wrap handle. Right upper arm stays beside torso vertical, elbow close body. Left arm viewer RIGHT remains fully extended neutral down beside thigh with same dumbbell. Back and pelvis supported bench, head neutral no torso swing. Full body entire bench all weights with margins realistic landscape3:2 ivory no text captions arrows numbers panels."
+          },
+          {
+            "file": "03-curl-sinistro.png",
+            "description": "Flessione del gomito sinistro e supinazione dopo ritorno alla partenza.",
+            "prompt": "Edit second exercise reference incline dumbbell curl frontal starting image into PHASE3 left-arm contraction. First original Misurami sheet authoritative identity. EXACT same front camera framing bench recline body posture scale feet floor head face clothes original left chest logo and black hex dumbbell size/load. Anatomical LEFT arm viewer RIGHT curls: flex elbow lifting left dumbbell toward same shoulder while wrist rotates to PALM UP supination, dumbbell axis horizontal left-right. Upper left arm remains vertical beside torso elbow close body. Right arm viewer LEFT stays extended down neutral beside thigh, right dumbbell unchanged from start. Back head pelvis supported on bench no torso swing. Natural grip fingers thumb wrist joints. Full body all weights bench margins, landscape3:2 ivory realistic illustration no text captions numbers arrows panels."
+          }
+        ],
+        "executionOrder": [
+          "01-partenza.png",
+          "02-curl-destro.png",
+          "01-partenza.png",
+          "03-curl-sinistro.png",
+          "01-partenza.png"
+        ],
+        "executionNotes": "Initial pose, right contraction, controlled return to initial, left contraction, controlled return; no redundant PNG for the same return pose.",
+        "sources": [
+          "exercises.json:Alternate_Incline_Dumbbell_Curl",
+          "IMAGE-ROUTINE.md"
+        ],
+        "checks": {
+          "automaticVisualInspection": "FAILED independent audit; replacement attempts rejected. Existing files preserved for history, not accepted for publication.",
+          "fileValidation": "PNG readability and landscape 3:2 verified",
+          "trainerReview": "not performed"
+        },
+        "rejectedDrafts": 2,
+        "corrections": [
+          {
+            "prompt": "ONE landscape3:2 realistic fitness PNG ivory floor background, all body bench dumbbells visible with generous margins. First attached original Misurami character is authoritative identity face hair beard proportions clothes original yellow/white left chest logo charcoal shirt shorts yellow stripe black shoes. Seated alternating incline dumbbell curl PHASE1 starting: black adjustable bench backrest inclined about 55degrees above horizontal, pelvis seat and entire back/head comfortably supported, feet flat shoulder width. Both upper arms hang down vertically beside torso, shoulders extended slightly relative inclined torso; both elbows extended comfortably with identical small black hex dumbbells beside bench, palms initially toward torso neutral. Accurate natural hands wrap center handles thumbs closed. Front three-quarter view showing both arms bench back feet with no occlusion. Same fixed camera scale bench weights load and floor for following phases. No labels numbers captions arrows panels.",
+            "result": "far dumbbell/hand occluded by bench"
+          },
+          {
+            "prompt": "Correct second reference incline curl starting image. Keep original Misurami man from first sheet exact identity clothing chest logo. Make camera much closer to FRONTAL, only slight three-quarter angle, so BOTH arms hands and BOTH identical black hex dumbbells are fully visible outside the bench and outer thighs, no occlusion by seat or knees. Both upper arms vertical beside torso, elbows extended, neutral grip palms toward torso. Same black adjustable bench back inclined about55degrees, same body back pelvis supported and both feet flat. Full body full bench all weights with margins on landscape3:2 ivory floor. Natural accurate fingers center grip and joints. No captions text numbers arrows panels.",
+            "result": "far dumbbell still occluded"
+          },
+          {
+            "prompt": "Create a new exercise PNG landscape3:2 realistic ivory background. EXACT FRONT VIEW CAMERA, camera directly facing man with perfect left-right symmetry, NOT three-quarter NOT side angle. Use attached original Misurami character identity and clothes exactly with original left chest logo. Man seated on black incline bench with backrest reclined 55degrees, feet flat wide enough at shoulder width, back pelvis head supported. Start of incline alternating dumbbell curl: BOTH arms hang vertically OUTSIDE thighs and bench, hands separated from thighs by small visible gap, each hand holds identical black hex dumbbell centered with neutral palms toward torso. Camera must show BOTH entire dumbbells and BOTH entire hands UNOBSTRUCTED, never hidden behind seat or legs. Use a narrow bench seat to keep dumbbells clear at sides. All body bench frame shoes weights visible with large margins. Arms extended no curling yet. Accurate natural hands fingers wrists anatomy. Ivory floor subtle shadows. No text numbers arrows panels.",
+            "result": "accepted frontal view with both weights and hands visible"
+          }
+        ]
+      },
+      "attempts": [
+        {
+          "prompt": "ONE realistic landscape3:2 exercise PNG warm ivory floor/background all body bench dumbbells visible with generous margins. ORIGINAL attached Misurami character exact face hair beard physique charcoal shirt ORIGINAL small yellowwhite leftchest logo charcoal shorts yellowstripe black shoes. INCLINE alternating dumbbell curl INITIAL. CAMERA front LEFT THREE-QUARTER at 25degrees from frontal, enough SIDE PERSPECTIVE to clearly show backrest reclined BACKWARD at55degrees from FLOOR (not90degree vertical chair). Show long backrest diagonal and metal rear adjustment strut. Man's torso reclines against bench with head shoulders back pelvis supported on same55degree slope. Feet firmly flat apart. Narrow bench seat, elbows extended arms hanging VERTICALLY DOWN toward floor, behind torso's diagonal line, ONE IDENTICAL black hex dumbbell each hand. Both entire hands and both weights fully visible OUTSIDE thighs/bench with clear floor gaps; far arm slightly outboard solely to avoid hiding weight, no crossed arms. Neutral palms toward torso initial, natural fingers centergrip wrists. This must visibly read INCLINED RECLINED bench curl, not upright seated curl. No captions labels arrows numbers.",
+          "file": "/workspace/generated_images/exec-ea9bc8ea-6e23-4fa6-90a1-51389a3b5b1c.png",
+          "result": "rejected: far hand/dumbbell hidden under seat"
+        },
+        {
+          "prompt": "Correct second incline curl reference. First original Misurami sheet authoritative identity. Preserve clearly reclined55degree backrest and supported diagonal torso but rotate CAMERA closer to FRONTAL (only15degrees from frontal) so FAR LEFT ARM is visible. FAR LEFT hand/dumbbell currently hidden under seat: position that entire arm OUTSIDE LEFT THIGH on viewer RIGHT edge, slight shoulder abduction15degrees so far hand has a visible GAP from outside left thigh/seat, both dumbbell heads handle ALL fingers visible. Both arms straight hanging toward floor, palms initially neutral. Do NOT place far weight beneath bench. Feet flat same, bench same construction recline, entire body equipment visible margins ivory floor. Need both hands fully readable AND inclined bench visible. Accurate anatomy original leftchest logo clothes, one landscape3:2 PNG no captions arrows panels.",
+          "file": "/workspace/generated_images/exec-d27922b5-e752-4e92-8642-f49a0735ded2.png",
+          "result": "failed_correction1: far forearm and inner dumbbell head still hidden under seat"
+        },
+        {
+          "prompt": "Correct second exercise image only FAR LEFT ARM and its dumbbell. First original Misurami character reference identity. Far hand is currently BETWEEN LEGS underneath seat, incorrect. Put FAR LEFT ELBOW outside FAR LEFT HIP at image x=1090,y=430, far FOREARM descends OUTSIDE far left thigh toward image x=1200,y=625. Far left HAND holds horizontal identical black hex dumbbell at image x=1210,y=650, CLEARLY TO RIGHT OF FAR THIGH with ivory gap, NOT between legs or beneath seat. An entire arm from shoulder through elbow wrist hand must be visible on OUTER RIGHT SILHOUETTE. Slight arm abduction necessary acceptable. Keep left elbow extended, upper arm stationary near torso. Keep near right arm and dumbbell, bench55degree recline torso supported feet flat fixed EXACT camera. Show both full dumbbells and grips. Full body margins original clothes logo 3:2 realistic ivory no titles captions arrows. This is initial both arms straight down no curl.",
+          "file": "/workspace/generated_images/exec-c3011af1-73bf-4673-adaf-aecdd5d9b40b.png",
+          "result": "failed_correction2: hand now entirely hidden behind thigh and half far weight visible"
+        }
+      ]
+    }
+  ],
+  "status": "deferred",
+  "deferralReason": "Two correction attempts failed to show entire far forearm/hand/dumbbell on visibly reclined bench; original frontal sequence does not establish incline. Do not count sequence as accepted until root decision.",
+  "reason": "Dopo due correzioni la panca inclinata e la presa della mano lontana non sono contemporaneamente leggibili.",
+  "rejectedVersions": [
+    {
+      "phases": [
+        {
+          "file": "01-partenza.png",
+          "description": "Seduto sulla panca inclinata, entrambi i manubri abbassati.",
+          "prompt": "Create a new exercise PNG landscape3:2 realistic ivory background. EXACT FRONT VIEW CAMERA, camera directly facing man with perfect left-right symmetry, NOT three-quarter NOT side angle. Use attached original Misurami character identity and clothes exactly with original left chest logo. Man seated on black incline bench with backrest reclined 55degrees, feet flat wide enough at shoulder width, back pelvis head supported. Start of incline alternating dumbbell curl: BOTH arms hang vertically OUTSIDE thighs and bench, hands separated from thighs by small visible gap, each hand holds identical black hex dumbbell centered with neutral palms toward torso. Camera must show BOTH entire dumbbells and BOTH entire hands UNOBSTRUCTED, never hidden behind seat or legs. Use a narrow bench seat to keep dumbbells clear at sides. All body bench frame shoes weights visible with large margins. Arms extended no curling yet. Accurate natural hands fingers wrists anatomy. Ivory floor subtle shadows. No text numbers arrows panels."
+        },
+        {
+          "file": "02-curl-destro.png",
+          "description": "Flessione del gomito destro e supinazione della mano.",
+          "prompt": "Edit second exercise reference incline dumbbell curl frontal image into PHASE2 right-arm contraction. ORIGINAL first character sheet authoritative. Lock exact front camera framing, bench geometry recline angle, face clothing original left chest logo, feet floor lighting scale and same two black hex dumbbells. Change ONLY right forearm viewer LEFT: flex right elbow to lift dumbbell toward right shoulder while supinating wrist PALM UP; dumbbell axis horizontal left-to-right at shoulder height, fingers naturally wrap handle. Right upper arm stays beside torso vertical, elbow close body. Left arm viewer RIGHT remains fully extended neutral down beside thigh with same dumbbell. Back and pelvis supported bench, head neutral no torso swing. Full body entire bench all weights with margins realistic landscape3:2 ivory no text captions arrows numbers panels."
+        },
+        {
+          "file": "03-curl-sinistro.png",
+          "description": "Flessione del gomito sinistro e supinazione dopo ritorno alla partenza.",
+          "prompt": "Edit second exercise reference incline dumbbell curl frontal starting image into PHASE3 left-arm contraction. First original Misurami sheet authoritative identity. EXACT same front camera framing bench recline body posture scale feet floor head face clothes original left chest logo and black hex dumbbell size/load. Anatomical LEFT arm viewer RIGHT curls: flex elbow lifting left dumbbell toward same shoulder while wrist rotates to PALM UP supination, dumbbell axis horizontal left-right. Upper left arm remains vertical beside torso elbow close body. Right arm viewer LEFT stays extended down neutral beside thigh, right dumbbell unchanged from start. Back head pelvis supported on bench no torso swing. Natural grip fingers thumb wrist joints. Full body all weights bench margins, landscape3:2 ivory realistic illustration no text captions numbers arrows panels."
+        }
+      ],
+      "reason": "Dopo due correzioni la panca inclinata e la presa della mano lontana non sono contemporaneamente leggibili."
+    }
+  ]
+}

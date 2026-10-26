@@ -38,7 +38,7 @@
     },
     {
       "id": "3_4_Sit-Up",
-      "reason": "Fase alta: piedi e ancoraggio cambiano posizione rispetto alle altre fasi; correggere continuità."
+      "reason": "Dopo due correzioni la fase alta non conserva insieme ancoraggio e busto perpendicolare richiesto; sequenza ritirata."
     },
     {
       "id": "Ab_Crunch_Machine",
@@ -54,11 +54,27 @@
     },
     {
       "id": "Alternating_Hang_Clean",
-      "reason": "Mancano transizioni leggibili di spinta delle anche e inserimento della mano nella girata."
+      "reason": "Le transizioni restano assimilabili a curl/rematore con gomito già flesso prima della chiara estensione delle anche; rinviato dopo due correzioni."
     },
     {
       "id": "Alternating_Kettlebell_Row",
       "reason": "Opposite-side row repeats near-side arm after two failed correction attempts; no complete bilateral sequence accepted."
+    },
+    {
+      "id": "Alternate_Heel_Touchers",
+      "reason": "Dopo due tentativi di correzione il contatto sul tallone e la flessione laterale non sono leggibili senza ambiguità."
+    },
+    {
+      "id": "Alternate_Incline_Dumbbell_Curl",
+      "reason": "Dopo due correzioni la panca inclinata e la presa della mano lontana non sono contemporaneamente leggibili."
+    },
+    {
+      "id": "Atlas_Stones",
+      "reason": "Scala della sfera e posizione della piattaforma incoerenti fra le fasi dopo correzioni; sequenza non pubblicata."
+    },
+    {
+      "id": "Alternate_Leg_Diagonal_Bound",
+      "reason": "Traiettoria diagonale e profondità dei contatti a terra incoerenti; freccia di direzione errata in una fase. Rinviato dopo correzioni."
     }
   ]
 }

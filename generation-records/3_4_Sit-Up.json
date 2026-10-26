@@ -3,7 +3,41 @@
   "createdAt": "2026-10-25",
   "generator": "integrated image_gen",
   "reference": "references/misurami-personaggio.png",
-  "phases": [
+  "phases": [],
+  "sources": [
+    "exercises.json:3_4_Sit-Up",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "needsReview: baseline full motion recognizable but top framing/camera mismatch; two corrections did not satisfy both fixed scene and vertical trunk",
+    "trainerReview": "not performed",
+    "technicalScope": "Illustrates repository instructions; not a professionally validated prescription"
+  },
+  "rejectedDrafts": 2,
+  "status": "deferred",
+  "independentReview": {
+    "date": "2026-10-26",
+    "verdict": "needs_correction",
+    "reason": "Fase alta: piedi e ancoraggio cambiano posizione rispetto alle altre fasi; correggere continuità."
+  },
+  "reason": "Dopo due correzioni la fase alta non conserva insieme ancoraggio e busto perpendicolare richiesto; sequenza ritirata.",
+  "correctionHistory": [
+    {
+      "date": "2026-10-26",
+      "reason": "Top-pose ankle anchor and floor continuity",
+      "newFile": "02-salita-v2.png",
+      "prompt": "ONE landscape3:2 PNG TOP phase of 3/4 SITUP with scene continuity correction. First ORIGINAL Misurami sheet authoritative identity exact face hair beard clothes left chest logo. Second attached SUPINE START is master floor/camera/scale. FREEZE feet shoes ankle anchor bar knees hips contact point in second image exactly, same canvas coordinates. Rotate ONLY TORSO from hips upward until upright perpendicular tofloor (shoulders vertically over hips), hands lightly beside temples without pulling neck elbows open. Third attached old top is pose guide ONLY, NOT floor/anchor coordinates: do not move feet/anchor lower on canvas as oldtop did. If headroom insufficient scale ENTIRE SCENE uniformly to fit but then preserve floor anchored geometry; prefer exact camera source. Original hip contact around x800 y700, feet/anchor around x1260 y700 from1536x1024 start. Head should fit upper half with margin. Natural slight spinal flexion, accurate anatomy two arms legs hands, heelsflat under unchanged padded anchor. Original Misurami charcoal logo shirt yellow stripe shorts black shoes. Ivory floor lighting same, all body/anchor visible, no captions labels arrows panels.",
+      "result": "rejected: anchor still displaced lower"
+    },
+    {
+      "date": "2026-10-26",
+      "reason": "Top-pose ankle anchor and floor continuity",
+      "newFile": "02-salita-v3.png",
+      "prompt": "EDIT the SECOND attached image, a supine situp starting pose, into TOP SITUP posture. Original character sheet first mandatory exact identity clothes logo. DO NOT USE A DIFFERENT CAMERA. LOCK all lower-body/anchor pixels: shoes and padded foot anchor must stay at existing lowerRIGHT coordinates around y650-750, NOT y850. Knees remain at same bend/positions, pelvis floor contact remains aroundx800,y700. Move only torso/head/arms: rotate torso upright90deg above SAME hip point, head now aroundx730,y150 with top margin, hands lightly by temples elbows open neckneutral. Important shoulders stacked ABOVE original pelvis, not moving pelvis toleft. This is seated upright with thighs remaining original orientation towardknees, not crunch reclined. Render original exact Misurami male curly hair beard charcoal shirt left chest logo shorts yellowstripe blackshoes. Ivory background floor, fixed camera/scale no zoom no entire image shift. Full body and anchor visible. No labels captions numbers arrows panels. Preserve original ankle anchor shape and sole locations literally.",
+      "result": "pending_root_review/defer recommended: anchor improved, torso still reclined"
+    }
+  ],
+  "draftPhases": [
     {
       "file": "01-partenza.png",
       "description": "Partenza supina, ginocchia piegate e piedi bloccati",
@@ -21,21 +55,5 @@
       "description": "Ritorno parziale con testa e spalle sollevate",
       "prompt": "Create one exercise instructional illustration, landscape aspect ratio 3:2. Use the attached local reference sheet explicitly: reproduce exactly its SAME male Misurami character identity, curly short dark hair, facial features, athletic proportions, charcoal fitted shirt with small yellow-white Misurami logo on LEFT CHEST, dark shorts yellow stripe, black shoes. Single figure only. Warm ivory background and ground, realistic clean illustration. Full body and equipment entirely in frame with generous margins, no panels, text, titles, numbers or captions except shirt branding. Exercise 3_4_Sit-Up (three-quarter sit-up). Phase 1 initial position: man lying supine, entire back and head on floor, knees bent roughly 90 degrees, feet flat securely beneath a low padded ankle anchor bar, hands lightly beside temples, elbows open, neutral relaxed neck. Side three-quarter camera seeing face and left chest, head on left of image and feet on right. Keep this exact camera/scale/ivory floor and small ankle anchor for subsequent phases. Anatomically correct hands and joints. No arrows.\nOVERRIDE POSE: Generate PHASE 3, PARTIAL DESCENT of the three-quarter sit-up: hips stay on ground, torso reclined backward to about 20-25 degrees ABOVE floor; shoulders and head visibly suspended ABOVE floor, abdominal contraction, neutral neck aligned with torso. Hands lightly beside temples, elbows open. This is the lower turning point of repeated three-quarter reps, not the initial supine rest. Feet and bent knees remain EXACTLY where shown with the same low padded anchor. Exact same camera, framing, scale, environment, equipment and clothing. Single figure. No arrows. Original sheet authoritative identity, second reference scene continuity."
     }
-  ],
-  "sources": [
-    "exercises.json:3_4_Sit-Up",
-    "IMAGE-ROUTINE.md"
-  ],
-  "checks": {
-    "automaticVisualInspection": "passed: inspected each final image for anatomy, hands, joints, foot support, anchor, sequence, character, left chest branding and framing; first and top phases corrected once",
-    "trainerReview": "not performed",
-    "technicalScope": "Illustrates repository instructions; not a professionally validated prescription"
-  },
-  "rejectedDrafts": 2,
-  "status": "pending_correction",
-  "independentReview": {
-    "date": "2026-10-26",
-    "verdict": "needs_correction",
-    "reason": "Fase alta: piedi e ancoraggio cambiano posizione rispetto alle altre fasi; correggere continuità."
-  }
+  ]
 }
