@@ -28,5 +28,19 @@
     "automaticVisualInspection": "passed: reviewed every image for anatomy, grip, stable rack wrist position, floor support, both alternating sides, original identity and chest branding, equipment and framing; slight stance-width variation between hinge and upright rack poses",
     "trainerReview": "not performed"
   },
-  "rejectedDrafts": 0
+  "rejectedDrafts": 0,
+  "executionSequence": [
+    "01-sospensione.png",
+    "02-girata-destra.png",
+    "01-sospensione.png",
+    "03-girata-sinistra.png",
+    "01-sospensione.png"
+  ],
+  "returnDescription": "Abbassare il carico con controllo alla posa iniziale prima di alternare lato; ripetere il ciclo.",
+  "status": "pending_correction",
+  "independentReview": {
+    "date": "2026-10-26",
+    "verdict": "needs_correction",
+    "reason": "Mancano transizioni leggibili di spinta delle anche e inserimento della mano nella girata."
+  }
 }

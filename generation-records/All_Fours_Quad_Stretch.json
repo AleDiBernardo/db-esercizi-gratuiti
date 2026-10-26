@@ -19,5 +19,15 @@
     "fileValidation": "PNG format, readability and 3:2 verified",
     "trainerReview": "not performed"
   },
-  "rejectedDrafts": 0
+  "rejectedDrafts": 0,
+  "executionOrder": [
+    "01-allungamento.png"
+  ],
+  "executionNotes": "Static hold 10-20 seconds, then release and change sides; one held pose suffices.",
+  "status": "pending_correction",
+  "independentReview": {
+    "date": "2026-10-26",
+    "verdict": "needs_correction",
+    "reason": "Bacino ruotato e coscia laterale; posizione in quadrupedia e flessione del ginocchio da correggere."
+  }
 }

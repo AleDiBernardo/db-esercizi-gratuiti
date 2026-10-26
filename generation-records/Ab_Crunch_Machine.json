@@ -32,5 +32,11 @@
     "trainerReview": "not performed",
     "technicalScope": "Illustrates repository instructions; not a professionally validated prescription"
   },
-  "rejectedDrafts": 0
+  "rejectedDrafts": 0,
+  "status": "pending_correction",
+  "independentReview": {
+    "date": "2026-10-26",
+    "verdict": "needs_correction",
+    "reason": "La struttura inferiore della macchina cambia fra le fasi; sequenza meccanicamente incoerente."
+  }
 }

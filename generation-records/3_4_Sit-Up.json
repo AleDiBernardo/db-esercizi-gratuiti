@@ -31,5 +31,11 @@
     "trainerReview": "not performed",
     "technicalScope": "Illustrates repository instructions; not a professionally validated prescription"
   },
-  "rejectedDrafts": 2
+  "rejectedDrafts": 2,
+  "status": "pending_correction",
+  "independentReview": {
+    "date": "2026-10-26",
+    "verdict": "needs_correction",
+    "reason": "Fase alta: piedi e ancoraggio cambiano posizione rispetto alle altre fasi; correggere continuità."
+  }
 }

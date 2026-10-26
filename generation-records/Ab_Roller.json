@@ -38,5 +38,11 @@
     "trainerReview": "not performed",
     "fileValidation": "PNG decode, 3:2 aspect ratio, unique IDs, complete sequence and raw URL/local-file matching"
   },
-  "rejectedDrafts": 2
+  "rejectedDrafts": 2,
+  "status": "deferred",
+  "independentReview": {
+    "date": "2026-10-26",
+    "verdict": "needs_correction",
+    "reason": "Rollout non mostra estensione chiaramente leggibile; due correzioni precedenti non hanno risolto adeguatamente la sequenza."
+  }
 }

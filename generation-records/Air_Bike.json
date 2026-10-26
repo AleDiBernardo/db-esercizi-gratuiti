@@ -54,5 +54,11 @@
       "prompt": "ONE landscape 3:2 PNG, realistic fitness instruction illustration on warm ivory floor/background, full bodies and all equipment completely visible with generous margin. No text captions numbers panels, only original small Misurami left chest logo. Original character reference attached: reproduce same man face curly hair beard athletic build charcoal shirt and shorts yellow stripe black shoes. Anatomically exact limbs hands joints, natural supported posture. Exercise bicycle crunch alternate side, phase 3. First original character sheet authoritative. Second attached initial position and third attached one-side crunch establish fixed camera scale pose and lighting. Generate OPPOSITE side to third image: bend the FAR LEG (anatomical LEFT, partially behind near leg from camera), pulling that knee toward torso; straighten the NEAR LEG (anatomical RIGHT, closest camera) hovering long toward right. Rotate chest visibly away from camera and lift NEAR RIGHT SHOULDER so its elbow crosses toward bent far LEFT knee. Fingertips remain gentle at temples no neck pulling; elbows open and arm contact not required. Pelvis and lumbar remain supported same floor point. Must visibly reverse which leg bends compared with third image, not same pose. Full body extended shoe within frame, no cropping. Anatomically correct two arms two legs. No arrows labels.",
       "reason": "Generated same bent leg as previous phase; corrected explicit near/far leg overlap."
     }
-  ]
+  ],
+  "status": "pending_correction",
+  "independentReview": {
+    "date": "2026-10-26",
+    "verdict": "needs_correction",
+    "reason": "Alternanza delle gambe visibile ma rotazione toracica gomito-ginocchio opposto poco chiara."
+  }
 }

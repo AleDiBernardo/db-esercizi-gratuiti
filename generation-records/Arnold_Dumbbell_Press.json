@@ -44,5 +44,11 @@
     "01-partenza.png"
   ],
   "executionCycle": "Dalla presa supina davanti al petto, sollevare i manubri ruotando gradualmente i palmi in avanti fino alla distensione; riabbassare sotto controllo ripercorrendo la rotazione inversa fino alla presa supina iniziale.",
-  "phasePlanRationale": "I due estremi mostrano chiaramente presa supina e presa pronata sopra la testa. La rotazione continua e il ritorno sono esplicitati nel ciclo; una posa intermedia non è essenziale e non vengono duplicati file per la discesa."
+  "phasePlanRationale": "I due estremi mostrano chiaramente presa supina e presa pronata sopra la testa. La rotazione continua e il ritorno sono esplicitati nel ciclo; una posa intermedia non è essenziale e non vengono duplicati file per la discesa.",
+  "status": "pending_correction",
+  "independentReview": {
+    "date": "2026-10-26",
+    "verdict": "needs_correction",
+    "reason": "Manca una fase intermedia che renda visibile apertura e rotazione caratteristiche."
+  }
 }

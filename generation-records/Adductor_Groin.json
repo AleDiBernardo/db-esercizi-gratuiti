@@ -27,5 +27,11 @@
     "trainerReview": "not performed",
     "technicalScope": "Illustration of repository instructions, not a professionally validated prescription"
   },
-  "rejectedDrafts": []
+  "rejectedDrafts": [],
+  "status": "pending_correction",
+  "independentReview": {
+    "date": "2026-10-26",
+    "verdict": "needs_correction",
+    "reason": "Unica postura non distingue contrazione resistita e rilassamento dello stretching assistito."
+  }
 }

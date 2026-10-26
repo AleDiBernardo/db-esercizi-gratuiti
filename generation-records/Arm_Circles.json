@@ -27,5 +27,11 @@
     "01-circonduzioni.png"
   ],
   "executionCycle": "Dalla posizione a T eseguire piccoli cerchi controllati per circa 10 secondi, poi invertire il senso di rotazione mantenendo la stessa posizione delle braccia. La stessa PNG rappresenta entrambi i versi; non sono necessarie pose statiche aggiuntive.",
-  "phasePlanRationale": "Una posizione e frecce circolari sono sufficienti: il movimento è una piccola circonduzione continua e il cambio di verso non richiede una posa anatomica diversa."
+  "phasePlanRationale": "Una posizione e frecce circolari sono sufficienti: il movimento è una piccola circonduzione continua e il cambio di verso non richiede una posa anatomica diversa.",
+  "status": "pending_correction",
+  "independentReview": {
+    "date": "2026-10-26",
+    "verdict": "needs_correction",
+    "reason": "Frecce centrate sui polsi possono suggerire rotazioni dei polsi anziché circonduzioni delle braccia."
+  }
 }

@@ -17,12 +17,7 @@
       "Ripeti per il numero di ripetizioni previsto."
     ],
     "category": "forza",
-    "id": "3_4_Sit-Up",
-    "images": [
-      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/3_4_Sit-Up/01-partenza.png",
-      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/3_4_Sit-Up/02-salita.png",
-      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/3_4_Sit-Up/03-ritorno-parziale.png"
-    ]
+    "id": "3_4_Sit-Up"
   },
   {
     "name": "Allungamento degli ischiocrurali 90/90",
@@ -66,11 +61,7 @@
       "Ripeti per il numero di ripetizioni previsto."
     ],
     "category": "forza",
-    "id": "Ab_Crunch_Machine",
-    "images": [
-      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Ab_Crunch_Machine/01-partenza.png",
-      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Ab_Crunch_Machine/02-contrazione.png"
-    ]
+    "id": "Ab_Crunch_Machine"
   },
   {
     "name": "Rollout con ruota per addominali",
@@ -91,11 +82,7 @@
       "Fermati nella posizione allungata, poi espira e torna lentamente indietro, mantenendo sempre gli addominali contratti."
     ],
     "category": "forza",
-    "id": "Ab_Roller",
-    "images": [
-      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Ab_Roller/01-partenza.png",
-      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Ab_Roller/02-rollout.png"
-    ]
+    "id": "Ab_Roller"
   },
   {
     "name": "Automassaggio degli adduttori con foam roller",
@@ -113,11 +100,7 @@
       "Rilassa l'interno coscia e scorri sul rullo tra anca e ginocchio, fermandoti sui punti di tensione per 10–30 secondi. Ripeti sull'altra gamba."
     ],
     "category": "stretching",
-    "id": "Adductor",
-    "images": [
-      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Adductor/01-appoggio.png",
-      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Adductor/02-scorri.png"
-    ]
+    "id": "Adductor"
   },
   {
     "name": "Allungamento assistito degli adduttori",
@@ -136,10 +119,7 @@
       "Rilassa le gambe mentre il compagno le divarica delicatamente, fino a un allungamento confortevole. Segnala quando la tensione è sufficiente per evitare un allungamento eccessivo o lesioni."
     ],
     "category": "stretching",
-    "id": "Adductor_Groin",
-    "images": [
-      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Adductor_Groin/01-allungamento-assistito.png"
-    ]
+    "id": "Adductor_Groin"
   },
   {
     "name": "Windmill avanzato con kettlebell",
@@ -162,11 +142,7 @@
       "Fermati un secondo e torna alla posizione iniziale."
     ],
     "category": "forza",
-    "id": "Advanced_Kettlebell_Windmill",
-    "images": [
-      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Advanced_Kettlebell_Windmill/01-partenza.png",
-      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Advanced_Kettlebell_Windmill/02-inclinazione.png"
-    ]
+    "id": "Advanced_Kettlebell_Windmill"
   },
   {
     "name": "Crunch a bicicletta",
@@ -187,12 +163,7 @@
       "Alterna i lati fino a completare le ripetizioni previste per ciascuno."
     ],
     "category": "forza",
-    "id": "Air_Bike",
-    "images": [
-      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Air_Bike/01-partenza.png",
-      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Air_Bike/02-pedalata-un-lato.png",
-      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Air_Bike/03-pedalata-altro-lato.png"
-    ]
+    "id": "Air_Bike"
   },
   {
     "name": "Allungamento dei quadricipiti in quadrupedia",
@@ -212,10 +183,7 @@
       "Concentrati sull'estensione delle anche, spingendole verso il pavimento. Mantieni 10–20 secondi e cambia lato."
     ],
     "category": "stretching",
-    "id": "All_Fours_Quad_Stretch",
-    "images": [
-      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/All_Fours_Quad_Stretch/01-allungamento.png"
-    ]
+    "id": "All_Fours_Quad_Stretch"
   },
   {
     "name": "Curl a martello alternato",
@@ -409,12 +377,7 @@
       "Riabbassa il kettlebell in sospensione e porta alla spalla l'altro. Ripeti."
     ],
     "category": "forza",
-    "id": "Alternating_Hang_Clean",
-    "images": [
-      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternating_Hang_Clean/01-sospensione.png",
-      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternating_Hang_Clean/02-girata-destra.png",
-      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternating_Hang_Clean/03-girata-sinistra.png"
-    ]
+    "id": "Alternating_Hang_Clean"
   },
   {
     "name": "Distensioni alternate con kettlebell",
@@ -581,10 +544,7 @@
       "Continua per circa 10 secondi, poi inverti il senso di rotazione."
     ],
     "category": "stretching",
-    "id": "Arm_Circles",
-    "images": [
-      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Arm_Circles/01-circonduzioni.png"
-    ]
+    "id": "Arm_Circles"
   },
   {
     "name": "Arnold press con manubri",
@@ -606,11 +566,7 @@
       "Ripeti per il numero previsto."
     ],
     "category": "forza",
-    "id": "Arnold_Dumbbell_Press",
-    "images": [
-      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Arnold_Dumbbell_Press/01-partenza.png",
-      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Arnold_Dumbbell_Press/02-distensione.png"
-    ]
+    "id": "Arnold_Dumbbell_Press"
   },
   {
     "name": "Semicerchi con manubri su panca",
