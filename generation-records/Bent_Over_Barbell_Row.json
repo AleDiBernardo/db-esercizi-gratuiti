@@ -1,0 +1,56 @@
+{
+  "id": "Bent_Over_Barbell_Row",
+  "createdAt": "2026-10-26",
+  "revision": 1,
+  "status": "accepted",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-partenza.png",
+      "description": "Busto quasi parallelo al pavimento, bilanciere sospeso e braccia distese.",
+      "prompt": "Correct second bentoverrow starting image. First original Misurami sheet authoritative manclotheslogo. Athlete currently torso too high: hingeMORE at hips until long neutral TORSO only10-15degrees above horizontalfloor, shoulders nearlysameheight aships. Buttocks moveback, knees softlybent notdeepersquat, spine straight naturalcurve no rounding. HEAD/NECK followtorso gaze floor1mahead, NOT lookingforwardwithcranedneck. Botharms remainverticalextended hanging samepronatedbar belowknees, feet fixedflatfloor oneplateeachend sameweights/collars. Camera slightlymoreSIDE ifneeded so nearhorizontal backangle clearlyvisible, entirebody/barbothplates margins. No lifting/curling yet. Landscape3:2 realisticivory no captionsarrowslabels.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    },
+    {
+      "file": "02-remata.png",
+      "description": "Remata verso addome e costole inferiori con gomiti arretrati.",
+      "prompt": "Edit second bentoverbarbellrow image to ROW CONTRACTION. First original Misurami reference authoritative identitylogo. EXACT same fixedcamera scale footpositions kneesbend hiphinge and NEARHORIZONTAL torso/headneck angle, no standingup or lumbar rounding. Pull SAME barbell vertically UP closelegs toward LOWER RIBS/UPPER ABDOMEN by driving BOTH ELBOWS BACK alongside torso and retracting scapulae. Upperarms now near horizontal beside ribs, elbows past backline, forearms belowelbows not verticalcurl in front. Bar reaches belly justunderlowerchest, same handshoulderwidthPRONATED grip wristsstraight closedthumbs. Same identicaloneblackplate/collar eachend, no platechange. Feetflat, hipsstationary, neckneutral gazefloorahead. Full entirebody fullbarbothends plates margins realistic3:2 ivory no captionslabels numbers arrows panels.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    }
+  ],
+  "executionSequence": [
+    "01-partenza.png",
+    "02-remata.png",
+    "01-partenza.png"
+  ],
+  "executionNotes": "Concentric01to02; controlled eccentric02to01; repeat.",
+  "sources": [
+    "exercises.json:Bent_Over_Barbell_Row",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "Clear hanging versus raised bar, pronated grips, elbow travel back along ribs, nearhorizontal neutral torso, plate/collar count and camera consistent.",
+    "fileValidation": "PNG3:2 decode verified",
+    "trainerReview": "not performed"
+  },
+  "correctionHistory": [
+    {
+      "prompt": "ONE realistic fitness PNG landscape3:2 ivory floor/background full body entire barbell plates margin. Original attached Misurami sheet authoritative exact curlyhaired bearded athlete charcoalshirt small original leftchestlogo charcoalshortsyellowstripe blackshoes. BENT-OVER BARBELL ROW phase1 hangingbar: feet hipwidth fixedflatfloor, knees softlybent, hips hingeBACK so torso long NEUTRAL straightspine nearlyparallelfloor (about15-20degrees above horizontal). Neck aligned torso gaze floor ahead, NOT cranedup. Both arms hangVERTICALLY fromshoulders with elbowsextended, hands pronated palmsDOWN on straightchrome bar justoutsideknees shoulderwidth, closedthumbs accurategrip. Barbell hangs belowknees aroundmidshin with one identical modestblackplate/collar atEACHend; plates suspendedclearfloor and wholebar visible. Frontside3/4view reveals backangle hands bothfeet and plates. No torso rounding no squatting no upstandingcurl. This defines fixedcamera scale barload feet/spine angle fornextrow. No text labels numbers captions arrows panels exceptoriginalchestbranding.",
+      "reason": "Starting torso too upright; regenerated deeper hinge and neutral neck."
+    }
+  ],
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Bent_Over_Barbell_Row.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "Dumbbell_Bicep_Curl",
+  "verdict": "accepted",
+  "reviewer": "images_f",
+  "filesViewed": [
+    "01-partenza.png",
+    "02-flessione.png"
+  ],
+  "observations": [
+    "Reviewed full instructions, both full-size PNG and explicit return cycle01→02→01.",
+    "Upper arms/elbows stay close to torso in substantially same location; only forearms flex, no trunk lean or shoulder hike.",
+    "Supinated grips and neutral wrists plausible, thumbs/fingers wrap handles without evident defects, same load/equipment and fixed bodyfeetcamera.",
+    "Originalidentity/logo/clothing, wholebody allweights uncropped."
+  ],
+  "requiredFixes": [],
+  "trainerReview": "not performed"
+}

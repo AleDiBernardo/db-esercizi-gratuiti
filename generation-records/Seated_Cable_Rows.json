@@ -1,0 +1,102 @@
+{
+  "id": "Seated_Cable_Rows",
+  "createdAt": "2026-10-26",
+  "revision": 2,
+  "status": "accepted",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-braccia-distese-v2.png",
+      "description": "Busto eretto e braccia distese; entrambe le mani distinte su due rami della V.",
+      "prompt": "Create NEW starting sequence image for SEATED CABLE ROW, ONE realistic landscape3:2 ivory floor fullbody ENTIRE MACHINE margins. Original Misurami character sheet attached authoritative identity/logo clothes darkyellowtrim. Camera from almost IN FRONT of athlete, only slightthreequarter so BOTH HANDS/FOREARMS side-by-side fully visible NOT superimposed. Athlete upright seated neutralspine feetfixedfootplates knees slightlybent, botharms fullyextended forward lowchestheight. Neutral-grip CHROME V-HANDLE: two separate parallel vertical grips about18cm apart, EACH wrapped by its own fivefingerhand/thumb; SHOW BOTH HANDS DISTINCT with cleargapbetween, one onimageleftgrip oneonimagerightgrip, not one mergedfist. Central Veyelet between/forward of bothhands connects ONE taut cable diagonally to LOWPULLEY on tower atimageRIGHT, abovefootplates. Simple bench/footframe coveredweightstacktower opaque shroud allpulleybaseframe visible with margins. Bothpalms faceoneanother neutral, wristsstraight. Full athlete allhands shoes head benchbases towerTOP no crop. No captionslabels numbersarrows panels. Keep camera equipment scale fornextphase.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    },
+    {
+      "file": "02-remata-v2.png",
+      "description": "Remata alla parte bassa dell'addome mantenendo presa neutra e busto fermo.",
+      "prompt": "Edit second NEW seatedcablerow image to contraction. First original Misurami identitysheet authoritative. EXACT camera equipment entiretower benchfeet floor footplates allgeometry and athletebodyposition unchanged. Pull SAME CHROME Vhandle to lowerabdomen, bend BOTH elbows backclosealongribs with shoulderbladesretract; NOT curlingup. CRITICAL BOTH HANDS must remain SEPARATELY VISIBLE wrapping SAME twoverticalgrips, imageleft andimageright with clearspacebetween and samecenterclasp attachedtautcable. No mergedhidden farhand. Torso uprightstatic pelvisseat feetfixedplate kneesangleunchanged headneutral. Cable extends longer from SAME fixedlowpulley tothe SAME handlecenter, onecontinuouscable no cablethroughbody. Same shroudedstack load yellowpin atsame selectedplate, smallmovingblock only ifvisible. Fullmachine topfloorfeetbodyshoesgrip margins realistic3:2 ivory no captionslabels arrows numbers.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    }
+  ],
+  "executionSequence": [
+    "01-braccia-distese-v2.png",
+    "02-remata-v2.png",
+    "01-braccia-distese-v2.png"
+  ],
+  "executionNotes": "Concentric01to02; controlled eccentric02to01; repeat.",
+  "sources": [
+    "exercises.json:Seated_Cable_Rows",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "Both Vhandle branches now separately visible with each hand, clear elbow travel backwards, torso/feet fixed and continuous taut cable same fixed low pulley. Root/peer must review.",
+    "fileValidation": "PNG3:2 decode verified",
+    "trainerReview": "not performed"
+  },
+  "correctionHistory": [
+    {
+      "reason": "Independent peer rejected v1 far hand/Vbranch occlusion.",
+      "action": "Regenerated entire camera/handle orientation to show two separate neutral grips in both phases."
+    }
+  ],
+  "previousRevision": {
+    "id": "Seated_Cable_Rows",
+    "createdAt": "2026-10-26",
+    "status": "pending_review",
+    "generator": "integrated image_gen",
+    "reference": "references/misurami-personaggio.png",
+    "phases": [
+      {
+        "file": "01-braccia-distese.png",
+        "description": "Busto eretto, braccia distese, piedi sulle pedane, presa neutra a V.",
+        "prompt": "Correct second seatedcable row starting image framing. First original Misurami reference authoritative. TOWER TOP IS CROPPED in draft: zoomcameraOUT uniformly so ENTIRE machine fits frame with ivory margin onALLsides, including whole tower top/supportpost/pulley/cable fullbenchbases allfeet. Preserve athlete and machine proportions rather than shrinkingonepart; leave5%margin around machine. Keep athlete upright neutralspine armsstraight neutralVgrip, feet planted on samefootplates kneesslightlybent, taut horizontal cable. Coveredstack shroud no newgeometry, same load. Landscape3:2 realistic ivory no captionslabels arrows.",
+        "references": [
+          "references/misurami-personaggio.png"
+        ]
+      },
+      {
+        "file": "02-remata.png",
+        "description": "Remata verso l'addome con gomiti vicini ai fianchi e busto fermo.",
+        "prompt": "Edit second seated cable row starting image into contraction. First original Misurami character reference authoritative face clotheslogo. EXACT camera framing entire tower benchfootplates machinegeometry cablepulley positions floor body scale and load unchanged. Both feet stayplanted same plates kneeangle unchanged pelvis fixed onbench, torso remainsUPRIGHT sameposition neutralspine neck. Pull SAME chrome Vhandle horizontally LEFT toward lower abdomen/navel by bending BOTH elbows and drawing shoulderblades together. BOTH elbows travel close along ribs then just behind torso, not bicepscurl forearmsup. Handle grips stay neutral palmstoward eachother centered accuratehands, handle itself just infrontnavel. Taut cable becomes LONGER from fixedlowpulley at right to SAME centralclasp onhandle, no detachedconnection or cablethroughlimbs. Shoulders relaxed down no shrugging/backwardlean. Allhands feet machinebases head/towertop visible margins realistic3:2 ivory no captionslabels arrows.",
+        "references": [
+          "references/misurami-personaggio.png"
+        ]
+      }
+    ],
+    "executionSequence": [
+      "01-braccia-distese.png",
+      "02-remata.png",
+      "01-braccia-distese.png"
+    ],
+    "executionNotes": "Concentric01to02; controlled eccentric02to01; repeat.",
+    "sources": [
+      "exercises.json:Seated_Cable_Rows",
+      "IMAGE-ROUTINE.md"
+    ],
+    "checks": {
+      "automaticVisualInspection": "Same handle central attachment, cable extends longer to fixed low pulley, upright torso/feet/bench fixed, elbow travel behind ribs rather than curl, all equipment in frame.",
+      "fileValidation": "PNG3:2 decode verified",
+      "trainerReview": "not performed"
+    },
+    "correctionHistory": [
+      {
+        "prompt": "ONE realistic fitness PNG landscape3:2 ivorybackground floor fullbody entire simple low cable ROW machine margins. Originalattached Misurami sheet exact man hairbeardfacebody charcoalshirt original small leftchestlogo darkshortsyellowstripe blackshoes. SEATED CABLE ROW phase1 extendedarms. Low horizontal blackseatbench on darkgray fixedframe, angled fixed metalfootplates in front with BOTH shoes firmlyplanted, knees slightlybent. Coveredweightstacktower at far front on right, LOWPULLEY at sameheight as athlete's lowerabdomen whenseated, one taut cable running horizontally from pulley to centerclasp of compact CHROME Vhandle in bothhands. Handle has two shortparallelgrips palmsFACEEACHOTHER neutralgrip, accurate thumbwrapped grip. Athlete seated facingright front3/4sideview chestvisible, torsoUPRIGHT neutralspine chestopen, headneck aligned gazeahead, botharmsFULLYEXTENDED forward at lowerchestheight, shoulders gentlyprotracted no roundedlowback. Cable does not pass throughfeetlegs; pulleyabovefootplates. Framefloorbase seatbench footplates tower pulley allvisible no cut. Fixed camera scale machine load fornextphase. No captionslabels numbersarrows panels exceptoriginal chestbranding.",
+        "reason": "Initial tower top cropped; reframed entire machine before sequence."
+      }
+    ]
+  },
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Seated_Cable_Rows.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

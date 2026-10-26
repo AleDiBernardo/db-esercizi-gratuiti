@@ -1,0 +1,50 @@
+{
+  "id": "Dumbbell_Bicep_Curl",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "status": "accepted",
+  "phases": [
+    {
+      "file": "01-partenza.png",
+      "description": "Manubri ai lati con braccia distese e palmi in avanti.",
+      "prompt": "ONE realisticfitnessPNG landscape3:2 ivoryfloorbackground. Original attached Misurami EXACTidentity curlyhairbeardface athleteproportions charcoalshirt smalloriginal Misurami logo anatomicalLEFTchest charcoalshorts yellowstripe blackshoes. BILATERAL DUMBBELL BICEP CURL phase1. Manstanding tall feet hipwidth flat neutralpelvis/spine nolean, TWO identical smallblackhex dumbbells held down just outside upperthighs, BOTHpalms faceFORWARD SUPINATED notneutralhammergrip. Upperarmsvertical elbowsclose toribs fixed, slightnaturalelbowsoftness. Wristsstraight closedthumbgrip validfivefingers all visible. Frontthreequarter view entirebody bothweights feet included generousmargins. No captions arrows labelsnumbers ghostlimbs. Preservefixedcamera bodypose/dumbbellload for nextphase.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    },
+    {
+      "file": "02-flessione.png",
+      "description": "Flessione simultanea dei gomiti con manubri alle spalle e presa supina.",
+      "prompt": "ONE PNG BILATERAL DUMBBELL CURL phase2. Firstoriginal Misurami exactidentity, secondexercise scene FIXEDcamera manbodyheadfeet clothingoriginalleftchestlogo sameblackhexweights. ONLY rotate bothFOREARMS about elbowjoints: elbows stay LOW FIXED at original waist/lower-rib positions, upperarmsvertical huggingbody. Fullycurl until dumbbells at shoulders comfortable range, palms face ownshoulders SUPINATED unchangedgrip, wristsstraight neutral and closedthumbs. Do NOT raise upperarms/elbows forward, shrug, leanback or swing. Keep samecalm face/neutralspine groundedfeet equipmentloadscale exact. Entirebody hands bothweights within3:2 ivoryframe no captionsnumbersarrowsghostlimbs. Hands and joints anatomically sound.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    }
+  ],
+  "motionOrder": [
+    "01-partenza.png",
+    "02-flessione.png",
+    "01-partenza.png"
+  ],
+  "executionCycle": "Sollevare simultaneamente i manubri flettendo solo i gomiti con braccia vicine al busto, breve pausa e discesa controllata fino alla prima posa.",
+  "sources": [
+    "exercises.json:Dumbbell_Bicep_Curl",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "passed provisional: every PNG inspected for identity/clothing/logo, natural grips and wrists, clear distinct movement phases, neutral trunk and grounded feet, same equipment load, complete framing. Pending independent review.",
+    "fileValidation": "PNG decode and1536x1024 3:2 passed",
+    "trainerReview": "not performed"
+  },
+  "rejectedDrafts": 0,
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Dumbbell_Bicep_Curl.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

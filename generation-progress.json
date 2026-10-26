@@ -44,7 +44,11 @@
     "Mountain_Climbers",
     "Childs_Pose",
     "Dumbbell_Bench_Press",
-    "Incline_Dumbbell_Press"
+    "Incline_Dumbbell_Press",
+    "Seated_Cable_Rows",
+    "Bent_Over_Barbell_Row",
+    "Barbell_Curl",
+    "Dumbbell_Bicep_Curl"
   ],
   "needsReview": [
     {

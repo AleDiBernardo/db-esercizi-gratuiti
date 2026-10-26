@@ -1061,7 +1061,11 @@
       "Ripeti per il numero previsto."
     ],
     "category": "forza",
-    "id": "Barbell_Curl"
+    "id": "Barbell_Curl",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Barbell_Curl/01-partenza.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Barbell_Curl/02-flessione.png"
+    ]
   },
   {
     "name": "Curl con bilanciere a pancia in giù su panca inclinata",
@@ -1879,7 +1883,11 @@
       "Ripeti per il numero previsto."
     ],
     "category": "forza",
-    "id": "Bent_Over_Barbell_Row"
+    "id": "Bent_Over_Barbell_Row",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Bent_Over_Barbell_Row/01-partenza.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Bent_Over_Barbell_Row/02-remata.png"
+    ]
   },
   {
     "name": "Alzate posteriori con manubri e fronte sulla panca",
@@ -5090,7 +5098,11 @@
       "Ripeti per il numero di ripetizioni previsto."
     ],
     "category": "forza",
-    "id": "Dumbbell_Bicep_Curl"
+    "id": "Dumbbell_Bicep_Curl",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Dumbbell_Bicep_Curl/01-partenza.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Dumbbell_Bicep_Curl/02-flessione.png"
+    ]
   },
   {
     "name": "Girata con manubri",
@@ -13981,7 +13993,11 @@
       "Ripeti per il numero di ripetizioni previsto."
     ],
     "category": "forza",
-    "id": "Seated_Cable_Rows"
+    "id": "Seated_Cable_Rows",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Seated_Cable_Rows/01-braccia-distese-v2.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Seated_Cable_Rows/02-remata-v2.png"
+    ]
   },
   {
     "name": "Distensioni per le spalle da seduto ai cavi",

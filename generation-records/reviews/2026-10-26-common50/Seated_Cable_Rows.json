@@ -1,0 +1,15 @@
+{
+  "id": "Seated_Cable_Rows",
+  "verdict": "accepted",
+  "reviewer": "images_a",
+  "filesReviewed": [
+    "01-braccia-distese-v2.png",
+    "02-remata-v2.png"
+  ],
+  "supersedes": "Previous needs_correction on original files",
+  "findings": [
+    "Both Vhandle branches and both separate closed hands now visible in both phases.",
+    "Clear elbowdriven horizontal row into abdomen, torso pelvis feet remain fixed, cableattachment continuous and longer at contraction; both footplates support shoes.",
+    "Same full machine framing, stack lift mechanically consistent, identity and original chestlogo stable."
+  ]
+}

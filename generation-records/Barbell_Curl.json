@@ -1,0 +1,56 @@
+{
+  "id": "Barbell_Curl",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "status": "accepted",
+  "phases": [
+    {
+      "file": "01-partenza.png",
+      "description": "Barra davanti alle cosce con presa supina alla larghezza delle spalle.",
+      "prompt": "ONE landscape3:2 realistic fitness PNG ivoryfloorbackground. Original attached Misurami exactidentity curlyhairbeardface athleticbody charcoalshirt original small yellowwhite logo anatomicalLEFTchest charcoalshorts yellowsides blackshoes. BARBELL CURL phase1 armsDOWN. Man stands upright hipwidthfeet planted knees softlyunlocked, neutralstraighttorso ribsdown no lean. Holds ONE straight SILVER standardbarbell with ONE smallmatching blackplate and silvercollar on EACH end, bothhands SUPINATED shoulderwidth palms faceFORWARD, arms extended naturally elbows pinnedclosetobody upperarmsvertical, closedthumbgrips wristsstraight. Bar just infrontofupperthighs clear ofbody. Frontthreequarter view showing gripforearms entireman fullbar bothplates shoes hands withmargins. No captions textnumbersarrows panels. Samecamera bodyequipmentload for elbowcurl nextphase.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    },
+    {
+      "file": "02-flessione.png",
+      "description": "Flessione dei gomiti con barra vicino alle spalle, busto fermo e braccia vicine ai fianchi.",
+      "prompt": "Correct ONLY upper-arm/elbow position in second curled barbell image. Original first Misurami identity exact, third straight-arm start anchors BODY ELBOW coordinates. Elbows currently drifted upward. Both UPPER ARMS must remain nearly VERTICAL from shoulders down to original elbows at lower ribs/waist around y=400-420, not y=350. Keep shoulders same, lower both elbowtips ~55pixels and tuck them gently against side of waist. Forearms then fold upward from fixed elbows, wrists/bar at upperchest aroundy=245, palms supinated facing ownshoulders. Bar may lower a fewcm naturally, same silver straightbar ONEblackplateeachend fullshape loadwidth. No shoulderflexion/shrug leaning. Same entirebodyheadfeetspine coordinates camera ivory3:2 no captionslabelsarrowsnumbers.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    }
+  ],
+  "motionOrder": [
+    "01-partenza.png",
+    "02-flessione.png",
+    "01-partenza.png"
+  ],
+  "executionCycle": "Con presa supina flettere i gomiti senza slancio né sollevamento delle spalle, breve contrazione e ritorno lento alla prima posa.",
+  "sources": [
+    "exercises.json:Barbell_Curl",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "passed provisional: every PNG inspected for identity/clothing/logo, natural grips and wrists, clear distinct movement phases, neutral trunk and grounded feet, same equipment load, complete framing. Pending independent review.",
+    "fileValidation": "PNG decode and1536x1024 3:2 passed",
+    "trainerReview": "not performed"
+  },
+  "rejectedDrafts": 1,
+  "corrections": [
+    {
+      "prompt": "ONE PNG BARBELL CURL phase2 full elbowflexion. First original Misurami identity exact and secondscene exactcamera scale feetknees torso face clothing logo barload. Move ONLY FOREARMS: bend bothelbows until SAMEstraight silverbar with sameONEblackplateeachend reaches upperchest justbelow shoulders. Elbows stay at samepoints close to waist/ribs, upperarmsvertical fixed doNOT swing elbowsforwardor liftshoulders. Palms nowface own shoulders supinatedgrip unchangedwidth, wristsstraight closedthumbgrips accuratefingers. Neutralbody no backlean momentum, feet samefloorpoints. Fullbody wholebar bothplates allhands/shoes within sameivory3:2 frame generousmargins. No captions numbersarrows text.",
+      "reason": "initial curled draft showed elbow drift; regenerated with lower upper-arm position anchored to starting pose"
+    }
+  ],
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Barbell_Curl.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

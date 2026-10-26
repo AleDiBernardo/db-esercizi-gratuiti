@@ -1,0 +1,14 @@
+{
+  "id": "Bent_Over_Barbell_Row",
+  "verdict": "accepted",
+  "reviewer": "images_a",
+  "filesReviewed": [
+    "01-partenza.png",
+    "02-remata.png"
+  ],
+  "findings": [
+    "All PNGs viewed with full instructions. Distinct hanging straightarms and bar at lowerabdomen, elbows move behind torso rather than curlup.",
+    "Hip hinge and nearlyhorizontal neutral back maintained, feet/grip/loading unchanged and both closed hands visible.",
+    "Small knee/torso angle variation between phases but no major heave, lumbar rounding, support loss or confusing motion."
+  ]
+}
