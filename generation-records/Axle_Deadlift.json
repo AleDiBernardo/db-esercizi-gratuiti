@@ -1,0 +1,52 @@
+{
+  "id": "Axle_Deadlift",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "status": "accepted",
+  "phases": [
+    {
+      "file": "01-partenza.png",
+      "description": "Assetto a terra con presa mista sul bilanciere spesso, anche e ginocchia flesse.",
+      "prompt": "Create ONE realistic fitness illustration PNG landscape 3:2 ivory background floor soft shadow, full body and ENTIRE equipment with generous margins no text captions numbers arrows panels. Use original attached Misurami character exact identity face curly dark hair beard athletic proportions charcoal shirt with original small yellow/white Misurami logo on anatomical LEFT chest, charcoal shorts yellow thin sides black shoes. AXLE DEADLIFT phase 1 GROUND SETUP. Clear side/front three-quarter view. Man stands feet hip width, toes slightly out, centered above a straight THICK 50mm matte black axle bar on floor with ONE medium-sized identical black bumper plate EACH END and silver collars. Full bar and both plates fully visible. Hands grasp thick axle just outside legs using MIXED grip, arms straight vertical, natural elbows. Hips hinged back slightly higher than knees; knees flexed shins nearly vertical close to bar; shoulders above/slightly ahead bar; torso rigid natural neutral spine, head aligned with spine eyes toward floor ahead. Hands and fingers firmly wrap thick bar. Both soles planted entire foot. No exaggerated scapula squeeze or neck arch. Frame wide enough so same camera can show upright phase with head margin and unchanged ground baseline. Realistic physically plausible moderate load and limb anatomy."
+    },
+    {
+      "file": "02-estensione.png",
+      "description": "Estensione naturale di anche e ginocchia fino alla stazione eretta, senza iperestensione.",
+      "prompt": "Create ONE PNG phase 2 UPRIGHT LOCKOUT of AXLE DEADLIFT using original attached Misurami identity first reference and exact phase1 second reference for fixed camera scene equipment. Same character face body proportions clothing original small left-chest logo. Same matte black thick axle diameter, same two black bumper plates at EACH end with silver collars as drawn, same bar length load grip width MIXED GRIP (near/image-left hand overhand, image-right hand underhand). Feet and soles stay at EXACT same floor coordinates as phase1. NOW man stands naturally tall extending hips and knees with bar held close to upper thighs and arms fully straight. Neutral pelvis and spine, ribs stacked over pelvis, shoulders relaxed naturally back and down no shrug, NO leaning backward or exaggerated chest/scapula squeeze, no elbow bend. Same fixed three-quarter camera, scale, floor baseline and ivory backdrop, entire man head/shoes bar plates fully visible with margins. Do not change equipment or foot spacing. If needed use upper empty canvas for head without zooming. Realistic accurate hands fingers joints. No captions text numbers arrows except original shirt branding."
+    },
+    {
+      "file": "03-discesa.png",
+      "description": "Discesa controllata con hinge e barra vicina alle gambe, proseguendo fino al contatto dei dischi a terra.",
+      "prompt": "Create ONE PNG phase3 CONTROLLED LOWERING of AXLE DEADLIFT. First attached original Misurami identity is authoritative. Second attached upright phase fixes EXACT camera zoom framing floor coordinates feet and equipment; third ground setup establishes bottom motion. Preserve exact same two bumper plates EACH end, silver collars, straight matte black 50mm thick axle, bar length MIXED GRIP hand positions and all character/clothing/logo. Feet remain planted at EXACT coordinates of second reference. Show halfway lowering: hips hinge backward, knees gently flexed, rigid neutral torso leans forward about45 degrees; arms straight hanging vertically, bar close to thighs JUST ABOVE KNEES moving downward, no squat collapse, head aligned spine looking floor ahead. Do not lean backward, round lumbar or bend elbows. Same three-quarter view and ivory background soft shadows; no zoom. Include entire man head shoes bar plates with margins. Small unobtrusive yellow DOWN arrow next to bar may clarify descent, away from anatomy. No labels captions numbers. Anatomically sound grip and fingers."
+    }
+  ],
+  "executionSequence": [
+    "Preparare presa e appoggi a terra.",
+    "Estendere anche e ginocchia mantenendo colonna neutra e barra vicina al corpo.",
+    "Arrivare eretti con bacino neutro, senza shrug o inclinazione indietro.",
+    "Abbassare con controllo tramite hinge e flessione delle ginocchia fino al ritorno a terra."
+  ],
+  "sources": [
+    "exercises.json:Axle_Deadlift",
+    "IMAGE-ROUTINE.md",
+    "https://www.nasm.org/resource-center/exercise-library/barbell-deadlift",
+    "https://ceu-quizzes-cdn.ncsf.org/training-programming/The_Ultimate_Deadlift_Guide.pdf"
+  ],
+  "technicalDecisions": [
+    "Presa mista e bilanciere spesso conservati.",
+    "Spinta distribuita sul piede e colonna neutra; nessuna esasperazione del cue scapole unite.",
+    "Lockout eretto naturale senza iperestensione o shrug secondo NASM e NCSF."
+  ],
+  "checks": {
+    "automaticVisualInspection": "Provisional: all three outputs inspected for mixed grip, straight arms, close bar, neutral spine, identity, consistent thick axle and two plates each side; minor vertical framing/foot-baseline variation between phases. Requires root sequence review before acceptance.",
+    "fileValidation": "passed PNG decode and 1536x1024 3:2 format",
+    "trainerReview": "not performed"
+  },
+  "rejectedDrafts": 0,
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually inspected after independent review; no professional trainer review."
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "Alternating_Floor_Press",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-braccia-distese-v2.png",
+      "description": "Supino con entrambi i kettlebell sopra il petto; vista rialzata dai piedi.",
+      "prompt": "Create ONE realistic fitness instructional PNG landscape3:2, phase1 BOTH ARMS UP for alternating kettlebell floor press. Original Misurami man character sheet attached authoritative exact face curly hair beard athletic proportions charcoal shirt with ORIGINAL small yellow-white Misurami logo anatomical left chest, charcoal yellow-stripe shorts black shoes. NEW CAMERA essential: elevated overhead oblique view from FOOT END slightly to athlete's left, looking down at supine body at 55-degree angle, so head at upper center, BOTH SHOULDER JOINTS and enough floor OUTSIDE EACH SHOULDER visible clearly. Full body head shoes and equipment generous margins. Man supine head shoulders back pelvis on warm ivory floor, knees bent feet flat hip-width. Both arms extended vertically above chest, parallel forearms, palms toward feet, neutral wrists hands securely gripping handles of TWO equal modest black kettlebells, round bells hanging naturally behind/outer side of wrists. Both bells are above chest, NEVER above face/head. Exactly2 hands arms legs bells no extra limbs. Keep each shoulder visible from slightly footward elevated camera. Soft shadows no text labels arrows panels. Camera scale body feet position floor fixed for next2 lowered-side phases."
+    },
+    {
+      "file": "02-discesa-destra-v2.png",
+      "description": "Gomito destro appoggiato fuori dal torace e kettlebell lontano dal volto, sinistro disteso.",
+      "prompt": "ONE PNG landscape3:2 phase2 alternating kettlebell FLOOR PRESS LOWER RIGHT ARM ONLY. First original Misurami reference identity/clothes/logo authoritative. Second image NEW accepted top pose fixes camera exact body feet and entire scene. Body supine all head shoulders back pelvis resting ivory floor, no bridge. RIGHT arm (on viewer LEFT) lowers to bottom floor-press position: upper arm angled 30–45 degrees away from torso and ELBOW rests visibly on floor OUTSIDE RIGHT RIBCAGE around x550 y420, NOT beside head. Right forearm points vertically up from elbow, hand/wrist vertically above elbow toward camera (project hand around x530 y310), wrist neutral, bell hangs outside forearm at x470 y340. BELL WELL OUTSIDE CHEST and well away from face at x800 y270. Make clear gap bell-to-head. Opposite LEFT arm viewer RIGHT remains fully extended holding other bell unchanged. Both hands grip handles securely two black equal bells no extra limb. Fixed body head feet positions camera scale. Full figure all shoes weights margins ivory realistic no text panels arrows. Show supported elbow-floor contact and vertical forearm unambiguously."
+    },
+    {
+      "file": "03-discesa-sinistra-v2.png",
+      "description": "Gomito sinistro appoggiato fuori dal torace e kettlebell lontano dal volto, destro disteso.",
+      "prompt": "ONE PNG landscape3:2 phase3 alternating kettlebell FLOOR PRESS LOWER LEFT ARM ONLY. First original Misurami character exact face charcoal clothing yellow trim original small yellowwhite anatomical left chest logo. SECOND image original top pose is exact camera body feet and floor reference, do not mirror. Supine all head shoulders back pelvis resting floor. LEFT arm (viewer RIGHT) lowers: its upper arm rests visibly on floor angled30–45deg from torso with LEFT ELBOW outside LEFT RIBCAGE around x1040y430, NOT next to head. Left forearm rises vertically from elbow neutral wrist above elbow, left hand around x1050y270, black kettlebell hangs OUTSIDE forearm farther right x1120y320, safely well away from head x800y270. RIGHT arm (viewer LEFT) stays fully extended vertically above chest in original image position holding equal black bell. Both anatomically accurate hands grip handles; exactly two arms two kettlebells, original logo clear. Fixed camera, body foot head positions no shift zoom, full body equipment margin ivory realistic no labels captions arrows panels. Show floor contact both upperarm and elbow clearly."
+    }
+  ],
+  "sequence": "01→02→01→03→01; return the lowered bell overhead before changing sides",
+  "sources": [
+    "exercises.json:Alternating_Floor_Press",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "passed: all 3 images inspected for supine head/back/pelvis support, stable feet, anatomical grips and elbows, alternate lowered arm while opposite remains extended, same bells and body framing, original identity clothing left-chest branding",
+    "trainerReview": "not performed"
+  },
+  "rejectedDrafts": 0,
+  "correctionHistory": [
+    {
+      "version": "v2",
+      "status": "pending_root_review",
+      "date": "2026-10-26",
+      "reason": "Independent audit found near lowered bell close to face and far elbowfloor contact occluded in original view. Regenerated all three phases from elevated foot-end camera to expose both elbow supports and keep bells outside chest.",
+      "phases": [
+        {
+          "file": "01-braccia-distese-v2.png",
+          "description": "Supino con entrambi i kettlebell sopra il petto; vista rialzata dai piedi.",
+          "prompt": "Create ONE realistic fitness instructional PNG landscape3:2, phase1 BOTH ARMS UP for alternating kettlebell floor press. Original Misurami man character sheet attached authoritative exact face curly hair beard athletic proportions charcoal shirt with ORIGINAL small yellow-white Misurami logo anatomical left chest, charcoal yellow-stripe shorts black shoes. NEW CAMERA essential: elevated overhead oblique view from FOOT END slightly to athlete's left, looking down at supine body at 55-degree angle, so head at upper center, BOTH SHOULDER JOINTS and enough floor OUTSIDE EACH SHOULDER visible clearly. Full body head shoes and equipment generous margins. Man supine head shoulders back pelvis on warm ivory floor, knees bent feet flat hip-width. Both arms extended vertically above chest, parallel forearms, palms toward feet, neutral wrists hands securely gripping handles of TWO equal modest black kettlebells, round bells hanging naturally behind/outer side of wrists. Both bells are above chest, NEVER above face/head. Exactly2 hands arms legs bells no extra limbs. Keep each shoulder visible from slightly footward elevated camera. Soft shadows no text labels arrows panels. Camera scale body feet position floor fixed for next2 lowered-side phases."
+        },
+        {
+          "file": "02-discesa-destra-v2.png",
+          "description": "Gomito destro appoggiato fuori dal torace e kettlebell lontano dal volto, sinistro disteso.",
+          "prompt": "ONE PNG landscape3:2 phase2 alternating kettlebell FLOOR PRESS LOWER RIGHT ARM ONLY. First original Misurami reference identity/clothes/logo authoritative. Second image NEW accepted top pose fixes camera exact body feet and entire scene. Body supine all head shoulders back pelvis resting ivory floor, no bridge. RIGHT arm (on viewer LEFT) lowers to bottom floor-press position: upper arm angled 30–45 degrees away from torso and ELBOW rests visibly on floor OUTSIDE RIGHT RIBCAGE around x550 y420, NOT beside head. Right forearm points vertically up from elbow, hand/wrist vertically above elbow toward camera (project hand around x530 y310), wrist neutral, bell hangs outside forearm at x470 y340. BELL WELL OUTSIDE CHEST and well away from face at x800 y270. Make clear gap bell-to-head. Opposite LEFT arm viewer RIGHT remains fully extended holding other bell unchanged. Both hands grip handles securely two black equal bells no extra limb. Fixed body head feet positions camera scale. Full figure all shoes weights margins ivory realistic no text panels arrows. Show supported elbow-floor contact and vertical forearm unambiguously."
+        },
+        {
+          "file": "03-discesa-sinistra-v2.png",
+          "description": "Gomito sinistro appoggiato fuori dal torace e kettlebell lontano dal volto, destro disteso.",
+          "prompt": "ONE PNG landscape3:2 phase3 alternating kettlebell FLOOR PRESS LOWER LEFT ARM ONLY. First original Misurami character exact face charcoal clothing yellow trim original small yellowwhite anatomical left chest logo. SECOND image original top pose is exact camera body feet and floor reference, do not mirror. Supine all head shoulders back pelvis resting floor. LEFT arm (viewer RIGHT) lowers: its upper arm rests visibly on floor angled30–45deg from torso with LEFT ELBOW outside LEFT RIBCAGE around x1040y430, NOT next to head. Left forearm rises vertically from elbow neutral wrist above elbow, left hand around x1050y270, black kettlebell hangs OUTSIDE forearm farther right x1120y320, safely well away from head x800y270. RIGHT arm (viewer LEFT) stays fully extended vertically above chest in original image position holding equal black bell. Both anatomically accurate hands grip handles; exactly two arms two kettlebells, original logo clear. Fixed camera, body foot head positions no shift zoom, full body equipment margin ivory realistic no labels captions arrows panels. Show floor contact both upperarm and elbow clearly."
+        }
+      ],
+      "checks": {
+        "automaticVisualInspection": "passed: all three PNG individually inspected; both lower elbow contacts now visible outside torso; bells separated from head; contralateral arm remains extended; same floor camera equipment identity branding, minor foot-position variation in right-lowered rendering",
+        "trainerReview": "not performed",
+        "rootReview": "pending"
+      },
+      "sequence": "01→02→01→03→01"
+    }
+  ],
+  "status": "accepted",
+  "previousVersions": [
+    {
+      "phases": [
+        {
+          "file": "01-braccia-distese.png",
+          "description": "Supino, entrambi i kettlebell sopra il petto a braccia distese.",
+          "prompt": "ONE landscape 3:2 realistic fitness illustration PNG phase 1 of ALTERNATING KETTLEBELL FLOOR PRESS. Original Misurami character sheet attached authoritative face hair beard proportions clothing charcoal shirt original left chest logo shorts yellow stripe black shoes. Warm ivory floor and background soft shadows. Full body both shoes both kettlebells generous margin no cropping. Camera elevated front-left three-quarter view clear left chest and both arms, head toward image left feet toward right. Man lying supine head back shoulders pelvis fully resting on floor, knees comfortably bent feet flat hip width. Both arms comfortably straight vertical above chest, hands gripping two matching modest black cast-iron kettlebell handles, bells resting behind wrists naturally on outer forearms, palms facing toward feet. Wrists neutral aligned with forearms. One kettlebell per hand two distinct arms accurate five-finger grips. Stable relaxed neck. No extra equipment no captions numbers panels arrows. Fix camera scene body foot positions and load for alternating lowering phases."
+        },
+        {
+          "file": "02-discesa-destra.png",
+          "description": "Braccio destro abbassato, gomito a terra; sinistro disteso.",
+          "prompt": "ONE separate landscape 3:2 PNG phase 2 alternating kettlebell floor press. Original character reference first authoritative identity clothing logo; second original start fixes exact supine body foot positions head support floor camera framing and kettlebell scale. Change ONLY NEAR arm (anatomical RIGHT, visible foreground from near shoulder): lower its same black kettlebell toward outer chest by bending elbow to 90 degrees. Upper arm settles gently on floor about 30-45 degrees away from torso; forearm vertical and wrist neutral over elbow, palm rotates inward toward opposite kettlebell. Far arm stays straight vertical above chest EXACTLY as start holding other kettlebell. Both matching kettlebells correct handle grip bell behind wrist. All other body parts stay unchanged supine with feet flat knees bent. Exact Misurami character branding clothing. Full body both weights visible generous margins, ivory background, natural joints two arms five-finger grips no extra limb no captions arrows numbers panels."
+        },
+        {
+          "file": "03-discesa-sinistra.png",
+          "description": "Braccio sinistro abbassato, gomito a terra; destro disteso.",
+          "prompt": "ONE landscape 3:2 PNG phase 3 alternating kettlebell floor press OPPOSITE arm lowered. First original sheet authoritative identity logo clothing; second initial pose fixes supine man camera framing body feet and two black kettlebells. ONLY lower FAR arm (anatomical LEFT, shoulder on far side of chest): bend far elbow 90 degrees, far upper arm lightly resting floor 30-45 degrees from torso, far forearm vertical wrist aligned above elbow with same kettlebell beside far outer chest, palm inward toward opposite weight. NEAR anatomical RIGHT arm remains fully extended straight upward above chest holding other kettlebell, same exact position as start. Head back pelvis shoulders stay on floor, knees bent feet flat unchanged. No extra limbs or bells, two anatomically accurate five-finger grips. Exact Misurami face curly hair beard charcoal logo shirt shorts yellow stripe black shoes. Whole body and bells visible on ivory background floor. No titles text arrows panels numbers."
+        }
+      ],
+      "reason": "Replaced after independent review of elbow support and bell clearance."
+    }
+  ],
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually inspected after independent review; no professional trainer review."
+  }
+}

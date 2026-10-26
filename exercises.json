@@ -352,7 +352,12 @@
       "Risollevalo e ripeti dal lato opposto."
     ],
     "category": "forza",
-    "id": "Alternating_Floor_Press"
+    "id": "Alternating_Floor_Press",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternating_Floor_Press/01-braccia-distese-v2.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternating_Floor_Press/02-discesa-destra-v2.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternating_Floor_Press/03-discesa-sinistra-v2.png"
+    ]
   },
   {
     "name": "Girata alternata dalla sospensione con kettlebell",
@@ -669,7 +674,12 @@
       "Riabbassa il bilanciere flettendo le anche e accompagnandolo a terra."
     ],
     "category": "strongman",
-    "id": "Axle_Deadlift"
+    "id": "Axle_Deadlift",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Axle_Deadlift/01-partenza.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Axle_Deadlift/02-estensione.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Axle_Deadlift/03-discesa.png"
+    ]
   },
   {
     "name": "Aperture posteriori con elastico",
