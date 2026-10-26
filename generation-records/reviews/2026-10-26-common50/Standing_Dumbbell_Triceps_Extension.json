@@ -1,0 +1,17 @@
+{
+  "id": "Standing_Dumbbell_Triceps_Extension",
+  "verdict": "accepted",
+  "reviewer": "images_f",
+  "filesViewed": [
+    "01-estensione.png",
+    "02-flessione-dietro-testa.png"
+  ],
+  "observations": [
+    "Read full catalog instructions and explicit overhead→behindhead→overhead return record.",
+    "One vertical dumbbell stays same design/load; both hands cradle upper head with palms reaching beneath its lower edges, fingers and thumbs stabilize near handle; no singlehand wrist-grip or floating weight.",
+    "Elbow flexion lowers bell behind head while upperarms stay beside ears with minor natural outward elbow excursion; torso and feet remain stable without lumbar backbend.",
+    "Both endpoints fullbody/equipment uncropped, natural elbows/wrists, original identity/logo/clothing preserved."
+  ],
+  "requiredFixes": [],
+  "trainerReview": "not performed"
+}

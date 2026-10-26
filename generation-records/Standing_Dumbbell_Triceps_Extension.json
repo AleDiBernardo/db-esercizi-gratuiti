@@ -1,0 +1,56 @@
+{
+  "id": "Standing_Dumbbell_Triceps_Extension",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "status": "accepted",
+  "phases": [
+    {
+      "file": "01-estensione.png",
+      "description": "Manubrio singolo sopra la testa sostenuto con entrambe le mani e braccia distese.",
+      "prompt": "Generate EXACTLY ONE SINGLE MAN in ONE SINGLE OVERHEAD EXTENDED POSE. NO COLLAGE, NO BEFORE/AFTER, NO second figure, NO panels. Original first Misurami character exactidentityclotheslogo. Secondreference lowerposition is onlyscene/identityanchor NOT to reproduce alongside. ONE man centered at SAME x~770 with SAMEfeet x700-860,y930 and SAMEheadcrown y250 as reference, neutralstandingtorso. BOTHARMS NOW FULLYEXTENDED straight overhead closeears. BOTHpalms cup underside of ONE verticalblackhex dumbbell TOPHEAD, thumbsenclosehandle, bottomhead hangsbelowhands clearabovehead. Fullfigure no secondman ghostlimbs inset. Keep exactcamera zoomscale originalbodyfootpositions sameweightshape. Entirebodyanddumbbellfit30pxtopmargin ivory3:2. No textnumbersarrowscaptions. This singlePNG is ONLY straight-arm pose.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    },
+    {
+      "file": "02-flessione-dietro-testa.png",
+      "description": "Flessione dei gomiti per abbassare il manubrio dietro la testa, braccia superiori vicine alle orecchie.",
+      "prompt": "ONE realisticfitnessPNG landscape3:2 ivoryfloorbackground. ORIGINALattached Misurami exactidentitycurlshairbeardface athleteproportions charcoalshirt originalsmall yellowwhiteLEFTchestMisuramilogo charcoalshortsyellowsidesblackshoes. STANDING TWO-HAND SINGLE-DUMBBELL OVERHEAD TRICEPS EXTENSION lowerposition. Manstandshipwidthfeet grounded neutralribs/pelvisspine noarch. BOTH UPPER ARMS VERTICAL closebesideears elbows pointUP narrow stable. Elbowsfullybent comfortably, FOREARMS fold BACKWARD behindhead, BOTHhands cup underneath the TOPHEAD of ONE verticalblackhex dumbbell held behindhead upperneck: palmsfaceCEILING underneathupperhead, thumbsaroundshaft andfingerssupporthead, no hands floating throughweight. Lowerhead hangs vertically belowhands betweenshoulderblades not touchingback. Clear SIDE/FRONTthreequarter camera so 2elbows, forearms route andgrip assessable, originalface/leftchestlogo naturallyvisible. Entirebodyshoes dumbbellallvisible broadmargin, man centeredLOW with at least300pixels blank ABOVEhead so laterstraightarms/dumbbellfit. No textcaptionsnumbersarrowsghostlimbs. Samecamera bodyfeet scaleweight toremain nextphase.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    }
+  ],
+  "motionOrder": [
+    "01-estensione.png",
+    "02-flessione-dietro-testa.png",
+    "01-estensione.png"
+  ],
+  "executionCycle": "Dalla posizione estesa flettere solo i gomiti abbassando il manubrio dietro la testa, poi estendere per ritornare sopra la testa mantenendo busto e appoggi stabili.",
+  "sources": [
+    "exercises.json:Standing_Dumbbell_Triceps_Extension",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "passed provisional: every PNG inspected for identity/clothing/logo, natural grips and wrists, clear distinct movement phases, neutral trunk and grounded feet, same equipment load, complete framing. Pending independent review.",
+    "fileValidation": "PNG decode and1536x1024 3:2 passed",
+    "trainerReview": "not performed"
+  },
+  "rejectedDrafts": 1,
+  "corrections": [
+    {
+      "prompt": "ONE PNG standing TWO-HAND SINGLE-DUMBBELL overhead triceps extension STRAIGHT-ARM startposition. First originalMisurami exactidentity, secondlowerposition scene exactcamera scale torsoheadfeet originalclothinglogo dumbbell. Keep upperarmsbesideears andELBOWlocations stable as possible, straighten bothelbows raising SAME SINGLE verticalblackhex dumbbell overhead. BOTHpalms support underside of SAME TOPHEAD facingceiling, thumbsenclose shaft justbelowtophead; lowerhead hangsunderhands; handcontactclear no extra hands/dumbbells. Natural fullyextendedarms not hyperlocked, narrowelbows, no twistingwrists, ribsdown noarching/lean. Allbodyfeetweight fully visible30pxtopmargin in existingemptyuppercanvas, doNOTzoom. Ivoryrealistic3:2 no textcaptionslabelsarrowsnumbers.",
+      "reason": "draft generated twofigures instead ofone; regenerated singlefigure endpoint"
+    }
+  ],
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Standing_Dumbbell_Triceps_Extension.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

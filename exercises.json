@@ -16946,7 +16946,11 @@
       "Ripeti per il numero di ripetizioni previsto."
     ],
     "category": "forza",
-    "id": "Standing_Dumbbell_Triceps_Extension"
+    "id": "Standing_Dumbbell_Triceps_Extension",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Standing_Dumbbell_Triceps_Extension/01-estensione.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Standing_Dumbbell_Triceps_Extension/02-flessione-dietro-testa.png"
+    ]
   },
   {
     "name": "Tirata al mento in piedi con manubri",
