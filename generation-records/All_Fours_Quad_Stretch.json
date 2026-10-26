@@ -1,0 +1,23 @@
+{
+  "id": "All_Fours_Quad_Stretch",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-allungamento.png",
+      "description": "Tenuta statica del quadricipite in quadrupedia, una mano afferra il piede.",
+      "prompt": "Create ONE landscape 3:2 realistic exercise PNG, no labels numbers captions arrows. Original attached Misurami character is authoritative: exact curly dark hair bearded athletic man, charcoal shirt with small original yellow/white Misurami logo on anatomical left chest, charcoal shorts yellow stripe black shoes. Ivory background floor, full body with margins, three-quarter side view facing right. Static quadruped quadriceps stretch, ONE held pose: left palm planted under left shoulder, left knee planted under left hip, right thigh extends back slightly and right knee deeply flexed bringing heel toward buttock. Right hand reaches backward and gently holds right ankle. Both shoulders and hips level, braced neutral spine, comfortable hip extension no forced lumbar arch. Left knee and palm provide clear stable floor support, right knee floats slightly behind. Exactly two arms two legs accurate natural joints and five fingers hand grip. All shoes hands visible. No equipment."
+    }
+  ],
+  "sources": [
+    "exercises.json:All_Fours_Quad_Stretch",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "passed: One held pose; change sides following instructions. Kneeling support, hand-foot grip, character and branding checked.",
+    "fileValidation": "PNG format, readability and 3:2 verified",
+    "trainerReview": "not performed"
+  },
+  "rejectedDrafts": 0
+}

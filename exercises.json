@@ -196,7 +196,10 @@
       "Concentrati sull'estensione delle anche, spingendole verso il pavimento. Mantieni 10–20 secondi e cambia lato."
     ],
     "category": "stretching",
-    "id": "All_Fours_Quad_Stretch"
+    "id": "All_Fours_Quad_Stretch",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/All_Fours_Quad_Stretch/01-allungamento.png"
+    ]
   },
   {
     "name": "Curl a martello alternato",
@@ -219,7 +222,12 @@
       "Continua ad alternare fino al numero previsto."
     ],
     "category": "forza",
-    "id": "Alternate_Hammer_Curl"
+    "id": "Alternate_Hammer_Curl",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternate_Hammer_Curl/01-partenza.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternate_Hammer_Curl/02-destro.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternate_Hammer_Curl/03-sinistro.png"
+    ]
   },
   {
     "name": "Tocchi alternati dei talloni",
@@ -380,7 +388,12 @@
       "Riabbassa il kettlebell in sospensione e porta alla spalla l'altro. Ripeti."
     ],
     "category": "forza",
-    "id": "Alternating_Hang_Clean"
+    "id": "Alternating_Hang_Clean",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternating_Hang_Clean/01-sospensione.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternating_Hang_Clean/02-girata-destra.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternating_Hang_Clean/03-girata-sinistra.png"
+    ]
   },
   {
     "name": "Distensioni alternate con kettlebell",

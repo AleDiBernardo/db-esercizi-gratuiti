@@ -1,0 +1,33 @@
+{
+  "id": "Alternate_Hammer_Curl",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-partenza.png",
+      "description": "Partenza con entrambi i manubri lungo i fianchi.",
+      "prompt": "ONE realistic fitness illustration PNG landscape 3:2 ivory floor/background, full man and equipment with margins, fixed front three-quarter camera. Use original attached Misurami character reference exactly, same curly dark hair beard face athletic proportions charcoal T-shirt small original yellow/white Misurami logo on anatomical left chest, charcoal shorts yellow side stripe black shoes. Alternating dumbbell hammer curl PHASE 1 starting position: upright neutral spine, feet hip width flat, shoulders relaxed both upper arms vertical close to torso, both elbows extended comfortably, one identical black hex dumbbell per hand hanging beside outer thighs. Neutral palms face torso, thumbs forward, dumbbell axes front to back. Natural accurate hands gripping centers with closed thumbs, exactly two arms two legs. No text captions numbers arrows panels. No exaggerated muscle anatomy. This defines fixed camera scale lighting dumbbells and load for subsequent phases."
+    },
+    {
+      "file": "02-destro.png",
+      "description": "Curl a martello destro.",
+      "prompt": "Edit phase 1 exercise image (second reference) into PHASE 2 right-arm hammer curl. First original Misurami sheet authoritative identity. Preserve EXACT camera framing body scale feet floor lighting shirt logo identity clothing and two identical black hex dumbbells. Change ONLY anatomical RIGHT elbow (arm on viewer LEFT): flex elbow to lift right dumbbell toward same-side shoulder, upper arm stays vertical next to torso. Forearm near vertical, neutral hammer grip thumb uppermost, dumbbell axis vertical. Left arm on viewer right stays down beside thigh with same weight. Torso upright no sway. Accurate hands wrists joints and grip. Full body all weights no crop, landscape 3:2 realistic ivory background. No labels arrows captions panels."
+    },
+    {
+      "file": "03-sinistro.png",
+      "description": "Curl a martello sinistro dopo ritorno alla partenza.",
+      "prompt": "Edit phase 1 second image into PHASE 3 anatomical LEFT arm hammer curl, viewer RIGHT arm raised. Original Misurami sheet first reference is authoritative character reference. EXACT same camera scale feet floor lighting face charcoal clothing left-chest logo two black hex dumbbells same size. Right arm viewer LEFT now fully lowered beside thigh holding neutral dumbbell as phase 1. Left elbow viewer RIGHT flexed lifting dumbbell toward left shoulder, upper arm vertical close torso, neutral thumb-up hammer grip and dumbbell axis nearly vertical. Only elbow/forearm move; upright torso no sway, shoulders level. Natural hands with grip centered on handle, wrists straight. Full body weights visible with margin landscape 3:2 realistic ivory background, no captions text numbers arrows panels."
+    }
+  ],
+  "sources": [
+    "exercises.json:Alternate_Hammer_Curl",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "passed: Both neutral-grip alternating curls, hands and elbow alignment, fixed feet/camera and dumbbell consistency checked.",
+    "fileValidation": "PNG format, readability and 3:2 verified",
+    "trainerReview": "not performed"
+  },
+  "rejectedDrafts": 0
+}

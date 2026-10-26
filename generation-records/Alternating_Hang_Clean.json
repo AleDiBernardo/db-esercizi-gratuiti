@@ -1,0 +1,32 @@
+{
+  "id": "Alternating_Hang_Clean",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-sospensione.png",
+      "description": "Posizione di sospensione con anche arretrate e due kettlebell impugnati.",
+      "prompt": "ONE realistic fitness illustration PNG landscape 3:2. ORIGINAL authoritative reference attached is Misurami character; reproduce exact adult male face curly dark hair beard athletic proportions, charcoal T-shirt with original small yellow-white Misurami logo on anatomical left chest, charcoal shorts yellow trim, black shoes. Ivory seamless floor background subtle shadow, full body and all equipment with margins, no captions panels numbers text except shirt logo. Exercise alternating kettlebell hang clean PHASE 1 hang: front three-quarter view slightly from man's left. Feet shoulder width flat, knees slightly bent, hip hinge with neutral flat spine chest open. Both arms extended downward, each hand gripping handle of one identical matte black spherical kettlebell. Bells hang between knees just clear of floor, neutral wrists, shoulders packed. Exactly 2 bells of equal size, clear separation between arms and legs. Body fully visible. Keep fixed camera scale feet positions bells/load for next phases."
+    },
+    {
+      "file": "02-girata-destra.png",
+      "description": "Estensione di anche e gambe, kettlebell destro in rack alla spalla e sinistro sospeso.",
+      "prompt": "ONE landscape 3:2 PNG phase 2 RIGHT kettlebell clean. ORIGINAL first reference authoritative Misurami identity clothing anatomical-left chest logo. Second reference phase 1 establishes exact camera ivory floor framing feet positions and two identical black kettlebells. Same man stands upright after extending knees hips, no backward lean. His anatomical RIGHT arm (viewer left) now holds its bell in secure front rack at RIGHT shoulder: elbow tucked near ribs, wrist neutral hand through handle, bell round body resting outside forearm against upper arm not above hand. LEFT arm remains straight beside body holding other kettlebell suspended at thigh. Keep both feet fixed same scale and bell size, full body and bells with margins. Clean is not a biceps curl: depict stable finished rack with knuckles upward forearm near vertical, palm oriented inward. Accurate hands joints exactly two arms two bells. Same original face clothing logo. No captions labels numbers arrows panels."
+    },
+    {
+      "file": "03-girata-sinistra.png",
+      "description": "Kettlebell sinistro in rack alla spalla e destro sospeso.",
+      "prompt": "ONE landscape 3:2 PNG phase 3 LEFT kettlebell clean. ORIGINAL first reference exact Misurami identity clothing small original yellow white logo on anatomical LEFT chest. Second image phase 2 establishes exact same camera floor lighting feet positions, character scale and both black kettlebell size. Change ONLY arms: anatomical RIGHT arm (viewer left) now straight at side holding its bell hanging beside thigh; anatomical LEFT arm (viewer right) holds the other bell in secure front rack against LEFT shoulder outside forearm. Left elbow tucked at ribs neutral wrist knuckles up, forearm close vertical; spherical bell rests against outside forearm/upper arm and not atop hand. Body upright hips knees extended no leaning, exactly same stance and feet as second image. Correct anatomy exactly two hands firmly gripping two handles two bells. Full figure and all equipment margins no clipping. Ivory realistic illustration same original character logo. No words captions labels arrows panels."
+    }
+  ],
+  "sources": [
+    "IMAGE-ROUTINE.md",
+    "exercises.json:Alternating_Hang_Clean"
+  ],
+  "checks": {
+    "automaticVisualInspection": "passed: reviewed every image for anatomy, grip, stable rack wrist position, floor support, both alternating sides, original identity and chest branding, equipment and framing; slight stance-width variation between hinge and upright rack poses",
+    "trainerReview": "not performed"
+  },
+  "rejectedDrafts": 0
+}
