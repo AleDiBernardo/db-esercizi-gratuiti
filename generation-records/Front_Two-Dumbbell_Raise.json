@@ -1,0 +1,50 @@
+{
+  "id": "Front_Two-Dumbbell_Raise",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "status": "accepted",
+  "phases": [
+    {
+      "file": "01-partenza.png",
+      "description": "Manubri davanti alle cosce con palmi rivolti alle cosce.",
+      "prompt": "Create ONE realistic fitness PNG landscape3:2 warmivoryfloorbackground fullbodyallweights generousmargins no captions textnumbersarrows. ORIGINAL attached Misurami character authoritative exact curlyhairbeardface athletebody charcoalshirt small original yellowwhite Misurami anatomicalLEFTchestlogo charcoalshorts yellowtrim blackshoes. TWO DUMBBELL FRONT RAISE phase1. Standing neutral trunk feet hipwidth planted, knees softlyunlocked. TWO identical smallblackhex dumbbells held directly IN FRONT of thighs with arms extended softelbows and palms facing THIGHS (pronated grips). Hands closed thumbswrap wristsstraight, weights horizontal left-right notneutral along body. Camera45degree frontside threequarter so forward arm lift will be visibly toward RIGHT in image, not lateral. Entire body shoes dumbbells seen no equipment. Broad space in front/right ofchest for later shoulderheight arms, camera scale feetfixed nextphase.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    },
+    {
+      "file": "02-alzata-frontale.png",
+      "description": "Alzata simultanea davanti al busto, gomiti leggermente flessi e palmi al pavimento.",
+      "prompt": "ONE PNG FRONT TWO-DUMBBELL RAISE phase2. Firstoriginal Misurami identity exact, secondscene fixes exactcamera anglebodytorsofeetheadfloor loadscale. BOTH arms raise STRAIGHT FORWARD in frontofchest towardRIGHT ofimage to just above shoulderheight around95degrees shoulderflexion, NOT outtosides. Elbows retain slight10degree bend no curl, palms face DOWN pronated, wristsneutral with closedgrips same TWO blackhexweights separated shoulderwidth. Fararm and farweight clearly visible beside/behind neararm projection no fusedlimbs. Torso perfectlysteady no backwardlean no momentum, headface fixed feetplanted sameplaces. Entirebody bothdumbbells arms frame generousspace as source. Realistic3:2 ivory no captionsnumbersarrows except original leftchestlogo. Match anatomy equipmentcountandshape exactly.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    }
+  ],
+  "motionOrder": [
+    "01-partenza.png",
+    "02-alzata-frontale.png",
+    "01-partenza.png"
+  ],
+  "executionCycle": "Alzare entrambi i manubri davanti senza slancio fino a poco sopra il parallelo, pausa e ritorno lento alla prima posizione.",
+  "sources": [
+    "exercises.json:Front_Two-Dumbbell_Raise",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "passed provisional: every PNG inspected for identity/clothing/logo, natural grips and wrists, clear distinct movement phases, neutral trunk and grounded feet, same equipment load, complete framing. Pending independent review.",
+    "fileValidation": "PNG decode and1536x1024 3:2 passed",
+    "trainerReview": "not performed"
+  },
+  "rejectedDrafts": 0,
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Front_Two-Dumbbell_Raise.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

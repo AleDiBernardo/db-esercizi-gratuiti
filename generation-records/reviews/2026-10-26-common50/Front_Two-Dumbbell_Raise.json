@@ -1,0 +1,16 @@
+{
+  "id": "Front_Two-Dumbbell_Raise",
+  "verdict": "accepted",
+  "reviewer": "images_f",
+  "filesViewed": [
+    "01-partenza.png",
+    "02-alzata-frontale.png"
+  ],
+  "observations": [
+    "Both weights rise in front from thighs to just above horizontal, palmsdown and slight elbow flexion.",
+    "Torso neutral no backward lean or knee drive, samefeet/camera/dumbbells allvisible and originalidentity/logo.",
+    "Record explicitly includes controlled lowering to first pose; two keyframes sufficient."
+  ],
+  "requiredFixes": [],
+  "trainerReview": "not performed"
+}

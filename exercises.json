@@ -1498,7 +1498,11 @@
       "Ripeti per il numero previsto."
     ],
     "category": "forza",
-    "id": "Barbell_Squat"
+    "id": "Barbell_Squat",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Barbell_Squat/01-partenza.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Barbell_Squat/02-accosciata.png"
+    ]
   },
   {
     "name": "Squat con bilanciere alla panca",
@@ -6635,7 +6639,11 @@
       "Ripeti per il numero di ripetizioni previsto."
     ],
     "category": "forza",
-    "id": "Front_Two-Dumbbell_Raise"
+    "id": "Front_Two-Dumbbell_Raise",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Front_Two-Dumbbell_Raise/01-partenza.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Front_Two-Dumbbell_Raise/02-alzata-frontale.png"
+    ]
   },
   {
     "name": "Lat machine ai cavi con escursione completa",
@@ -14726,7 +14734,11 @@
       "Ripeti per il numero di ripetizioni previsto."
     ],
     "category": "forza",
-    "id": "Side_Lateral_Raise"
+    "id": "Side_Lateral_Raise",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Side_Lateral_Raise/01-partenza.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Side_Lateral_Raise/02-alzata-laterale.png"
+    ]
   },
   {
     "name": "Alzate laterali e frontali combinate",
@@ -18992,7 +19004,11 @@
       "Ripeti per il numero di ripetizioni previsto."
     ],
     "category": "forza",
-    "id": "Wide-Grip_Lat_Pulldown"
+    "id": "Wide-Grip_Lat_Pulldown",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Wide-Grip_Lat_Pulldown/01-braccia-distese.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Wide-Grip_Lat_Pulldown/02-tirata-al-petto.png"
+    ]
   },
   {
     "name": "Trazioni dietro la nuca al cavo alto a presa larga",

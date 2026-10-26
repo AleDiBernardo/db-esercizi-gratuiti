@@ -1,0 +1,14 @@
+{
+  "id": "Wide-Grip_Lat_Pulldown",
+  "verdict": "accepted",
+  "reviewer": "images_a",
+  "filesReviewed": [
+    "01-braccia-distese.png",
+    "02-tirata-al-petto.png"
+  ],
+  "findings": [
+    "Viewed both PNGs against full instructions. Wide pronated grip distinct, both hands on same bar points, high extendedarms and bar at upperchest clear.",
+    "Thighpad restraint, pelvis seated and plantedfeet visible; torso remains stable without exaggerated swing.",
+    "Cable taut from same pulley to same barcenter, extension grows as bar lowers. Machine/camera stable; yellow selector rises with selected stack rather than changed load."
+  ]
+}

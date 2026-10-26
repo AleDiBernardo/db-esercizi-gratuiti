@@ -1,0 +1,50 @@
+{
+  "id": "Wide-Grip_Lat_Pulldown",
+  "createdAt": "2026-10-26",
+  "status": "accepted",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-braccia-distese.png",
+      "description": "Braccia distese e presa prona larga, cosce trattenute dai rulli.",
+      "prompt": "ONE realistic fitness PNG landscape3:2 ivory floor/background full seated man and entire LAT PULLDOWN machine all parts with generous margins. Original attached Misurami sheet authoritative exact curlyhaired bearded man charcoal original leftchestlogo shirt shortsyellowstripe blackshoes. Wide-grip LAT PULLDOWN phase1 arms extended. Simple darkgray tower with COVERED WEIGHTSTACK (opaque shroud, small selectorwindow yellowpin at lightload), one fixed high pulley above athlete and visible cable from it vertically to CENTER EYELET of ONE long slightly downturned chrome latbar. Black fixed seat, padded thigh restraint firmly over thighs just above knees, feet flatfloor. Athlete sits facing tower with torso leaned back20-30degrees from hips, chestopen natural lumbar neutralneck. Both arms fullyextended comfortably upward to wide PRONATED GRIP (palms forward) widerthan shoulders on bar ends, thumbswrapped naturalhands. Bar abovehead, cable taut to highpulley, headclear no behindneck bar. Slight sidefront3/4 camera shows entire seat thighpads feet framebase cablepulley bar/hands. Fixed camera scale load equipment for nextphase. No captions labels numbers arrows panels except original small chestbranding.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    },
+    {
+      "file": "02-tirata-al-petto.png",
+      "description": "Tirata della stessa barra davanti al viso fino alla parte alta del petto.",
+      "prompt": "Edit second latpulldown initial image to CONTRACTION phase. First original Misurami character sheet authoritative. EXACT same camera frame machine fixed tower shroud seat thighrestraint feet floor body torso20-30deg lean and weightpin/load unchanged. Move only arms+latbar by elbowflexion and shoulderadduction: pull same widechrome bar DOWN IN FRONT offace until central bar just reaches UPPER CHEST/clavicle, both elbows pointingdown/back alongsidebody, scapulae depressed/retracted. Both hands keep SAME wide pronatedgrip at identical points on bar, no switchingbar gripor shape. Cable now extends LONGER from SAME fixed highpulley vertically to SAME centraleyelet onbar, taut continuous noextra cables/nodes. Athlete torso static no bigleanback, head neutral lookingforward barpassesfront neverbehindneck, pelvis seated thighs firmlyunderthe SAME kneepads feet flat. Both hands accurate closed thumbs naturalwrist. Fullbody entiremachine topframe allshoes/bar/hands visiblemargins realistic landscape3:2 ivory no textlabels arrows panels.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    }
+  ],
+  "executionSequence": [
+    "01-braccia-distese.png",
+    "02-tirata-al-petto.png",
+    "01-braccia-distese.png"
+  ],
+  "executionNotes": "Concentric01to02; controlled eccentric02to01; repeat.",
+  "sources": [
+    "exercises.json:Wide-Grip_Lat_Pulldown",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "Wide pronated grip; taut center cable continuous from fixed highpulley, same seat/thighpads feet and shrouded load. Bar lowers in front, both elbows flex down, torso stable. Visually inspected every phase.",
+    "fileValidation": "PNG3:2 decode verified",
+    "trainerReview": "not performed"
+  },
+  "correctionHistory": [],
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Wide-Grip_Lat_Pulldown.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

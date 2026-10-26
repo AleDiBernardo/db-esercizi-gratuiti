@@ -32,7 +32,11 @@
     "Barbell_Deadlift",
     "Romanian_Deadlift",
     "Pushups",
-    "Incline_Push-Up"
+    "Incline_Push-Up",
+    "Barbell_Squat",
+    "Wide-Grip_Lat_Pulldown",
+    "Side_Lateral_Raise",
+    "Front_Two-Dumbbell_Raise"
   ],
   "needsReview": [
     {

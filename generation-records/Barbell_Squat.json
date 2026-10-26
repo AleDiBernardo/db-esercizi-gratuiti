@@ -1,0 +1,56 @@
+{
+  "id": "Barbell_Squat",
+  "createdAt": "2026-10-26",
+  "status": "accepted",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-partenza.png",
+      "description": "In piedi con bilanciere sui trapezi, presa e piedi stabili nel rack.",
+      "prompt": "Reframe second attached START BarbellSquat to show ENTIRE rack uprights TOPS with generous margins. ORIGINAL first Misurami identityauthoritative. Zoomcamera OUT scale entire man/barbell/rack DOWN uniformly about20percent within same3:2 ivorycanvas. Showrack finiteuprights tops at y70, bases near y920, allbarends andplates visible. Keep exactpose upright neutralback shoulderwidthfootstance barrestinguppertrapezius behindneck gripvalid bothhands andtwoequalblackplates. Rack safetyarms belowbottomsquatbarlevel, bar UNRACKED slightlyinfrontofJhooks and supportedbytraps notracks. Same bodyclotheslogo ivoryfloorlight. No cropping labelsarrows captionspanels."
+    },
+    {
+      "file": "02-accosciata.png",
+      "description": "Flessione di anche e ginocchia fino a cosce circa parallele, bar libero dai ganci.",
+      "prompt": "Edit second bottom-squat image to REMOVE TWO ERRONEOUS EXTRA J-HOOKS at loweredbarheight. First original Misurami identityauthoritative; third standing image fixedrackgeometry. Rack must match third EXACTLY: ONLY original Jhooks at high y350, safetyarms y640; NO hooks/attachments at y495. Current loweredbar MUST BE FREE ofuprights supportedonlyonman's uppertrapezius behindneck. Draw continuousbarshaft pastuprights withvisibleclearance, notfusedtoframe. Keep man squattingbodyhandsbarplates samepose and feetpositions, headalignedneutralspine. Do NOT move anyhighhooks/safetyarms, doNOT addmovingframeparts. Full rackbodybar shoes within3:2 ivoryframe, originalclotheslogo. No captionsarrows."
+    }
+  ],
+  "executionSequence": [
+    "01-partenza.png",
+    "02-accosciata.png",
+    "01-partenza.png"
+  ],
+  "returnDescription": "Estendere anche e ginocchia spingendo sul piede intero e tornare alla stessa partenza; ripetere.",
+  "sources": [
+    "IMAGE-ROUTINE.md",
+    "exercises.json:Barbell_Squat",
+    "https://pubmed.ncbi.nlm.nih.gov/14636100/"
+  ],
+  "technicalNotes": "Non viene imposta la controversa limitazione universale ginocchia-dietro-punte: lo studio consultato mostra trasferimento del carico ad anche/lombari con restrizione artificiale. Posa neutra con ginocchia allineate alle punte.",
+  "correctionHistory": [
+    {
+      "prompt": "ONE landscape3:2 realistic fitness illustration Barbell BACK SQUAT phase1 START. Original attached Misurami authoritativeexact face curlyhair beard athleticbuild originalcharcoalshirt smallyellowwhiteLEFTchestlogo shorts yellowtrim blackshoes. Ivorybackgroundfloor subtle shadow. Front-left3/4 view entirebody AND ENTIRE BARBELL/RACK margins no clipping. Simple squat rack darkgray two uprights behind athlete with safetyrails low enough belowsquatdepth, unchangedthroughsequence. Man standing inside rack feet shoulderwidth toesout, neutralspine bracedtorso headaligned. Straightsteelbar rests on uppertrapezius behindshoulders belowneck, bothhands secure overhand grip slightly widerthanshoulders, wrists neutral elbows pointingdown/back. Modest matching blackplate oneeachend, exactsameloadthroughsequence. Feet fullyflat. Wholebar racktop/base shoes visible. Fixedcamera scale floor equipment for bottom. No labelscaptionsnumbersarrows panels.",
+      "reason": "Initial rack top clipped",
+      "result": "reframed fullrack"
+    },
+    {
+      "prompt": "ONE3:2PNG BarbellBackSquat phase2 BOTTOM. Originalfirst Misurami reference authoritative identityclothesleftchestlogo. Secondimage fixes entire rack floorcamera scale feetplatecount. Keep rack EXACT immutable including tops Jhooks safetyarms holes bases. Man has unracked bar onto uppertraps; now squats down hipcrease at kneeheight thighs slightlybelowparallel, kneestracktoes naturallyinclinedshins heelsflat. ExactSAME feetlocations as standing shoulderswidth. Bar rests BEHIND shoulders ontraps belowneck, bothhandsgrip samewidepositions wristsneutral, twoequalblackplates unchanged. Bar now lowerswithshoulders toaroundy520, stays ABOVE safetyarms and clear offuprights/hooks. Torso naturallyinclinesforward neutralspine no rounding headaligned. No footsliding, no barsbending, fullbodyequipment margins ivoryfloor no labelsarrowscaptionpanels. Return tostanding exactreverse.",
+      "reason": "Extra Jhooks appeared at loweredbarheight",
+      "result": "removed extra hooks"
+    }
+  ],
+  "checks": {
+    "automaticVisualInspection": "reviewed both finalimages: anatomy supports grip upperbackbar, whole rack/bar uncropped, sameplates footstance rackgeometry; peer review pending",
+    "trainerReview": "not performed"
+  },
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Barbell_Squat.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

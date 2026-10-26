@@ -1,0 +1,16 @@
+{
+  "id": "Side_Lateral_Raise",
+  "verdict": "accepted",
+  "reviewer": "images_f",
+  "filesViewed": [
+    "01-partenza.png",
+    "02-alzata-laterale.png"
+  ],
+  "observations": [
+    "Full manifest instructions and record return cycle reviewed.",
+    "Clear side-to-shoulderheight raises with slight fixed elbow flexion, stable upright torso feet and equipment dimensions, full framing.",
+    "No exaggerated water-pouring internal rotation; primary ACE substitution documented by generating agent. Identity/logo/grip anatomy retained."
+  ],
+  "requiredFixes": [],
+  "trainerReview": "not performed"
+}

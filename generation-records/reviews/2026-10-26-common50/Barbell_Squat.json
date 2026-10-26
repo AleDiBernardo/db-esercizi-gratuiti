@@ -1,0 +1,13 @@
+{
+  "id": "Barbell_Squat",
+  "verdict": "accepted",
+  "reviewer": "images_d",
+  "reviewType": "independent_visual_model_review",
+  "viewedFiles": [
+    "images/Barbell_Squat/01-partenza.png",
+    "images/Barbell_Squat/02-accosciata.png"
+  ],
+  "findings": "Full upright and bottom squat visibly distinct, feet supported with functionally consistent stance, knees track feet, neutral torso, bar behind upper shoulders and equal loads. Rack and safety arms unchanged, lowered bar has clear separation from elevated Jhooks after correction. Full framing and original identity/branding retained.",
+  "limitations": "Minor shoe vertical framing shift and bar/plate rendering variation; start bar close to hooks but bottom clearly free. No professional trainer review.",
+  "necessaryFix": null
+}

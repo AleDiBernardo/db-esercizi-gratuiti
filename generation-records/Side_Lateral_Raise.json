@@ -1,0 +1,54 @@
+{
+  "id": "Side_Lateral_Raise",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "status": "accepted",
+  "phases": [
+    {
+      "file": "01-partenza.png",
+      "description": "Manubri ai lati delle cosce con presa neutra.",
+      "prompt": "ONE realistic fitness PNG landscape3:2 ivoryfloor background. Original attached Misurami sheet exact identity curlsbeardface athleticproportions charcoalTshirt original small yellowwhite Misurami logo anatomicalLEFTchest charcoalshorts yellowstripe blackshoes. SIDE LATERAL RAISE phase1 armsDOWN. Man standing upright feet hipwidth planted neutralspine/ribs no shrug or lean. TWO SAME small black hex dumbbells held just outside thighs, arms relaxed extended slightsoftelbows, palms facing body neutralgrip closedthumbs wristsstraight. Frontal slightthreequarter camera originalface/chest visible. Entire man bothdumbbells shoes visible broad EMPTYspace bothsides for later Tarmspan at samecamera. No labels text captions numbersarrows panels. Exact anatomy hands fingers natural fullbody. Fixcameraequipmentload for nextphase.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    },
+    {
+      "file": "02-alzata-laterale.png",
+      "description": "Alzata laterale fino al piano delle spalle, gomiti morbidi e manubri lievemente ruotati verso l’alto.",
+      "prompt": "ONE PNG SIDE LATERAL RAISE phase2 shoulderheight. First original Misurami reference exact identity/clothes/leftchestlogo, second starting scene fixes exactcamera headtorsofeetcoordinates scale load. Change ONLY BOTHarms raised LATERALLY OUT toward sides, upperarms approximately parallelfloor at shoulderheight in plane slightly ahead of torso. Elbows softlybent fixed10-15degrees no90degreecurl, hands slightly below elbows, same smallblackhexdumbbells full visible. Wristsneutral, leading FRONT EDGES ofdumbbells slightly UP (mild external shoulderrotation perACE), NEVER thumbsdown/pouring jug. Torso steady neutralspine no swinging lean or shrug, feet samefloorpoints. Two natural closedgrips fivefingers, allbodyequipment within same3:2 ivoryframe generoussidemargins. No text arrowscaptionsnumberspanels.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    }
+  ],
+  "motionOrder": [
+    "01-partenza.png",
+    "02-alzata-laterale.png",
+    "01-partenza.png"
+  ],
+  "executionCycle": "Dalla presa neutra ai fianchi alzare lateralmente senza oscillare fino alle spalle, fermarsi brevemente e ritornare sotto controllo.",
+  "sources": [
+    "exercises.json:Side_Lateral_Raise",
+    "IMAGE-ROUTINE.md",
+    "https://www.acefitness.org/resources/everyone/exercise-library/26/lateral-raise/"
+  ],
+  "checks": {
+    "automaticVisualInspection": "passed provisional: every PNG inspected for identity/clothing/logo, natural grips and wrists, clear distinct movement phases, neutral trunk and grounded feet, same equipment load, complete framing. Pending independent review.",
+    "fileValidation": "PNG decode and1536x1024 3:2 passed",
+    "trainerReview": "not performed"
+  },
+  "rejectedDrafts": 0,
+  "technicalDecisions": [
+    "Non copiato il cue controverso versare acqua: lieve rotazione esterna vicino alle spalle e polsi neutri secondo guida primaria ACE."
+  ],
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Side_Lateral_Raise.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}
