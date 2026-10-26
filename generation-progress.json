@@ -58,8 +58,7 @@
     "One-Arm_Dumbbell_Row",
     "EZ-Bar_Curl",
     "Triceps_Pushdown_-_Rope_Attachment",
-    "Leg_Press",
-    "Lying_Leg_Curls"
+    "Leg_Press"
   ],
   "needsReview": [
     {
@@ -113,6 +112,10 @@
     {
       "id": "Alternate_Leg_Diagonal_Bound",
       "reason": "Traiettoria diagonale e profondità dei contatti a terra incoerenti; freccia di direzione errata in una fase. Rinviato dopo correzioni."
+    },
+    {
+      "id": "Lying_Leg_Curls",
+      "reason": "Withdrawn after additional peer review found no rigid lever connecting ankle roller to machine knee pivot. Correction and repeat review required."
     }
   ]
 }

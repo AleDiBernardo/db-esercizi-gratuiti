@@ -10049,11 +10049,7 @@
       "Inspirando, torna alla posizione iniziale e ripeti per il numero previsto."
     ],
     "category": "forza",
-    "id": "Lying_Leg_Curls",
-    "images": [
-      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Lying_Leg_Curls/01-gambe-distese.png",
-      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Lying_Leg_Curls/02-flessione.png"
-    ]
+    "id": "Lying_Leg_Curls"
   },
   {
     "name": "Squat da sdraiati alla macchina",
