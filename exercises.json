@@ -402,7 +402,12 @@
       "Riabbassalo alla posizione iniziale e spingi subito con l'altro braccio."
     ],
     "category": "forza",
-    "id": "Alternating_Kettlebell_Press"
+    "id": "Alternating_Kettlebell_Press",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternating_Kettlebell_Press/01-rack.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternating_Kettlebell_Press/02-distensione-destra.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternating_Kettlebell_Press/03-distensione-sinistra-v2.png"
+    ]
   },
   {
     "name": "Rematore alternato con kettlebell",
@@ -546,7 +551,12 @@
       "Continua per circa 10 secondi, poi inverti il senso di rotazione."
     ],
     "category": "stretching",
-    "id": "Arm_Circles"
+    "id": "Arm_Circles",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Arm_Circles/01-avanti-alto-v2.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Arm_Circles/02-dietro-v2.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Arm_Circles/03-avanti-basso-v2.png"
+    ]
   },
   {
     "name": "Arnold press con manubri",
@@ -568,7 +578,12 @@
       "Ripeti per il numero previsto."
     ],
     "category": "forza",
-    "id": "Arnold_Dumbbell_Press"
+    "id": "Arnold_Dumbbell_Press",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Arnold_Dumbbell_Press/01-partenza.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Arnold_Dumbbell_Press/02-rotazione-v2.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Arnold_Dumbbell_Press/02-distensione.png"
+    ]
   },
   {
     "name": "Semicerchi con manubri su panca",

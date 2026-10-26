@@ -9,7 +9,10 @@
     "Alternating_Cable_Shoulder_Press",
     "Around_The_Worlds",
     "Axle_Deadlift",
-    "Alternating_Floor_Press"
+    "Alternating_Floor_Press",
+    "Alternating_Kettlebell_Press",
+    "Arm_Circles",
+    "Arnold_Dumbbell_Press"
   ],
   "needsReview": [
     {
@@ -59,14 +62,6 @@
     {
       "id": "Alternating_Hang_Clean",
       "reason": "Mancano transizioni leggibili di spinta delle anche e inserimento della mano nella girata."
-    },
-    {
-      "id": "Arm_Circles",
-      "reason": "Frecce centrate sui polsi possono suggerire rotazioni dei polsi anziché circonduzioni delle braccia."
-    },
-    {
-      "id": "Arnold_Dumbbell_Press",
-      "reason": "Manca una fase intermedia che renda visibile apertura e rotazione caratteristiche."
     },
     {
       "id": "Ankle_Circles",

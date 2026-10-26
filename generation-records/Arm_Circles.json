@@ -5,9 +5,25 @@
   "reference": "references/misurami-personaggio.png",
   "phases": [
     {
-      "file": "01-circonduzioni.png",
-      "description": "Braccia distese a T con frecce circolari che illustrano la piccola circonduzione; invertire il verso come da istruzioni.",
-      "prompt": "Create ONE landscape 3:2 PNG realistic exercise illustration on warm ivory background and floor. Use attached ORIGINAL Misurami character sheet for exact male face curly dark hair beard proportions charcoal T-shirt with small original yellow-white Misurami logo on anatomical LEFT chest, charcoal shorts yellow stripe, black shoes. Exercise arm circles: man stands upright feet hip-width firmly grounded, BOTH arms straight out sideways at shoulder height horizontal forming a T with torso; palms face down, relaxed neck neutral spine. Front three-quarter view slight angle preserving clear visibility of both arms and hands. Two small thin YELLOW curved circular arrows around hand/wrist regions show small arm circles approximately 30cm diameter; no ghost limbs, no extra arms, no captions letters numbers titles. Entire body including hands and feet fully visible with generous margins. Accurate anatomy five fingers per hand two arms two legs. No equipment. Arms not bent; full hand span fits frame.",
+      "file": "01-avanti-alto-v2.png",
+      "description": "Braccia intere distese leggermente avanti e sopra il piano orizzontale.",
+      "prompt": "Create ONE new v2 landscape3:2 PNG of ARM CIRCLES phase1 FRONT-UPWARD QUADRANT. First original Misurami sheet exact identity clothing original left-chest logo. Second original standing scene fixes camera scale feet torso face and background. Preserve same standing man all body coordinates, legs head trunk stable. Arms remain BOTH FULLY STRAIGHT with neutral wrists and palms down, but BOTH ENTIRE ARMS MOVE AT SHOULDER JOINT: lift each upper arm and straight forearm about10degrees ABOVE horizontal and swing slightly FORWARD about10degrees. Thus elbows and hands visibly higher and in front of original T pose, moving as rigid whole limbs, shoulder centers fixed. Remove ALL yellow arrows around wrists; NO arrows for this phase so not mistaken wrist rotation. Do not rotate just hands or bend elbows. Warm ivory realistic illustration, full body all hands feet in frame generous margins. No text captions numbers ghost limbs panels. Correct fivefinger hands, original character. Later phase will move straight arms below/back to show opposite quadrant.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    },
+    {
+      "file": "02-dietro-v2.png",
+      "description": "Passaggio delle braccia verso il quadrante posteriore, vicino al piano orizzontale; frecce vicino alle spalle indicano movimento delle braccia.",
+      "prompt": "Correct second ARM CIRCLES phase2 image only: arms dropped too far. Keep original character from first reference, exact camera body feet torso logo. Raise BOTH ENTIRE STRAIGHT ARMS so hands are at y=285 pixels on 1536x1024 canvas, shoulders at y=220, only8-10degrees BELOW horizontal. Elbows and wrists stay straight palms down; arms slightly behind chest plane, shoulders fixed. Do not move head feet body. Add two thin small curved yellow arrows adjacent to MID-UPPER-ARM regions, clear of hands/wrists, indicating whole-arm small shoulder circle; arrows do NOT wrap around the upper arm axis, they trace a short curved up/back trajectory. No arrows around wrists. Landscape3:2 ivory realistic full body no captions numbers ghost limbs.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    },
+    {
+      "file": "03-avanti-basso-v2.png",
+      "description": "Passaggio delle braccia intere avanti e sotto il piano orizzontale per chiudere la piccola circonduzione.",
+      "prompt": "Create ARM CIRCLES v2 third distinct quadrant in same scene. First original Misurami identity reference exact. Second scene image fixes camera feet torso face logo and scale. ONLY BOTH STRAIGHT ARMS: rotate whole arms FORWARD at SHOULDERS about15degrees so upper arms are slightly in front of chest plane (foreshortened) and8degrees BELOW horizontal. Hands at lower chest level around y=290, elbows fully straight wrists neutral palms down. Difference must be clear in BOTH shoulder-to-elbow and elbow-to-hand positions, no wrist rolling. Keep arms near T, not dropping toward hips. No arrows wrist ellipses text captions numbers ghost limbs. Entire character identical ivory3:2 full body framing. Hands accurate five fingers. This image plus upward-forward and backward-horizontal positions must depict a small shoulder-driven circle, not lateral raise.",
       "references": [
         "references/misurami-personaggio.png"
       ]
@@ -18,20 +34,57 @@
     "IMAGE-ROUTINE.md"
   ],
   "checks": {
-    "automaticVisualInspection": "passed: reviewed each image for original character and logo, anatomy hands joints, body support, grip, equipment continuity, fixed camera scale and complete framing; movement sequence corresponds to repository instructions",
+    "automaticVisualInspection": "Provisional v2: inspected all3 images, identity body support and framing stable, wrist ellipses removed, whole arms visibly move through different quadrants; root must verify movement is unambiguous before acceptance.",
     "trainerReview": "not performed",
     "technicalScope": "Illustrates repository instructions; not a professionally validated prescription"
   },
   "rejectedDrafts": 0,
   "motionOrder": [
-    "01-circonduzioni.png"
+    "01-avanti-alto-v2.png",
+    "02-dietro-v2.png",
+    "03-avanti-basso-v2.png",
+    "01-avanti-alto-v2.png"
   ],
-  "executionCycle": "Dalla posizione a T eseguire piccoli cerchi controllati per circa 10 secondi, poi invertire il senso di rotazione mantenendo la stessa posizione delle braccia. La stessa PNG rappresenta entrambi i versi; non sono necessarie pose statiche aggiuntive.",
-  "phasePlanRationale": "Una posizione e frecce circolari sono sufficienti: il movimento è una piccola circonduzione continua e il cambio di verso non richiede una posa anatomica diversa.",
-  "status": "pending_correction",
+  "executionCycle": "Far descrivere piccoli cerchi alle braccia intere mantenendo gomiti e polsi stabili: avanti-alto, dietro, avanti-basso, poi chiusura al primo quadrante. Invertire il ciclo dopo circa10 secondi.",
+  "phasePlanRationale": "Tre posizioni mostrano spostamenti di spalle-braccia intere, senza ellissi ai polsi. La sequenza evita la lettura come sola rotazione del polso.",
+  "status": "accepted",
   "independentReview": {
     "date": "2026-10-26",
     "verdict": "needs_correction",
     "reason": "Frecce centrate sui polsi possono suggerire rotazioni dei polsi anziché circonduzioni delle braccia."
+  },
+  "history": [
+    {
+      "version": "v1",
+      "phases": [
+        {
+          "file": "01-circonduzioni.png",
+          "description": "Braccia distese a T con frecce circolari che illustrano la piccola circonduzione; invertire il verso come da istruzioni.",
+          "prompt": "Create ONE landscape 3:2 PNG realistic exercise illustration on warm ivory background and floor. Use attached ORIGINAL Misurami character sheet for exact male face curly dark hair beard proportions charcoal T-shirt with small original yellow-white Misurami logo on anatomical LEFT chest, charcoal shorts yellow stripe, black shoes. Exercise arm circles: man stands upright feet hip-width firmly grounded, BOTH arms straight out sideways at shoulder height horizontal forming a T with torso; palms face down, relaxed neck neutral spine. Front three-quarter view slight angle preserving clear visibility of both arms and hands. Two small thin YELLOW curved circular arrows around hand/wrist regions show small arm circles approximately 30cm diameter; no ghost limbs, no extra arms, no captions letters numbers titles. Entire body including hands and feet fully visible with generous margins. Accurate anatomy five fingers per hand two arms two legs. No equipment. Arms not bent; full hand span fits frame.",
+          "references": [
+            "references/misurami-personaggio.png"
+          ]
+        }
+      ],
+      "motionOrder": [
+        "01-circonduzioni.png"
+      ],
+      "review": "replaced due possible wrist-rotation interpretation of arrows"
+    }
+  ],
+  "correctionsV2": [
+    {
+      "prompt": "Create ONE new v2 3:2 PNG ARM CIRCLES phase2 BACK-DOWN QUADRANT, editing second image scene with first original Misurami reference exact identity/clothes/logo. LOCK head face feet torso shoulders camera positions scale ivory floor background. Both ENTIRE STRAIGHT ARMS now move gently DOWN and BACK from shoulders: about10 degrees below horizontal, hands around lower chest height, arms slightly BEHIND frontal plane of chest by10 degrees. Elbows completely straight soft but no bend; wrists neutral palms down. This is small shoulder circle, NOT wrist rotation or big lateral raise. Hands must visibly shift down/back compared to second reference raised-forward position while torso unchanged. No yellow wrist ellipses. No ghost limbs arrows text captions numbers. Full body both hands feet all within frame same generous margins, realistic sound anatomy.",
+      "reason": "draft discarded: arm drop too large"
+    },
+    {
+      "prompt": "Correct second ARM CIRCLES phase2 image only: arms dropped too far. Keep original character from first reference, exact camera body feet torso logo. Raise BOTH ENTIRE STRAIGHT ARMS so hands are at y=285 pixels on 1536x1024 canvas, shoulders at y=220, only8-10degrees BELOW horizontal. Elbows and wrists stay straight palms down; arms slightly behind chest plane, shoulders fixed. Do not move head feet body. Add two thin small curved yellow arrows adjacent to MID-UPPER-ARM regions, clear of hands/wrists, indicating whole-arm small shoulder circle; arrows do NOT wrap around the upper arm axis, they trace a short curved up/back trajectory. No arrows around wrists. Landscape3:2 ivory realistic full body no captions numbers ghost limbs.",
+      "result": "provisional corrected arm position and arrows moved toward shoulders"
+    }
+  ],
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
   }
 }

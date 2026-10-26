@@ -1,0 +1,57 @@
+{
+  "id": "Alternating_Kettlebell_Press",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-rack.png",
+      "description": "Posizione iniziale con entrambi i kettlebell alle spalle.",
+      "prompt": "Reframe second attached double-rack kettlebell image without changing pose anatomy equipment clothing or logo. First reference original Misurami character exact identity. Landscape 3:2 1536x1024 ivory canvas. SCALE MAN DOWN so his head top is around y=300 and shoes at y=940, centered x=768. Leave at least 280 pixels empty ivory above head for overhead kettlebell pressing next phases. Same upright standing double shoulder rack two black equal kettlebells; original left chest Misurami logo fully visible, full body neutral wrists elbows tucked. Realistic fitness illustration subtle floor shadow no text panels arrows.",
+      "initialPrompt": "ONE PNG realistic fitness illustration landscape 3:2. First attached ORIGINAL authoritative Misurami character: exact same face curly dark hair beard athletic build charcoal T-shirt original small yellow-white Misurami logo anatomical LEFT chest, yellow-trim charcoal shorts black shoes. Exercise alternating kettlebell shoulder press PHASE 1 starting double rack: standing upright feet shoulder width stable flat feet, neutral spine no backward lean. Both hands through handles gripping two identical matte-black kettlebells, held in front rack at shoulders. Both elbows bent tucked near ribs, forearms close vertical, neutral wrists. Round bell bodies rest outside forearms against upper arms, not balanced atop wrists. Front three-quarter view showing both hands bells and chest logo. Full body both shoes bells visible generous margin above head for next phase overhead press. Ivory seamless background floor soft shadow. Fixed scale camera and stance for sequence. No text labels arrows captions panels except original chest branding."
+    },
+    {
+      "file": "02-distensione-destra.png",
+      "description": "Distensione del braccio destro sopra la testa mantenendo il sinistro in rack.",
+      "prompt": "ONE landscape 3:2 PNG phase 2 alternating kettlebell press, anatomical RIGHT arm pressed overhead. First reference original Misurami identity clothing exact small original left chest logo. Second reference accepted double rack pose fixes character scale framing camera floor shadows feet positions and both equal black kettlebells. Preserve everything except RIGHT arm (viewer left): extend RIGHT elbow so arm is straight vertical overhead, biceps beside ear, neutral wrist gripping bell handle, palm faces forward. Bell hangs behind forearm naturally, not balanced atop fist. LEFT kettlebell stays at left shoulder in same rack, elbow bent tucked. Body upright ribs down no lean hips knees unchanged. Keep feet at identical canvas positions and SAME HEAD height around y210; do NOT zoom. Entire overhead bell and both shoes in canvas with margins. Two hands two arms two equal bells anatomically sound. Ivory realistic illustration no arrows labels captions panels."
+    },
+    {
+      "file": "03-distensione-sinistra-v2.png",
+      "description": "Distensione del braccio sinistro sopra la testa mantenendo il destro in rack.",
+      "prompt": "Correct second attached LEFT kettlebell overhead press image into neutral upright posture. First ORIGINAL Misurami sheet authoritative exact face clothes logo left chest; third double-rack image fixes proper trunk head pelvis knee and foot positions and body scale. Keep LEFT arm (viewer RIGHT) straight overhead with black kettlebell behind wrist, opposite RIGHT bell stays securely racked shoulder. CRITICAL: eliminate side-bend of torso and counterlean. Stack sternum and head vertically over center of pelvis as in third reference; keep shoulders level except natural scapular upward rotation, ribs down neutral lumbar spine. No shifting hips feet head to counterweight. Man should have identical erect trunk from third starting pose, only left arm overhead and opposite bent. Foot positions head size scale floor camera lighting unchanged. Hands anatomically sound neutral wrists, two matching black bells. Original charcoal shirt left-chest Misurami logo yellow stripe shorts black shoes. Full entire overhead bell and shoes with margins landscape3:2 ivory background no text captions arrows panels."
+    }
+  ],
+  "sources": [
+    "IMAGE-ROUTINE.md",
+    "exercises.json:Alternating_Kettlebell_Press"
+  ],
+  "checks": {
+    "automaticVisualInspection": "passed: reviewed each image for stable foot support, neutral wrists, overhead extension and both alternating sides, two equal bells, original character clothing and chest branding, full framing and equipment continuity. Starting frame corrected to allow overhead clearance.",
+    "trainerReview": "not performed"
+  },
+  "rejectedDrafts": 1,
+  "executionSequence": [
+    "01-rack.png",
+    "02-distensione-destra.png",
+    "01-rack.png",
+    "03-distensione-sinistra-v2.png",
+    "01-rack.png"
+  ],
+  "returnDescription": "Abbassare il carico con controllo alla posa iniziale prima di alternare lato; ripetere il ciclo.",
+  "status": "accepted",
+  "correctionHistory": [
+    {
+      "date": "2026-10-26",
+      "reason": "Cross-review phase3 lateral torso lean",
+      "oldFile": "03-distensione-sinistra.png",
+      "newFile": "03-distensione-sinistra-v2.png",
+      "prompt": "Correct second attached LEFT kettlebell overhead press image into neutral upright posture. First ORIGINAL Misurami sheet authoritative exact face clothes logo left chest; third double-rack image fixes proper trunk head pelvis knee and foot positions and body scale. Keep LEFT arm (viewer RIGHT) straight overhead with black kettlebell behind wrist, opposite RIGHT bell stays securely racked shoulder. CRITICAL: eliminate side-bend of torso and counterlean. Stack sternum and head vertically over center of pelvis as in third reference; keep shoulders level except natural scapular upward rotation, ribs down neutral lumbar spine. No shifting hips feet head to counterweight. Man should have identical erect trunk from third starting pose, only left arm overhead and opposite bent. Foot positions head size scale floor camera lighting unchanged. Hands anatomically sound neutral wrists, two matching black bells. Original charcoal shirt left-chest Misurami logo yellow stripe shorts black shoes. Full entire overhead bell and shoes with margins landscape3:2 ivory background no text captions arrows panels.",
+      "result": "pending_root_review: improved erect torso with hips fixed; original file retained"
+    }
+  ],
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

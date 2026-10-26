@@ -13,6 +13,15 @@
       ]
     },
     {
+      "file": "02-rotazione-v2.png",
+      "description": "Gomiti aperti diagonalmente con flessione90gradi e presa a metà rotazione, prima della distensione sopra la testa.",
+      "prompt": "Correct second midpoint image of Arnold press. Original first reference identity authoritative; third starting exercise image is EXACT camera body bench scale anchor. Keep elbow-open bent90degree midpoint, but rotate BOTH GRIPS to NEUTRAL HALF-TURN (palms face EACH OTHER across head, thumbs toward face). Therefore each dumbbell shaft is angled front-to-back rather than left-right in image, one round dumbbell end appears more directly toward viewer. This visibly shows midpoint between supinated close-elbow start and final forward-palm overhead press. Elbows open diagonally forward/outward, not fully lateral T. Re-align entire fixed body/bench coordinates with THIRD start image: head crown near y=275, shoe bottoms y=925, seat y=710, exact bench geometry and feet positions; do not enlarge character. Warm ivory3:2 PNG full body equipment, original face clothing small left-chest logo. Sound wrists closed fivefinger grips, back supported neutral torso. No captions arrows numbers.",
+      "references": [
+        "references/misurami-personaggio.png",
+        "images/Arnold_Dumbbell_Press/01-partenza.png"
+      ]
+    },
+    {
       "file": "02-distensione.png",
       "description": "Distensione sopra la testa, palmi ruotati in avanti.",
       "prompt": "Create Arnold press PHASE 2 overhead endpoint by editing second reference exercise scene. FIRST original Misurami character sheet is authoritative identity original clothing and anatomical LEFT chest logo. Keep EXACT second reference camera zoom, man scale, same bench placement x/y and feet at same points, same lighting ivory background and floor, same exact two black dumbbells same load. ONLY change both arms: rotate shoulders so upper arms open and raise overhead; elbows now comfortably extended, both palms face FORWARD away from his face, each dumbbell above shoulder separated by shoulder width. Neutral wrists fully wrapping handles, accurate fingers, spine remains neutral back supported no arch. Full equipment and entire body including overhead dumbbells fit in existing upper empty canvas, no zoom/crop. No arrows captions text numbers. One landscape 3:2 PNG realistic illustration.",
@@ -27,7 +36,7 @@
     "IMAGE-ROUTINE.md"
   ],
   "checks": {
-    "automaticVisualInspection": "passed: reviewed each image for original character and logo, anatomy hands joints, body support, grip, equipment continuity, fixed camera scale and complete framing; movement sequence corresponds to repository instructions",
+    "automaticVisualInspection": "Provisional: added distinct elbow-opening grip-rotation midpoint; neutral spine back/feet supported, same dumbbells original character. Slight framing/head and foot coordinate variation versus endpoints requires root review.",
     "trainerReview": "not performed",
     "technicalScope": "Illustrates repository instructions; not a professionally validated prescription"
   },
@@ -40,15 +49,62 @@
   ],
   "motionOrder": [
     "01-partenza.png",
+    "02-rotazione-v2.png",
     "02-distensione.png",
+    "02-rotazione-v2.png",
     "01-partenza.png"
   ],
-  "executionCycle": "Dalla presa supina davanti al petto, sollevare i manubri ruotando gradualmente i palmi in avanti fino alla distensione; riabbassare sotto controllo ripercorrendo la rotazione inversa fino alla presa supina iniziale.",
-  "phasePlanRationale": "I due estremi mostrano chiaramente presa supina e presa pronata sopra la testa. La rotazione continua e il ritorno sono esplicitati nel ciclo; una posa intermedia non è essenziale e non vengono duplicati file per la discesa.",
-  "status": "pending_correction",
+  "executionCycle": "Dalla presa supina vicina al petto aprire gradualmente i gomiti ruotando la presa verso neutra, quindi completare la distensione con palmi avanti. Tornare lungo gli stessi passaggi in ordine inverso.",
+  "phasePlanRationale": "Un punto intermedio distingue il movimento Arnold da una semplice distensione. Il ritorno usa le medesime pose senza duplicati.",
+  "status": "accepted",
   "independentReview": {
     "date": "2026-10-26",
     "verdict": "needs_correction",
     "reason": "Manca una fase intermedia che renda visibile apertura e rotazione caratteristiche."
+  },
+  "history": [
+    {
+      "version": "v1",
+      "phases": [
+        {
+          "file": "01-partenza.png",
+          "description": "Seduto con schiena sostenuta, manubri davanti al petto e palmi rivolti al corpo.",
+          "prompt": "Edit second exercise reference, keeping EXACT same Arnold press starting pose supinated dumbbells at upper chest, same original man from FIRST identity sheet charcoal clothing original Misurami left chest logo, same black bench gray frame and dumbbells. ONLY widen camera framing by zooming OUT about 30 percent; center seated man and bench in lower middle of landscape 3:2 ivory canvas, with at least 280 pixels EMPTY IVORY SPACE ABOVE HIS HEAD in a 1536x1024 image so later overhead dumbbells fit without changing camera. Entire bench legs shoes and dumbbells visible. No text captions numbers arrows. Realistic same lighting pose facial identity.",
+          "references": [
+            "references/misurami-personaggio.png"
+          ]
+        },
+        {
+          "file": "02-distensione.png",
+          "description": "Distensione sopra la testa, palmi ruotati in avanti.",
+          "prompt": "Create Arnold press PHASE 2 overhead endpoint by editing second reference exercise scene. FIRST original Misurami character sheet is authoritative identity original clothing and anatomical LEFT chest logo. Keep EXACT second reference camera zoom, man scale, same bench placement x/y and feet at same points, same lighting ivory background and floor, same exact two black dumbbells same load. ONLY change both arms: rotate shoulders so upper arms open and raise overhead; elbows now comfortably extended, both palms face FORWARD away from his face, each dumbbell above shoulder separated by shoulder width. Neutral wrists fully wrapping handles, accurate fingers, spine remains neutral back supported no arch. Full equipment and entire body including overhead dumbbells fit in existing upper empty canvas, no zoom/crop. No arrows captions text numbers. One landscape 3:2 PNG realistic illustration.",
+          "references": [
+            "references/misurami-personaggio.png",
+            "images/Arnold_Dumbbell_Press/01-partenza.png"
+          ]
+        }
+      ],
+      "motionOrder": [
+        "01-partenza.png",
+        "02-distensione.png",
+        "01-partenza.png"
+      ],
+      "review": "added essential opening/rotation midpoint"
+    }
+  ],
+  "correctionsV2": [
+    {
+      "prompt": "Create ONE new PNG essential MIDPOINT ROTATION phase of Arnold dumbbell press. First original Misurami identity authoritative. Second existing starting scene and third overhead ending scene define EXACT camera scale bench/body coordinates, feet, dumbbell load original small left-chest logo. Keep them UNCHANGED. Midpoint between supinated close-elbow start and extended overhead finish: both upper arms now OPEN OUTWARD about45 degrees from torso, elbows bent90 degrees at or slightly below shoulder level, forearms upright. Dumbbells near ears/shoulder height, wrists neutral. Both palms rotated HALFWAY from facing man toward facing forward: palms face diagonally inward/forward about45degrees, NOT fully supinated and NOT fully forward yet. This pose must visually show elbows opening laterally and humeral rotation, not another curl or endpoint press. Keep back on bench, neutral ribs lumbar, feet grounded exact same spots. Both natural closed grips accurate five fingers, same black round dumbbell shapes and size. Full body all bench equipment frame3:2 ivory realistic no captions text numbers ghost limbs. No arrows needed since midpoint visible.",
+      "reason": "draft midpoint grip already fully forward and framing shifted"
+    },
+    {
+      "prompt": "Correct second midpoint image of Arnold press. Original first reference identity authoritative; third starting exercise image is EXACT camera body bench scale anchor. Keep elbow-open bent90degree midpoint, but rotate BOTH GRIPS to NEUTRAL HALF-TURN (palms face EACH OTHER across head, thumbs toward face). Therefore each dumbbell shaft is angled front-to-back rather than left-right in image, one round dumbbell end appears more directly toward viewer. This visibly shows midpoint between supinated close-elbow start and final forward-palm overhead press. Elbows open diagonally forward/outward, not fully lateral T. Re-align entire fixed body/bench coordinates with THIRD start image: head crown near y=275, shoe bottoms y=925, seat y=710, exact bench geometry and feet positions; do not enlarge character. Warm ivory3:2 PNG full body equipment, original face clothing small left-chest logo. Sound wrists closed fivefinger grips, back supported neutral torso. No captions arrows numbers.",
+      "result": "provisional neutral-rotated grip and distinct opening midpoint; minor framing shift remains"
+    }
+  ],
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
   }
 }
