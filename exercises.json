@@ -470,7 +470,10 @@
       "Terminato il lato destro, ripeti con il sinistro."
     ],
     "category": "stretching",
-    "id": "Ankle_Circles"
+    "id": "Ankle_Circles",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Ankle_Circles/01-circonduzione-v2.png"
+    ]
   },
   {
     "name": "Allungamento dei glutei con caviglia sul ginocchio",
@@ -718,7 +721,11 @@
       "Ripeti per il numero previsto."
     ],
     "category": "forza",
-    "id": "Back_Flyes_-_With_Bands"
+    "id": "Back_Flyes_-_With_Bands",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Back_Flyes_-_With_Bands/01-partenza.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Back_Flyes_-_With_Bands/02-apertura.png"
+    ]
   },
   {
     "name": "Trascinamento della slitta all'indietro",
@@ -781,7 +788,10 @@
       "Mantieni la posizione per il tempo desiderato."
     ],
     "category": "forza",
-    "id": "Balance_Board"
+    "id": "Balance_Board",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Balance_Board/01-equilibrio.png"
+    ]
   },
   {
     "name": "Leg curl su fitball",

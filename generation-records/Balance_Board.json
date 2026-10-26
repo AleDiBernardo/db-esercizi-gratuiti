@@ -1,0 +1,32 @@
+{
+  "id": "Balance_Board",
+  "createdAt": "2026-10-26",
+  "status": "accepted",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-equilibrio.png",
+      "description": "Tenuta in equilibrio sulla tavoletta con entrambe le suole appoggiate, ginocchia morbide e peso centrato.",
+      "prompt": "Create ONE realistic fitness exercise illustration landscape3:2 PNG warm ivory background and floor soft shadow. Original attached Misurami character sheet authoritative exact same adult man dark curls beard athletic anatomy charcoalTshirt original small yellow-white Misurami logo on anatomical LEFT chest, charcoal shorts yellow side stripe black shoes. Static balance board exercise: man stands centered with BOTH FEET planted entirely on top of ONE round wooden wobble board, diameter about65cm, dark nonslip top, single black shallow hemispherical rocker underneath touching floor in center. Board almost level with very slight natural tilt, all of board edge and black dome support visible. Feet hip-width parallel toes slightly open, knees soft slightly bent, hips stacked, braced neutral torso upright, head forward. Both arms held gently away from body at about30degrees for balance, hands relaxed natural fingers. Front three-quarter view so full man all shoes board AND central ground contact clearly visible, generous framing no cropping. No floating footwear, each entire sole clearly contacts board, center of mass directly over dome. No other equipment support poles people text numbers captions arrows. Only one held balanced posture."
+    }
+  ],
+  "motionOrder": [
+    "01-equilibrio.png"
+  ],
+  "executionCycle": "Salire con controllo sulla tavoletta, stabilizzare entrambi i piedi e mantenere la posizione per il tempo desiderato; terminare scendendo con controllo. Un'unica posa descrive la tenuta statica senza inventare fasi dinamiche.",
+  "sources": [
+    "exercises.json:Balance_Board",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "provisional pass: both complete shoe soles supported on board, central rocker contacts floor, center of mass above support, neutral body and relaxed arms, full framing and original identity/logo; root independent review requested",
+    "trainerReview": "not performed"
+  },
+  "rejectedDrafts": 0,
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

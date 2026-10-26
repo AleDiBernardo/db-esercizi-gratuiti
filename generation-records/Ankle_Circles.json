@@ -5,15 +5,18 @@
   "reference": "references/misurami-personaggio.png",
   "phases": [
     {
-      "file": "01-circonduzione.png",
-      "description": "In piedi con appoggio stabile e piede leggermente sollevato; freccia indica la circonduzione della caviglia. Ripetere dall'altro lato.",
-      "prompt": "Create ONE realistic fitness illustration PNG landscape 3:2, ivory background floor soft shadows, no captions numbers panels. Original attached Misurami identity is authoritative: same adult man curly dark hair beard athletic proportions, charcoal T-shirt original small yellow/white Misurami logo on anatomical LEFT chest, charcoal shorts with thin yellow sides, black shoes. Exercise ANKLE CIRCLES: standing upright in slight frontal three-quarter view, left foot firmly planted, right foot lifted about 5 centimeters above floor in front without bending entire leg much; right ankle gently pointed and turned slightly inward as part of circumduction. Left hand gently holds a stable freestanding gym rack upright with wide grounded base at left side of frame, right arm relaxed. Add ONE small thin yellow circular arrow adjacent to the raised right shoe to indicate ankle rotation; arrow does not obscure anatomy. Knee and thigh remain stable, movement at ankle, natural correct limbs hands and grip. Entire body, both shoes, complete support visible with generous margins. No other equipment."
+      "file": "01-circonduzione-v2.png",
+      "description": "Piede leggermente sollevato, gamba ferma e freccia circolare davanti alla punta per indicare movimento della caviglia.",
+      "prompt": "Correct SECOND ankle circles exercise illustration, FIRST original Misurami character identity remains authoritative. Preserve same full-body upright man exact clothing original left-chest logo, stable hand grasping same fully visible support, grounded leg and raised thigh/knee STILL. Raised shoe hovers about5cm above floor. REMOVE EXISTING horizontal yellow ellipse around shin. Instead ONE small yellow near-circular arrow immediately IN FRONT OF RAISED TOE TIP, in a VERTICAL plane facing viewer (like a small clock face 70px diameter), to trace the toe tip's small circle while ankle rotates, NOT around ankle/shin, NOT a horizontal ring and NOT whole-leg axial rotation. Point raised toes slightly downward and inward naturally with knee facing forward. Knee/thigh do not turn. Entire man support feet visible, warm ivory realistic3:2 PNG, no captions labels numbers inset."
     }
   ],
   "corrections": [
     {
       "prompt": "Correct second reference exercise illustration, preserve original man identity clothing left-chest Misurami logo from first original reference. SINGLE PNG 3:2 ivory realistic. Replace tall cropped support with waist-to-chest-high freestanding gym hand support post: top must end visibly below man's shoulder height with a rounded black cap, entire base visible and no edge crops. Keep gripping hand secure. Lower raised shoe so its sole hovers only about 5cm above floor, almost same height as grounded shoe; keep raised knee gently flexed. Small yellow circular ankle arrow around raised shoe only. Entire man and support all visible with margins. Anatomical leg/arm sides may remain as drawn; exercise transferable to other side. No captions text numbers except shirt branding.",
       "result": "accepted; support fully visible and raised foot lowered"
+    },
+    {
+      "result": "v2: removed shin ring; replaced toe-led circle, pending root review"
     }
   ],
   "sources": [
@@ -21,7 +24,7 @@
     "IMAGE-ROUTINE.md"
   ],
   "checks": {
-    "automaticVisualInspection": "passed: stable foot and hand support, raised ankle rotation indicated by yellow arrow, accurate limbs/hands, original identity and branding, full body and entire support. One representative side; instructions specify repeating on other side.",
+    "automaticVisualInspection": "provisional pass: raised foot with toe-level vertical circle arrow, stable thigh/knee and hand support, full body equipment identity logo; independent root review requested",
     "fileValidation": "passed: PNG decode and 1536x1024 3:2 aspect ratio",
     "trainerReview": "not performed",
     "technicalScope": "Illustrates repository exercise instructions; not a professionally validated prescription"
@@ -32,9 +35,21 @@
     "Completare circonduzioni della caviglia; la freccia circolare rappresenta l’intero ciclo.",
     "Riappoggiare il piede e ripetere dall’altro lato."
   ],
-  "status": "pending_correction",
+  "status": "accepted",
   "independentReview": {
     "verdict": "needs_correction",
     "reason": "Freccia orizzontale attorno alla tibia suggerisce rotazione della gamba; serve traiettoria circolare del piede centrata sulla caviglia."
+  },
+  "previousPhases": [
+    {
+      "file": "01-circonduzione.png",
+      "description": "In piedi con appoggio stabile e piede leggermente sollevato; freccia indica la circonduzione della caviglia. Ripetere dall'altro lato.",
+      "prompt": "Create ONE realistic fitness illustration PNG landscape 3:2, ivory background floor soft shadows, no captions numbers panels. Original attached Misurami identity is authoritative: same adult man curly dark hair beard athletic proportions, charcoal T-shirt original small yellow/white Misurami logo on anatomical LEFT chest, charcoal shorts with thin yellow sides, black shoes. Exercise ANKLE CIRCLES: standing upright in slight frontal three-quarter view, left foot firmly planted, right foot lifted about 5 centimeters above floor in front without bending entire leg much; right ankle gently pointed and turned slightly inward as part of circumduction. Left hand gently holds a stable freestanding gym rack upright with wide grounded base at left side of frame, right arm relaxed. Add ONE small thin yellow circular arrow adjacent to the raised right shoe to indicate ankle rotation; arrow does not obscure anatomy. Knee and thigh remain stable, movement at ankle, natural correct limbs hands and grip. Entire body, both shoes, complete support visible with generous margins. No other equipment."
+    }
+  ],
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
   }
 }

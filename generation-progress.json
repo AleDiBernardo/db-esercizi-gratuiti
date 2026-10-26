@@ -12,7 +12,10 @@
     "Alternating_Floor_Press",
     "Alternating_Kettlebell_Press",
     "Arm_Circles",
-    "Arnold_Dumbbell_Press"
+    "Arnold_Dumbbell_Press",
+    "Ankle_Circles",
+    "Back_Flyes_-_With_Bands",
+    "Balance_Board"
   ],
   "needsReview": [
     {
@@ -62,10 +65,6 @@
     {
       "id": "Alternating_Hang_Clean",
       "reason": "Mancano transizioni leggibili di spinta delle anche e inserimento della mano nella girata."
-    },
-    {
-      "id": "Ankle_Circles",
-      "reason": "Freccia orizzontale attorno alla tibia suggerisce rotazione della gamba; serve traiettoria circolare del piede centrata sulla caviglia."
     },
     {
       "id": "Alternating_Kettlebell_Row",

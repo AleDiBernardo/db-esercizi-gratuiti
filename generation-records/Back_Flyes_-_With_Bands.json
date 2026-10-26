@@ -1,0 +1,39 @@
+{
+  "id": "Back_Flyes_-_With_Bands",
+  "createdAt": "2026-10-26",
+  "status": "accepted",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-partenza.png",
+      "description": "Braccia distese in avanti all'altezza delle spalle, elastico ancorato al supporto.",
+      "prompt": "Create ONE realistic exercise illustration PNG landscape3:2 warm ivory background floor, no captions text numbers arrows. Original attached Misurami character sheet authoritative exact male face curls beard build charcoal T-shirt original yellow-white Misurami logo anatomical LEFT chest, charcoal yellow-trim shorts black shoes. Standing anchored band reverse fly PHASE1 arms forward. Man on LEFT half faces stable gym rack upright on RIGHT half, three-quarter front camera from his left side so chest logo and BOTH hands visible. Feet flat shoulder-width upright neutral spine soft knees. Both arms almost straight extend FORWARD at SHOULDER HEIGHT parallel floor, hands separated shoulder width each gripping a black D-handle palms inward neutral wrists. One YELLOW resistance tube anchored securely around rack at shoulder height, midpoint loop fixed around post splits into TWO taut strands to the two hand handles. Both strands fully visible no tangles. Rack is simple fully visible gray metal post with wide grounded steel cross-base and visible capped top just above anchor, NO cropping. Full man head shoes fingers entire rack and all elastic visible with generous margins sideways for opening phase. Exact geometry equipment connections and scale maintain next phase. Anatomically accurate two arms two legs five fingers grip each. No floating ends."
+    },
+    {
+      "file": "02-apertura.png",
+      "description": "Apertura laterale delle braccia a T mantenendo il busto fermo e l'elastico in tensione.",
+      "prompt": "Create PHASE2 OPEN endpoint of standing anchored band reverse fly using SECOND exercise scene, FIRST original Misurami character sheet authoritative identity clothes original left chest logo. EXACT SAME fixed camera body scale foot positions entire rack post/base/anchor position and frame, ivory floor lighting. Only arms move: both almost straight arms now OPEN OUTWARD SIDEWAYS AT SHOULDER HEIGHT forming T with torso, upper arms aligned with torso frontal plane, elbows retain tiny soft bend, NOT a bent-elbow row. Man still faces rack on RIGHT, neutral torso no twist no lean. Near arm extends toward viewer and somewhat LEFT in image, far arm away viewer and slightly RIGHT; both hands fully visible gripping SAME blackD-handles. SAME yellow elastic anchor loop fixed on post same height now sends TWO LONGER taut strands diagonally to each handle; both handles connected to corresponding single strand, no floating ends/crosses through arms. Feet unchanged grounded shoulder width. Entire T hands and man rack all remain in frame with margin no zoom changes. Accurate natural shoulder anatomy hands fingers wrists. No text arrows captions numbers, ONE realistic landscape3:2 PNG."
+    }
+  ],
+  "motionOrder": [
+    "01-partenza.png",
+    "02-apertura.png",
+    "01-partenza.png"
+  ],
+  "executionCycle": "Dalla posizione di partenza con braccia avanti, aprire lateralmente mantenendo un lieve angolo dei gomiti costante; fermarsi con braccia ai lati del busto, poi tornare con controllo alla posizione iniziale resistendo all'elastico.",
+  "sources": [
+    "exercises.json:Back_Flyes_-_With_Bands",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "provisional pass: full body and complete fixed support, two identical handles and yellow strands attached to same anchor in both phases, forward-to-open motion with straight arms and stable feet; original identity and shirt logo retained; root independent review requested",
+    "trainerReview": "not performed"
+  },
+  "rejectedDrafts": 0,
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}
