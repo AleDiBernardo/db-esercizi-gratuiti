@@ -1,0 +1,48 @@
+{
+  "id": "Arnold_Dumbbell_Press",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-partenza.png",
+      "description": "Seduto con schiena sostenuta, manubri davanti al petto e palmi rivolti al corpo.",
+      "prompt": "Edit second exercise reference, keeping EXACT same Arnold press starting pose supinated dumbbells at upper chest, same original man from FIRST identity sheet charcoal clothing original Misurami left chest logo, same black bench gray frame and dumbbells. ONLY widen camera framing by zooming OUT about 30 percent; center seated man and bench in lower middle of landscape 3:2 ivory canvas, with at least 280 pixels EMPTY IVORY SPACE ABOVE HIS HEAD in a 1536x1024 image so later overhead dumbbells fit without changing camera. Entire bench legs shoes and dumbbells visible. No text captions numbers arrows. Realistic same lighting pose facial identity.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    },
+    {
+      "file": "02-distensione.png",
+      "description": "Distensione sopra la testa, palmi ruotati in avanti.",
+      "prompt": "Create Arnold press PHASE 2 overhead endpoint by editing second reference exercise scene. FIRST original Misurami character sheet is authoritative identity original clothing and anatomical LEFT chest logo. Keep EXACT second reference camera zoom, man scale, same bench placement x/y and feet at same points, same lighting ivory background and floor, same exact two black dumbbells same load. ONLY change both arms: rotate shoulders so upper arms open and raise overhead; elbows now comfortably extended, both palms face FORWARD away from his face, each dumbbell above shoulder separated by shoulder width. Neutral wrists fully wrapping handles, accurate fingers, spine remains neutral back supported no arch. Full equipment and entire body including overhead dumbbells fit in existing upper empty canvas, no zoom/crop. No arrows captions text numbers. One landscape 3:2 PNG realistic illustration.",
+      "references": [
+        "references/misurami-personaggio.png",
+        "images/Arnold_Dumbbell_Press/01-partenza.png"
+      ]
+    }
+  ],
+  "sources": [
+    "exercises.json:Arnold_Dumbbell_Press",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "passed: reviewed each image for original character and logo, anatomy hands joints, body support, grip, equipment continuity, fixed camera scale and complete framing; movement sequence corresponds to repository instructions",
+    "trainerReview": "not performed",
+    "technicalScope": "Illustrates repository instructions; not a professionally validated prescription"
+  },
+  "rejectedDrafts": 1,
+  "drafts": [
+    {
+      "prompt": "Create ONE realistic fitness illustration landscape 3:2 PNG, warm ivory background floor. FIRST original Misurami character sheet authoritative: exact male identity dark curls beard athletic proportions, charcoal T-shirt small original Misurami yellow white logo anatomical LEFT chest, charcoal shorts yellow stripe black shoes. Arnold dumbbell press PHASE 1 starting position. Full man seated upright with back supported on a simple black padded upright bench with gray frame; feet flat shoulder width. Both elbows bent and held close in FRONT of torso; forearms vertical, two identical modest black dumbbells held at upper chest height in a SUPINATED grip, palms facing his own face/body. Clearly show this starting curl-like rack position, both elbows point down and inward not flared wide. Neutral wrists, closed natural grip five fingers, straight neutral spine head forward. Three-quarter FRONT camera so face and left chest logo visible, entire man bench both dumbbells feet in frame with generous margin above for later overhead phase. No text arrows numbers captions. Keep same bench weights camera scale for later phases.",
+      "reason": "insufficient overhead margin; regenerated wider framing before second phase"
+    }
+  ],
+  "motionOrder": [
+    "01-partenza.png",
+    "02-distensione.png",
+    "01-partenza.png"
+  ],
+  "executionCycle": "Dalla presa supina davanti al petto, sollevare i manubri ruotando gradualmente i palmi in avanti fino alla distensione; riabbassare sotto controllo ripercorrendo la rotazione inversa fino alla presa supina iniziale.",
+  "phasePlanRationale": "I due estremi mostrano chiaramente presa supina e presa pronata sopra la testa. La rotazione continua e il ritorno sono esplicitati nel ciclo; una posa intermedia non è essenziale e non vengono duplicati file per la discesa."
+}

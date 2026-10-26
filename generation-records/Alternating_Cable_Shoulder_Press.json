@@ -1,0 +1,33 @@
+{
+  "id": "Alternating_Cable_Shoulder_Press",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-partenza.png",
+      "description": "Impugnature alle spalle, cavi alle carrucole basse.",
+      "prompt": "ONE landscape 3:2 realistic fitness PNG phase 1 of ALTERNATING CABLE SHOULDER PRESS. Original Misurami man identity clothing exact from attached sheet: curly dark hair beard charcoal shirt small original left chest logo, charcoal yellow trim shorts black shoes. Ivory background floor, full body and entire equipment visible with generous margins. Front three-quarter view. Simple mechanically plausible cable station: two slim dark gray upright towers spaced widely left/right of standing man, low pulley at bottom of each tower, one continuous cable from each low pulley to corresponding D-handle in man's hands. Tower weight stacks same modest selected load. Athlete stands erect feet shoulder-width between towers facing viewer, both hands hold D-handles at shoulder level palms forward, elbows bent and slightly forward of torso, forearms vertical wrists neutral, head neutral. Both cables taut diagonal from low side pulleys to shoulders, do not intersect body. Two hands two arms two feet accurate. Keep fixed exact frame equipment pulleys scale camera for next phases. No labels captions arrows numbers panels. All tower tops, bases, shoes and handles visible."
+    },
+    {
+      "file": "02-spinta-destra.png",
+      "description": "Distensione del braccio destro, opposto fermo alla spalla.",
+      "prompt": "ONE landscape 3:2 PNG phase 2 alternating cable shoulder press. First original sheet authoritative Misurami identity exact logo clothing. Second image fixes exact equipment scene and camera: preserve every tower base pulley cable attachment selector load scale body foot position lighting ivory background. ONLY change athlete anatomical RIGHT arm (viewer LEFT): press its D-handle directly overhead until right elbow straight without hyperextension, palm forward wrist neutral, upper arm near ear. Opposite LEFT arm (viewer RIGHT) stays at shoulder with elbow bent exactly as start. Right cable is ONE taut straight segment running from unchanged viewer-left LOW pulley to raised D-handle, no disconnected lines no cable through body. Same selector load; selected weight plates may lift modestly on active side. Body erect neutral no lean. Entire body both towers all hands and overhead handle visible with generous headroom. Anatomically precise hands/grip. NO labels captions arrows panels numbers."
+    },
+    {
+      "file": "03-spinta-sinistra.png",
+      "description": "Distensione del braccio sinistro dopo ritorno, opposto fermo alla spalla.",
+      "prompt": "ONE landscape 3:2 PNG phase 3 alternating cable shoulder press OPPOSITE ARM. First original Misurami sheet authoritative identity and exact clothing logo, second starting pose fixes scene camera and equipment. Keep exact frame feet head towers cables bases pulleys selector loads ivory lighting scale. Athlete anatomical LEFT arm (viewer RIGHT) presses its D-handle directly overhead, elbow comfortably straight upper arm beside ear palm forward wrist neutral, secure grip. Anatomical RIGHT arm (viewer LEFT) stays bent with handle at shoulder as in initial pose. The viewer-right cable runs ONE uninterrupted taut segment from unchanged LOW viewer-right pulley to raised right-of-image handle, selected plates may lift modestly; opposite cable stays attached to viewer-left shoulder handle and low pulley. No extra cable or pulley, nothing through body. Full body and entire towers/overhead hand visible uncropped, exact original character branding left chest. Neutral torso no lean. No captions numbers arrows panels."
+    }
+  ],
+  "sequence": "01→02→01→03→01",
+  "sources": [
+    "exercises.json:Alternating_Cable_Shoulder_Press",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "passed: 3 images inspected for anatomy, grips, taut continuous cables to same low pulleys, alternating arms, original character and shirt branding, constant frame/camera/foot placement; minor render variation in stack markings",
+    "trainerReview": "not performed"
+  },
+  "rejectedDrafts": 0
+}

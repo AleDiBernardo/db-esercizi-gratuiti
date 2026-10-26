@@ -1,0 +1,31 @@
+{
+  "id": "Arm_Circles",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-circonduzioni.png",
+      "description": "Braccia distese a T con frecce circolari che illustrano la piccola circonduzione; invertire il verso come da istruzioni.",
+      "prompt": "Create ONE landscape 3:2 PNG realistic exercise illustration on warm ivory background and floor. Use attached ORIGINAL Misurami character sheet for exact male face curly dark hair beard proportions charcoal T-shirt with small original yellow-white Misurami logo on anatomical LEFT chest, charcoal shorts yellow stripe, black shoes. Exercise arm circles: man stands upright feet hip-width firmly grounded, BOTH arms straight out sideways at shoulder height horizontal forming a T with torso; palms face down, relaxed neck neutral spine. Front three-quarter view slight angle preserving clear visibility of both arms and hands. Two small thin YELLOW curved circular arrows around hand/wrist regions show small arm circles approximately 30cm diameter; no ghost limbs, no extra arms, no captions letters numbers titles. Entire body including hands and feet fully visible with generous margins. Accurate anatomy five fingers per hand two arms two legs. No equipment. Arms not bent; full hand span fits frame.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    }
+  ],
+  "sources": [
+    "exercises.json:Arm_Circles",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "passed: reviewed each image for original character and logo, anatomy hands joints, body support, grip, equipment continuity, fixed camera scale and complete framing; movement sequence corresponds to repository instructions",
+    "trainerReview": "not performed",
+    "technicalScope": "Illustrates repository instructions; not a professionally validated prescription"
+  },
+  "rejectedDrafts": 0,
+  "motionOrder": [
+    "01-circonduzioni.png"
+  ],
+  "executionCycle": "Dalla posizione a T eseguire piccoli cerchi controllati per circa 10 secondi, poi invertire il senso di rotazione mantenendo la stessa posizione delle braccia. La stessa PNG rappresenta entrambi i versi; non sono necessarie pose statiche aggiuntive.",
+  "phasePlanRationale": "Una posizione e frecce circolari sono sufficienti: il movimento è una piccola circonduzione continua e il cambio di verso non richiede una posa anatomica diversa."
+}

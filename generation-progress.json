@@ -11,12 +11,28 @@
     "Alternate_Hammer_Curl",
     "Alternating_Hang_Clean",
     "Ankle_Circles",
-    "Ankle_On_The_Knee"
+    "Ankle_On_The_Knee",
+    "Adductor",
+    "Adductor_Groin",
+    "Advanced_Kettlebell_Windmill",
+    "Air_Bike",
+    "Alternating_Cable_Shoulder_Press",
+    "Arm_Circles",
+    "Arnold_Dumbbell_Press",
+    "Around_The_Worlds"
   ],
   "needsReview": [
     {
       "id": "Anti-Gravity_Press",
       "reason": "Istruzioni tecniche ambigue sul percorso di spinta: il catalogo richiede braccia parallele al pavimento per tutto il movimento; la guida tecnica Muscle & Strength descrive una spinta diagonale su panca inclinata. Le fonti che ripetono la versione orizzontale non risolvono la differenza di variante. Rinviato per chiarimento tecnico prima della generazione."
+    },
+    {
+      "id": "Anterior_Tibialis-SMR",
+      "reason": "Contatto del rullo iniziale troppo centrale sulla cresta tibiale. Dopo due tentativi di correzione, il primo presenta intersezione/occlusione innaturale del bastone con la gamba; il secondo mostra contatto laterale ma orientamento del rullo quasi longitudinale che non comunica chiaramente lo scorrimento dal sotto-ginocchio al sopra-caviglia. Sequenza non pubblicabile senza ulteriore chiarimento visivo."
+    },
+    {
+      "id": "Atlas_Stone_Trainer",
+      "reason": "Repository describes a custom implement made from bar ends or heavy pipe but does not specify its geometry. Search found dataset mirrors and loading pins, without an authoritative matching implement demonstration; defer rather than invent equipment and grip."
     }
   ]
 }

@@ -1,0 +1,42 @@
+{
+  "id": "Adductor",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-appoggio.png",
+      "description": "Posizione prona sostenuta sugli avambracci; interno coscia sul rullo.",
+      "prompt": "ONE landscape 3:2 PNG, realistic fitness instruction illustration on warm ivory floor/background, full bodies and all equipment completely visible with generous margin. No text captions numbers panels, only original small Misurami left chest logo. Original character reference attached: reproduce same man face curly hair beard athletic build charcoal shirt and shorts yellow stripe black shoes. Anatomically exact limbs hands joints, natural supported posture. Exercise adductor foam rolling, starting position. Side three-quarter elevated camera showing left chest. Man prone with both forearms on floor supporting shoulders, left leg extended straight behind, right hip abducted out to right and right knee bent 90 degrees frog position. Place ONE cylindrical charcoal foam roller crosswise UNDER INNER RIGHT THIGH, halfway between groin and knee, its axis perpendicular to right thigh. Right inner thigh rests on roller, not knee/shin. Roller's far end can protrude under thigh. Head neutral gaze down, pelvis facing floor. Clear leg separation, no extra limb. Entire body visible head toward right, feet toward left. Demonstrate comfortable mid inner-thigh massage contact.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    },
+    {
+      "file": "02-scorri.png",
+      "description": "Piccolo scorrimento controllato lungo l'interno coscia, evitando ginocchio e inguine.",
+      "prompt": "ONE landscape 3:2 PNG, realistic fitness instruction illustration on warm ivory floor/background, full bodies and all equipment completely visible with generous margin. No text captions numbers panels, only original small Misurami left chest logo. Original character reference attached: reproduce same man face curly hair beard athletic build charcoal shirt and shorts yellow stripe black shoes. Anatomically exact limbs hands joints, natural supported posture. Exercise adductor foam rolling, second phase. First original character reference authoritative; second exercise image establishes identical camera framing scale lighting character and cylindrical foam roller. Preserve exact pose/support arrangement but slide body sideways a small controlled distance so roller contact moves along INNER thigh closer to knee, stopping well above knee joint, rather than near groin. Both forearms support upper torso, left leg extended behind, right leg abducted outward inner thigh resting on roller. Keep both full legs and both shoes, hands and roller fully visible. Same roller axis and floor position, only body shifts a little. Do not roll on kneecap or groin. No arrows needed.",
+      "references": [
+        "references/misurami-personaggio.png",
+        "images/Adductor/01-appoggio.png"
+      ]
+    }
+  ],
+  "executionSequence": [
+    "01-appoggio.png",
+    "02-scorri.png",
+    "01-appoggio.png"
+  ],
+  "sequenceNotes": "Ripetere il piccolo scorrimento lungo il muscolo e poi cambiare gamba. Non mostra una posizione statica distinta inventata; illustra il tratto di automassaggio.",
+  "sources": [
+    "exercises.json:Adductor",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "passed: inspected all accepted images for limb count, joint anatomy, hands/grip, supports, original character identity and chest logo, full-body framing and equipment continuity; minor rendering differences between phases",
+    "fileValidation": "passed: separate decodable PNGs, landscape 1536x1024 (3:2)",
+    "trainerReview": "not performed",
+    "technicalScope": "Illustration of repository instructions, not a professionally validated prescription"
+  },
+  "rejectedDrafts": []
+}

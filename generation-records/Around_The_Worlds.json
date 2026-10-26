@@ -1,0 +1,54 @@
+{
+  "id": "Around_The_Worlds",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-partenza.png",
+      "description": "Supino sulla panca, braccia accanto alle cosce, palmi al soffitto.",
+      "prompt": "ONE landscape 3:2 PNG realistic fitness illustration warm ivory background floor. ORIGINAL attached Misurami sheet exact male identity dark curly hair beard athletic proportions, charcoal T-shirt original small left-chest Misurami logo, charcoal yellow stripe shorts black shoes. Lying dumbbell Around The Worlds PHASE 1 initial position: man supine lengthwise on simple flat black bench gray frame, head at LEFT feet toward RIGHT, head shoulders back pelvis fully supported, feet flat floor with knees bent. Two SMALL light identical black dumbbells in hands. Both arms reach straight DOWN ALONG SIDES toward thighs, held just outside bench, upper arms forearms parallel floor, elbows softly slightly bent; palms face CEILING (supinated) and dumbbells beside outer thighs at same height as shoulder/bench top, not hanging toward floor. High front three-quarter camera looking down from above near foot end, so BOTH arms are clearly visible on opposite sides of bench. Entire man shoes bench weights visible, wide empty margins LEFT of head and both sides for later arms sweeping into T and overhead at same height. No text captions arrows numbers.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    },
+    {
+      "file": "02-apertura.png",
+      "description": "Braccia aperte lateralmente a T lungo il semicerchio orizzontale.",
+      "prompt": "Create phase 2 MIDPOINT of lying dumbbell Around The Worlds using second scene reference, original first Misurami character sheet authoritative identity clothes logo left chest. SAME exact camera zoom position floor bench feet head body placement and same small black hex dumbbells, warm ivory realistic 3:2 PNG. ONLY move BOTH ARMS in broad horizontal outward arcs to form a T at shoulder level: each upper arm extends out sideways 90 degrees from torso, elbows stay softly bent fixed, forearms continue outward, palms face CEILING, weights at SAME HEIGHT ABOVE FLOOR as starting pose. This is horizontal shoulder abduction, NOT a bench press: hands never move above chest. Man stays supine head shoulders pelvis supported, feet remain flat at same spots. All fingers hands dumbbells arms shoes bench visible. Keep broad framing enough for full T span; avoid zoom changes. No text captions arrows numbers.",
+      "references": [
+        "references/misurami-personaggio.png",
+        "images/Around_The_Worlds/01-partenza.png"
+      ]
+    },
+    {
+      "file": "03-oltre-testa.png",
+      "description": "Fine del semicerchio con manubri oltre la testa, senza sollevare il busto.",
+      "prompt": "Create phase 3 END of lying dumbbell Around The Worlds exercise. Original FIRST Misurami sheet authoritative identity clothing original anatomical left chest logo. SECOND reference is initial scene and THIRD midpoint: keep exact camera zoom angle bench feet head torso scale and coordinates as those two. Only move both arms along HORIZONTAL semicircle from T out to beyond HEAD toward LEFT side of image. Both upper arms now approximately beside ears with elbows softly bent fixed, palms still face CEILING, hands holding the SAME two small black hex dumbbells beyond head near left empty canvas at SAME HEIGHT FROM FLOOR AS BENCH TOP; NOT a vertical pullover, no dumbbells above chest/ceiling. Chest ribs stay relaxed shoulders head pelvis supported on bench no back arch. Both entire arms natural shoulders wrists closed grips and weights fit full frame with generous margins; feet same floor spots; no equipment changes. Realistic warm ivory background floor landscape 3:2 PNG, no text captions arrows numbers.",
+      "references": [
+        "references/misurami-personaggio.png",
+        "images/Around_The_Worlds/01-partenza.png"
+      ]
+    }
+  ],
+  "sources": [
+    "exercises.json:Around_The_Worlds",
+    "IMAGE-ROUTINE.md",
+    "https://fitbod.me/exercises/around-the-worlds"
+  ],
+  "checks": {
+    "automaticVisualInspection": "passed: reviewed each image for original character and logo, anatomy hands joints, body support, grip, equipment continuity, fixed camera scale and complete framing; movement sequence corresponds to repository instructions",
+    "trainerReview": "not performed",
+    "technicalScope": "Illustrates repository instructions; not a professionally validated prescription"
+  },
+  "rejectedDrafts": 0,
+  "motionOrder": [
+    "01-partenza.png",
+    "02-apertura.png",
+    "03-oltre-testa.png",
+    "02-apertura.png",
+    "01-partenza.png"
+  ],
+  "executionCycle": "Dalle cosce, aprire entrambe le braccia lungo il semicerchio orizzontale passando dalla T fino alla posizione oltre la testa; invertire il movimento sotto controllo lungo lo stesso arco, passando nuovamente dalla T e tornando accanto alle cosce.",
+  "phasePlanRationale": "Tre pose distinguono il semicerchio orizzontale da una distensione o un pullover; il ritorno usa le medesime pose in ordine inverso senza duplicare PNG."
+}

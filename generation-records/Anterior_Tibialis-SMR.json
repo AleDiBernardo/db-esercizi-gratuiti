@@ -1,0 +1,37 @@
+{
+  "id": "Anterior_Tibialis-SMR",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [],
+  "corrections": [
+    {
+      "prompt": "Correct ONLY massage roller contact in second attached image. First original Misurami reference authoritative identity/clothing. Keep entire character camera floor pose equipment colors and logo. The yellow roller currently crosses the SHARP FRONT CENTER OF SHIN which is WRONG. Place massage stick against SOFT MUSCLE ON OUTER/LATERAL SIDE OF RIGHT SHIN instead: gently rotate right leg inward so anterolateral calf muscle faces camera, and rotate stick diagonally to contact fleshy outer anterior tibialis belly just lateral to tibial ridge, not ridge. Show a CLEAR VISIBLE STRIP OF FRONT TIBIAL RIDGE FREE OF ROLLER, with roller pressing adjacent OUTER soft tissue. Both hands naturally hold black handles. Small yellow double arrow follows outer shin line, not centered over bone. Both knees bent, both feet planted. No extra limbs, accurate hands joints. Full body 3:2 PNG warm ivory realistic illustration no text except shirt original small Misurami branding.",
+      "result": "rejected: rod/leg overlap unclear"
+    },
+    {
+      "prompt": "Create corrected full-body Misurami illustration from original character first reference and posture concept second reference. ONE 3:2 PNG ivory backdrop. Self massage OUTER FRONT SHIN with handheld roller. CRITICAL: roller is entirely OUTSIDE leg, NO STICK PENETRATES OR PASSES BEHIND LEG. Man sits knees bent feet planted. Right knee gently tilts inward so OUTER fleshy shin surface faces camera. Hold ONE SHORT massage stick tilted NEAR VERTICAL, ALONGSIDE right shin not across it. Cylindrical yellow central roller touches lateral/outer fleshy tibialis anterior beside shin ridge. Black handle above held with right hand; black handle below held with left hand, both handles and connecting rod fully visible entirely IN FRONT OF OUTER SHIN, no occlusion through leg. Right tibial bony ridge visible unobstructed toward inner side of shin. Use no arrows if they confuse contact. Exact original character curly hair beard charcoal shirt small Misurami left chest logo charcoal shorts thin yellow side stripes black shoes. Accurate two hands five fingers, two arms legs, natural grip; torso leaned forward looking at massage. Entire body feet roller with margins. No captions labels numbers.",
+      "result": "rejected: nearly vertical roller orientation does not clearly illustrate intended up/down rolling path"
+    }
+  ],
+  "sources": [
+    "exercises.json:Anterior_Tibialis-SMR",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "failed; deferred after two failed correction attempts",
+    "fileValidation": "draft PNGs valid but not accepted for catalog",
+    "trainerReview": "not performed",
+    "technicalScope": "Illustrates repository exercise instructions; not a professionally validated prescription"
+  },
+  "rejectedDrafts": 3,
+  "status": "deferred",
+  "reason": "Contatto del rullo iniziale troppo centrale sulla cresta tibiale. Dopo due tentativi di correzione, il primo presenta intersezione/occlusione innaturale del bastone con la gamba; il secondo mostra contatto laterale ma orientamento del rullo quasi longitudinale che non comunica chiaramente lo scorrimento dal sotto-ginocchio al sopra-caviglia. Sequenza non pubblicabile senza ulteriore chiarimento visivo.",
+  "draftPrompts": [
+    {
+      "file": "01-automassaggio.png",
+      "description": "Seduto con ginocchia piegate e piedi a terra; rullo manuale sui tessuti del comparto anteriore della gamba, con indicazione del percorso di scorrimento. Ripetere dall'altro lato.",
+      "prompt": "Create ONE realistic fitness illustration PNG landscape 3:2 warm ivory seamless floor background, full body with generous margins, no text captions numbers panels. Original attached Misurami identity authoritative: same adult man curly hair dark beard athletic build, charcoal shirt original small yellow/white Misurami logo on anatomical left chest, charcoal shorts with thin yellow sides, black shoes. Exercise self-massage tibialis anterior with handheld massage stick: sitting upright on floor with BOTH knees bent and BOTH soles planted, knees hip width, torso inclined slightly forward naturally. Both hands grip handles of ONE short black massage stick with a cylindrical yellow center roller. Position roller gently across soft muscle immediately LATERAL/outside FRONT of RIGHT shin below knee, not directly on sharp shin bone. Hands press roller across shin with elbows naturally bent. Add a small yellow double-headed arrow parallel to shin nearby to indicate short up/down rolling path between below knee and above ankle. Clear front three-quarter camera shows soft tissue contact and all fingers/grips. Exactly two arms two legs; no extra equipment. Facial expression relaxed looking toward roller."
+    }
+  ]
+}

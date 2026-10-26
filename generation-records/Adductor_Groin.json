@@ -1,0 +1,31 @@
+{
+  "id": "Adductor_Groin",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-allungamento-assistito.png",
+      "description": "Supino con gambe sollevate e divaricate comodamente; compagno sostiene delicatamente le caviglie.",
+      "prompt": "ONE landscape 3:2 PNG, realistic fitness instruction illustration on warm ivory floor/background, full bodies and all equipment completely visible with generous margin. No text captions numbers panels, only original small Misurami left chest logo. Original character reference attached: reproduce same man face curly hair beard athletic build charcoal shirt and shorts yellow stripe black shoes. Anatomically exact limbs hands joints, natural supported posture. Exercise assisted supine adductor stretch, ONE static hold image, not a sequence. Original Misurami man lying on back on ivory floor head toward lower left, hips flexed about 90 degrees, both legs raised toward ceiling and spread into a comfortable V, knees softly straight not locked, neck shoulders relaxed floor-supported. A second adult male assistant in plain muted gray athletic clothing (no logo), kneeling beyond athlete's feet, holds ONE ankle with each hand gently and supports the comfortable symmetrical V. Assistant arms reach separately to each ankle, both hands clearly wrap ankle above shoe, never pressing knees. Athlete's arms relaxed along floor beside torso. Safe comfortable moderate separation, no extreme splits. Show entire bodies, head, hands, both raised shoes, with wide margins, consistent natural anatomy. Elevated three-quarter side view with Misurami man's left chest visible. No yellow arrows because static hold.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    }
+  ],
+  "executionSequence": [
+    "01-allungamento-assistito.png"
+  ],
+  "sequenceNotes": "La medesima geometria rappresenta mantenimento, tentativo isometrico di chiusura contro resistenza e rilassamento; non inventate fasi con divaricazioni estreme. Il compagno aumenta solo delicatamente l'ampiezza secondo comfort dell'atleta.",
+  "sources": [
+    "exercises.json:Adductor_Groin",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "passed: inspected all accepted images for limb count, joint anatomy, hands/grip, supports, original character identity and chest logo, full-body framing and equipment continuity; minor rendering differences between phases",
+    "fileValidation": "passed: separate decodable PNGs, landscape 1536x1024 (3:2)",
+    "trainerReview": "not performed",
+    "technicalScope": "Illustration of repository instructions, not a professionally validated prescription"
+  },
+  "rejectedDrafts": []
+}

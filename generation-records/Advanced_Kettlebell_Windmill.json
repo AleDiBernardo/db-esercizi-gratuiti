@@ -1,0 +1,42 @@
+{
+  "id": "Advanced_Kettlebell_Windmill",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-partenza.png",
+      "description": "Posizione eretta con kettlebell sopra la testa, braccio opposto dietro la schiena.",
+      "prompt": "ONE landscape 3:2 PNG, realistic fitness instruction illustration on warm ivory floor/background, full bodies and all equipment completely visible with generous margin. No text captions numbers panels, only original small Misurami left chest logo. Original character reference attached: reproduce same man face curly hair beard athletic build charcoal shirt and shorts yellow stripe black shoes. Anatomically exact limbs hands joints, natural supported posture. Exercise advanced kettlebell windmill, initial upright overhead support phase. Exact original Misurami man standing full body front three-quarter, feet a little wider than hips. One charcoal kettlebell held in RIGHT hand overhead, right elbow fully extended not hyperextended, wrist stacked over shoulder, kettlebell bell resting behind forearm. LEFT hand rests behind lower back clearly visible at left hip, not reaching toward floor. Both feet turned about 45 degrees toward athlete's LEFT (away from overhead arm); knees soft. Torso upright, hips neutral, eyes looking toward overhead bell. Leave substantial space above kettlebell; entire bell and all shoes in frame. Natural moderate kettlebell size and neutral wrist, clean anatomy.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    },
+    {
+      "file": "02-inclinazione.png",
+      "description": "Inclinazione controllata con braccio sollevato disteso e sguardo al kettlebell.",
+      "prompt": "ONE landscape 3:2 PNG, realistic fitness instruction illustration on warm ivory floor/background, full bodies and all equipment completely visible with generous margin. No text captions numbers panels, only original small Misurami left chest logo. Original character reference attached: reproduce same man face curly hair beard athletic build charcoal shirt and shorts yellow stripe black shoes. Anatomically exact limbs hands joints, natural supported posture. Exercise advanced kettlebell windmill, lowering phase. Original first sheet defines Misurami identity and clothing. Second attached upright phase defines exact scale camera floor position same kettlebell and hand assignment. Keep feet planted in same positions, right hand overhead with same kettlebell and straight vertical right arm throughout, LEFT arm still BEHIND LOWER BACK not on leg. Push pelvis back toward right and hinge torso diagonally downward to left to a comfortable roughly 45-degree angle from upright, rotate chest upward toward bell, keep braced neutral spine. Right arm stacks vertically above right shoulder, eyes look up at bell; left knee may bend softly, right leg remains nearly straight. No extreme range or forced lumbar bend. Entire body all shoes overhead bell and hand visible with margins, fixed camera zoom; no new equipment.",
+      "references": [
+        "references/misurami-personaggio.png",
+        "images/Advanced_Kettlebell_Windmill/01-partenza.png"
+      ]
+    }
+  ],
+  "executionSequence": [
+    "01-partenza.png",
+    "02-inclinazione.png",
+    "01-partenza.png"
+  ],
+  "sequenceNotes": "Il ritorno riutilizza la postura eretta; la girata e spinta iniziali sono preparazione al windmill, la sequenza illustra una ripetizione completa del windmill a escursione confortevole.",
+  "sources": [
+    "exercises.json:Advanced_Kettlebell_Windmill",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "passed: inspected all accepted images for limb count, joint anatomy, hands/grip, supports, original character identity and chest logo, full-body framing and equipment continuity; minor rendering differences between phases",
+    "fileValidation": "passed: separate decodable PNGs, landscape 1536x1024 (3:2)",
+    "trainerReview": "not performed",
+    "technicalScope": "Illustration of repository instructions, not a professionally validated prescription"
+  },
+  "rejectedDrafts": []
+}

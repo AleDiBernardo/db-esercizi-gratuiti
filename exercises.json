@@ -113,7 +113,11 @@
       "Rilassa l'interno coscia e scorri sul rullo tra anca e ginocchio, fermandoti sui punti di tensione per 10–30 secondi. Ripeti sull'altra gamba."
     ],
     "category": "stretching",
-    "id": "Adductor"
+    "id": "Adductor",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Adductor/01-appoggio.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Adductor/02-scorri.png"
+    ]
   },
   {
     "name": "Allungamento assistito degli adduttori",
@@ -132,7 +136,10 @@
       "Rilassa le gambe mentre il compagno le divarica delicatamente, fino a un allungamento confortevole. Segnala quando la tensione è sufficiente per evitare un allungamento eccessivo o lesioni."
     ],
     "category": "stretching",
-    "id": "Adductor_Groin"
+    "id": "Adductor_Groin",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Adductor_Groin/01-allungamento-assistito.png"
+    ]
   },
   {
     "name": "Windmill avanzato con kettlebell",
@@ -155,7 +162,11 @@
       "Fermati un secondo e torna alla posizione iniziale."
     ],
     "category": "forza",
-    "id": "Advanced_Kettlebell_Windmill"
+    "id": "Advanced_Kettlebell_Windmill",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Advanced_Kettlebell_Windmill/01-partenza.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Advanced_Kettlebell_Windmill/02-inclinazione.png"
+    ]
   },
   {
     "name": "Crunch a bicicletta",
@@ -176,7 +187,12 @@
       "Alterna i lati fino a completare le ripetizioni previste per ciascuno."
     ],
     "category": "forza",
-    "id": "Air_Bike"
+    "id": "Air_Bike",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Air_Bike/01-partenza.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Air_Bike/02-pedalata-un-lato.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Air_Bike/03-pedalata-altro-lato.png"
+    ]
   },
   {
     "name": "Allungamento dei quadricipiti in quadrupedia",
@@ -315,7 +331,12 @@
       "Fermati in alto, torna alla posizione iniziale e ripeti dall'altro lato."
     ],
     "category": "forza",
-    "id": "Alternating_Cable_Shoulder_Press"
+    "id": "Alternating_Cable_Shoulder_Press",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternating_Cable_Shoulder_Press/01-partenza.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternating_Cable_Shoulder_Press/02-spinta-destra.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternating_Cable_Shoulder_Press/03-spinta-sinistra.png"
+    ]
   },
   {
     "name": "Alzate frontali e laterali alternate",
@@ -560,7 +581,10 @@
       "Continua per circa 10 secondi, poi inverti il senso di rotazione."
     ],
     "category": "stretching",
-    "id": "Arm_Circles"
+    "id": "Arm_Circles",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Arm_Circles/01-circonduzioni.png"
+    ]
   },
   {
     "name": "Arnold press con manubri",
@@ -582,7 +606,11 @@
       "Ripeti per il numero previsto."
     ],
     "category": "forza",
-    "id": "Arnold_Dumbbell_Press"
+    "id": "Arnold_Dumbbell_Press",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Arnold_Dumbbell_Press/01-partenza.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Arnold_Dumbbell_Press/02-distensione.png"
+    ]
   },
   {
     "name": "Semicerchi con manubri su panca",
@@ -602,7 +630,12 @@
       "Espirando, inverti il movimento e torna alla posizione iniziale."
     ],
     "category": "forza",
-    "id": "Around_The_Worlds"
+    "id": "Around_The_Worlds",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Around_The_Worlds/01-partenza.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Around_The_Worlds/02-apertura.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Around_The_Worlds/03-oltre-testa.png"
+    ]
   },
   {
     "name": "Sollevamento con attrezzo per Atlas Stone",
