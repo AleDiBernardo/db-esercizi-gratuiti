@@ -1,0 +1,20 @@
+{
+  "id": "Barbell_Glute_Bridge",
+  "status": "accepted",
+  "reviewer": "images_c independent review",
+  "inspected": [
+    "01-partenza.png",
+    "02-ponte.png"
+  ],
+  "reasons": [
+    "BothPNG individuallyopened and fullinstructions/record read.",
+    "Workingrepetition visiblycomplete: paddedbar acrosshipcrease lowrest then hips/bar/plates rise together; reversecontrolledreturn documented.",
+    "Occiput/shoulders remainfloorsupported feetflat atsamepositions; arms stabilizebar twohands; neutralhipend notexaggerated lumbararch.",
+    "Samebarcollars blackpad twoequalplates retained, camera/frame/identitybranding coherent anduncropped."
+  ],
+  "limitations": [
+    "Initial rollingbarintoposition issetupcontext ratherthanworkingrep; record describes workingrepetition adequately."
+  ],
+  "neededCorrections": [],
+  "trainerReview": "not performed"
+}

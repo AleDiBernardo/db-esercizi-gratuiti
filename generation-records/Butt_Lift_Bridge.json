@@ -1,0 +1,47 @@
+{
+  "id": "Butt_Lift_Bridge",
+  "phases": [
+    {
+      "file": "01-partenza.png",
+      "description": "Supino con bacino e capo a terra, ginocchia flesse e piedi appoggiati.",
+      "prompt": "Correct second reference ONLY HEAD/NECK support for glute bridge start. First original Misurami exact identity. In current image head floats lifted from floor. Lower occiput BACK OF HEAD to REST IN DIRECT CONTACT WITH IVORY FLOOR, neck relaxed neutral, face looks straight toward ceiling, chin not pulled toward chest. No gap/shadow separating backofhead from floor; head relaxed flat as lying asleep. Keep shoulders back pelvis arms hands feet knees wholebody camera scale equipment all other pixels positions same. Exactfacehairbeard charcoal originalleftchestlogo shirt yellowtrim shorts blackshoes. Fullbody landscape3:2 ivory realistic no text arrows panels.",
+      "initialPrompt": "ONE realistic fitness PNG landscape3:2 phase1 GLUTE BRIDGE START. ORIGINAL attached Misurami man exact curlyhair beard face athleticbuild charcoal shirt original small leftchest yellowwhite Misurami logo charcoalshorts yellowtrim blackshoes. Warmivoryfloor background softshadow no labels text captions arrows panels. Clear SIDE THREEQUARTER camera from left side slightly elevated, head toviewerLEFT feetviewerRIGHT, chestlogo visible. Man lies supine head shoulders back pelvis fully resting floor, knees bent about90deg feet flat hipwidth, heels about25cm from hips. Arms straight on floor beside torso palms down, hands natural5fingers. Entirehead bothshoes hands fullbody generousmargin no equipment. Fix camera scale foot and headcontact positions for raisedhip phase. Neutral pelvis/ribs no archedback."
+    },
+    {
+      "file": "02-ponte.png",
+      "description": "Bacino sollevato fino ad allineare spalle, anche e ginocchia senza inarcare la zona lombare.",
+      "prompt": "ONE landscape3:2 PNG phase2 GLUTE BRIDGE RAISED HIPS. First ORIGINAL Misurami reference exact man identity clothing leftchest small logo. Second acceptedstart fixes exact headfloorcontact, shouldersupport, footcontacts, hands arms camera scale ivoryscene. Keep BACK OF HEAD and both shoulderblades resting floor same spots, relaxedface towardceiling no neckcrunch. Lift ONLY pelvis by extending hips until shoulders→hips→knees form straight diagonal line. Hips neutral glutes engaged ribsdown NO lowerback hyperextension no exaggerated arch. Knees bent about90deg, shins approximatelyvertical, wholefeet flat stay SAME spots. Arms palms flat besidebody unchanged, handsground support not pushinghead. Fullbody bothshoes allhands margins no equipment. Smooth realisticfitness ivoryfloor subtle shadow under raisedpelvis no text labels arrows panels. Clearly higherpelvis thanstart but head remains ON FLOOR."
+    }
+  ],
+  "rejectedDrafts": 1,
+  "status": "accepted",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "executionSequence": [
+    "01-partenza.png",
+    "02-ponte.png",
+    "01-partenza.png"
+  ],
+  "returnDescription": "Abbassare il bacino con controllo tornando all'appoggio iniziale; ripetere senza iperestendere la schiena.",
+  "sources": [
+    "IMAGE-ROUTINE.md",
+    "exercises.json:Butt_Lift_Bridge",
+    "https://www.nasm.org/resource-center/exercise-library/floor-bridge"
+  ],
+  "technicalNotes": "Bridge ends with neutral hip extension and straight shoulder-hip-knee alignment; 'as high as possible' is not illustrated as lumbar hyperextension.",
+  "checks": {
+    "automaticVisualInspection": "passed: all PNGs reviewed for grounded occiput/shoulder support and feet, neutral spine, correct hip action, anatomy identity branding and equipment continuity",
+    "trainerReview": "not performed",
+    "peerReview": "pending"
+  },
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Butt_Lift_Bridge.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

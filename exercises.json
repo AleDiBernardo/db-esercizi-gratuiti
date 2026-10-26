@@ -1161,7 +1161,11 @@
       "Estendi le anche il più possibile, poi inverti il movimento e torna alla posizione iniziale."
     ],
     "category": "powerlifting",
-    "id": "Barbell_Glute_Bridge"
+    "id": "Barbell_Glute_Bridge",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Barbell_Glute_Bridge/01-partenza.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Barbell_Glute_Bridge/02-ponte.png"
+    ]
   },
   {
     "name": "Distensioni a ghigliottina con bilanciere",
@@ -2506,7 +2510,11 @@
       "Inspira tornando lentamente alla posizione iniziale."
     ],
     "category": "forza",
-    "id": "Butt_Lift_Bridge"
+    "id": "Butt_Lift_Bridge",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Butt_Lift_Bridge/01-partenza.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Butt_Lift_Bridge/02-ponte.png"
+    ]
   },
   {
     "name": "Croci alla macchina butterfly",

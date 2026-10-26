@@ -1,0 +1,46 @@
+{
+  "id": "Barbell_Glute_Bridge",
+  "phases": [
+    {
+      "file": "01-partenza.png",
+      "description": "Supino a terra con bilanciere imbottito nella piega delle anche.",
+      "prompt": "ONE landscape3:2 realistic fitness PNG phase1 BARBELL GLUTE BRIDGE FLOOR START. ORIGINAL attached Misurami exact man facehairbeard charcoalleftchestlogo shirt yellowtrimshorts blackshoes. Clear side-threequarterview headLEFT feetRIGHT slightly elevated, fullbody and wholebar bothendplates margins. Ivoryfloor background softshadow no text arrows labels panels. Man supine BACK OF HEAD shoulderblades back pelvis restfloor, neutral relaxedneck faceceiling. Kneesbent feetflat hipwidth heels25cmfromhips. A steelbarbell with ONE SMALL blackplate about30cm diameter EACH END and securecollars lies ACROSS HIP CREASE, with thick BLACK FOAMPAD at center protecting frontofpelvis. Bothhands rest onbar either sideofpad preventingroll, palms holdbar accurately wristsneutral. Bar is perpendicular to body'slongaxis and rests acrosships NOT belly/thighs. Smallplates touchfloor initially, barcenter matches hipheight; do not use full45cmplates. No bench no other equipment. Fix camera body feet headpositions andbar dimensions load for raisedpelvisphase."
+    },
+    {
+      "file": "02-ponte.png",
+      "description": "Estensione delle anche con bilanciere sollevato e appoggio su spalle e piedi.",
+      "prompt": "ONE landscape3:2 PNG phase2 BARBELL GLUTE BRIDGE RAISED HIP. First original Misurami exactidentityclothesleftchestlogo authoritative. Second acceptedstart exactcamera bodyheadfootcontact positions barload geometry TWO same SMALL blackplates30cm eachend samecollars blackfoampad acrosshipcrease. Keep BACK OF HEAD andshoulderblades onfloor exactspots relaxedneckfaceceiling. Lift pelvis until shoulders→hips→knees form straightdiagonal with glutes engaged pelvisneutral ribsdown no lumbararching. Bar andbothplates RISE TOGETHER withhip, blackpad remains acrossfrontofpelvis atHIPCREASE notsliding ontobelly. BOTH plates visibly off floor samebarperspective, samehands gripstabilizebar sidesofpad. Kneesbent~90deg shinsvertical feetstayflat exactoldspots. No bench no newequipment. Wholebody fullbarends generousmargins warmivorysoftshadow no text arrows panels. Clearly show suspendedplates andraisedpelvis, groundedheadshouldersheels."
+    }
+  ],
+  "rejectedDrafts": 0,
+  "status": "accepted",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "executionSequence": [
+    "01-partenza.png",
+    "02-ponte.png",
+    "01-partenza.png"
+  ],
+  "returnDescription": "Abbassare il bacino con controllo tornando all'appoggio iniziale; ripetere senza iperestendere la schiena.",
+  "sources": [
+    "IMAGE-ROUTINE.md",
+    "exercises.json:Barbell_Glute_Bridge",
+    "https://www.nasm.org/resource-center/exercise-library/floor-bridge"
+  ],
+  "technicalNotes": "Bridge ends with neutral hip extension and straight shoulder-hip-knee alignment; 'as high as possible' is not illustrated as lumbar hyperextension.",
+  "checks": {
+    "automaticVisualInspection": "passed: all PNGs reviewed for grounded occiput/shoulder support and feet, neutral spine, correct hip action, anatomy identity branding and equipment continuity",
+    "trainerReview": "not performed",
+    "peerReview": "pending"
+  },
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Barbell_Glute_Bridge.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

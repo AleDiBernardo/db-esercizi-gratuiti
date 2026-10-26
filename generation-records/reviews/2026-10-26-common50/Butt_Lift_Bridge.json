@@ -1,0 +1,17 @@
+{
+  "id": "Butt_Lift_Bridge",
+  "status": "accepted",
+  "reviewer": "images_c independent review",
+  "inspected": [
+    "01-partenza.png",
+    "02-ponte.png"
+  ],
+  "reasons": [
+    "BothPNG individuallyopened and entireinstructions/record read.",
+    "Clear supineinitial then raisedpelvis with shoulder-hip-knee alignment; return uses initialpose, no missingdistinctphase.",
+    "Occiput/shoulders onfloor, hands supportbesidebody, feetflat fixedcontacts; no gross lumbarhyperextension.",
+    "Originalcharacterclothes/logo consistent fullbody uncropped ivoryscene."
+  ],
+  "neededCorrections": [],
+  "trainerReview": "not performed"
+}
