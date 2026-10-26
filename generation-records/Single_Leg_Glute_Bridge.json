@@ -1,0 +1,69 @@
+{
+  "id": "Single_Leg_Glute_Bridge",
+  "phases": [
+    {
+      "file": "01-appoggio-sinistro-basso.png",
+      "description": "Bacino a terra, piede sinistro appoggiato e ginocchio destro sollevato.",
+      "prompt": "ONE realistic landscape3:2 PNG SINGLE LEG GLUTE BRIDGE phase1 RIGHT KNEE UP pelvisdown. First ORIGINAL Misurami exactmanface curlyhairbeard charcoalshirt original anatomicalleftchestsmalllogo yellowtrimshorts blackshoes. Side-front-threequarter camera fromman'sright so headLEFT feetRIGHT, bothlegs clearly separated. Entiremanallhandsbothshoes margins ivoryfloorbackgroundsoftshadow no captionsarrowslabels panels. Lie supine BACKOFHEAD shoulderblades backpelvis fully REST FLOOR, neutralrelaxedneck faceceiling. LEFT FOOT (far side) firmly flat floor with knee bent~90deg. RIGHT LEG (nearforeground) lifted so RIGHT KNEE draws toward chest hipflexed~100deg knee bent~90deg, rightshoe floats nearopposite kneeheight and NOT resting onleftleg. Arms straightonfloor besidebody palmsdown naturalhands. Exactly2legs with clearseparation. Fixcamera scale groundedheadleftfootpositions forraisedhipphase."
+    },
+    {
+      "file": "02-appoggio-sinistro-alto.png",
+      "description": "Ponte con appoggio sul sinistro e ginocchio destro sollevato.",
+      "prompt": "ONE realistic landscape3:2 PNG SINGLE LEG GLUTE BRIDGE phase2 pelvisraised LEFT FOOT SUPPORT rightkneeraised. Originalfirst exact Misurami man/clothes smallleftchestlogo. Secondimage phase1 fixes fullbody camera floor head/shouldercontacts groundedLEFTfoot far side and arms/hands. Keep RIGHTLEG nearforeground knee bent towardchest same hipflexed raisedshoe, neverstraighten raisedleg or putitdown. Press through plantedLEFTFOOT and raise pelvis until supporting leftknee→hip→shoulders form straightdiagonal neutralhip. Glutesengaged ribsdown no lumbararch hipslevel nottwisted. BACKOFHEAD shoulderblades arms palms remain onfloor exactpositions, neckrelaxedfaceceiling. Groundedleftfoot staysflat exactspot. Fullbody bothshoes allhands generousmargins ivoryfloorbackgroundsoftshadow no text labels arrows panels. Exactly2legs accuratejoints."
+    },
+    {
+      "file": "03-appoggio-destro-basso.png",
+      "description": "Bacino a terra, piede destro appoggiato e ginocchio sinistro sollevato.",
+      "prompt": "Edit exercise image second reference: SWAP WHICH LEG IS LIFTED. Original first authoritative Misurami identity/clotheslogo. Current FRONT NEAR THIGH with YELLOW SHORTS SEAM is lifted. It MUST NOW BE GROUNDED: yellow-seam thigh extends diagonally RIGHT DOWN to a FRONT knee at x1050y430, then nearshin descends to FRONT planted shoe x1250y770. FAR THIGH WITHOUT yellow seam must be the raisedleg BEHIND nearthigh, far knee atx850y230 and farlowerleg horizontal behind to shoe x1180y220. Occlusion essential: GROUNDED NEAR THIGH crosses in FRONT of raised FARthigh at hip. Do NOT copy same pose. Preserve bodyheadshoulderspelvisarmsfloor camera scale. Pelvis rests floor, head rests floor, farfootraised nearfootflat. One man exactlytwolegs accuratejoints. Fullbody3:2 ivory no textarrowslabels panels."
+    },
+    {
+      "file": "04-appoggio-destro-alto.png",
+      "description": "Ponte con appoggio sul destro e ginocchio sinistro sollevato.",
+      "prompt": "ONE landscape3:2 PNG SINGLE LEG GLUTE BRIDGE phase4 pelvisRAISED RIGHTFOOTSUPPORT leftkneeraised. FirstORIGINAL Misurami identityclothesleftchestlogo authoritative. Secondimage oppositeLOWstart fixesexactcamera floorheadshouldersarms groundedNEARleg with YELLOW SHORTS SEAM. Keep RIGHTNEARFOOT flat samefloorspot; LEFT FARLEG WITHOUT yellowseam remains lifted knee benttowardchest sameposition behindgroundedthigh. Raise pelvis by pushing through RIGHTNEARFOOT until supportingrightknee→hip→shoulder straightdiagonal, hipsneutrallevel corebraced no lumbararch. Backofheadandshoulders stayrestingfloor exactspots faceceiling relaxedneck. Arms palmsflat unchanged. Critical nearstripeTHIGH remains GROUNDED LEG diagonal tofrontknee, raisedfarleg behind nearthigh, NOT swapped back. Exactly2legs naturalanatomy fullbodybothshoeshands generousmargins warmivorysoftshadow no textarrowslabels panels."
+    }
+  ],
+  "executionSequence": [
+    "01-appoggio-sinistro-basso.png",
+    "02-appoggio-sinistro-alto.png",
+    "01-appoggio-sinistro-basso.png",
+    "03-appoggio-destro-basso.png",
+    "04-appoggio-destro-alto.png",
+    "03-appoggio-destro-basso.png"
+  ],
+  "sources": [
+    "IMAGE-ROUTINE.md",
+    "exercises.json:Single_Leg_Glute_Bridge",
+    "https://www.nasm.org/resource-center/exercise-library/floor-bridge"
+  ],
+  "technicalNotes": "Both support sides explicitly illustrated with hip neutral and opposite knee flexed, no lumbar hyperextension.",
+  "correctionHistory": [
+    {
+      "prompt": "ONE landscape3:2 PNG SINGLE LEG GLUTE BRIDGE phase3 OPPOSITE START pelvisdown. First ORIGINAL Misurami exact faceclothesleftchestlogo authoritative. Second startpose exact camera head shoulders pelvis arms floor background scale. SWAP LEGS ONLY, do NOT mirrorwholeimage: RIGHT LEG nearFOREGROUND now bentwith RIGHT SHOE FLAT onfloor atx1200y760 andkneebent90deg. LEFT LEG FARSIDE now lifted so LEFT KNEE draws towardchest hipflexed100deg knee90deg, leftshoe floatsaroundx1250y300. Show raised FAR THIGH behind nearthigh with visible separation; nearleggrounded andfarlegairborne, NOT same nearlegup asreference. Pelvisdown backofheadshoulderblades onfloor palmsdownarmsunchanged. Fullbody bothshoes allhands generousmargins ivorysoftshadow no textarrowslabels panels. Exactly2legs consistent anatomy, originalMisurami identity.",
+      "result": "rejected: model repeated same raised near leg"
+    },
+    {
+      "prompt": "Edit exercise image second reference: SWAP WHICH LEG IS LIFTED. Original first authoritative Misurami identity/clotheslogo. Current FRONT NEAR THIGH with YELLOW SHORTS SEAM is lifted. It MUST NOW BE GROUNDED: yellow-seam thigh extends diagonally RIGHT DOWN to a FRONT knee at x1050y430, then nearshin descends to FRONT planted shoe x1250y770. FAR THIGH WITHOUT yellow seam must be the raisedleg BEHIND nearthigh, far knee atx850y230 and farlowerleg horizontal behind to shoe x1180y220. Occlusion essential: GROUNDED NEAR THIGH crosses in FRONT of raised FARthigh at hip. Do NOT copy same pose. Preserve bodyheadshoulderspelvisarmsfloor camera scale. Pelvis rests floor, head rests floor, farfootraised nearfootflat. One man exactlytwolegs accuratejoints. Fullbody3:2 ivory no textarrowslabels panels.",
+      "result": "accepted: near yellow-seam leg now grounded, far leg raised"
+    }
+  ],
+  "rejectedDrafts": 1,
+  "status": "accepted",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "returnDescription": "Abbassare il bacino con controllo tornando alla posa iniziale; ripetere, quindi cambiare lato quando previsto.",
+  "checks": {
+    "automaticVisualInspection": "passed: every PNG viewed for anatomy, supports, pelvis-neutral hip extension, equipment/contact continuity, original character and branding, complete working repetition; peer review pending",
+    "trainerReview": "not performed",
+    "peerReview": "pending"
+  },
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Single_Leg_Glute_Bridge.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

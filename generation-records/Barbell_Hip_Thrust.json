@@ -1,0 +1,46 @@
+{
+  "id": "Barbell_Hip_Thrust",
+  "phases": [
+    {
+      "file": "01-bacino-basso.png",
+      "description": "Bacino abbassato con scapole al bordo della panca e bilanciere imbottito sulle anche.",
+      "prompt": "ONE realistic fitness PNG landscape3:2 phase1 BARBELL HIP THRUST LOWERED. ORIGINAL Misurami reference exact man facehairbeard athletic charcoal shirt small leftchestlogo yellowtrimshorts blackshoes. Ivoryfloorbackground softshadow no textlabels arrows panels. Clear SIDE THREEQUARTER view headtowardLEFT feettowardRIGHT, fullbody WHOLEBENCH andwholebar with bothendplates margins. A LOW sturdy flat bench blackpad darkgraylegs sits behind athlete'supperback at LEFT, benchheight about35cm. Athlete sits with hips/glutes nearfloor infrontofbench; LOWER SHOULDERBLADES supported on NEAR TOP EDGE of bench pad, contact at thoracicback not neck, neckneutral relaxed chin slightlytucked. Kneesbent feetflat hipwidth forward enough that shinsvertical at raisedphase. Steelbar acrossHIPCREASE with thick BLACK FOAMPAD, one SMALL blackplate30cmdiameter eachend collars. Hands gripbar sidesofpad preventrolling. Hipcrease bar rests onpelvis notabdomen. Bench staysfixed not floating, feethead scale camera same for raisedphase. Exactly2arms2legs accurategrips."
+    },
+    {
+      "file": "02-estensione-anche.png",
+      "description": "Estensione neutra delle anche con schiena alta sostenuta dalla panca e piedi fermi.",
+      "prompt": "ONE realistic landscape3:2 PNG phase2 BARBELL HIP THRUST TOP. Original first Misurami identity exact faceclotheslogo. Second fixes exact lowblackbench positions geometry camera bodyfeetfootprints barpad blackplates samecountsameweight collars. Keep feetflat EXACTsame spots and lower shoulderblades contact same BENCH TOP EDGE; bench must NOT move or morph. Extend hips to lift pelvis/bar until shoulders→hips→knees form horizontal line, shins closevertical knees90deg. Neutralpelvis ribsdown glutesengaged NO lowerbackarch or liftingbeyondstraighttorso. Upperback pivots onbenchedge not neck; head tracks torso with neutralneck chin gentlytucked gaze forward/up not craning back. SAME paddedbar acrossHIPCREASE, oneblackplateeachend bothrise together sameperspective; BOTHhands gripstabilizebar sidesofpad. Fullbody entirebench wholebar bothends generousmargins. Ivoryfloor softshadow no textarrowslabels panels. Exactly2hands2arms2legs, clear bench contact andfeet support."
+    }
+  ],
+  "executionSequence": [
+    "01-bacino-basso.png",
+    "02-estensione-anche.png",
+    "01-bacino-basso.png"
+  ],
+  "sources": [
+    "IMAGE-ROUTINE.md",
+    "exercises.json:Barbell_Hip_Thrust",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11981018/"
+  ],
+  "technicalNotes": "Neutral top alignment selected; no forced lumbar hyperextension despite catalog 'as high as possible' wording.",
+  "rejectedDrafts": 0,
+  "status": "accepted",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "returnDescription": "Abbassare il bacino con controllo tornando alla posa iniziale; ripetere, quindi cambiare lato quando previsto.",
+  "checks": {
+    "automaticVisualInspection": "passed: every PNG viewed for anatomy, supports, pelvis-neutral hip extension, equipment/contact continuity, original character and branding, complete working repetition; peer review pending",
+    "trainerReview": "not performed",
+    "peerReview": "pending"
+  },
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Barbell_Hip_Thrust.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

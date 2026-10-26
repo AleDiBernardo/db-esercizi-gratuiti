@@ -1236,7 +1236,11 @@
       "Spingi con i piedi ed estendi le anche verticalmente per sollevare la barra. Sostieni il peso su scapole e piedi, sali il più possibile e torna alla posizione iniziale."
     ],
     "category": "powerlifting",
-    "id": "Barbell_Hip_Thrust"
+    "id": "Barbell_Hip_Thrust",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Barbell_Hip_Thrust/01-bacino-basso.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Barbell_Hip_Thrust/02-estensione-anche.png"
+    ]
   },
   {
     "name": "Distensioni su panca inclinata con bilanciere a presa media",
@@ -3295,7 +3299,11 @@
       "Mantieni 15 secondi."
     ],
     "category": "stretching",
-    "id": "Cat_Stretch"
+    "id": "Cat_Stretch",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Cat_Stretch/01-quadrupedia.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Cat_Stretch/02-arrotondamento.png"
+    ]
   },
   {
     "name": "Ricezione e lancio sopra la testa",
@@ -15217,7 +15225,13 @@
       "Sali quanto possibile, fai una pausa e torna alla posizione iniziale."
     ],
     "category": "forza",
-    "id": "Single_Leg_Glute_Bridge"
+    "id": "Single_Leg_Glute_Bridge",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Single_Leg_Glute_Bridge/01-appoggio-sinistro-basso.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Single_Leg_Glute_Bridge/02-appoggio-sinistro-alto.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Single_Leg_Glute_Bridge/03-appoggio-destro-basso.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Single_Leg_Glute_Bridge/04-appoggio-destro-alto.png"
+    ]
   },
   {
     "name": "Spinta saltata a una gamba sul box",

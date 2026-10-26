@@ -1,0 +1,43 @@
+{
+  "id": "Cat_Stretch",
+  "phases": [
+    {
+      "file": "01-quadrupedia.png",
+      "description": "Assetto neutro su mani e ginocchia.",
+      "prompt": "ONE landscape3:2 realistic fitnessPNG warmivoryfloorbackground originalattachedMisurami character authoritative exactman facecurlsbeard athleticproportions charcoalshirt originalsmall yellowwhitelogo anatomicalLEFTchest charcoalshortsyellowstripe blackshoes. CATSTRETCH phase1 neutralQUADRUPEDsetup, headtowardRIGHT feettowardLEFT. Bothpalmsplanted shoulderwidth directlyunder shoulders fingersnaturallyspread, bothkneesgroundedunderhips hipwidth shinsbehind topsshoesrestfloor. Spineflatneutral horizontal trunk no sagarchnorroundyet, neckneutral gazedownfloor ahead hands. Sidefrontslightlyelevatedview fullbody bothhands knees shoes allvisible with generousmargins; chestlogo naturallyvisible. Exactly2arms2legs properhandandkneecontacts. Noequipment textcaptionslabelsarrows. Nextphasewillroundback WITHOUTcow/backbend. Fixedcamera floorhandsknees."
+    },
+    {
+      "file": "02-arrotondamento.png",
+      "description": "Arrotondamento della colonna con addome retratto e testa rilassata verso il basso.",
+      "prompt": "CATSTRETCH phase2 ROUNDEDHOLD from SECOND neutralquadrupedscene, originalFIRST Misurami identityclothesleftchestlogo authoritative. Keep EXACTsamecamera scale floorhandkneefootcontacts. Drawbellyin and gentlyROUND entire spine UPWARD (thoracicandlumbar), tuckpelvisunder, spreadshoulderblades, letheadhangnaturally chinapproachchest withoutforcing. Distinct convex roundedback dome versusneutralreference. Botharmsstaystraight palmsunder shoulders bothkneesunderhips shinsgrounded, no limbmovement nohipshift. Holdstretch15seconds perinstructions. Originalcharacternatural2arms2legs handsfingersneutraljointsanatomy. Fullbodyallhands shoes visible generousmargins. Ivorylandscape3:2 realistic PNG nocaptionsarrowslabels. No inventedcow/backbendphase."
+    }
+  ],
+  "executionOrder": [
+    "01-quadrupedia.png",
+    "02-arrotondamento.png",
+    "01-quadrupedia.png"
+  ],
+  "executionNotes": "Entrare lentamente nell'arrotondamento e mantenerlo15secondi come da catalogo, poi rilasciare all'assetto neutro. Non è stata aggiunta una fase cow/iperestensione.",
+  "createdAt": "2026-10-26",
+  "status": "accepted",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "sources": [
+    "IMAGE-ROUTINE.md",
+    "exercises.json:Cat_Stretch"
+  ],
+  "checks": {
+    "automaticVisualInspection": "Provisional pass: complete anatomy/supports/identity/clothing/logo and movement reviewed in everyPNG, pending independent cross-review",
+    "fileValidation": "PNG decode3:2 verified",
+    "trainerReview": "not performed"
+  },
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Cat_Stretch.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

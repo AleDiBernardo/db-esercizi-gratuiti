@@ -1,0 +1,19 @@
+{
+  "id": "Single_Leg_Glute_Bridge",
+  "status": "accepted",
+  "reviewer": "images_c independent review",
+  "inspected": [
+    "01-appoggio-sinistro-basso.png",
+    "02-appoggio-sinistro-alto.png",
+    "03-appoggio-destro-basso.png",
+    "04-appoggio-destro-alto.png"
+  ],
+  "reasons": [
+    "Fullinstructions read all4PNG individuallyopened.",
+    "Bothsupport sides genuinely differ: near leg raised in01/02 then farleg raised03/04; groundedfootandraisedknee relationclearlyvisible.",
+    "Bothlow/high hipposes present perleg so corecycle complete; shoulders/head/hands stayfloor supported, stablefeet, raisedknee flexed.",
+    "Neutralhipendpoints no grosssag/arch, fullbodyuncropped consistentidentityclothingbranding."
+  ],
+  "neededCorrections": [],
+  "trainerReview": "not performed"
+}

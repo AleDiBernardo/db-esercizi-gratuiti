@@ -1,0 +1,20 @@
+{
+  "id": "Barbell_Hip_Thrust",
+  "status": "accepted",
+  "reviewer": "images_c independent review",
+  "inspected": [
+    "01-bacino-basso.png",
+    "02-estensione-anche.png"
+  ],
+  "reasons": [
+    "Fullinstructions read and bothPNG visuallyopened.",
+    "Distinct lowhip setup and hip-extension workingendpoint; returncanreuse lowpose.",
+    "Upperback/scapular support onbench and bothfoot contacts continuous, pelvis liftsbarpad at hipcrease ratherthanbelly; handgrips maintainbar.",
+    "Samebarloadplatespad benchgeometry and originalcharacter/clotheslogo uncropped."
+  ],
+  "limitations": [
+    "Head remains raised facingforward throughlift; no gross lumbarhyperextension, shoulderhipknee endpoint coherent."
+  ],
+  "neededCorrections": [],
+  "trainerReview": "not performed"
+}

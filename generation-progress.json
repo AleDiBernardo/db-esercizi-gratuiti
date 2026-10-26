@@ -48,7 +48,10 @@
     "Seated_Cable_Rows",
     "Bent_Over_Barbell_Row",
     "Barbell_Curl",
-    "Dumbbell_Bicep_Curl"
+    "Dumbbell_Bicep_Curl",
+    "Barbell_Hip_Thrust",
+    "Single_Leg_Glute_Bridge",
+    "Cat_Stretch"
   ],
   "needsReview": [
     {
