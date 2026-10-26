@@ -1,0 +1,36 @@
+{
+  "id": "Hamstring_Stretch",
+  "phases": [
+    {
+      "file": "01-allungamento.png",
+      "description": "Supino con una gamba sollevata e cinghia sull'avampiede, altra gamba a terra.",
+      "prompt": "ONE realistic fitness illustration PNG landscape3:2 warmivoryfloorbackground. ORIGINALattachedMisurami sheet authoritative exactman curlsbeard athleticproportions charcoalshirt originalsmall leftchest yellowwhiteMisuramilogo charcoalshortsyellowstripe blackshoes. HAMSTRINGSTRAPSTRETCH singleheldpose: man fullySUPINE headLEFT feetRIGHT, skullshoulderblades backpelvis restfloor neckrelaxed faceceiling. LEFTlegstraight restsFULLYonfloor towardRIGHT, RIGHTleg raisesSTRAIGHT towardCEILING hip90degrees kneecomfortablynearlystraight nohyperextension, ankle gentlydorsiflexed. One simple darkfabricstrap LOOP encircles BALL/FOREFOOT of raisedshoe, two separate taut strapends runDOWN to BOTHHANDS held justaboveabdomen, elbows comfortablybent. Correct physicalstraprouting aroundforefoot not ankle; handsgentlyhold ends without pullingneck/head orliftingtorso. Bothlegs separatelyreadable, exact2arms2legs properhandfingers. Camera elevatedside3quarter toshow groundedleg support and raisedleg; entiremanallshoes raisedshoe hands strap FULLYVISIBLEwithgenerousmarginabovefoot andrightofgroundedshoe, no crop. No text arrows numbers captions."
+    }
+  ],
+  "executionOrder": [
+    "01-allungamento.png"
+  ],
+  "executionNotes": "Tenere delicatamente in tensione la cinghia per10–30secondi mantenendo testa e spalle rilassate a terra, poi rilasciare e cambiare gamba.",
+  "createdAt": "2026-10-26",
+  "status": "accepted",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "sources": [
+    "IMAGE-ROUTINE.md",
+    "exercises.json:Hamstring_Stretch"
+  ],
+  "checks": {
+    "automaticVisualInspection": "Provisional pass: full anatomy, identity/clothing/logo, contact and exact static pose checked in everyPNG; pending independent review",
+    "fileValidation": "PNG decode3:2 verified",
+    "trainerReview": "not performed"
+  },
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Hamstring_Stretch.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

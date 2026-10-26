@@ -51,7 +51,10 @@
     "Dumbbell_Bicep_Curl",
     "Barbell_Hip_Thrust",
     "Single_Leg_Glute_Bridge",
-    "Cat_Stretch"
+    "Cat_Stretch",
+    "Calf_Stretch_Hands_Against_Wall",
+    "Hamstring_Stretch",
+    "Shoulder_Stretch"
   ],
   "needsReview": [
     {

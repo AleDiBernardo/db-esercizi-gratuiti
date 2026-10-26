@@ -3190,7 +3190,10 @@
       "Cerca di tenere il tallone a terra per 10–20 secondi, poi cambia lato."
     ],
     "category": "stretching",
-    "id": "Calf_Stretch_Hands_Against_Wall"
+    "id": "Calf_Stretch_Hands_Against_Wall",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Calf_Stretch_Hands_Against_Wall/01-allungamento.png"
+    ]
   },
   {
     "name": "Automassaggio dei polpacci con foam roller",
@@ -7002,7 +7005,10 @@
       "Tira la cinghia per creare tensione nei polpacci e negli ischiocrurali. Mantieni per 10–30 secondi e ripeti con l’altra gamba."
     ],
     "category": "stretching",
-    "id": "Hamstring_Stretch"
+    "id": "Hamstring_Stretch",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Hamstring_Stretch/01-allungamento.png"
+    ]
   },
   {
     "name": "Piegamenti in verticale al muro",
@@ -14701,7 +14707,10 @@
       "Porta il braccio sinistro disteso davanti al corpo, attraversando il petto."
     ],
     "category": "stretching",
-    "id": "Shoulder_Stretch"
+    "id": "Shoulder_Stretch",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Shoulder_Stretch/01-allungamento.png"
+    ]
   },
   {
     "name": "Allungamento laterale a terra",

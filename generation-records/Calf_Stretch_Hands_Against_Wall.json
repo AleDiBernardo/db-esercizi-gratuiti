@@ -1,0 +1,36 @@
+{
+  "id": "Calf_Stretch_Hands_Against_Wall",
+  "phases": [
+    {
+      "file": "01-allungamento.png",
+      "description": "Appoggio delle mani al muro, gamba posteriore distesa con tallone a terra.",
+      "prompt": "ONE realistic fitness illustration landscape3:2 PNG warmivorybackgroundfloor softshadow. ORIGINAL attached Misurami character authoritative exactfacecurlsdarkhairbeard build charcoalTshirt smalloriginalMisurami yellowwhitelogo anatomicalLEFTchest charcoalshortsyellowstripe blackshoes. STATIC WALLCALFSTRETCH: manfacesRIGHT toward plain stable architectural WALL. Bothpalms pressflat onwall atshoulderheight, armsnearlystraight with softelbows. Feetstaggered onefrontclosewall kneecomfortablybent, otherrearfootwellbehind him kneecomfortablystraight, BOTHSHOESOLES and REARHEEL visiblyFLATONFLOOR. Rearleg heelhiphead align gently leaning towardwall withoutlumbararch. Bothfeetpointtowall notrotated, hipsfacingwall straightnosidetwist, neckneutraleyesforward. Sidefront3quartercamera shows bothlegs distinct and bothhandwallcontacts; entireman handsheadshoes includingbackheel visible generousmargins. Walllightgray distinguishfromivoryfloor, noothergymgear. Oneheldstretch, notpushup. Naturaljoints fingers exact2arms2legs, noarrows labels numbers captions."
+    }
+  ],
+  "executionOrder": [
+    "01-allungamento.png"
+  ],
+  "executionNotes": "Mantenere il tallone posteriore a terra nella tenuta10–20secondi, poi rilasciare e cambiare lato senza forzare.",
+  "createdAt": "2026-10-26",
+  "status": "accepted",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "sources": [
+    "IMAGE-ROUTINE.md",
+    "exercises.json:Calf_Stretch_Hands_Against_Wall"
+  ],
+  "checks": {
+    "automaticVisualInspection": "Provisional pass: complete anatomy/supports/identity/clothing/logo and movement reviewed in everyPNG, pending independent cross-review",
+    "fileValidation": "PNG decode3:2 verified",
+    "trainerReview": "not performed"
+  },
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Calf_Stretch_Hands_Against_Wall.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

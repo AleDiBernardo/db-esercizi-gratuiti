@@ -1,0 +1,42 @@
+{
+  "id": "Shoulder_Stretch",
+  "phases": [
+    {
+      "file": "01-allungamento.png",
+      "description": "Braccio sinistro disteso attraverso il petto; busto e spalle rilassati.",
+      "prompt": "Correct SECOND crossbodyshoulderstretch image: it shows the WRONGARM for catalog. FIRST original Misurami identityclotheslogo authoritative. Switch arms anatomically: LEFTSHOULDER is VIEWER'SRIGHT side at imageRIGHT where shirtlogo originates. Lift THIS LEFTARM and bringit acrosschest toward VIEWER'SLEFT. Its handmustend at LEFTsideofimage aboutx500, NOTx1000. RIGHTARM (VIEWER'SLEFT shoulder) now hangsrelaxedstraight atside. Keepmanfrontfacing exactlysamefacebodyfeetfloorcamera, no mirroringoflogo/text, onlyarmposes switch. Crossedleftelbowsoft nearlystraight shoulderrelaxed no torsotwist. Exactly2arms naturalsmallfingers hands wrists. Fullbodyivorylandscape3:2 realisticPNG noarrowslabels."
+    }
+  ],
+  "executionOrder": [
+    "01-allungamento.png"
+  ],
+  "executionNotes": "Portare il braccio sinistro davanti al corpo attraversando il petto, come nella sola istruzione disponibile; rilasciare con controllo. Non sono state aggiunte forzature o fasi ulteriori.",
+  "corrections": [
+    {
+      "prompt": "ONE realistic fitness illustration landscape3:2 PNG warmivoryfloorbackground softshadows. Original attached Misurami character sheet authoritative exactman curlyhairbeard face build charcoalTshirt originalsmall leftchest yellowwhiteMisuramilogo charcoalshortsyellowstripe blackshoes. SHOULDER CROSSBODY STRETCH perinstructions ONEheldpose: uprightstanding feet hipwidth flatground, anatomicalLEFTARM reaches straight ACROSS FRONT OF CHEST horizontally toward athleteRIGHT side (viewer'sLEFT), elbowcomfortablysoft nearlystraight. Leftshoulder relaxeddown notshrugged, chestfacingfront no torsotwist, neckneutral headforward. RIGHTARM hangsrelaxed atside, do NOTforceleftarmortwistwrist; no additionalpushing oroverheadpose. Handsnaturalrelaxed fivefingers not clenched, bothfullarms visible without merging. Camera FRONTslight3quarter so crossbodyroute visible, entiremanheadshoes bothhands generousmargins, shirtlogo maybepartlyhiddenbyarm naturally butnotmoved. Exactly2arms2legs no equipment. No textlabels arrows numbers captions. No inventedphases.",
+      "reason": "Initial draft used opposite arm; corrected to anatomical LEFT arm without mirroring branding."
+    }
+  ],
+  "createdAt": "2026-10-26",
+  "status": "accepted",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "sources": [
+    "IMAGE-ROUTINE.md",
+    "exercises.json:Shoulder_Stretch"
+  ],
+  "checks": {
+    "automaticVisualInspection": "Provisional pass: full anatomy, identity/clothing/logo, contact and exact static pose checked in everyPNG; pending independent review",
+    "fileValidation": "PNG decode3:2 verified",
+    "trainerReview": "not performed"
+  },
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Shoulder_Stretch.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

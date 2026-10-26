@@ -1,0 +1,13 @@
+{
+  "id": "Shoulder_Stretch",
+  "verdict": "accepted",
+  "reviewer": "images_e",
+  "filesViewed": [
+    "01-allungamento.png"
+  ],
+  "findings": [
+    "Fullsourceinstruction onlyrequests LEFTarm acrosschest. Actual anatomicalleftshoulder onimageright connectsstraight acrosschest towardimageleft; rightarmrelaxed.",
+    "No invented assistpressure/time/instructions; groundedneutralbody fullframe hands accurate originalidentitybranding.",
+    "Singlepose captures complete available instruction."
+  ]
+}

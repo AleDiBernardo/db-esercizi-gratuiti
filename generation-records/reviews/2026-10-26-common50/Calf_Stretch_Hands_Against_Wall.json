@@ -1,0 +1,13 @@
+{
+  "id": "Calf_Stretch_Hands_Against_Wall",
+  "verdict": "accepted",
+  "reviewer": "images_e",
+  "filesViewed": [
+    "01-allungamento.png"
+  ],
+  "findings": [
+    "Rearleg extended with heel/sole grounded, frontkneebent and bothpalms atwall; leanfromankle/hipheadline plausible.",
+    "Entirebody handsfeetvisible originalidentityclotheslogo, no anatomicaldefect requiringcorrection.",
+    "Oneheldside sufficient staticstretch; switchside after10–20seconds ininstruction/record no duplicatephase needed."
+  ]
+}
