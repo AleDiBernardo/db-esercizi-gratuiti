@@ -29,5 +29,13 @@
     "fileValidation": "PNG format, readability and 3:2 verified",
     "trainerReview": "not performed"
   },
-  "rejectedDrafts": 0
+  "rejectedDrafts": 0,
+  "executionOrder": [
+    "01-partenza.png",
+    "02-destro.png",
+    "01-partenza.png",
+    "03-sinistro.png",
+    "01-partenza.png"
+  ],
+  "executionNotes": "Controlled return to initial between each alternating curl; no duplicate PNG for return pose."
 }

@@ -1,42 +1,74 @@
 {
   "id": "Ab_Crunch_Machine",
-  "createdAt": "2026-10-26",
+  "status": "deferred",
+  "reviewedAt": "2026-10-26",
+  "reason": "Struttura della pedana migliorata, ma selettore del carico e separazione dei dischi restano incoerenti; cinematica del collegamento superiore non verificabile.",
   "generator": "integrated image_gen",
   "reference": "references/misurami-personaggio.png",
-  "phases": [
+  "correctionHistory": [
     {
-      "file": "01-partenza.png",
-      "description": "Seduto eretto, gomiti flessi e tricipiti sui supporti, presa superiore e piedi sotto i rulli.",
-      "prompt": "Create ONE PNG illustration, landscape 3:2. This is phase 1 (starting position) of a two-phase instructional seated abdominal crunch machine exercise. Use the supplied ORIGINAL Misurami character reference exactly: same adult man face, curly dark hair, beard, athletic proportions, charcoal shirt with original small yellow/white Misurami logo on anatomical LEFT chest, charcoal shorts with yellow trim, black shoes. Realistic polished fitness illustration on ivory background with subtle floor shadow, full body and entire machine visible, no cropping, no titles numbers captions or other text besides original shirt branding. Three-quarter front view with left chest visible. Design a mechanically plausible seated abdominal crunch machine with coupled upper lever and leg lever: dark gray frame, black seat, padded triceps supports and upper handles, lower ankle rollers, weight stack behind. Starting position: seated upright supported pelvis, elbows bent 90 degrees with triceps firmly on pads, both hands gripping overhead handles, feet securely under padded rollers, hips and knees flexed comfortably. Light load. Anatomically accurate hands and all joints; symmetrical consistent equipment. Frame the entire apparatus and character with generous margins. Keep geometry simple and unambiguous. Do not make a collage. Return a saved PNG file accessible to workspace if supported.",
-      "references": [
-        "references/misurami-personaggio.png"
-      ]
+      "defect": "v1 moving foot platform and fixed floor frame changed between phases",
+      "action": "Regenerated entire apparatus with fixed Hbase/diamondplate step and separate rollerlever",
+      "prompt": "Create ONE landscape3:2 realistic educational fitness PNG ivory background floor full machine and athlete with margin. Original attached Misurami character sheet authoritative exact identity hair beard build charcoal shirt original left-chest yellow/white logo shorts yellow stripe black shoes. Seated dual-motion abdominal crunch machine START position with mechanically SIMPLE clear components, NO FLOATING PARTS. Fixed darkgray H-frame base with4 floor feet, fixed vertical seatpost supports fixed black seat/back pad. Upper lever is ONE U-shaped assembly with two padded triceps cups and two above-shoulder hand grips, supported by two visible metal arms extending back to a SINGLE transverse hinge axle behind seat at lower-back height. Separate lower lever: ONE curved metal arm pivoted visibly at FRONT EDGE of fixed seat, descends to two black ankle rollers on a common axle. NO FOOTPLATFORM on moving lever. Fixed small diamondplate stepping platform belongs to FLOOR BASE below feet and never moves. Athlete upright seated pelvis/back supported, triceps on cups elbows90degrees both hands upper grips, feet/shoes held UNDER ankle rollers hovering a few cm above fixed stepping platform. Selectorized weight tower behind seat has same small light selected block; cable cleanly routed to upper hinge cam. Combined crunch will rotate upper lever forward and lower roller lever upward, fixed seat/base/platform unchanged. Natural hands full limbs anatomy, slight side-threequarter view exposing hinge and lower pivot, entire machine no cropping. No machine labels branding numbers captions arrows.",
+      "draft": "/workspace/generated_images/exec-30c143e6-9d81-4b57-b79e-d1421c0f16a3.png"
     },
     {
-      "file": "02-contrazione.png",
-      "description": "Flessione controllata del busto con sollevamento delle gambe, mantenendo presa e appoggi.",
-      "prompt": "Generate ONE separate landscape 3:2 PNG of PHASE 2 contracted abdominal crunch on the exact machine in second reference. First reference is ORIGINAL character identity and clothing, must preserve exactly incl Misurami logo on anatomical left chest. Second reference establishes exact camera, scale, floor, lighting, entire machine geometry and load; preserve these unchanged. Same realistic illustration ivory background full body and apparatus with margin. Now athlete performs controlled seated crunch: pelvis stays seated in same place, spine visibly flexed forward bringing ribs toward pelvis; elbows stay bent about 90 degrees and triceps firmly supported on the same pads as upper lever rotates forward/down about its existing pivot. Hands continue gripping SAME handles. Lower moving lever and its ankle rollers lift lower legs a modest amount simultaneously, feet remaining under the rollers. SAME fixed frame, same seat, same stack and selector position (only selected plates lift modestly), same components count. Do not invent extra supports or alter attachments. Anatomically sound hands limbs neck joints, natural flexion not hip hinge only. No captions titles phase numbers or arrows. Entire machine and all shoes visible. Output only contracted phase, not collage.",
-      "references": [
-        "references/misurami-personaggio.png",
-        "images/Ab_Crunch_Machine/01-partenza.png"
-      ]
+      "defect": "v2 selected weight stack inconsistent and upper linkage not confidently traceable",
+      "action": "Defer; no additional attempts per root instruction",
+      "prompt": "Edit second exercise image to contracted seated abdominal crunch. First original Misurami sheet authoritative identity/logo. PRESERVE EXACT MACHINE ALL FIXED PARTS: Hfloorframe4feet, diamondplate footstep remains FIXED on floor front in EXACT location, seatpost fixed, seat/back fixed, same tower plates/cable/selector same yellow pin height relation. Only move TWO clearly hinged components: upper Ulever arm cups/grips rotate FORWARD/DOWN20degrees around its existing transverse lower-back axle; lower curved rollerlever rotates UP20degrees around existing pivot at FRONT OF SEAT, same metal arm length and same roller axle. Shoes/feet follow UNDER rollers up and forward, leaving larger space above fixed diamondplate floor step. Do NOT add floating foot platform, shoes stay unsupported except ankle rollers. Athlete pelvis stays seat, lower back supported, trunk flexes curling ribs toward pelvis, head neck neutral following torso not just bowing neck, elbows90degrees triceps cups and both grips maintained. Selected upper weight block lifts a SMALL distance3cm only, same load/pin no new components. Full body machine all shoes margins realistic landscape3:2 ivory no captions labels numbers arrows.",
+      "draft": "/workspace/generated_images/exec-54ded553-b5f5-4a06-9511-968632593c27.png"
     }
   ],
   "sources": [
     "exercises.json:Ab_Crunch_Machine",
-    "IMAGE-ROUTINE.md"
+    "IMAGE-ROUTINE.md",
+    "https://www.panattasport.com/en/fit-evo/abdominal-crunch/",
+    "https://www.panattasport.nl/wp-content/uploads/2016/09/ABDOMINAL-CRUNCH.pdf"
   ],
   "checks": {
-    "automaticVisualInspection": "passed: both generated images inspected for anatomy, hands, joints, support, grip, machine continuity, phase correspondence, character identity, logo and full framing; minor rendering variations in weight-stack markings",
-    "fileValidation": "PNG decoding, 3:2 dimensions, sequence completeness, unique IDs and URL/local-file correspondence checked",
-    "trainerReview": "not performed",
-    "technicalScope": "Illustrates repository instructions; not a professionally validated prescription"
+    "automaticVisualInspection": "failed: load-selection motion inconsistent; not publishable",
+    "trainerReview": "not performed"
   },
-  "rejectedDrafts": 0,
-  "status": "pending_correction",
-  "independentReview": {
-    "date": "2026-10-26",
-    "verdict": "needs_correction",
-    "reason": "La struttura inferiore della macchina cambia fra le fasi; sequenza meccanicamente incoerente."
+  "previousRevision": {
+    "id": "Ab_Crunch_Machine",
+    "createdAt": "2026-10-26",
+    "generator": "integrated image_gen",
+    "reference": "references/misurami-personaggio.png",
+    "phases": [
+      {
+        "file": "01-partenza.png",
+        "description": "Seduto eretto, gomiti flessi e tricipiti sui supporti, presa superiore e piedi sotto i rulli.",
+        "prompt": "Create ONE PNG illustration, landscape 3:2. This is phase 1 (starting position) of a two-phase instructional seated abdominal crunch machine exercise. Use the supplied ORIGINAL Misurami character reference exactly: same adult man face, curly dark hair, beard, athletic proportions, charcoal shirt with original small yellow/white Misurami logo on anatomical LEFT chest, charcoal shorts with yellow trim, black shoes. Realistic polished fitness illustration on ivory background with subtle floor shadow, full body and entire machine visible, no cropping, no titles numbers captions or other text besides original shirt branding. Three-quarter front view with left chest visible. Design a mechanically plausible seated abdominal crunch machine with coupled upper lever and leg lever: dark gray frame, black seat, padded triceps supports and upper handles, lower ankle rollers, weight stack behind. Starting position: seated upright supported pelvis, elbows bent 90 degrees with triceps firmly on pads, both hands gripping overhead handles, feet securely under padded rollers, hips and knees flexed comfortably. Light load. Anatomically accurate hands and all joints; symmetrical consistent equipment. Frame the entire apparatus and character with generous margins. Keep geometry simple and unambiguous. Do not make a collage. Return a saved PNG file accessible to workspace if supported.",
+        "references": [
+          "references/misurami-personaggio.png"
+        ]
+      },
+      {
+        "file": "02-contrazione.png",
+        "description": "Flessione controllata del busto con sollevamento delle gambe, mantenendo presa e appoggi.",
+        "prompt": "Generate ONE separate landscape 3:2 PNG of PHASE 2 contracted abdominal crunch on the exact machine in second reference. First reference is ORIGINAL character identity and clothing, must preserve exactly incl Misurami logo on anatomical left chest. Second reference establishes exact camera, scale, floor, lighting, entire machine geometry and load; preserve these unchanged. Same realistic illustration ivory background full body and apparatus with margin. Now athlete performs controlled seated crunch: pelvis stays seated in same place, spine visibly flexed forward bringing ribs toward pelvis; elbows stay bent about 90 degrees and triceps firmly supported on the same pads as upper lever rotates forward/down about its existing pivot. Hands continue gripping SAME handles. Lower moving lever and its ankle rollers lift lower legs a modest amount simultaneously, feet remaining under the rollers. SAME fixed frame, same seat, same stack and selector position (only selected plates lift modestly), same components count. Do not invent extra supports or alter attachments. Anatomically sound hands limbs neck joints, natural flexion not hip hinge only. No captions titles phase numbers or arrows. Entire machine and all shoes visible. Output only contracted phase, not collage.",
+        "references": [
+          "references/misurami-personaggio.png",
+          "images/Ab_Crunch_Machine/01-partenza.png"
+        ]
+      }
+    ],
+    "sources": [
+      "exercises.json:Ab_Crunch_Machine",
+      "IMAGE-ROUTINE.md"
+    ],
+    "checks": {
+      "automaticVisualInspection": "passed: both generated images inspected for anatomy, hands, joints, support, grip, machine continuity, phase correspondence, character identity, logo and full framing; minor rendering variations in weight-stack markings",
+      "fileValidation": "PNG decoding, 3:2 dimensions, sequence completeness, unique IDs and URL/local-file correspondence checked",
+      "trainerReview": "not performed",
+      "technicalScope": "Illustrates repository instructions; not a professionally validated prescription"
+    },
+    "rejectedDrafts": 0,
+    "status": "pending_correction",
+    "independentReview": {
+      "date": "2026-10-26",
+      "verdict": "needs_correction",
+      "reason": "La struttura inferiore della macchina cambia fra le fasi; sequenza meccanicamente incoerente."
+    }
   }
 }

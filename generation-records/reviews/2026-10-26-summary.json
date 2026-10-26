@@ -1,0 +1,686 @@
+{
+  "date": "2026-10-26",
+  "repository": "AleDiBernardo/db-esercizi-gratuiti",
+  "baselineCommit": "346a3c8db6fd025618f72385128720ba9c7f4fea",
+  "publishedImagesCommit": "9de119ca4b3e3c44f107acf92de239223d134f5e",
+  "newExercises": 20,
+  "newPngs": 50,
+  "catalogCompleted": 22,
+  "catalogPngs": 56,
+  "remainingExercises": 854,
+  "reviewedExercises": [
+    {
+      "id": "90_90_Hamstring",
+      "name": "Allungamento degli ischiocrurali 90/90",
+      "newInRun": false,
+      "phases": [
+        {
+          "file": "images/90_90_Hamstring/01-partenza.png",
+          "description": "Supino, anca e ginocchio a 90°, altra gamba a terra",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/90_90_Hamstring/01-partenza.png",
+          "sha256": "74a107b3e21de6afd09e88b3a03427a6339bf254f23b5f3b970429b22ab50eed"
+        },
+        {
+          "file": "images/90_90_Hamstring/02-estensione.png",
+          "description": "Estensione del ginocchio mantenendo la coscia sollevata e sostenuta",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/90_90_Hamstring/02-estensione.png",
+          "sha256": "3eb6bd242d613ffa8d82f51c9d951e4a9958ef1550b5c8641e08c84a393fd85c"
+        }
+      ],
+      "executionOrder": "Vedere istruzioni complete e record.",
+      "trainerReview": "not performed"
+    },
+    {
+      "id": "Adductor",
+      "name": "Automassaggio degli adduttori con foam roller",
+      "newInRun": true,
+      "phases": [
+        {
+          "file": "images/Adductor/01-appoggio-v2.png",
+          "description": "Appoggio mediale della coscia con anca abdotta e ginocchio piegato.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Adductor/01-appoggio-v2.png",
+          "sha256": "ed3283e8582ae7b17a07eb9d0ca1933acae6c5ab2a126b6f121c8b0cb16c756d"
+        },
+        {
+          "file": "images/Adductor/02-scorri-v2.png",
+          "description": "Contatto più distale della coscia sopra il ginocchio, freccia di scorrimento.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Adductor/02-scorri-v2.png",
+          "sha256": "7a7ab3ff30639f5bc376787faf970efc45f47a8142cde8c90528f2d839338477"
+        }
+      ],
+      "executionOrder": [
+        "01-appoggio-v2.png",
+        "02-scorri-v2.png",
+        "01-appoggio-v2.png"
+      ],
+      "trainerReview": "not performed"
+    },
+    {
+      "id": "Adductor_Groin",
+      "name": "Allungamento assistito degli adduttori",
+      "newInRun": true,
+      "phases": [
+        {
+          "file": "images/Adductor_Groin/01-contrazione-isometrica-v2.png",
+          "description": "Tentativo isometrico di adduzione contro il sostegno del compagno; frecce verso l'interno.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Adductor_Groin/01-contrazione-isometrica-v2.png",
+          "sha256": "59c00d5bcfbe0029a0cdefd4515a8f848c978f7ca25ec7416284cd3f1de9f1c2"
+        },
+        {
+          "file": "images/Adductor_Groin/02-rilassamento-assistito-v2.png",
+          "description": "Rilassamento e moderata divaricazione assistita; frecce verso l'esterno.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Adductor_Groin/02-rilassamento-assistito-v2.png",
+          "sha256": "80e1116cf88e2bdd83d2d6b68143343e15954352aaa8e402847cc8be59cae2e3"
+        }
+      ],
+      "executionOrder": [
+        "01-contrazione-isometrica-v2.png",
+        "02-rilassamento-assistito-v2.png"
+      ],
+      "trainerReview": "not performed"
+    },
+    {
+      "id": "Advanced_Kettlebell_Windmill",
+      "name": "Windmill avanzato con kettlebell",
+      "newInRun": true,
+      "phases": [
+        {
+          "file": "images/Advanced_Kettlebell_Windmill/01-rack-v2.png",
+          "description": "Preparazione in rack alla spalla.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Advanced_Kettlebell_Windmill/01-rack-v2.png",
+          "sha256": "5d22cbc90d896a73ecdaab72dff507515143d7b4ba7e0aa69fcc3381d9f304bb"
+        },
+        {
+          "file": "images/Advanced_Kettlebell_Windmill/02-sostegno-alto-v2.png",
+          "description": "Sostegno sopra la testa.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Advanced_Kettlebell_Windmill/02-sostegno-alto-v2.png",
+          "sha256": "d899823c4b69cce40b04dd32a9ad0fc9a5711367e0f24ea50679aaa22eb1220a"
+        },
+        {
+          "file": "images/Advanced_Kettlebell_Windmill/03-hip-hinge-v2.png",
+          "description": "Avvio della flessione delle anche con bacino indietro.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Advanced_Kettlebell_Windmill/03-hip-hinge-v2.png",
+          "sha256": "0664f645abdf19a06f1de8a27b63afd6eda20b4b55baf6e1624010426a862353"
+        },
+        {
+          "file": "images/Advanced_Kettlebell_Windmill/04-inclinazione-v2.png",
+          "description": "Posizione più bassa con bacino arretrato, busto lungo e braccio verticale.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Advanced_Kettlebell_Windmill/04-inclinazione-v2.png",
+          "sha256": "64bd36c2281f60c3f793c7cfd5d9ca333ac969200671bab4fa9533ddb6557659"
+        }
+      ],
+      "executionOrder": [
+        "01-rack-v2.png",
+        "02-sostegno-alto-v2.png",
+        "03-hip-hinge-v2.png",
+        "04-inclinazione-v2.png",
+        "03-hip-hinge-v2.png",
+        "02-sostegno-alto-v2.png",
+        "01-rack-v2.png"
+      ],
+      "trainerReview": "not performed"
+    },
+    {
+      "id": "All_Fours_Quad_Stretch",
+      "name": "Allungamento dei quadricipiti in quadrupedia",
+      "newInRun": true,
+      "phases": [
+        {
+          "file": "images/All_Fours_Quad_Stretch/01-allungamento-v2.png",
+          "description": "Tenuta in quadrupedia con ginocchio profondamente flesso, tallone vicino al gluteo e mano opposta/ginocchio a terra.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/All_Fours_Quad_Stretch/01-allungamento-v2.png",
+          "sha256": "e55e790bd983be64eef448094f013841c329d8b9a53f52c5774221c559d2306d"
+        }
+      ],
+      "executionOrder": [
+        "01-allungamento-v2.png"
+      ],
+      "trainerReview": "not performed"
+    },
+    {
+      "id": "Alternate_Hammer_Curl",
+      "name": "Curl a martello alternato",
+      "newInRun": true,
+      "phases": [
+        {
+          "file": "images/Alternate_Hammer_Curl/01-partenza.png",
+          "description": "Partenza con entrambi i manubri lungo i fianchi.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternate_Hammer_Curl/01-partenza.png",
+          "sha256": "d5aca0643bdcffcd634ba21e94a3a2f6b1741b9360b5eaec9f88f48065b1fc91"
+        },
+        {
+          "file": "images/Alternate_Hammer_Curl/02-destro.png",
+          "description": "Curl a martello destro.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternate_Hammer_Curl/02-destro.png",
+          "sha256": "323ffb8ef1ac8fd000fe0dc43534c976c49bf5fb1498450835f9bd3385085fef"
+        },
+        {
+          "file": "images/Alternate_Hammer_Curl/03-sinistro.png",
+          "description": "Curl a martello sinistro dopo ritorno alla partenza.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternate_Hammer_Curl/03-sinistro.png",
+          "sha256": "c032487841c3fb18cb4cef3354da7c0c761c869c1962d866730753d0bf093c46"
+        }
+      ],
+      "executionOrder": [
+        "01-partenza.png",
+        "02-destro.png",
+        "01-partenza.png",
+        "03-sinistro.png",
+        "01-partenza.png"
+      ],
+      "trainerReview": "not performed"
+    },
+    {
+      "id": "Alternating_Cable_Shoulder_Press",
+      "name": "Distensioni alternate delle spalle ai cavi",
+      "newInRun": true,
+      "phases": [
+        {
+          "file": "images/Alternating_Cable_Shoulder_Press/01-partenza.png",
+          "description": "Impugnature alle spalle, cavi alle carrucole basse.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternating_Cable_Shoulder_Press/01-partenza.png",
+          "sha256": "4864048b312a540c85eb4c25e0fa070708c3849e49efd4881c3ec3feb44e5603"
+        },
+        {
+          "file": "images/Alternating_Cable_Shoulder_Press/02-spinta-destra.png",
+          "description": "Distensione del braccio destro, opposto fermo alla spalla.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternating_Cable_Shoulder_Press/02-spinta-destra.png",
+          "sha256": "468f2bb0c1490b20f1d0a3d41fecef243288c19ebe6b056f9cc840cd7472939c"
+        },
+        {
+          "file": "images/Alternating_Cable_Shoulder_Press/03-spinta-sinistra.png",
+          "description": "Distensione del braccio sinistro dopo ritorno, opposto fermo alla spalla.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternating_Cable_Shoulder_Press/03-spinta-sinistra.png",
+          "sha256": "a2a3222b30ef80915d3bbc95c7aa9e78de6d0879d7ea21770f03aa054771c36d"
+        }
+      ],
+      "executionOrder": "01→02→01→03→01",
+      "trainerReview": "not performed"
+    },
+    {
+      "id": "Alternating_Deltoid_Raise",
+      "name": "Alzate frontali e laterali alternate",
+      "newInRun": true,
+      "phases": [
+        {
+          "file": "images/Alternating_Deltoid_Raise/01-partenza.png",
+          "description": "Braccia lungo i fianchi con manubri.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternating_Deltoid_Raise/01-partenza.png",
+          "sha256": "7539ec303f8d8dd7b8bc81f168c041d4630295e53f8fa8b19933a3e709ee63a4"
+        },
+        {
+          "file": "images/Alternating_Deltoid_Raise/02-alzata-frontale.png",
+          "description": "Alzata frontale bilaterale all’altezza delle spalle.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternating_Deltoid_Raise/02-alzata-frontale.png",
+          "sha256": "3e9449eb0644f4080395a09e4a8078ea171d6904535fca3070bb2aaf47c0ecfb"
+        },
+        {
+          "file": "images/Alternating_Deltoid_Raise/03-alzata-laterale.png",
+          "description": "Alzata laterale bilaterale dopo ritorno alla partenza.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternating_Deltoid_Raise/03-alzata-laterale.png",
+          "sha256": "27882e9bd67e26173f02a4a1283dd06418bb71f1bb2dd131dadf53010fdfa209"
+        }
+      ],
+      "executionOrder": "01→02→01→03→01; repeat alternating front/lateral raises",
+      "trainerReview": "not performed"
+    },
+    {
+      "id": "Alternating_Floor_Press",
+      "name": "Distensioni alternate a terra con kettlebell",
+      "newInRun": true,
+      "phases": [
+        {
+          "file": "images/Alternating_Floor_Press/01-braccia-distese-v2.png",
+          "description": "Supino con entrambi i kettlebell sopra il petto; vista rialzata dai piedi.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternating_Floor_Press/01-braccia-distese-v2.png",
+          "sha256": "c8e1c4f5bef8e2a33ebed68a8040d2a334e0561a0be366e8babac6c9d7a64749"
+        },
+        {
+          "file": "images/Alternating_Floor_Press/02-discesa-destra-v2.png",
+          "description": "Gomito destro appoggiato fuori dal torace e kettlebell lontano dal volto, sinistro disteso.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternating_Floor_Press/02-discesa-destra-v2.png",
+          "sha256": "3b69ed8e8a5c786c43ba47068802d10e5081c7a96b611f026494702e421c87ec"
+        },
+        {
+          "file": "images/Alternating_Floor_Press/03-discesa-sinistra-v2.png",
+          "description": "Gomito sinistro appoggiato fuori dal torace e kettlebell lontano dal volto, destro disteso.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternating_Floor_Press/03-discesa-sinistra-v2.png",
+          "sha256": "a49c76d0ff316b4d99fc585045692109ba2137d9967cd7ac1b9c8f3c6abbfe3e"
+        }
+      ],
+      "executionOrder": "01→02→01→03→01; return the lowered bell overhead before changing sides",
+      "trainerReview": "not performed"
+    },
+    {
+      "id": "Alternating_Kettlebell_Press",
+      "name": "Distensioni alternate con kettlebell",
+      "newInRun": true,
+      "phases": [
+        {
+          "file": "images/Alternating_Kettlebell_Press/01-rack.png",
+          "description": "Posizione iniziale con entrambi i kettlebell alle spalle.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternating_Kettlebell_Press/01-rack.png",
+          "sha256": "d76258f3f2bdcb1c60b39e3f68f84b625ef0c79531b569bbf2edaa58de914851"
+        },
+        {
+          "file": "images/Alternating_Kettlebell_Press/02-distensione-destra.png",
+          "description": "Distensione del braccio destro sopra la testa mantenendo il sinistro in rack.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternating_Kettlebell_Press/02-distensione-destra.png",
+          "sha256": "c78790779b4084310737307159344373d10e05b332092ba80fe446b5c858f078"
+        },
+        {
+          "file": "images/Alternating_Kettlebell_Press/03-distensione-sinistra-v2.png",
+          "description": "Distensione del braccio sinistro sopra la testa mantenendo il destro in rack.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternating_Kettlebell_Press/03-distensione-sinistra-v2.png",
+          "sha256": "b694d75e21d77d0fe4282e2d577582e40f127b361e86c96865cc7ef34ff58257"
+        }
+      ],
+      "executionOrder": [
+        "01-rack.png",
+        "02-distensione-destra.png",
+        "01-rack.png",
+        "03-distensione-sinistra-v2.png",
+        "01-rack.png"
+      ],
+      "trainerReview": "not performed"
+    },
+    {
+      "id": "Alternating_Renegade_Row",
+      "name": "Rematore alternato in plank con kettlebell",
+      "newInRun": true,
+      "phases": [
+        {
+          "file": "images/Alternating_Renegade_Row/01-plank-v2.png",
+          "description": "Plank stabile con entrambe le mani sulle maniglie dei kettlebell e piedi larghi.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternating_Renegade_Row/01-plank-v2.png",
+          "sha256": "ddbcdef0746a1723321d57937bdda321dc18ab78166f05e86f56d190f6b19135"
+        },
+        {
+          "file": "images/Alternating_Renegade_Row/02-remata-destra-v2.png",
+          "description": "Remata del braccio destro con mano sinistra e punte dei piedi in appoggio.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternating_Renegade_Row/02-remata-destra-v2.png",
+          "sha256": "8e890366cabd7937d3ef5ab0708b2a921bb3b36c8f7c83c8a492e4e60f9f86e0"
+        },
+        {
+          "file": "images/Alternating_Renegade_Row/03-remata-sinistra-v2.png",
+          "description": "Remata del braccio sinistro con mano destra e punte dei piedi in appoggio.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Alternating_Renegade_Row/03-remata-sinistra-v2.png",
+          "sha256": "7dee1908221f32287096f528bb803fca03c9500d099677b4eef7c04f43ef30f7"
+        }
+      ],
+      "executionOrder": [
+        "01-plank-v2.png",
+        "02-remata-destra-v2.png",
+        "01-plank-v2.png",
+        "03-remata-sinistra-v2.png",
+        "01-plank-v2.png"
+      ],
+      "trainerReview": "not performed"
+    },
+    {
+      "id": "Ankle_Circles",
+      "name": "Circonduzioni delle caviglie",
+      "newInRun": true,
+      "phases": [
+        {
+          "file": "images/Ankle_Circles/01-circonduzione-v2.png",
+          "description": "Piede leggermente sollevato, gamba ferma e freccia circolare davanti alla punta per indicare movimento della caviglia.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Ankle_Circles/01-circonduzione-v2.png",
+          "sha256": "0b45ac4e0a7b886947bc00dfa197d6eab7b4c453d5246e8c25f49b925e20e7d9"
+        }
+      ],
+      "executionOrder": [
+        "Tenere un appoggio stabile e sollevare un piede di circa 5 cm.",
+        "Completare circonduzioni della caviglia; la freccia circolare rappresenta l’intero ciclo.",
+        "Riappoggiare il piede e ripetere dall’altro lato."
+      ],
+      "trainerReview": "not performed"
+    },
+    {
+      "id": "Ankle_On_The_Knee",
+      "name": "Allungamento dei glutei con caviglia sul ginocchio",
+      "newInRun": true,
+      "phases": [
+        {
+          "file": "images/Ankle_On_The_Knee/01-allungamento.png",
+          "description": "Supino, caviglia appoggiata alla coscia opposta sopra il ginocchio; mani dietro la coscia sottostante e gambe avvicinate al petto. Ripetere dall'altro lato.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Ankle_On_The_Knee/01-allungamento.png",
+          "sha256": "d019416551891c98cc8975ef105ead595fb247b057a5f43c79f55343593bb575"
+        }
+      ],
+      "executionOrder": [
+        "Sdraiarsi supini e piegare le ginocchia.",
+        "Appoggiare una caviglia sopra la coscia opposta vicino al ginocchio e sostenere la coscia sottostante.",
+        "Avvicinare delicatamente le gambe al petto mantenendo testa e spalle appoggiate, tenere 10–20 secondi.",
+        "Rilasciare con controllo e ripetere dall’altro lato."
+      ],
+      "trainerReview": "not performed"
+    },
+    {
+      "id": "Arm_Circles",
+      "name": "Circonduzioni delle braccia",
+      "newInRun": true,
+      "phases": [
+        {
+          "file": "images/Arm_Circles/01-avanti-alto-v2.png",
+          "description": "Braccia intere distese leggermente avanti e sopra il piano orizzontale.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Arm_Circles/01-avanti-alto-v2.png",
+          "sha256": "10af0afd6ce1d2935700ddc0c2053ee01450f0e43115c7cda63379e05a36be7d"
+        },
+        {
+          "file": "images/Arm_Circles/02-dietro-v2.png",
+          "description": "Passaggio delle braccia verso il quadrante posteriore, vicino al piano orizzontale; frecce vicino alle spalle indicano movimento delle braccia.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Arm_Circles/02-dietro-v2.png",
+          "sha256": "7e04fa8eb0cb6be8fc1ef4454772a559b12327067e4ca432b03149feb0cdb3d0"
+        },
+        {
+          "file": "images/Arm_Circles/03-avanti-basso-v2.png",
+          "description": "Passaggio delle braccia intere avanti e sotto il piano orizzontale per chiudere la piccola circonduzione.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Arm_Circles/03-avanti-basso-v2.png",
+          "sha256": "f5bfd0b2c6e5958e9bb566d1d77fcb687bbd2ee8179373c41c8e9995a823405f"
+        }
+      ],
+      "executionOrder": [
+        "01-avanti-alto-v2.png",
+        "02-dietro-v2.png",
+        "03-avanti-basso-v2.png",
+        "01-avanti-alto-v2.png"
+      ],
+      "trainerReview": "not performed"
+    },
+    {
+      "id": "Arnold_Dumbbell_Press",
+      "name": "Arnold press con manubri",
+      "newInRun": true,
+      "phases": [
+        {
+          "file": "images/Arnold_Dumbbell_Press/01-partenza.png",
+          "description": "Seduto con schiena sostenuta, manubri davanti al petto e palmi rivolti al corpo.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Arnold_Dumbbell_Press/01-partenza.png",
+          "sha256": "f12c77b79e846faa48dde3fafb6e3a52725e512c39a98093f4892715f6bc643b"
+        },
+        {
+          "file": "images/Arnold_Dumbbell_Press/02-rotazione-v2.png",
+          "description": "Gomiti aperti diagonalmente con flessione90gradi e presa a metà rotazione, prima della distensione sopra la testa.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Arnold_Dumbbell_Press/02-rotazione-v2.png",
+          "sha256": "d626a8ff0b3d0ce84c1679de8011d9f94a5a321ca935d9f1d52f6ef86fc31c57"
+        },
+        {
+          "file": "images/Arnold_Dumbbell_Press/02-distensione.png",
+          "description": "Distensione sopra la testa, palmi ruotati in avanti.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Arnold_Dumbbell_Press/02-distensione.png",
+          "sha256": "4699c0470966c13d4d8fb8f6347ea82beee29630c37d796517fff858754e1998"
+        }
+      ],
+      "executionOrder": [
+        "01-partenza.png",
+        "02-rotazione-v2.png",
+        "02-distensione.png",
+        "02-rotazione-v2.png",
+        "01-partenza.png"
+      ],
+      "trainerReview": "not performed"
+    },
+    {
+      "id": "Around_The_Worlds",
+      "name": "Semicerchi con manubri su panca",
+      "newInRun": true,
+      "phases": [
+        {
+          "file": "images/Around_The_Worlds/01-partenza.png",
+          "description": "Supino sulla panca, braccia accanto alle cosce, palmi al soffitto.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Around_The_Worlds/01-partenza.png",
+          "sha256": "92e04515c5c1f309f355e6570ffce1d884f992429caa36a6a8789eb0b9adf32a"
+        },
+        {
+          "file": "images/Around_The_Worlds/02-apertura.png",
+          "description": "Braccia aperte lateralmente a T lungo il semicerchio orizzontale.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Around_The_Worlds/02-apertura.png",
+          "sha256": "5387afcf686ec34fe0c72c941903e805649f8bc70befa33ec102ad7443f1cde6"
+        },
+        {
+          "file": "images/Around_The_Worlds/03-oltre-testa.png",
+          "description": "Fine del semicerchio con manubri oltre la testa, senza sollevare il busto.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Around_The_Worlds/03-oltre-testa.png",
+          "sha256": "6e4fc60d80351caa9bdbbb8f29321dc07f23d4eb6c02d44baf014202492fb956"
+        }
+      ],
+      "executionOrder": [
+        "01-partenza.png",
+        "02-apertura.png",
+        "03-oltre-testa.png",
+        "02-apertura.png",
+        "01-partenza.png"
+      ],
+      "trainerReview": "not performed"
+    },
+    {
+      "id": "Axle_Deadlift",
+      "name": "Stacco con bilanciere a presa spessa",
+      "newInRun": true,
+      "phases": [
+        {
+          "file": "images/Axle_Deadlift/01-partenza.png",
+          "description": "Assetto a terra con presa mista sul bilanciere spesso, anche e ginocchia flesse.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Axle_Deadlift/01-partenza.png",
+          "sha256": "dd14609babf22407f91190bbef8b8d781b797901e7655215c8f52ed2d0810f7f"
+        },
+        {
+          "file": "images/Axle_Deadlift/02-estensione.png",
+          "description": "Estensione naturale di anche e ginocchia fino alla stazione eretta, senza iperestensione.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Axle_Deadlift/02-estensione.png",
+          "sha256": "560435b00008fb2716bdaae81d94ec177773a70c5b2f39204a75727ad4be97b3"
+        },
+        {
+          "file": "images/Axle_Deadlift/03-discesa.png",
+          "description": "Discesa controllata con hinge e barra vicina alle gambe, proseguendo fino al contatto dei dischi a terra.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Axle_Deadlift/03-discesa.png",
+          "sha256": "50f49e2dda49963a09256e21ce88a9738559b5cfd8326b4adb529e1431a8e4ad"
+        }
+      ],
+      "executionOrder": [
+        "Preparare presa e appoggi a terra.",
+        "Estendere anche e ginocchia mantenendo colonna neutra e barra vicina al corpo.",
+        "Arrivare eretti con bacino neutro, senza shrug o inclinazione indietro.",
+        "Abbassare con controllo tramite hinge e flessione delle ginocchia fino al ritorno a terra."
+      ],
+      "trainerReview": "not performed"
+    },
+    {
+      "id": "Back_Flyes_-_With_Bands",
+      "name": "Aperture posteriori con elastico",
+      "newInRun": true,
+      "phases": [
+        {
+          "file": "images/Back_Flyes_-_With_Bands/01-partenza.png",
+          "description": "Braccia distese in avanti all'altezza delle spalle, elastico ancorato al supporto.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Back_Flyes_-_With_Bands/01-partenza.png",
+          "sha256": "c879eaead81e37b3bb3d30c6fe97e8a6709cea3b7deabd539194dda3b3fa327b"
+        },
+        {
+          "file": "images/Back_Flyes_-_With_Bands/02-apertura.png",
+          "description": "Apertura laterale delle braccia a T mantenendo il busto fermo e l'elastico in tensione.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Back_Flyes_-_With_Bands/02-apertura.png",
+          "sha256": "53fe55b8803d4a147c3695c6e6d630bdff7fb9c24a3204b1b2a2e87399429dac"
+        }
+      ],
+      "executionOrder": [
+        "01-partenza.png",
+        "02-apertura.png",
+        "01-partenza.png"
+      ],
+      "trainerReview": "not performed"
+    },
+    {
+      "id": "Backward_Drag",
+      "name": "Trascinamento della slitta all'indietro",
+      "newInRun": true,
+      "phases": [
+        {
+          "file": "images/Backward_Drag/01-tensione.png",
+          "description": "Presa sulle due maniglie, cinghie tese e assetto pronto con lieve inclinazione indietro.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Backward_Drag/01-tensione.png",
+          "sha256": "d46640fde5cc69a7ba2f4b7c2f66ddb5cd6b9c71d368c2b274dc2fd0f63b3fbf"
+        },
+        {
+          "file": "images/Backward_Drag/02-primo-passo.png",
+          "description": "Primo passo corto indietro, slitta trascinata mantenendo braccia distese e cinghie tese.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Backward_Drag/02-primo-passo.png",
+          "sha256": "4e6daf63330d6bacfdc2a11dd168066d7e48dc378c128bd83d91b85ab1c188ba"
+        },
+        {
+          "file": "images/Backward_Drag/03-passo-alternato.png",
+          "description": "Passo alternato con la gamba opposta, continuando a camminare indietro.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Backward_Drag/03-passo-alternato.png",
+          "sha256": "00f6505532fe9309e11381840f54bba835b74a95a515b1ced7d0beb5fba99105"
+        }
+      ],
+      "executionOrder": [
+        "01-tensione.png",
+        "02-primo-passo.png",
+        "03-passo-alternato.png"
+      ],
+      "trainerReview": "not performed"
+    },
+    {
+      "id": "Balance_Board",
+      "name": "Equilibrio sulla tavoletta propriocettiva",
+      "newInRun": true,
+      "phases": [
+        {
+          "file": "images/Balance_Board/01-equilibrio.png",
+          "description": "Tenuta in equilibrio sulla tavoletta con entrambe le suole appoggiate, ginocchia morbide e peso centrato.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Balance_Board/01-equilibrio.png",
+          "sha256": "2d54b0c048c5394e72517445925c3de00bb4d29f6af1ae68953adbd0b78d7570"
+        }
+      ],
+      "executionOrder": [
+        "01-equilibrio.png"
+      ],
+      "trainerReview": "not performed"
+    },
+    {
+      "id": "Ball_Leg_Curl",
+      "name": "Leg curl su fitball",
+      "newInRun": true,
+      "phases": [
+        {
+          "file": "images/Ball_Leg_Curl/01-partenza.png",
+          "description": "Supino con bacino a terra e gambe distese; caviglie e talloni appoggiati sulla fitball.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Ball_Leg_Curl/01-partenza.png",
+          "sha256": "5dcb80bcb08d547a38576cd2a3046ef7dc554b369c4a8ae8a06a228d52a7fb8a"
+        },
+        {
+          "file": "images/Ball_Leg_Curl/02-ponte.png",
+          "description": "Ponte con bacino sollevato e gambe ancora distese, sostegno su scapole e talloni.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Ball_Leg_Curl/02-ponte.png",
+          "sha256": "1ff92f78fe30ebfde72350e846b887c88365e7d917e46c34163e57a01deb6d0f"
+        },
+        {
+          "file": "images/Ball_Leg_Curl/03-flessione.png",
+          "description": "Flessione di entrambe le ginocchia con palla richiamata verso il corpo e bacino mantenuto sollevato.",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Ball_Leg_Curl/03-flessione.png",
+          "sha256": "49ebc4cdf8cb9bc5d8a85a409e4ef4a761a844a5140af62cb26f93aab2fbbe41"
+        }
+      ],
+      "executionOrder": [
+        "01-partenza.png",
+        "02-ponte.png",
+        "03-flessione.png",
+        "02-ponte.png",
+        "01-partenza.png"
+      ],
+      "trainerReview": "not performed"
+    },
+    {
+      "id": "Zercher_Squats",
+      "name": "Squat Zercher",
+      "newInRun": false,
+      "phases": [
+        {
+          "file": "images/Zercher_Squats/01-partenza.png",
+          "description": "Fase 1",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Zercher_Squats/01-partenza.png",
+          "sha256": "8b2442edaa20967ab196c78a998941a76b5f03a3053951b26f078da69aa7d654"
+        },
+        {
+          "file": "images/Zercher_Squats/02-discesa.png",
+          "description": "Fase 2",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Zercher_Squats/02-discesa.png",
+          "sha256": "977a6896a074c012edea402e9706cd388844b2d1e39346cd3b686f3e05bea496"
+        },
+        {
+          "file": "images/Zercher_Squats/03-posizione-bassa.png",
+          "description": "Fase 3",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Zercher_Squats/03-posizione-bassa.png",
+          "sha256": "be1bc10e50fe47d01852f9862acf141e48e2dd106296eaca7f9cf5d2ce587940"
+        },
+        {
+          "file": "images/Zercher_Squats/04-ritorno.png",
+          "description": "Fase 4",
+          "url": "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Zercher_Squats/04-ritorno.png",
+          "sha256": "04c65171f7510876bf01dfe2d18f31644d0bcd5045c2fd243b74c3c9d15f468e"
+        }
+      ],
+      "executionOrder": "Vedere istruzioni complete e record.",
+      "trainerReview": "not performed"
+    }
+  ],
+  "needsReview": [
+    {
+      "id": "Anti-Gravity_Press",
+      "reason": "Istruzioni tecniche ambigue sul percorso di spinta: il catalogo richiede braccia parallele al pavimento per tutto il movimento; la guida tecnica Muscle & Strength descrive una spinta diagonale su panca inclinata. Le fonti che ripetono la versione orizzontale non risolvono la differenza di variante. Rinviato per chiarimento tecnico prima della generazione."
+    },
+    {
+      "id": "Anterior_Tibialis-SMR",
+      "reason": "Contatto del rullo iniziale troppo centrale sulla cresta tibiale. Dopo due tentativi di correzione, il primo presenta intersezione/occlusione innaturale del bastone con la gamba; il secondo mostra contatto laterale ma orientamento del rullo quasi longitudinale che non comunica chiaramente lo scorrimento dal sotto-ginocchio al sopra-caviglia. Sequenza non pubblicabile senza ulteriore chiarimento visivo."
+    },
+    {
+      "id": "Atlas_Stone_Trainer",
+      "reason": "Repository describes a custom implement made from bar ends or heavy pipe but does not specify its geometry. Search found dataset mirrors and loading pins, without an authoritative matching implement demonstration; defer rather than invent equipment and grip."
+    },
+    {
+      "id": "3_4_Sit-Up",
+      "reason": "Dopo due correzioni la fase alta non conserva insieme ancoraggio e busto perpendicolare richiesto; sequenza ritirata."
+    },
+    {
+      "id": "Ab_Crunch_Machine",
+      "reason": "Struttura della pedana migliorata, ma selettore del carico e separazione dei dischi restano incoerenti; cinematica del collegamento superiore non verificabile."
+    },
+    {
+      "id": "Ab_Roller",
+      "reason": "Rollout non mostra estensione chiaramente leggibile; due correzioni precedenti non hanno risolto adeguatamente la sequenza."
+    },
+    {
+      "id": "Air_Bike",
+      "reason": "Correzione con vista alta rifiutata: appoggio lombare non leggibile e postura simile a V-sit; rotazione e appoggi non sono contemporaneamente chiari."
+    },
+    {
+      "id": "Alternating_Hang_Clean",
+      "reason": "Le transizioni restano assimilabili a curl/rematore con gomito già flesso prima della chiara estensione delle anche; rinviato dopo due correzioni."
+    },
+    {
+      "id": "Alternating_Kettlebell_Row",
+      "reason": "Opposite-side row repeats near-side arm after two failed correction attempts; no complete bilateral sequence accepted."
+    },
+    {
+      "id": "Alternate_Heel_Touchers",
+      "reason": "Dopo due tentativi di correzione il contatto sul tallone e la flessione laterale non sono leggibili senza ambiguità."
+    },
+    {
+      "id": "Alternate_Incline_Dumbbell_Curl",
+      "reason": "Dopo due correzioni la panca inclinata e la presa della mano lontana non sono contemporaneamente leggibili."
+    },
+    {
+      "id": "Atlas_Stones",
+      "reason": "Scala della sfera e posizione della piattaforma incoerenti fra le fasi dopo correzioni; sequenza non pubblicata."
+    },
+    {
+      "id": "Alternate_Leg_Diagonal_Bound",
+      "reason": "Traiettoria diagonale e profondità dei contatti a terra incoerenti; freccia di direzione errata in una fase. Rinviato dopo correzioni."
+    }
+  ],
+  "reviewMethod": "Every candidate PNG visually inspected; independent cross-review of earlier sequences; corrections rechecked; deferred sequences excluded from catalog. Automated JSON/file/URL checks separate from visual review.",
+  "trainerReview": "not performed",
+  "quotaPercent": "not measurable with available tools"
+}

@@ -1,7 +1,7 @@
 {
   "id": "Alternating_Kettlebell_Row",
   "createdAt": "2026-10-26",
-  "status": "needsReview",
+  "status": "deferred",
   "reason": "Opposite-side row repeats near-side arm after two failed correction attempts; no complete bilateral sequence accepted.",
   "generator": "integrated image_gen",
   "reference": "references/misurami-personaggio.png",

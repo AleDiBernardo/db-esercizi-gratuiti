@@ -43,7 +43,7 @@
     },
     {
       "id": "Ab_Crunch_Machine",
-      "reason": "La struttura inferiore della macchina cambia fra le fasi; sequenza meccanicamente incoerente."
+      "reason": "Struttura della pedana migliorata, ma selettore del carico e separazione dei dischi restano incoerenti; cinematica del collegamento superiore non verificabile."
     },
     {
       "id": "Ab_Roller",
@@ -51,7 +51,7 @@
     },
     {
       "id": "Air_Bike",
-      "reason": "Alternanza delle gambe visibile ma rotazione toracica gomito-ginocchio opposto poco chiara."
+      "reason": "Correzione con vista alta rifiutata: appoggio lombare non leggibile e postura simile a V-sit; rotazione e appoggi non sono contemporaneamente chiari."
     },
     {
       "id": "Alternating_Hang_Clean",

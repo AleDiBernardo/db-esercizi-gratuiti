@@ -1,64 +1,132 @@
 {
   "id": "Air_Bike",
   "createdAt": "2026-10-26",
+  "revision": 2,
+  "status": "deferred",
   "generator": "integrated image_gen",
   "reference": "references/misurami-personaggio.png",
-  "phases": [
-    {
-      "file": "01-partenza.png",
-      "description": "Posizione iniziale in tabletop con spalle sollevate e mani leggere ai lati della testa.",
-      "prompt": "ONE landscape 3:2 PNG, realistic fitness instruction illustration on warm ivory floor/background, full bodies and all equipment completely visible with generous margin. No text captions numbers panels, only original small Misurami left chest logo. Original character reference attached: reproduce same man face curly hair beard athletic build charcoal shirt and shorts yellow stripe black shoes. Anatomically exact limbs hands joints, natural supported posture. Exercise bicycle crunch PHASE 1 initial tabletop. Misurami man supine on floor, head toward left feet toward right. Lumbar back and pelvis supported on floor, shoulders lifted a small comfortable amount, chin neutral not tucked hard. Both hips flexed 90 degrees with thighs vertical, knees bent 90 degrees with both shins horizontal parallel floor, feet lifted. Fingertips rest gently at sides of head above ears, elbows open, DO NOT pull on neck. Two full legs separated in projection so both bent knees and shoes readable, correct joints and hands. Elevated side three-quarter camera showing front/left chest original logo. Entire body with generous margins and ample space right for later extended leg. No equipment, no arrows.",
-      "references": [
-        "references/misurami-personaggio.png"
-      ]
-    },
-    {
-      "file": "02-pedalata-un-lato.png",
-      "description": "Pedalata con gamba vicina alla camera piegata e gamba opposta distesa.",
-      "prompt": "ONE landscape 3:2 PNG, realistic fitness instruction illustration on warm ivory floor/background, full bodies and all equipment completely visible with generous margin. No text captions numbers panels, only original small Misurami left chest logo. Original character reference attached: reproduce same man face curly hair beard athletic build charcoal shirt and shorts yellow stripe black shoes. Anatomically exact limbs hands joints, natural supported posture. Exercise bicycle crunch PHASE 2, rotate RIGHT elbow toward LEFT knee. Original character sheet authoritative; second image fixes exact camera lighting floor and character size. Keep lumbar back and pelvis supported at SAME floor point, fingertips lightly at sides of head, no neck pulling. Change pose: LEFT knee flexes toward chest while RIGHT leg extends almost straight hovering above floor toward right; trunk rotates so RIGHT shoulder lifts and RIGHT elbow approaches LEFT knee without forcing touch. Do not bring same-side elbow/knee together. Clearly two legs, one straight right leg and one bent left leg; two arms both elbows open. Full extended right shoe visible with margin; if needed use existing side space without cropping or changing camera/scale. No arrows text captions.",
-      "references": [
-        "references/misurami-personaggio.png",
-        "images/Air_Bike/01-partenza.png"
-      ]
-    },
-    {
-      "file": "03-pedalata-altro-lato.png",
-      "description": "Pedalata opposta con gamba vicina distesa e ginocchio opposto raccolto.",
-      "prompt": "ONE landscape 3:2 PNG, realistic fitness instruction illustration on warm ivory floor/background, full bodies and all equipment completely visible with generous margin. No text captions numbers panels, only original small Misurami left chest logo. Original character reference attached: reproduce same man face curly hair beard athletic build charcoal shirt and shorts yellow stripe black shoes. Anatomically exact limbs hands joints, natural supported posture. Bicycle crunch OPPOSITE LEG position. Edit second image. Keep same camera fixed pelvis head placement scale clothes. CRITICAL: the leg with yellow outer shorts stripe nearest viewer MUST NOW EXTEND STRAIGHT from hip diagonally right across lower image; the OTHER leg partly behind it MUST BEND at knee pointing up and toward chest. This changes leg assignment from original. Make near straight leg clearly OVERLAP in front of bent far thigh at hip, not behind it. The near RIGHT shoulder and elbow rotate toward the far bent LEFT knee; chest turns away camera, logo may be occluded naturally. Both fingertips at temples, no pulling neck. Full shoes hands body visible. Two arms two legs exactly. Lumbar and pelvis floor supported. This is not mirroring entire image; head stays left feet right. One PNG no labels arrows.",
-      "references": [
-        "references/misurami-personaggio.png",
-        "images/Air_Bike/01-partenza.png"
-      ]
-    }
-  ],
+  "phases": [],
   "executionSequence": [
-    "01-partenza.png",
-    "02-pedalata-un-lato.png",
-    "01-partenza.png",
-    "03-pedalata-altro-lato.png",
-    "01-partenza.png"
+    "01-tabletop-v2.png",
+    "02-incrocio-destro-v2.png",
+    "01-tabletop-v2.png",
+    "03-incrocio-sinistro-v2.png",
+    "01-tabletop-v2.png"
   ],
-  "sequenceNotes": "Entrambi i lati e ritorno alla posizione centrale; contatto gomito-ginocchio non forzato.",
   "sources": [
     "exercises.json:Air_Bike",
     "IMAGE-ROUTINE.md"
   ],
   "checks": {
-    "automaticVisualInspection": "passed: inspected all accepted images for limb count, joint anatomy, hands/grip, supports, original character identity and chest logo, full-body framing and equipment continuity; minor rendering differences between phases",
-    "fileValidation": "passed: separate decodable PNGs, landscape 1536x1024 (3:2)",
-    "trainerReview": "not performed",
-    "technicalScope": "Illustration of repository instructions, not a professionally validated prescription"
+    "automaticVisualInspection": "failed independent root review: floor support/torso elevation unclear",
+    "fileValidation": "PNG3:2 decode verified",
+    "trainerReview": "not performed"
   },
-  "rejectedDrafts": [
+  "correctionHistory": [
     {
-      "prompt": "ONE landscape 3:2 PNG, realistic fitness instruction illustration on warm ivory floor/background, full bodies and all equipment completely visible with generous margin. No text captions numbers panels, only original small Misurami left chest logo. Original character reference attached: reproduce same man face curly hair beard athletic build charcoal shirt and shorts yellow stripe black shoes. Anatomically exact limbs hands joints, natural supported posture. Exercise bicycle crunch alternate side, phase 3. First original character sheet authoritative. Second attached initial position and third attached one-side crunch establish fixed camera scale pose and lighting. Generate OPPOSITE side to third image: bend the FAR LEG (anatomical LEFT, partially behind near leg from camera), pulling that knee toward torso; straighten the NEAR LEG (anatomical RIGHT, closest camera) hovering long toward right. Rotate chest visibly away from camera and lift NEAR RIGHT SHOULDER so its elbow crosses toward bent far LEFT knee. Fingertips remain gentle at temples no neck pulling; elbows open and arm contact not required. Pelvis and lumbar remain supported same floor point. Must visibly reverse which leg bends compared with third image, not same pose. Full body extended shoe within frame, no cropping. Anatomically correct two arms two legs. No arrows labels.",
-      "reason": "Generated same bent leg as previous phase; corrected explicit near/far leg overlap."
+      "defect": "Version1 leg alternation but unclear opposite trunk rotation",
+      "action": "Regenerated whole sequence from high feet-end camera with diagonal cross-crunch and direction arrows"
+    },
+    {
+      "prompt": "Edit second exercise reference into BICYCLE CROSS CRUNCH PHASE2 with unmistakable right-shoulder-to-left-knee rotation. Original first Misurami sheet authoritative identity. Same fixed high camera feet-end view, head top center pelvis stays same grounded center, same scale clothes/logo floor. Anatomical RIGHT shoulder (viewer LEFT) RISES and travels ACROSS chest toward LEFT bent knee (viewer RIGHT): rotate ribcage clearly about30degrees to athlete LEFT, head follows torso without neck strain, RIGHT ELBOW points across toward left knee with comfortable visible gap. LEFT shoulder lowers nearer floor. LEFT knee viewer RIGHT pulls toward chest; RIGHT LEG viewer LEFT extends straight hovering above floor diagonally into BOTTOM LEFT of canvas, whole shoe visible. Fingers remain lightly at temples, elbows do not close over face, no pulling head. Lower back and pelvis grounded. Two arms two legs correct joints, not same-side elbow knee! No panels text captions numbers, one small yellow curved rotation arrow near ribcage if helpful. Landscape3:2 ivory realistic.",
+      "defect": "Initial v2 cross-crunch turned chest away from bent knee",
+      "action": "Corrected right shoulder/elbow across torso toward left bent knee"
     }
   ],
-  "status": "pending_correction",
-  "independentReview": {
-    "date": "2026-10-26",
-    "verdict": "needs_correction",
-    "reason": "Alternanza delle gambe visibile ma rotazione toracica gomito-ginocchio opposto poco chiara."
-  }
+  "previousRevision": {
+    "id": "Air_Bike",
+    "createdAt": "2026-10-26",
+    "generator": "integrated image_gen",
+    "reference": "references/misurami-personaggio.png",
+    "phases": [
+      {
+        "file": "01-partenza.png",
+        "description": "Posizione iniziale in tabletop con spalle sollevate e mani leggere ai lati della testa.",
+        "prompt": "ONE landscape 3:2 PNG, realistic fitness instruction illustration on warm ivory floor/background, full bodies and all equipment completely visible with generous margin. No text captions numbers panels, only original small Misurami left chest logo. Original character reference attached: reproduce same man face curly hair beard athletic build charcoal shirt and shorts yellow stripe black shoes. Anatomically exact limbs hands joints, natural supported posture. Exercise bicycle crunch PHASE 1 initial tabletop. Misurami man supine on floor, head toward left feet toward right. Lumbar back and pelvis supported on floor, shoulders lifted a small comfortable amount, chin neutral not tucked hard. Both hips flexed 90 degrees with thighs vertical, knees bent 90 degrees with both shins horizontal parallel floor, feet lifted. Fingertips rest gently at sides of head above ears, elbows open, DO NOT pull on neck. Two full legs separated in projection so both bent knees and shoes readable, correct joints and hands. Elevated side three-quarter camera showing front/left chest original logo. Entire body with generous margins and ample space right for later extended leg. No equipment, no arrows.",
+        "references": [
+          "references/misurami-personaggio.png"
+        ]
+      },
+      {
+        "file": "02-pedalata-un-lato.png",
+        "description": "Pedalata con gamba vicina alla camera piegata e gamba opposta distesa.",
+        "prompt": "ONE landscape 3:2 PNG, realistic fitness instruction illustration on warm ivory floor/background, full bodies and all equipment completely visible with generous margin. No text captions numbers panels, only original small Misurami left chest logo. Original character reference attached: reproduce same man face curly hair beard athletic build charcoal shirt and shorts yellow stripe black shoes. Anatomically exact limbs hands joints, natural supported posture. Exercise bicycle crunch PHASE 2, rotate RIGHT elbow toward LEFT knee. Original character sheet authoritative; second image fixes exact camera lighting floor and character size. Keep lumbar back and pelvis supported at SAME floor point, fingertips lightly at sides of head, no neck pulling. Change pose: LEFT knee flexes toward chest while RIGHT leg extends almost straight hovering above floor toward right; trunk rotates so RIGHT shoulder lifts and RIGHT elbow approaches LEFT knee without forcing touch. Do not bring same-side elbow/knee together. Clearly two legs, one straight right leg and one bent left leg; two arms both elbows open. Full extended right shoe visible with margin; if needed use existing side space without cropping or changing camera/scale. No arrows text captions.",
+        "references": [
+          "references/misurami-personaggio.png",
+          "images/Air_Bike/01-partenza.png"
+        ]
+      },
+      {
+        "file": "03-pedalata-altro-lato.png",
+        "description": "Pedalata opposta con gamba vicina distesa e ginocchio opposto raccolto.",
+        "prompt": "ONE landscape 3:2 PNG, realistic fitness instruction illustration on warm ivory floor/background, full bodies and all equipment completely visible with generous margin. No text captions numbers panels, only original small Misurami left chest logo. Original character reference attached: reproduce same man face curly hair beard athletic build charcoal shirt and shorts yellow stripe black shoes. Anatomically exact limbs hands joints, natural supported posture. Bicycle crunch OPPOSITE LEG position. Edit second image. Keep same camera fixed pelvis head placement scale clothes. CRITICAL: the leg with yellow outer shorts stripe nearest viewer MUST NOW EXTEND STRAIGHT from hip diagonally right across lower image; the OTHER leg partly behind it MUST BEND at knee pointing up and toward chest. This changes leg assignment from original. Make near straight leg clearly OVERLAP in front of bent far thigh at hip, not behind it. The near RIGHT shoulder and elbow rotate toward the far bent LEFT knee; chest turns away camera, logo may be occluded naturally. Both fingertips at temples, no pulling neck. Full shoes hands body visible. Two arms two legs exactly. Lumbar and pelvis floor supported. This is not mirroring entire image; head stays left feet right. One PNG no labels arrows.",
+        "references": [
+          "references/misurami-personaggio.png",
+          "images/Air_Bike/01-partenza.png"
+        ]
+      }
+    ],
+    "executionSequence": [
+      "01-partenza.png",
+      "02-pedalata-un-lato.png",
+      "01-partenza.png",
+      "03-pedalata-altro-lato.png",
+      "01-partenza.png"
+    ],
+    "sequenceNotes": "Entrambi i lati e ritorno alla posizione centrale; contatto gomito-ginocchio non forzato.",
+    "sources": [
+      "exercises.json:Air_Bike",
+      "IMAGE-ROUTINE.md"
+    ],
+    "checks": {
+      "automaticVisualInspection": "passed: inspected all accepted images for limb count, joint anatomy, hands/grip, supports, original character identity and chest logo, full-body framing and equipment continuity; minor rendering differences between phases",
+      "fileValidation": "passed: separate decodable PNGs, landscape 1536x1024 (3:2)",
+      "trainerReview": "not performed",
+      "technicalScope": "Illustration of repository instructions, not a professionally validated prescription"
+    },
+    "rejectedDrafts": [
+      {
+        "prompt": "ONE landscape 3:2 PNG, realistic fitness instruction illustration on warm ivory floor/background, full bodies and all equipment completely visible with generous margin. No text captions numbers panels, only original small Misurami left chest logo. Original character reference attached: reproduce same man face curly hair beard athletic build charcoal shirt and shorts yellow stripe black shoes. Anatomically exact limbs hands joints, natural supported posture. Exercise bicycle crunch alternate side, phase 3. First original character sheet authoritative. Second attached initial position and third attached one-side crunch establish fixed camera scale pose and lighting. Generate OPPOSITE side to third image: bend the FAR LEG (anatomical LEFT, partially behind near leg from camera), pulling that knee toward torso; straighten the NEAR LEG (anatomical RIGHT, closest camera) hovering long toward right. Rotate chest visibly away from camera and lift NEAR RIGHT SHOULDER so its elbow crosses toward bent far LEFT knee. Fingertips remain gentle at temples no neck pulling; elbows open and arm contact not required. Pelvis and lumbar remain supported same floor point. Must visibly reverse which leg bends compared with third image, not same pose. Full body extended shoe within frame, no cropping. Anatomically correct two arms two legs. No arrows labels.",
+        "reason": "Generated same bent leg as previous phase; corrected explicit near/far leg overlap."
+      }
+    ],
+    "status": "pending_correction",
+    "independentReview": {
+      "date": "2026-10-26",
+      "verdict": "needs_correction",
+      "reason": "Alternanza delle gambe visibile ma rotazione toracica gomito-ginocchio opposto poco chiara."
+    }
+  },
+  "reason": "Correzione con vista alta rifiutata: appoggio lombare non leggibile e postura simile a V-sit; rotazione e appoggi non sono contemporaneamente chiari.",
+  "rejectedVersions": [
+    {
+      "phases": [
+        {
+          "file": "01-tabletop-v2.png",
+          "description": "Partenza centrale tabletop con mani leggere alle tempie.",
+          "prompt": "Create ONE landscape3:2 realistic fitness PNG ivory floor/background full athlete all shoes hands margins. Original attached Misurami sheet authoritative identity exact man face curly hair beard dark shirt original yellow/white logo on anatomical left chest shorts yellow stripe black shoes. BICYCLE CROSS CRUNCH phase1 initial tabletop. Choose HIGH ELEVATED camera looking down from athlete's FEET toward HEAD, about60degrees above floor. Head at TOP CENTER, pelvis center, raised bent legs toward BOTTOM CENTER, left/right sides clearly readable. Athlete supine pelvis lumbar spine floor supported, shoulders lifted modestly, neck neutral, fingertips light at temples above ears elbows open symmetrically. Both hips90degrees thighs raised, knees90degrees shins parallel floor, shoes separated clearly. Accurate two arms two legs5fingers, no neck pulling. Leave wide empty space at both bottom corners for later extended leg. No captions labels numbers panels arrows. Same view fixed for subsequent opposite cross rotations.",
+          "references": [
+            "references/misurami-personaggio.png"
+          ]
+        },
+        {
+          "file": "02-incrocio-destro-v2.png",
+          "description": "Gamba destra distesa, ginocchio sinistro raccolto, spalla destra ruota verso il ginocchio opposto.",
+          "prompt": "Correct BICYCLE CROSS CRUNCH second exercise draft. First original Misurami sheet identity. The bent LEFT knee is on viewer RIGHT; currently torso turns wrong way and RIGHT elbow stays out at viewer LEFT. CRITICAL CORRECTION: rotate ribcage and face toward bent LEFT knee at viewer RIGHT, lifting RIGHT shoulder across centerline toward that knee. RIGHT ELBOW (originating viewer-left arm) moves diagonally INWARD and DOWN across chest so it points toward bent LEFT knee with 5-10cm gap. Right fingertips still gently touch right temple, no pulling neck. Left elbow stays open to viewer-right side and left shoulder lowers. Keep LEFT knee bent toward chest viewerRIGHT, RIGHT leg long extended hovering bottomLEFT; knees stay side assignment. Pelvis/lumbar remain grounded no sit-up. Use more modest shoulder elevation, not seated upright. Original clothing/logo anatomy camera scale ivory floor full body unchanged. One small yellow curved arrow across chest toward viewerRIGHT if used, no captions.",
+          "references": [
+            "references/misurami-personaggio.png"
+          ]
+        },
+        {
+          "file": "03-incrocio-sinistro-v2.png",
+          "description": "Gamba sinistra distesa, ginocchio destro raccolto, spalla sinistra ruota verso il ginocchio opposto.",
+          "prompt": "Create OPPOSITE bicycle cross-crunch phase by editing second exercise reference. First original Misurami character sheet authoritative identity logo. Keep fixed camera pelvis placement floor scale. Reverse BOTH leg AND TORSO assignment, not mirror whole image. RIGHT knee now BENT toward chest at viewer LEFT, LEFT leg now STRAIGHT hovering diagonally to BOTTOM RIGHT with shoe fully in frame. Anatomical LEFT shoulder (viewer RIGHT) lifts and rotates across torso toward RIGHT bent knee at viewer LEFT. LEFT ELBOW viewerRIGHT moves inward DOWN across chest pointing toward RIGHT knee with comfortable gap; left fingertips still lightly at left temple. Right elbow now open toward viewerLEFT and right shoulder lower. Chest/head turn visibly toward viewerLEFT, opposite previous. Pelvis/lumbar remain grounded, shoulders modestly lifted, no seated sit-up. Change yellow curved torso rotation arrow to point toward viewerLEFT. Preserve athlete chest logo anatomical left, same face shorts yellow stripes shoes. All body anatomy2arms2legs5fingers no textlabels/captions, landscape3:2 ivory realistic.",
+          "references": [
+            "references/misurami-personaggio.png"
+          ]
+        }
+      ],
+      "reason": "Correzione con vista alta rifiutata: appoggio lombare non leggibile e postura simile a V-sit; rotazione e appoggi non sono contemporaneamente chiari."
+    }
+  ]
 }
