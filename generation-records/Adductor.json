@@ -2,47 +2,103 @@
   "id": "Adductor",
   "createdAt": "2026-10-26",
   "generator": "integrated image_gen",
+  "revision": 2,
+  "status": "accepted",
   "reference": "references/misurami-personaggio.png",
   "phases": [
     {
-      "file": "01-appoggio.png",
-      "description": "Posizione prona sostenuta sugli avambracci; interno coscia sul rullo.",
-      "prompt": "ONE landscape 3:2 PNG, realistic fitness instruction illustration on warm ivory floor/background, full bodies and all equipment completely visible with generous margin. No text captions numbers panels, only original small Misurami left chest logo. Original character reference attached: reproduce same man face curly hair beard athletic build charcoal shirt and shorts yellow stripe black shoes. Anatomically exact limbs hands joints, natural supported posture. Exercise adductor foam rolling, starting position. Side three-quarter elevated camera showing left chest. Man prone with both forearms on floor supporting shoulders, left leg extended straight behind, right hip abducted out to right and right knee bent 90 degrees frog position. Place ONE cylindrical charcoal foam roller crosswise UNDER INNER RIGHT THIGH, halfway between groin and knee, its axis perpendicular to right thigh. Right inner thigh rests on roller, not knee/shin. Roller's far end can protrude under thigh. Head neutral gaze down, pelvis facing floor. Clear leg separation, no extra limb. Entire body visible head toward right, feet toward left. Demonstrate comfortable mid inner-thigh massage contact.",
+      "file": "01-appoggio-v2.png",
+      "description": "Appoggio mediale della coscia con anca abdotta e ginocchio piegato.",
+      "prompt": "Create ONE landscape3:2 PNG realistic clinical fitness instructional illustration, ivory background floor, full body all equipment with large margins, no text numbers labels captions panels. Use ORIGINAL Misurami character sheet attached as authoritative identity: exact man curly dark hair beard charcoal shirt original small yellow/white logo on anatomical LEFT chest, dark shorts yellow stripe black shoes. Exercise RIGHT INNER THIGH FOAM ROLL, correct frog position. View from elevated three-quarter in front of athlete, head at left feet right. Torso prone supported on BOTH forearms, shoulders over elbows, neck neutral eyes floor, LEFT leg straight behind on toes. RIGHT HIP abducted90degrees to side of body, RIGHT KNEE BENT90degrees so right thigh goes horizontally outward toward bottom of image and right shin goes back toward right. This frog right leg is visibly bent, not straight splayed. ONE dark cylindrical foam roller placed crosswise UNDER MEDIAL INNER RIGHT THIGH at upper-middle thigh, never under front quadriceps and never knee/groin. Rotate right hip so inner thigh visibly faces down onto roller; roller axis follows body long axis and is perpendicular to abducted right thigh. Need both visible knees and both shoes, anatomically natural 2 arms2legs5fingers. Show roller protruding on both sides of right inner thigh for clear contact, all frame clear. Light comfortable partial weight on roller.",
       "references": [
         "references/misurami-personaggio.png"
       ]
     },
     {
-      "file": "02-scorri.png",
-      "description": "Piccolo scorrimento controllato lungo l'interno coscia, evitando ginocchio e inguine.",
-      "prompt": "ONE landscape 3:2 PNG, realistic fitness instruction illustration on warm ivory floor/background, full bodies and all equipment completely visible with generous margin. No text captions numbers panels, only original small Misurami left chest logo. Original character reference attached: reproduce same man face curly hair beard athletic build charcoal shirt and shorts yellow stripe black shoes. Anatomically exact limbs hands joints, natural supported posture. Exercise adductor foam rolling, second phase. First original character reference authoritative; second exercise image establishes identical camera framing scale lighting character and cylindrical foam roller. Preserve exact pose/support arrangement but slide body sideways a small controlled distance so roller contact moves along INNER thigh closer to knee, stopping well above knee joint, rather than near groin. Both forearms support upper torso, left leg extended behind, right leg abducted outward inner thigh resting on roller. Keep both full legs and both shoes, hands and roller fully visible. Same roller axis and floor position, only body shifts a little. Do not roll on kneecap or groin. No arrows needed.",
+      "file": "02-scorri-v2.png",
+      "description": "Contatto più distale della coscia sopra il ginocchio, freccia di scorrimento.",
+      "prompt": "Correct exercise image second reference; original Misurami character sheet first authoritative. Keep camera/body/clothes/floor and frog leg from current scene. CRITICAL visible contact change: move foam roller to a NEW location directly under distal medial right thigh, just BEFORE bent knee, at least20cm farther from groin than in reference. Roller center must be under skin near right knee rather than shorts. Its near round end should appear below/left of right knee, NOT under shorts or hip. Roller must stop6-8cm ABOVE knee, never kneecap/shin. Slightly shift pelvis and supporting forearms for plausible roll, but keep anatomy/proportions full body visible. Current reference has roller under proximal thigh: that is what must change. One small yellow arrow along medial thigh toward knee indicates controlled roll. Knee remains clearly bent and hip abducted90degrees, inner thigh down. Landscape3:2 realistic ivory no labels captions.",
       "references": [
-        "references/misurami-personaggio.png",
-        "images/Adductor/01-appoggio.png"
+        "references/misurami-personaggio.png"
       ]
     }
   ],
   "executionSequence": [
-    "01-appoggio.png",
-    "02-scorri.png",
-    "01-appoggio.png"
+    "01-appoggio-v2.png",
+    "02-scorri-v2.png",
+    "01-appoggio-v2.png"
   ],
-  "sequenceNotes": "Ripetere il piccolo scorrimento lungo il muscolo e poi cambiare gamba. Non mostra una posizione statica distinta inventata; illustra il tratto di automassaggio.",
   "sources": [
     "exercises.json:Adductor",
     "IMAGE-ROUTINE.md"
   ],
   "checks": {
-    "automaticVisualInspection": "passed: inspected all accepted images for limb count, joint anatomy, hands/grip, supports, original character identity and chest logo, full-body framing and equipment continuity; minor rendering differences between phases",
-    "fileValidation": "passed: separate decodable PNGs, landscape 1536x1024 (3:2)",
-    "trainerReview": "not performed",
-    "technicalScope": "Illustration of repository instructions, not a professionally validated prescription"
+    "automaticVisualInspection": "Agent visual inspection completed; distinct motion/contact or force direction now illustrated, pending independent root acceptance.",
+    "fileValidation": "Decodable PNG3:2 verified",
+    "trainerReview": "not performed"
   },
-  "rejectedDrafts": [],
-  "status": "pending_correction",
-  "independentReview": {
+  "correctionHistory": [
+    {
+      "defect": "Version1 straight splayed working leg and nearly identical contact phases",
+      "action": "Regenerated frog leg and changed roller contact location plus yellow rolling arrow"
+    },
+    {
+      "prompt": "Create second phase of RIGHT INNER THIGH FOAM ROLL by editing second exercise reference, first attached original Misurami sheet defines identity and clothes/logo. Preserve fixed camera ivory floor character size head toward left right leg frog90degree arrangement. Make rolling travel visually obvious: roller remains at same floor position, athlete translates pelvis/body LEFT by about15cm along right thigh so medial-thigh contact shifts from proximal upper-middle thigh to DISTAL inner thigh about8cm ABOVE RIGHT KNEE. Both forearms walk/slide left in same direction to support shoulders, left straight leg follows body, right bent lower leg/shoe follow knee. Keep right hip abducted knee bent and inner thigh down, not front quadriceps. Add ONE small clean yellow arrow parallel to RIGHT THIGH pointing outward toward knee to indicate rolling contact direction, no words. Roller still crosswise under thigh, no roller-on-knee contact. Exactly same roller size/axis. Natural coherent body no stretched proportions. Full head hands all legs shoes roller with margins, landscape3:2 realistic no captions labels numbers panels.",
+      "defect": "First v2 distal-contact request still too proximal",
+      "action": "Regenerated distal contact explicitly"
+    }
+  ],
+  "previousRevision": {
+    "id": "Adductor",
+    "createdAt": "2026-10-26",
+    "generator": "integrated image_gen",
+    "reference": "references/misurami-personaggio.png",
+    "phases": [
+      {
+        "file": "01-appoggio.png",
+        "description": "Posizione prona sostenuta sugli avambracci; interno coscia sul rullo.",
+        "prompt": "ONE landscape 3:2 PNG, realistic fitness instruction illustration on warm ivory floor/background, full bodies and all equipment completely visible with generous margin. No text captions numbers panels, only original small Misurami left chest logo. Original character reference attached: reproduce same man face curly hair beard athletic build charcoal shirt and shorts yellow stripe black shoes. Anatomically exact limbs hands joints, natural supported posture. Exercise adductor foam rolling, starting position. Side three-quarter elevated camera showing left chest. Man prone with both forearms on floor supporting shoulders, left leg extended straight behind, right hip abducted out to right and right knee bent 90 degrees frog position. Place ONE cylindrical charcoal foam roller crosswise UNDER INNER RIGHT THIGH, halfway between groin and knee, its axis perpendicular to right thigh. Right inner thigh rests on roller, not knee/shin. Roller's far end can protrude under thigh. Head neutral gaze down, pelvis facing floor. Clear leg separation, no extra limb. Entire body visible head toward right, feet toward left. Demonstrate comfortable mid inner-thigh massage contact.",
+        "references": [
+          "references/misurami-personaggio.png"
+        ]
+      },
+      {
+        "file": "02-scorri.png",
+        "description": "Piccolo scorrimento controllato lungo l'interno coscia, evitando ginocchio e inguine.",
+        "prompt": "ONE landscape 3:2 PNG, realistic fitness instruction illustration on warm ivory floor/background, full bodies and all equipment completely visible with generous margin. No text captions numbers panels, only original small Misurami left chest logo. Original character reference attached: reproduce same man face curly hair beard athletic build charcoal shirt and shorts yellow stripe black shoes. Anatomically exact limbs hands joints, natural supported posture. Exercise adductor foam rolling, second phase. First original character reference authoritative; second exercise image establishes identical camera framing scale lighting character and cylindrical foam roller. Preserve exact pose/support arrangement but slide body sideways a small controlled distance so roller contact moves along INNER thigh closer to knee, stopping well above knee joint, rather than near groin. Both forearms support upper torso, left leg extended behind, right leg abducted outward inner thigh resting on roller. Keep both full legs and both shoes, hands and roller fully visible. Same roller axis and floor position, only body shifts a little. Do not roll on kneecap or groin. No arrows needed.",
+        "references": [
+          "references/misurami-personaggio.png",
+          "images/Adductor/01-appoggio.png"
+        ]
+      }
+    ],
+    "executionSequence": [
+      "01-appoggio.png",
+      "02-scorri.png",
+      "01-appoggio.png"
+    ],
+    "sequenceNotes": "Ripetere il piccolo scorrimento lungo il muscolo e poi cambiare gamba. Non mostra una posizione statica distinta inventata; illustra il tratto di automassaggio.",
+    "sources": [
+      "exercises.json:Adductor",
+      "IMAGE-ROUTINE.md"
+    ],
+    "checks": {
+      "automaticVisualInspection": "passed: inspected all accepted images for limb count, joint anatomy, hands/grip, supports, original character identity and chest logo, full-body framing and equipment continuity; minor rendering differences between phases",
+      "fileValidation": "passed: separate decodable PNGs, landscape 1536x1024 (3:2)",
+      "trainerReview": "not performed",
+      "technicalScope": "Illustration of repository instructions, not a professionally validated prescription"
+    },
+    "rejectedDrafts": [],
+    "status": "pending_correction",
+    "independentReview": {
+      "date": "2026-10-26",
+      "verdict": "needs_correction",
+      "reason": "Contatto sul muscolo mediale e spostamento del rullo poco leggibili."
+    }
+  },
+  "rootReview": {
+    "verdict": "accepted",
     "date": "2026-10-26",
-    "verdict": "needs_correction",
-    "reason": "Contatto sul muscolo mediale e spostamento del rullo poco leggibili."
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
   }
 }

@@ -1,48 +1,119 @@
 {
   "id": "Advanced_Kettlebell_Windmill",
   "createdAt": "2026-10-26",
+  "revision": 2,
+  "status": "accepted",
   "generator": "integrated image_gen",
   "reference": "references/misurami-personaggio.png",
   "phases": [
     {
-      "file": "01-partenza.png",
-      "description": "Posizione eretta con kettlebell sopra la testa, braccio opposto dietro la schiena.",
-      "prompt": "ONE landscape 3:2 PNG, realistic fitness instruction illustration on warm ivory floor/background, full bodies and all equipment completely visible with generous margin. No text captions numbers panels, only original small Misurami left chest logo. Original character reference attached: reproduce same man face curly hair beard athletic build charcoal shirt and shorts yellow stripe black shoes. Anatomically exact limbs hands joints, natural supported posture. Exercise advanced kettlebell windmill, initial upright overhead support phase. Exact original Misurami man standing full body front three-quarter, feet a little wider than hips. One charcoal kettlebell held in RIGHT hand overhead, right elbow fully extended not hyperextended, wrist stacked over shoulder, kettlebell bell resting behind forearm. LEFT hand rests behind lower back clearly visible at left hip, not reaching toward floor. Both feet turned about 45 degrees toward athlete's LEFT (away from overhead arm); knees soft. Torso upright, hips neutral, eyes looking toward overhead bell. Leave substantial space above kettlebell; entire bell and all shoes in frame. Natural moderate kettlebell size and neutral wrist, clean anatomy.",
+      "file": "01-rack-v2.png",
+      "description": "Preparazione in rack alla spalla.",
+      "prompt": "Edit second windmill overhead starting exercise into preparatory RACK position. First original Misurami sheet authoritative identity clothing/logo. Keep exact upright body feet positions orientation floor camera framing and bell size/load unchanged. LOWER RIGHT KETTLEBELL to RIGHT shoulder rack: right elbow bent tucked close ribs, fist at shoulder height near collarbone, charcoal bell rests against outside forearm/upper arm, neutral wrist. Left arm remains behind low back. Head gaze forward neutral instead of overhead. No body sidebend or hinge in this frame. Anatomically correct hand grip natural fingers. Full body all shoes bell with margins realistic3:2 ivory no text captions numbers arrows panels.",
       "references": [
         "references/misurami-personaggio.png"
       ]
     },
     {
-      "file": "02-inclinazione.png",
-      "description": "Inclinazione controllata con braccio sollevato disteso e sguardo al kettlebell.",
-      "prompt": "ONE landscape 3:2 PNG, realistic fitness instruction illustration on warm ivory floor/background, full bodies and all equipment completely visible with generous margin. No text captions numbers panels, only original small Misurami left chest logo. Original character reference attached: reproduce same man face curly hair beard athletic build charcoal shirt and shorts yellow stripe black shoes. Anatomically exact limbs hands joints, natural supported posture. Exercise advanced kettlebell windmill, lowering phase. Original first sheet defines Misurami identity and clothing. Second attached upright phase defines exact scale camera floor position same kettlebell and hand assignment. Keep feet planted in same positions, right hand overhead with same kettlebell and straight vertical right arm throughout, LEFT arm still BEHIND LOWER BACK not on leg. Push pelvis back toward right and hinge torso diagonally downward to left to a comfortable roughly 45-degree angle from upright, rotate chest upward toward bell, keep braced neutral spine. Right arm stacks vertically above right shoulder, eyes look up at bell; left knee may bend softly, right leg remains nearly straight. No extreme range or forced lumbar bend. Entire body all shoes overhead bell and hand visible with margins, fixed camera zoom; no new equipment.",
+      "file": "02-sostegno-alto-v2.png",
+      "description": "Sostegno sopra la testa.",
+      "prompt": "Create ONE landscape3:2 realistic fitness PNG ivory floor/background full body and all equipment with margin. ORIGINAL Misurami sheet attached defines exact adult man curly dark hair beard face build charcoal shirt small original left-chest yellow/white logo charcoal shorts yellow stripe black shoes. ADVANCED KETTLEBELL WINDMILL overhead starting position. Use a SIDE-OBLIQUE three-quarter camera with enough side perspective to show later hips moving BACKWARD, not a flat frontal camera. Athlete upright feet slightly wider shoulder width, BOTH feet turned45degrees to athlete LEFT away from raised RIGHT arm; show consistent feet orientation. RIGHT hand holds ONE small charcoal kettlebell above right shoulder with straight elbow, vertical arm wrist neutral bell behind forearm. LEFT hand rests behind lower back. Eyes on bell, ribs braced spine neutral. Frame room in front/side for diagonal hip hinge. Must be anatomically correct hands elbow shoulders feet, full shoes and bell clear. No captions titles numbers arrows panels.",
       "references": [
-        "references/misurami-personaggio.png",
-        "images/Advanced_Kettlebell_Windmill/01-partenza.png"
+        "references/misurami-personaggio.png"
+      ]
+    },
+    {
+      "file": "03-hip-hinge-v2.png",
+      "description": "Avvio della flessione delle anche con bacino indietro.",
+      "prompt": "Edit second exercise reference into authentic ADVANCED KETTLEBELL WINDMILL LOWERED HIP-HINGE position, not a standing side bend. Original first Misurami sheet authoritative identity logo. Same exact camera feet positions scale kettlebell load floor. RIGHT arm remains STRAIGHT VERTICAL to ceiling but its shoulder descends and travels LEFT/down with torso. Push RIGHT HIP visibly BACK behind heels and rotate pelvis into a DEEP HIP HINGE: hips flex approximately60degrees, torso long and near parallel to floor at diagonal, chest rotates UP toward raised right hand. Spine remains long neutral, not bent sideways at waist. Athlete's weight mostly right leg, right knee softly straight, left knee slightly bent; feet still fixed toward left. LEFT hand remains on low back, NOT floor, elbow bent behind body. Eyes look up bell. Shoulder-bell vertical stack clear. Add one small yellow arrow near pelvis pointing backward along hip hinge direction (no text). Full entire man and bell shoes with margins landscape3:2 ivory realistic. Must visibly show backward hips and forward torso rather than frontal lateral flexion.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    },
+    {
+      "file": "04-inclinazione-v2.png",
+      "description": "Posizione più bassa con bacino arretrato, busto lungo e braccio verticale.",
+      "prompt": "CORRECT lowered kettlebell windmill. Original character reference first authoritative. Current second exercise draft is too upright and looks like lateral spinal bend: replace pose with a MUCH DEEPER HIP HINGE. Athlete right hip pushes backward, pelvis tilt at hip joints, LONG STRAIGHT TORSO almost HORIZONTAL (15degrees above horizontal floor) instead of diagonal upright. Right shoulder lower in image to around hip height, right overhead arm STILL VERTICAL straight to ceiling with same bell. Right shoulder and right hip must be visibly separated horizontally, not compressed waist-sidebend. Rotate chest open toward ceiling, look up bell. Left hand remains behind back. Right leg mostly straight soft knee, left knee soft, feet same position/orientation. Add yellow backward hip arrow. Maintain original man clothes/logo, full body bell shoes margins, same ivory realistic3:2 image. This is comfortable controlled hinge, not deep forced spinal bend.",
+      "references": [
+        "references/misurami-personaggio.png"
       ]
     }
   ],
   "executionSequence": [
-    "01-partenza.png",
-    "02-inclinazione.png",
-    "01-partenza.png"
+    "01-rack-v2.png",
+    "02-sostegno-alto-v2.png",
+    "03-hip-hinge-v2.png",
+    "04-inclinazione-v2.png",
+    "03-hip-hinge-v2.png",
+    "02-sostegno-alto-v2.png",
+    "01-rack-v2.png"
   ],
-  "sequenceNotes": "Il ritorno riutilizza la postura eretta; la girata e spinta iniziali sono preparazione al windmill, la sequenza illustra una ripetizione completa del windmill a escursione confortevole.",
   "sources": [
     "exercises.json:Advanced_Kettlebell_Windmill",
     "IMAGE-ROUTINE.md"
   ],
   "checks": {
-    "automaticVisualInspection": "passed: inspected all accepted images for limb count, joint anatomy, hands/grip, supports, original character identity and chest logo, full-body framing and equipment continuity; minor rendering differences between phases",
-    "fileValidation": "passed: separate decodable PNGs, landscape 1536x1024 (3:2)",
-    "trainerReview": "not performed",
-    "technicalScope": "Illustration of repository instructions, not a professionally validated prescription"
+    "automaticVisualInspection": "Hip hinge progressively deepens; upper arm remains vertical, behind-back hand and full bell/feet visible. Pending independent root review of biomechanics and foot orientation.",
+    "fileValidation": "PNG3:2 decode verified",
+    "trainerReview": "not performed"
   },
-  "rejectedDrafts": [],
-  "status": "pending_correction",
-  "independentReview": {
+  "correctionHistory": [
+    {
+      "defect": "Prior sequence chiefly lateral sidebend, missing hinge and rack preparation",
+      "action": "Added rack and progressive hips-back phases; deeper final hip hinge regenerated with neutral long torso and yellow hip arrow"
+    }
+  ],
+  "previousRevision": {
+    "id": "Advanced_Kettlebell_Windmill",
+    "createdAt": "2026-10-26",
+    "generator": "integrated image_gen",
+    "reference": "references/misurami-personaggio.png",
+    "phases": [
+      {
+        "file": "01-partenza.png",
+        "description": "Posizione eretta con kettlebell sopra la testa, braccio opposto dietro la schiena.",
+        "prompt": "ONE landscape 3:2 PNG, realistic fitness instruction illustration on warm ivory floor/background, full bodies and all equipment completely visible with generous margin. No text captions numbers panels, only original small Misurami left chest logo. Original character reference attached: reproduce same man face curly hair beard athletic build charcoal shirt and shorts yellow stripe black shoes. Anatomically exact limbs hands joints, natural supported posture. Exercise advanced kettlebell windmill, initial upright overhead support phase. Exact original Misurami man standing full body front three-quarter, feet a little wider than hips. One charcoal kettlebell held in RIGHT hand overhead, right elbow fully extended not hyperextended, wrist stacked over shoulder, kettlebell bell resting behind forearm. LEFT hand rests behind lower back clearly visible at left hip, not reaching toward floor. Both feet turned about 45 degrees toward athlete's LEFT (away from overhead arm); knees soft. Torso upright, hips neutral, eyes looking toward overhead bell. Leave substantial space above kettlebell; entire bell and all shoes in frame. Natural moderate kettlebell size and neutral wrist, clean anatomy.",
+        "references": [
+          "references/misurami-personaggio.png"
+        ]
+      },
+      {
+        "file": "02-inclinazione.png",
+        "description": "Inclinazione controllata con braccio sollevato disteso e sguardo al kettlebell.",
+        "prompt": "ONE landscape 3:2 PNG, realistic fitness instruction illustration on warm ivory floor/background, full bodies and all equipment completely visible with generous margin. No text captions numbers panels, only original small Misurami left chest logo. Original character reference attached: reproduce same man face curly hair beard athletic build charcoal shirt and shorts yellow stripe black shoes. Anatomically exact limbs hands joints, natural supported posture. Exercise advanced kettlebell windmill, lowering phase. Original first sheet defines Misurami identity and clothing. Second attached upright phase defines exact scale camera floor position same kettlebell and hand assignment. Keep feet planted in same positions, right hand overhead with same kettlebell and straight vertical right arm throughout, LEFT arm still BEHIND LOWER BACK not on leg. Push pelvis back toward right and hinge torso diagonally downward to left to a comfortable roughly 45-degree angle from upright, rotate chest upward toward bell, keep braced neutral spine. Right arm stacks vertically above right shoulder, eyes look up at bell; left knee may bend softly, right leg remains nearly straight. No extreme range or forced lumbar bend. Entire body all shoes overhead bell and hand visible with margins, fixed camera zoom; no new equipment.",
+        "references": [
+          "references/misurami-personaggio.png",
+          "images/Advanced_Kettlebell_Windmill/01-partenza.png"
+        ]
+      }
+    ],
+    "executionSequence": [
+      "01-partenza.png",
+      "02-inclinazione.png",
+      "01-partenza.png"
+    ],
+    "sequenceNotes": "Il ritorno riutilizza la postura eretta; la girata e spinta iniziali sono preparazione al windmill, la sequenza illustra una ripetizione completa del windmill a escursione confortevole.",
+    "sources": [
+      "exercises.json:Advanced_Kettlebell_Windmill",
+      "IMAGE-ROUTINE.md"
+    ],
+    "checks": {
+      "automaticVisualInspection": "passed: inspected all accepted images for limb count, joint anatomy, hands/grip, supports, original character identity and chest logo, full-body framing and equipment continuity; minor rendering differences between phases",
+      "fileValidation": "passed: separate decodable PNGs, landscape 1536x1024 (3:2)",
+      "trainerReview": "not performed",
+      "technicalScope": "Illustration of repository instructions, not a professionally validated prescription"
+    },
+    "rejectedDrafts": [],
+    "status": "pending_correction",
+    "independentReview": {
+      "date": "2026-10-26",
+      "verdict": "needs_correction",
+      "reason": "Piegamento laterale senza chiara cerniera delle anche e arretramento del bacino."
+    }
+  },
+  "rootReview": {
+    "verdict": "accepted",
     "date": "2026-10-26",
-    "verdict": "needs_correction",
-    "reason": "Piegamento laterale senza chiara cerniera delle anche e arretramento del bacino."
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
   }
 }

@@ -5,9 +5,9 @@
   "reference": "references/misurami-personaggio.png",
   "phases": [
     {
-      "file": "01-allungamento.png",
-      "description": "Tenuta statica del quadricipite in quadrupedia, una mano afferra il piede.",
-      "prompt": "Create ONE landscape 3:2 realistic exercise PNG, no labels numbers captions arrows. Original attached Misurami character is authoritative: exact curly dark hair bearded athletic man, charcoal shirt with small original yellow/white Misurami logo on anatomical left chest, charcoal shorts yellow stripe black shoes. Ivory background floor, full body with margins, three-quarter side view facing right. Static quadruped quadriceps stretch, ONE held pose: left palm planted under left shoulder, left knee planted under left hip, right thigh extends back slightly and right knee deeply flexed bringing heel toward buttock. Right hand reaches backward and gently holds right ankle. Both shoulders and hips level, braced neutral spine, comfortable hip extension no forced lumbar arch. Left knee and palm provide clear stable floor support, right knee floats slightly behind. Exactly two arms two legs accurate natural joints and five fingers hand grip. All shoes hands visible. No equipment."
+      "file": "01-allungamento-v2.png",
+      "description": "Tenuta in quadrupedia con ginocchio profondamente flesso, tallone vicino al gluteo e mano opposta/ginocchio a terra.",
+      "prompt": "Correct second reference quadruped quadriceps stretch; original first character sheet authoritative identity. Current lifted knee bends only 90degrees and heel too far behind. KEEP left palm and left knee planted same floor positions, torso level square toward floor. MOVE raised RIGHT KNEE forward so it floats close beside planted left knee, but slightly behind it, NOT straight backward far from hip. Bend right knee DEEPLY, bringing right HEEL close to RIGHT BUTTOCK at shorts hem. Right hand holds ankle at buttock, right elbow now bent comfortably backward. Shin folds closely against back of thigh instead of remaining vertical far behind. This makes a deep knee-flexion quad stretch rather than bird dog. Strict side view left palm at right of image, left knee center, held knee near center and held foot near hip. No lateral opening of pelvis/chest. Preserve natural neutral spine no lumbar sag, accurate two arms two legs grip anatomy original Misurami shirt logo charcoal shorts yellow stripe black shoes. Full body no crop 3:2 ivory background no captions arrows."
     }
   ],
   "sources": [
@@ -15,19 +15,75 @@
     "IMAGE-ROUTINE.md"
   ],
   "checks": {
-    "automaticVisualInspection": "passed: One held pose; change sides following instructions. Kneeling support, hand-foot grip, character and branding checked.",
+    "automaticVisualInspection": "Corrected candidate: deep knee flexion and hand-shoe contact near buttock; planted opposite palm/knee, less pelvic opening, natural head/spine; pending independent root review",
     "fileValidation": "PNG format, readability and 3:2 verified",
     "trainerReview": "not performed"
   },
   "rejectedDrafts": 0,
   "executionOrder": [
-    "01-allungamento.png"
+    "01-allungamento-v2.png"
   ],
   "executionNotes": "Static hold 10-20 seconds, then release and change sides; one held pose suffices.",
-  "status": "pending_correction",
+  "status": "accepted",
   "independentReview": {
     "date": "2026-10-26",
     "verdict": "needs_correction",
     "reason": "Bacino ruotato e coscia laterale; posizione in quadrupedia e flessione del ginocchio da correggere."
+  },
+  "correctionHistory": [
+    {
+      "date": "2026-10-26",
+      "reason": "Independent full-motion visual audit after user reported unclear/incomplete images",
+      "previousRecord": {
+        "id": "All_Fours_Quad_Stretch",
+        "createdAt": "2026-10-26",
+        "generator": "integrated image_gen",
+        "reference": "references/misurami-personaggio.png",
+        "phases": [
+          {
+            "file": "01-allungamento.png",
+            "description": "Tenuta statica del quadricipite in quadrupedia, una mano afferra il piede.",
+            "prompt": "Create ONE landscape 3:2 realistic exercise PNG, no labels numbers captions arrows. Original attached Misurami character is authoritative: exact curly dark hair bearded athletic man, charcoal shirt with small original yellow/white Misurami logo on anatomical left chest, charcoal shorts yellow stripe black shoes. Ivory background floor, full body with margins, three-quarter side view facing right. Static quadruped quadriceps stretch, ONE held pose: left palm planted under left shoulder, left knee planted under left hip, right thigh extends back slightly and right knee deeply flexed bringing heel toward buttock. Right hand reaches backward and gently holds right ankle. Both shoulders and hips level, braced neutral spine, comfortable hip extension no forced lumbar arch. Left knee and palm provide clear stable floor support, right knee floats slightly behind. Exactly two arms two legs accurate natural joints and five fingers hand grip. All shoes hands visible. No equipment."
+          }
+        ],
+        "sources": [
+          "exercises.json:All_Fours_Quad_Stretch",
+          "IMAGE-ROUTINE.md"
+        ],
+        "checks": {
+          "automaticVisualInspection": "Corrected candidate: deep knee flexion and hand-shoe contact near buttock; planted opposite palm/knee, less pelvic opening, natural head/spine; pending independent root review",
+          "fileValidation": "PNG format, readability and 3:2 verified",
+          "trainerReview": "not performed"
+        },
+        "rejectedDrafts": 0,
+        "executionOrder": [
+          "01-allungamento.png"
+        ],
+        "executionNotes": "Static hold 10-20 seconds, then release and change sides; one held pose suffices.",
+        "status": "pending_correction",
+        "independentReview": {
+          "date": "2026-10-26",
+          "verdict": "needs_correction",
+          "reason": "Bacino ruotato e coscia laterale; posizione in quadrupedia e flessione del ginocchio da correggere."
+        }
+      },
+      "attempts": [
+        {
+          "prompt": "Create ONE corrected realistic fitness illustration PNG landscape3:2 warm ivory floor/background, generous full body margins, no labels captions arrows numbers. Use original attached Misurami character EXACT identity curly dark hair beard charcoal shirt small original yellow/white Misurami logo anatomical left chest charcoal shorts yellow side stripe black shoes. QUADRUPED QUADRICEPS STRETCH held pose, STRICT SIDE VIEW facing right, camera just slightly toward front so logo visible. Start from quadruped; LEFT palm planted below left shoulder, LEFT knee planted below left hip, left shin on floor trailing left. Torso horizontal shoulders and pelvis facing floor, NO opening chest toward camera, NO sideways abducted leg. RIGHT THIGH points directly BACKWARD in sagittal plane, roughly horizontal aligned with torso, RIGHT KNEE deeply flexed 145 degrees so heel near buttock. RIGHT hand reaches backward gently holding right ankle/shoe heel, right elbow softly flexed. This is quad stretch, NOT side plank nor bow pose. Keep spine neutral gently braced, avoid lumbar arch; neck neutral gaze floor ahead. Show contact palm and knee clearly, right knee/foot above floor and entire two arms/two legs accurate joints five fingers. Stable supported posture. Same realistic character style ivory soft shadow.",
+          "file": "/workspace/generated_images/exec-34a90b48-831e-4fe3-ab90-462b2bb81742.png",
+          "result": "rejected: knee remained near90degrees, heel too distant from buttock"
+        },
+        {
+          "prompt": "Correct second reference quadruped quadriceps stretch; original first character sheet authoritative identity. Current lifted knee bends only 90degrees and heel too far behind. KEEP left palm and left knee planted same floor positions, torso level square toward floor. MOVE raised RIGHT KNEE forward so it floats close beside planted left knee, but slightly behind it, NOT straight backward far from hip. Bend right knee DEEPLY, bringing right HEEL close to RIGHT BUTTOCK at shorts hem. Right hand holds ankle at buttock, right elbow now bent comfortably backward. Shin folds closely against back of thigh instead of remaining vertical far behind. This makes a deep knee-flexion quad stretch rather than bird dog. Strict side view left palm at right of image, left knee center, held knee near center and held foot near hip. No lateral opening of pelvis/chest. Preserve natural neutral spine no lumbar sag, accurate two arms two legs grip anatomy original Misurami shirt logo charcoal shorts yellow stripe black shoes. Full body no crop 3:2 ivory background no captions arrows.",
+          "file": "/workspace/generated_images/exec-f0a71551-eb66-459a-9d2d-e4cbe0da8bd6.png",
+          "result": "accepted_pending_root_review: deep knee flexion, heel near buttock, palm/knee supports visible, reduced pelvic opening"
+        }
+      ]
+    }
+  ],
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
   }
 }

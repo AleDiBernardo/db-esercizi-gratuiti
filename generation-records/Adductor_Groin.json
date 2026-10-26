@@ -2,36 +2,91 @@
   "id": "Adductor_Groin",
   "createdAt": "2026-10-26",
   "generator": "integrated image_gen",
+  "revision": 2,
+  "status": "accepted",
   "reference": "references/misurami-personaggio.png",
   "phases": [
     {
-      "file": "01-allungamento-assistito.png",
-      "description": "Supino con gambe sollevate e divaricate comodamente; compagno sostiene delicatamente le caviglie.",
-      "prompt": "ONE landscape 3:2 PNG, realistic fitness instruction illustration on warm ivory floor/background, full bodies and all equipment completely visible with generous margin. No text captions numbers panels, only original small Misurami left chest logo. Original character reference attached: reproduce same man face curly hair beard athletic build charcoal shirt and shorts yellow stripe black shoes. Anatomically exact limbs hands joints, natural supported posture. Exercise assisted supine adductor stretch, ONE static hold image, not a sequence. Original Misurami man lying on back on ivory floor head toward lower left, hips flexed about 90 degrees, both legs raised toward ceiling and spread into a comfortable V, knees softly straight not locked, neck shoulders relaxed floor-supported. A second adult male assistant in plain muted gray athletic clothing (no logo), kneeling beyond athlete's feet, holds ONE ankle with each hand gently and supports the comfortable symmetrical V. Assistant arms reach separately to each ankle, both hands clearly wrap ankle above shoe, never pressing knees. Athlete's arms relaxed along floor beside torso. Safe comfortable moderate separation, no extreme splits. Show entire bodies, head, hands, both raised shoes, with wide margins, consistent natural anatomy. Elevated three-quarter side view with Misurami man's left chest visible. No yellow arrows because static hold.",
+      "file": "01-contrazione-isometrica-v2.png",
+      "description": "Tentativo isometrico di adduzione contro il sostegno del compagno; frecce verso l'interno.",
+      "prompt": "Create ONE landscape3:2 realistic exercise PNG on ivory background floor. Original attached Misurami character sheet authoritative athlete identity clothes and small original left-chest logo; second previous exercise pose establishes two people and camera. Show PNF assisted supine adductor stretch RESISTED ISOMETRIC CONTRACTION phase. Athlete supine head/shoulders/back resting floor, hips flexed90degrees, legs elevated into comfortable moderate V with knees softly straight. Helper kneels beyond feet in plain gray clothes holds each ankle with separate hands, elbows softly bent, balanced stable stance. Athlete attempts to draw legs inward WITHOUT ACTUAL MOVEMENT while helper holds ankles at same V. Draw TWO small clean yellow arrows adjacent to legs pointing INWARD toward centerline to communicate attempted closing, no text. V is only moderate around50degree total separation, leaving room for later relaxed wider V. Hands natural grip ankles not knees; full both bodies all hands shoes visible with margins. Accurate anatomy two distinct people original athlete. No labels numbers captions panels.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    },
+    {
+      "file": "02-rilassamento-assistito-v2.png",
+      "description": "Rilassamento e moderata divaricazione assistita; frecce verso l'esterno.",
+      "prompt": "Correct second image only: REMOVE small yellow/white logo from HELPER gray shirt (kneeling person at top), restore plain gray fabric. KEEP athlete lying down Misurami chest logo unchanged, original first character reference defines athlete identity. Preserve absolutely all other anatomy poses hands ankle grips wider comfortable V, arrows pointing gently outward, camera floor framing. Landscape3:2 PNG no new text labels.",
       "references": [
         "references/misurami-personaggio.png"
       ]
     }
   ],
   "executionSequence": [
-    "01-allungamento-assistito.png"
+    "01-contrazione-isometrica-v2.png",
+    "02-rilassamento-assistito-v2.png"
   ],
-  "sequenceNotes": "La medesima geometria rappresenta mantenimento, tentativo isometrico di chiusura contro resistenza e rilassamento; non inventate fasi con divaricazioni estreme. Il compagno aumenta solo delicatamente l'ampiezza secondo comfort dell'atleta.",
   "sources": [
     "exercises.json:Adductor_Groin",
     "IMAGE-ROUTINE.md"
   ],
   "checks": {
-    "automaticVisualInspection": "passed: inspected all accepted images for limb count, joint anatomy, hands/grip, supports, original character identity and chest logo, full-body framing and equipment continuity; minor rendering differences between phases",
-    "fileValidation": "passed: separate decodable PNGs, landscape 1536x1024 (3:2)",
-    "trainerReview": "not performed",
-    "technicalScope": "Illustration of repository instructions, not a professionally validated prescription"
+    "automaticVisualInspection": "Agent visual inspection completed; distinct motion/contact or force direction now illustrated, pending independent root acceptance.",
+    "fileValidation": "Decodable PNG3:2 verified",
+    "trainerReview": "not performed"
   },
-  "rejectedDrafts": [],
-  "status": "pending_correction",
-  "independentReview": {
+  "correctionHistory": [
+    {
+      "defect": "Version1 single unannotated pose omitted isometric versus relaxation phases",
+      "action": "Added inward force arrows and separate wider relaxed assisted hold"
+    },
+    {
+      "prompt": "Edit second PNF exercise image into RELAXED gentle assisted stretch phase. First original Misurami character sheet authoritative identity and clothes logo. EXACT same camera scale floor athlete supine body position and helper kneeling. REMOVE BOTH INWARD YELLOW ARROWS. Athlete relaxes legs, helper gently widens V a SMALL but visible amount, each ankle10cm farther outward than in reference. Both knees softly straight, hips stay at90degrees flexion, head shoulders spine supported floor. Helper hands support same ankles gently, arms now slightly wider but elbows not locked, no forcing splits. Add TWO small yellow arrows near ankles pointing softly OUTWARD to clarify assisted direction, not hard stretching. Same moderate total leg separation not extreme. Full all bodies fingers shoes margin, realistic landscape3:2 ivory no text labels numbers panels.",
+      "defect": "Helper shirt acquired a logo in relaxation draft",
+      "action": "Removed helper logo; athlete logo retained"
+    }
+  ],
+  "previousRevision": {
+    "id": "Adductor_Groin",
+    "createdAt": "2026-10-26",
+    "generator": "integrated image_gen",
+    "reference": "references/misurami-personaggio.png",
+    "phases": [
+      {
+        "file": "01-allungamento-assistito.png",
+        "description": "Supino con gambe sollevate e divaricate comodamente; compagno sostiene delicatamente le caviglie.",
+        "prompt": "ONE landscape 3:2 PNG, realistic fitness instruction illustration on warm ivory floor/background, full bodies and all equipment completely visible with generous margin. No text captions numbers panels, only original small Misurami left chest logo. Original character reference attached: reproduce same man face curly hair beard athletic build charcoal shirt and shorts yellow stripe black shoes. Anatomically exact limbs hands joints, natural supported posture. Exercise assisted supine adductor stretch, ONE static hold image, not a sequence. Original Misurami man lying on back on ivory floor head toward lower left, hips flexed about 90 degrees, both legs raised toward ceiling and spread into a comfortable V, knees softly straight not locked, neck shoulders relaxed floor-supported. A second adult male assistant in plain muted gray athletic clothing (no logo), kneeling beyond athlete's feet, holds ONE ankle with each hand gently and supports the comfortable symmetrical V. Assistant arms reach separately to each ankle, both hands clearly wrap ankle above shoe, never pressing knees. Athlete's arms relaxed along floor beside torso. Safe comfortable moderate separation, no extreme splits. Show entire bodies, head, hands, both raised shoes, with wide margins, consistent natural anatomy. Elevated three-quarter side view with Misurami man's left chest visible. No yellow arrows because static hold.",
+        "references": [
+          "references/misurami-personaggio.png"
+        ]
+      }
+    ],
+    "executionSequence": [
+      "01-allungamento-assistito.png"
+    ],
+    "sequenceNotes": "La medesima geometria rappresenta mantenimento, tentativo isometrico di chiusura contro resistenza e rilassamento; non inventate fasi con divaricazioni estreme. Il compagno aumenta solo delicatamente l'ampiezza secondo comfort dell'atleta.",
+    "sources": [
+      "exercises.json:Adductor_Groin",
+      "IMAGE-ROUTINE.md"
+    ],
+    "checks": {
+      "automaticVisualInspection": "passed: inspected all accepted images for limb count, joint anatomy, hands/grip, supports, original character identity and chest logo, full-body framing and equipment continuity; minor rendering differences between phases",
+      "fileValidation": "passed: separate decodable PNGs, landscape 1536x1024 (3:2)",
+      "trainerReview": "not performed",
+      "technicalScope": "Illustration of repository instructions, not a professionally validated prescription"
+    },
+    "rejectedDrafts": [],
+    "status": "pending_correction",
+    "independentReview": {
+      "date": "2026-10-26",
+      "verdict": "needs_correction",
+      "reason": "Unica postura non distingue contrazione resistita e rilassamento dello stretching assistito."
+    }
+  },
+  "rootReview": {
+    "verdict": "accepted",
     "date": "2026-10-26",
-    "verdict": "needs_correction",
-    "reason": "Unica postura non distingue contrazione resistita e rilassamento dello stretching assistito."
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
   }
 }

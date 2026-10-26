@@ -100,7 +100,11 @@
       "Rilassa l'interno coscia e scorri sul rullo tra anca e ginocchio, fermandoti sui punti di tensione per 10–30 secondi. Ripeti sull'altra gamba."
     ],
     "category": "stretching",
-    "id": "Adductor"
+    "id": "Adductor",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Adductor/01-appoggio-v2.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Adductor/02-scorri-v2.png"
+    ]
   },
   {
     "name": "Allungamento assistito degli adduttori",
@@ -119,7 +123,11 @@
       "Rilassa le gambe mentre il compagno le divarica delicatamente, fino a un allungamento confortevole. Segnala quando la tensione è sufficiente per evitare un allungamento eccessivo o lesioni."
     ],
     "category": "stretching",
-    "id": "Adductor_Groin"
+    "id": "Adductor_Groin",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Adductor_Groin/01-contrazione-isometrica-v2.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Adductor_Groin/02-rilassamento-assistito-v2.png"
+    ]
   },
   {
     "name": "Windmill avanzato con kettlebell",
@@ -142,7 +150,13 @@
       "Fermati un secondo e torna alla posizione iniziale."
     ],
     "category": "forza",
-    "id": "Advanced_Kettlebell_Windmill"
+    "id": "Advanced_Kettlebell_Windmill",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Advanced_Kettlebell_Windmill/01-rack-v2.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Advanced_Kettlebell_Windmill/02-sostegno-alto-v2.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Advanced_Kettlebell_Windmill/03-hip-hinge-v2.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Advanced_Kettlebell_Windmill/04-inclinazione-v2.png"
+    ]
   },
   {
     "name": "Crunch a bicicletta",
@@ -183,7 +197,10 @@
       "Concentrati sull'estensione delle anche, spingendole verso il pavimento. Mantieni 10–20 secondi e cambia lato."
     ],
     "category": "stretching",
-    "id": "All_Fours_Quad_Stretch"
+    "id": "All_Fours_Quad_Stretch",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/All_Fours_Quad_Stretch/01-allungamento-v2.png"
+    ]
   },
   {
     "name": "Curl a martello alternato",
@@ -819,7 +836,12 @@
       "Fermati brevemente e torna alla posizione iniziale."
     ],
     "category": "forza",
-    "id": "Ball_Leg_Curl"
+    "id": "Ball_Leg_Curl",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Ball_Leg_Curl/01-partenza.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Ball_Leg_Curl/02-ponte.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Ball_Leg_Curl/03-flessione.png"
+    ]
   },
   {
     "name": "Trazioni assistite con elastico",

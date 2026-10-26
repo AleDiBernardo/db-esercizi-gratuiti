@@ -1,0 +1,47 @@
+{
+  "id": "Ball_Leg_Curl",
+  "status": "accepted",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-partenza.png",
+      "description": "Supino con bacino a terra e gambe distese; caviglie e talloni appoggiati sulla fitball.",
+      "prompt": "Create ONE landscape3:2 realistic fitness illustration PNG, warm ivory floor background soft shadows full body entire equipment generous margins, no labels captions arrows panels. Original Misurami sheet authoritative exact same curlyhair beard athletic male charcoal shirt original small yellowwhite Misurami logo anatomical leftchest, charcoal shorts yellow side stripe black shoes. STABILITY BALL LEG CURL phase1 INITIAL hips lowered. Camera strict SIDE VIEW slightly toward front to see both legs separately and original chest logo. Head toward LEFT feet RIGHT. Man lies SUPINE on back with HEAD, shoulderblades BACK and PELVIS supported on floor, arms slightly out at30degrees with palms on floor for stability. Both legs STRAIGHT extended diagonally upward toward ball, both ANKLES/LOWER HEELS rest on TOP of ONE dark gray ribbed stability ball diameter55cm. Ball at right floor, full ball visible, feet toes pointing up, knees softly straight. Do NOT put knees or calves on ball, support near ankles. Natural neck head resting floor eyes upward, exactlytwo legs twoarms proper hands joints. Leave enough space overhead and around hips for later bridge without moving camera. This fixes camera floor scale ball size and head position for all following phases."
+    },
+    {
+      "file": "02-ponte.png",
+      "description": "Ponte con bacino sollevato e gambe ancora distese, sostegno su scapole e talloni.",
+      "prompt": "Create phase2 BRIDGE with STRAIGHT LEGS for stability ball leg curl. First original Misurami character sheet authoritative exact identity clothing small original chest logo. Second initial image fixes EXACT camera framing body scale ball size floor and head location. Keep head, shoulderblades and palms supported on SAME floor points, same darkgray ribbed ball right in same place with both ANKLES/HEELS on top. Lift PELVIS and LOWER BACK clear of floor by contracting glutes until SHOULDERS HIPS KNEES ANKLES form one long straight diagonal line from floor shoulders up to ball. Knees remain straight soft, no bending yet. DO NOT hyperextend lumbar spine or lift chest/neck, chin neutral eyes up head floor supported. Both legs same length accurate joints, both full shoes and entire ball visible. Keep far arm slightly outboard with far fingertips visible above torso floor for clear two-hand support. Warm ivory realistic illustration landscape3:2 no labels arrows captions numbers panels."
+    },
+    {
+      "file": "03-flessione.png",
+      "description": "Flessione di entrambe le ginocchia con palla richiamata verso il corpo e bacino mantenuto sollevato.",
+      "prompt": "Create phase3 KNEES FLEXED of stability ball leg curl, one PNG. Original first Misurami sheet authoritative identity. Second initial image and third straight-leg bridge define EXACT fixed side camera scale floor head shoulder palm positions and ONE SAME darkgray ribbed55cm ball. Keep HEAD SHOULDERBLADES BOTH PALMS supported floor same locations and hips LIFTED clear floor. Now flex BOTH KNEES to about90degrees, drawing ball LEFT TOWARD BODY under heels so feet become flat against TOP of ball, toes pointing right/up naturally. Ball rolls left and stays same diameter floor contact; no extra balls. Thighs slope from high pelvis up toward bent knees, shins slope down to ball, hips remain extended creating near straight shoulder-hip-knee diagonal, NO hip sag and NO lumbar hyperextension. Heels press ball top, knees pointing up, head rests floor eyes up neutral neck. Natural correct two legs arms all shoes hands visible. Full body all ball generous margins, same ivory realistic style no captions labels arrows."
+    }
+  ],
+  "executionOrder": [
+    "01-partenza.png",
+    "02-ponte.png",
+    "03-flessione.png",
+    "02-ponte.png",
+    "01-partenza.png"
+  ],
+  "executionNotes": "Dalla partenza sollevare il bacino; flettere le ginocchia richiamando la palla senza abbassare il bacino; distendere nuovamente le ginocchia in controllo e abbassare il bacino alla partenza. Ripetere mantenendo collo rilassato e appoggio sulle scapole, evitando iperestensione lombare.",
+  "sources": [
+    "exercises.json:Ball_Leg_Curl",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "Inspected all3 PNGs: distinct hips-grounded initial, straight-leg bridge and bent-knee curl; same original character clothing and left-chest logo, same camera head/shoulder/palm support points and ball scale, plausible ankle/heel contact transitioning to heel/shoe sole contact; full body and entire ball in frame; no obvious lumbar sag or hyperextension. Candidate pending independent root review.",
+    "fileValidation": "Separate readable 1536x1024 PNGs verified, 3:2 aspect",
+    "trainerReview": "not performed"
+  },
+  "rejectedDrafts": 0,
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

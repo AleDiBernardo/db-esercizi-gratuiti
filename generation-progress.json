@@ -16,7 +16,12 @@
     "Ankle_Circles",
     "Back_Flyes_-_With_Bands",
     "Balance_Board",
-    "Alternating_Renegade_Row"
+    "Alternating_Renegade_Row",
+    "Adductor",
+    "Adductor_Groin",
+    "All_Fours_Quad_Stretch",
+    "Advanced_Kettlebell_Windmill",
+    "Ball_Leg_Curl"
   ],
   "needsReview": [
     {
@@ -44,24 +49,8 @@
       "reason": "Rollout non mostra estensione chiaramente leggibile; due correzioni precedenti non hanno risolto adeguatamente la sequenza."
     },
     {
-      "id": "Adductor",
-      "reason": "Contatto sul muscolo mediale e spostamento del rullo poco leggibili."
-    },
-    {
-      "id": "Adductor_Groin",
-      "reason": "Unica postura non distingue contrazione resistita e rilassamento dello stretching assistito."
-    },
-    {
-      "id": "Advanced_Kettlebell_Windmill",
-      "reason": "Piegamento laterale senza chiara cerniera delle anche e arretramento del bacino."
-    },
-    {
       "id": "Air_Bike",
       "reason": "Alternanza delle gambe visibile ma rotazione toracica gomito-ginocchio opposto poco chiara."
-    },
-    {
-      "id": "All_Fours_Quad_Stretch",
-      "reason": "Bacino ruotato e coscia laterale; posizione in quadrupedia e flessione del ginocchio da correggere."
     },
     {
       "id": "Alternating_Hang_Clean",
