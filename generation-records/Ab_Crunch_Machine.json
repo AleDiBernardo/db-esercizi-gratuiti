@@ -1,0 +1,36 @@
+{
+  "id": "Ab_Crunch_Machine",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-partenza.png",
+      "description": "Seduto eretto, gomiti flessi e tricipiti sui supporti, presa superiore e piedi sotto i rulli.",
+      "prompt": "Create ONE PNG illustration, landscape 3:2. This is phase 1 (starting position) of a two-phase instructional seated abdominal crunch machine exercise. Use the supplied ORIGINAL Misurami character reference exactly: same adult man face, curly dark hair, beard, athletic proportions, charcoal shirt with original small yellow/white Misurami logo on anatomical LEFT chest, charcoal shorts with yellow trim, black shoes. Realistic polished fitness illustration on ivory background with subtle floor shadow, full body and entire machine visible, no cropping, no titles numbers captions or other text besides original shirt branding. Three-quarter front view with left chest visible. Design a mechanically plausible seated abdominal crunch machine with coupled upper lever and leg lever: dark gray frame, black seat, padded triceps supports and upper handles, lower ankle rollers, weight stack behind. Starting position: seated upright supported pelvis, elbows bent 90 degrees with triceps firmly on pads, both hands gripping overhead handles, feet securely under padded rollers, hips and knees flexed comfortably. Light load. Anatomically accurate hands and all joints; symmetrical consistent equipment. Frame the entire apparatus and character with generous margins. Keep geometry simple and unambiguous. Do not make a collage. Return a saved PNG file accessible to workspace if supported.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    },
+    {
+      "file": "02-contrazione.png",
+      "description": "Flessione controllata del busto con sollevamento delle gambe, mantenendo presa e appoggi.",
+      "prompt": "Generate ONE separate landscape 3:2 PNG of PHASE 2 contracted abdominal crunch on the exact machine in second reference. First reference is ORIGINAL character identity and clothing, must preserve exactly incl Misurami logo on anatomical left chest. Second reference establishes exact camera, scale, floor, lighting, entire machine geometry and load; preserve these unchanged. Same realistic illustration ivory background full body and apparatus with margin. Now athlete performs controlled seated crunch: pelvis stays seated in same place, spine visibly flexed forward bringing ribs toward pelvis; elbows stay bent about 90 degrees and triceps firmly supported on the same pads as upper lever rotates forward/down about its existing pivot. Hands continue gripping SAME handles. Lower moving lever and its ankle rollers lift lower legs a modest amount simultaneously, feet remaining under the rollers. SAME fixed frame, same seat, same stack and selector position (only selected plates lift modestly), same components count. Do not invent extra supports or alter attachments. Anatomically sound hands limbs neck joints, natural flexion not hip hinge only. No captions titles phase numbers or arrows. Entire machine and all shoes visible. Output only contracted phase, not collage.",
+      "references": [
+        "references/misurami-personaggio.png",
+        "images/Ab_Crunch_Machine/01-partenza.png"
+      ]
+    }
+  ],
+  "sources": [
+    "exercises.json:Ab_Crunch_Machine",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "passed: both generated images inspected for anatomy, hands, joints, support, grip, machine continuity, phase correspondence, character identity, logo and full framing; minor rendering variations in weight-stack markings",
+    "fileValidation": "PNG decoding, 3:2 dimensions, sequence completeness, unique IDs and URL/local-file correspondence checked",
+    "trainerReview": "not performed",
+    "technicalScope": "Illustrates repository instructions; not a professionally validated prescription"
+  },
+  "rejectedDrafts": 0
+}
