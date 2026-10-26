@@ -1,0 +1,16 @@
+{
+  "id": "EZ-Bar_Curl",
+  "verdict": "accepted",
+  "reviewer": "images_f",
+  "filesViewed": [
+    "01-partenza.png",
+    "02-flessione.png"
+  ],
+  "observations": [
+    "Full instructions and01→02→01 return cycle reviewed.",
+    "Semi-supinated outer EZ grip fits angled bar segments; wrists and finger wraps plausible, elbows remain close to torso.",
+    "Same bar shape plates/collars/load, feet/camera/body stable, clear low/high flexion endpoints without torso lean or shoulder hike; original identity/branding."
+  ],
+  "requiredFixes": [],
+  "trainerReview": "not performed"
+}

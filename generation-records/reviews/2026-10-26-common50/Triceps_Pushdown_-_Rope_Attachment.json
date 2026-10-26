@@ -1,0 +1,17 @@
+{
+  "id": "Triceps_Pushdown_-_Rope_Attachment",
+  "verdict": "accepted",
+  "reviewer": "images_f",
+  "filesViewed": [
+    "01-partenza.png",
+    "02-estensione.png"
+  ],
+  "observations": [
+    "Full instructions and explicit return cycle reviewed.",
+    "Single high cable→carabiner→rope branch routing maintained; both hands neutral hold separate rope ends with consistent rubber stops.",
+    "Downward rope pull lengthens exposed cable while same selected weight block lifts by corresponding amount; frame base pulley position and lower unselected stack remain fixed.",
+    "Upperarms close to torso and substantially fixed, elbows go bent→straight with rope ends by thighs, stable feet/body camera. Complete man and entire machine uncropped."
+  ],
+  "requiredFixes": [],
+  "trainerReview": "not performed"
+}

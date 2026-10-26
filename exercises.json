@@ -5744,7 +5744,11 @@
       "Ripeti per il numero di ripetizioni previsto."
     ],
     "category": "forza",
-    "id": "EZ-Bar_Curl"
+    "id": "EZ-Bar_Curl",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/EZ-Bar_Curl/01-partenza.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/EZ-Bar_Curl/02-flessione.png"
+    ]
   },
   {
     "name": "French press con bilanciere EZ su panca",
@@ -10803,7 +10807,13 @@
       "Cambia lato e ripeti con l’altro braccio."
     ],
     "category": "forza",
-    "id": "One-Arm_Dumbbell_Row"
+    "id": "One-Arm_Dumbbell_Row",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/One-Arm_Dumbbell_Row/01-sinistro-basso.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/One-Arm_Dumbbell_Row/02-sinistro-alto.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/One-Arm_Dumbbell_Row/03-destro-basso.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/One-Arm_Dumbbell_Row/04-destro-alto.png"
+    ]
   },
   {
     "name": "Croce a un braccio su panca piana",
@@ -18382,7 +18392,11 @@
       "Ripeti per il numero di ripetizioni previsto."
     ],
     "category": "forza",
-    "id": "Triceps_Pushdown_-_Rope_Attachment"
+    "id": "Triceps_Pushdown_-_Rope_Attachment",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Triceps_Pushdown_-_Rope_Attachment/01-partenza.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Triceps_Pushdown_-_Rope_Attachment/02-estensione.png"
+    ]
   },
   {
     "name": "Estensioni dei tricipiti al cavo alto con barra a V",

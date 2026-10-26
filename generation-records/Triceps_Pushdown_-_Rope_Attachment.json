@@ -1,0 +1,56 @@
+{
+  "id": "Triceps_Pushdown_-_Rope_Attachment",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "status": "accepted",
+  "phases": [
+    {
+      "file": "01-partenza.png",
+      "description": "Gomiti flessi con avambracci verso la carrucola, presa neutra sulle estremità della corda.",
+      "prompt": "ONE realisticfitnessPNG landscape3:2 ivoryfloorbackground. ORIGINAL attachedMisurami exactidentity curlsbeardface athletebody charcoalshirt original small yellowwhite logo anatomicalLEFTchest charcoalshorts yellowsides blackshoes. ROPE TRICEPS PUSHDOWN phase1 elbowsFLEXED. Entire SINGLE slim gray cabletower at LEFT with groundedwidebase weightstack guidepoles TOPPULLEY allvisible NO crops. Blackcable runs from stack through TOPpulley down continuously to metalclip at center of a bifurcated BLACKROPE with two rubberball ends. Man toRIGHT facesLEFT towardtower slightthreequarter frontview, feet hipwidth grounded softknees torso slightlyforward rigidneutralspine. Upperarmsvertical elbows tucked atsame lower-rib/waist position, elbows bent90degrees, forearms point forward/up holdingeachropeend neutralpalms facingEACHOTHER, wristsstraight thumbswrapped natural5fingers. Rope taut connected cable nofloatingparts. Hands atlowerchest. Moderate consistentload stack selector near top. Entireman shoeshands ENTIREtower fullcableandrope inframe with generousmargins. No textnumbersarrowscaptionslabels panels. SAMEcamera towerloadscale linkageandfootpositions nextphase.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    },
+    {
+      "file": "02-estensione.png",
+      "description": "Estensione dei gomiti con estremità della corda verso i lati delle cosce e carico selezionato sollevato.",
+      "prompt": "Correct ONLY selected weight-stack vertical position in second pushdown endpoint image; original character firstreference identity authoritative. Keep all manbodyarmhandsropeclip cable machinegeometry exact. The top SELECTED BLOCK OF7 small blackplates with yellowselector currentlyaround y=380-460 must move UP along sameverticalguidepoles about130pixels, to y=245-325, because the cable was pulled down ~160pixels relative to initial phase. Preserve SAMEplatecount selector samehole guidepoles, lower unselectedblock staysfixed at y=655-840. No newparts, no cable discontinuity. This is physicallyconsistent rise ofselectedweights whilearms pushtautrope downward. All other pixels/pose/feet/camera/frame unchanged ivory3:2 no textlabels arrowscaptionsnumbers.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    }
+  ],
+  "motionOrder": [
+    "01-partenza.png",
+    "02-estensione.png",
+    "01-partenza.png"
+  ],
+  "executionCycle": "Dalla flessione dei gomiti estendere solo gli avambracci spingendo la corda in basso, mantenere brevemente e ritornare sotto controllo lasciando scendere il carico lungo le guide.",
+  "sources": [
+    "exercises.json:Triceps_Pushdown_-_Rope_Attachment",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "passed provisional: every PNG inspected for identity/clothing/logo, natural grips and wrists, clear distinct movement phases, neutral trunk and grounded feet, same equipment load, complete framing. Pending independent review.",
+    "fileValidation": "PNG decode and1536x1024 3:2 passed",
+    "trainerReview": "not performed"
+  },
+  "rejectedDrafts": 1,
+  "corrections": [
+    {
+      "prompt": "ONE PNG ROPE TRICEPS PUSHDOWN phase2 elbowEXTENSION. First originalMisurami identity exact, secondscene anchor EXACTcamera entiremachinegeometry loadselector weights footpositions bodytorsoheadclothinglogo. Move ONLYforearms down aboutfixedelbows: upperarmsremainvertical tuckedribs at SAMEelbowpositions, extend both elbows until armsnearlystraight down besideTHIGHS, ropeends separate slightly outsidethighs with same rubberball ends neutralpalmsfacing inward. SameTWO ropebranches clearlyconnected at centralmetalclip, samecontinuous cable taut through identicaltop pulley. Cable extends downward and SELECTEDsameweightplates rise modestly as expected, NO changeplatecount/selectorpin or newparts. No torsohingeingurther armrowing or backlean, feetunchanged. Exactnaturalhands/wristsclosedgrips anatomy, fullbody entiretower allcableplates basevisible in same3:2 ivoryframe no captions numbersarrows text exceptoriginalshirtbranding.",
+      "reason": "endpoint selectedweightstack not lifted enough relative to rope displacement; regenerated stack elevation while preserving body and rope"
+    }
+  ],
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Triceps_Pushdown_-_Rope_Attachment.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

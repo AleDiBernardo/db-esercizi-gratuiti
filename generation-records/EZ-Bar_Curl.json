@@ -1,0 +1,50 @@
+{
+  "id": "EZ-Bar_Curl",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "status": "accepted",
+  "phases": [
+    {
+      "file": "01-partenza.png",
+      "description": "Bilanciere EZ davanti alle cosce, presa sulle impugnature esterne angolate.",
+      "prompt": "ONE landscape3:2 realistic fitnessPNG warmivoryfloorbackground originalattached Misurami exactidentity curlyhairbeardfacebody charcoalshirt original small yellowwhite Misurami LEFTchestlogo charcoalshorts yellowstripes blackshoes. EZ-BAR CURL phase1 armsdown. Upright standinghipwidthfeet neutralspine ribsdown noswing. ONE silver ZIGZAG EZ-CURL BAR with obvious symmetrical angledgripsegments (notstraightbar), ONE identical smallblackplateeachend silvercollars. Bothhands grasp OUTER WIDE ANGLED segments shoulderwidth palms faceforward andslightlyinward comfortable SEMISUPINATED. Elbows fixedclosetowaist upperarmsvertical, armsextendedsoftelbows, wristsstraight alignwithangledgrips no forcedbend. Wholebar bothplates hands fingers fullbodyshoes completelyvisible generousmargins frontthreequarter camera. Exactequipmentloadshape toremain nextphase. No textnumbersarrowscaptionspanels.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    },
+    {
+      "file": "02-flessione.png",
+      "description": "Flessione dei gomiti fino alla zona delle spalle mantenendo busto e braccia stabili.",
+      "prompt": "ONE EZ-BAR CURL phase2 fullcurl PNG. Originalfirst Misurami reference identityexact; secondscene SAMEcamera headbodyfeet clotheslogo equipment. ONLY FOREARMS rotate upward aboutfixedlowelbows at waist/lower-ribs. Upperarms remainvertical tuckedtorso, elbowsdoNOThikeforward. Same zigzag silverEZbar clearly identicalbendshape ONEsmallblackplateeachend silvercollars, OUTERangledgripsegments samewidth handssemisupinated. Curlbar nearupperchest/shoulderlevel comfortable range wristsneutral alignEZsegments closedthumbgrips correctfingers. Nolean/swing/shrug, neutralspine plantedfeet unchanged. Fullbody wholebar bothplates allhands ivory3:2 generousmargins no captionslabelsarrowsnumbers.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    }
+  ],
+  "motionOrder": [
+    "01-partenza.png",
+    "02-flessione.png",
+    "01-partenza.png"
+  ],
+  "executionCycle": "Con presa semisupina comoda sulle impugnature EZ flettere i gomiti senza slancio, breve contrazione e riabbassamento controllato.",
+  "sources": [
+    "exercises.json:EZ-Bar_Curl",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "passed provisional: every PNG inspected for identity/clothing/logo, natural grips and wrists, clear distinct movement phases, neutral trunk and grounded feet, same equipment load, complete framing. Pending independent review.",
+    "fileValidation": "PNG decode and1536x1024 3:2 passed",
+    "trainerReview": "not performed"
+  },
+  "rejectedDrafts": 0,
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/EZ-Bar_Curl.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

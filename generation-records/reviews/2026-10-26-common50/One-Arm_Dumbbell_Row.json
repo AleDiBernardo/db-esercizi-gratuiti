@@ -1,0 +1,16 @@
+{
+  "id": "One-Arm_Dumbbell_Row",
+  "verdict": "accepted",
+  "reviewer": "images_a",
+  "filesReviewed": [
+    "01-sinistro-basso.png",
+    "02-sinistro-alto.png",
+    "03-destro-basso.png",
+    "04-destro-alto.png"
+  ],
+  "findings": [
+    "Viewed all4 PNGs with full instructions. Each side has distinct hanging extendedarm and elbow-driven top near ribs.",
+    "Opposite knee/palm and planted outsidefoot clearly support body; bench remains fixed while athlete turns around to expose working arm on other side. No false mirrored branding.",
+    "Neutral nearlyhorizontal back and stable contact points, same workingweight and unusedfloorweight geometry, fullbody apparatus and grip visibility. Controlled reverse uses corresponding lower pose."
+  ]
+}

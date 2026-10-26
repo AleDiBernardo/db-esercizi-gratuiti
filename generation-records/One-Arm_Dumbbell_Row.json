@@ -1,0 +1,69 @@
+{
+  "id": "One-Arm_Dumbbell_Row",
+  "createdAt": "2026-10-26",
+  "status": "accepted",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-sinistro-basso.png",
+      "description": "Appoggio di ginocchio/mano destri e piede sinistro a terra; braccio sinistro disteso.",
+      "prompt": "ONE realistic fitness PNG landscape3:2 ivoryfloor/background fullbody entire bench bothdumbbells margins. Originalattached Misurami sheet exact manhairbeardface charcoalshirt original leftchestlogo charcoalshortsyellowstripe blackshoes. ONE-ARM DUMBBELL ROW phase1 LEFT ARM lowered. One horizontal black flatbench alongimageleft-to-right, athlete headatRIGHT hipsatLEFT. RIGHT knee and RIGHT shin rest onbench rearhalf; RIGHT palm planted onbench front underRIGHTshoulder. LEFT foot stands firmlyonfloor fore/near side, LEFT knee slightlybent. Torso nearlyparallelfloor NEUTRALspine hips/shoulders squaretofloor, headneck aligned gazefloor. LEFT arm nearestcamera hangsVERTICALLY belowleftshoulder with elbowextended holding ONE modest blackHEX dumbbell neutralgrip palmfacesbody; accurategrip5fingers thumbwrapped. Other identicalunuseddumbbell rests onfloor far sidebench visible but separate. Clear supportpoints RIGHT knee/palm onbench LEFT footfloor; no floating supportinghand or extra legs. Front-side3/4camera shows working leftarm wholebenchallfeet and bothweights. Define fixedcamera/bench/load fornextphases. No captionslabels numbersarrows panels.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    },
+    {
+      "file": "02-sinistro-alto.png",
+      "description": "Remata sinistra verso le costole con gomito arretrato.",
+      "prompt": "Edit second one-arm row starting image to LEFT ARM contraction. Originalfirst Misurami sheet authoritative identitylogo. Same exact camera fullbench frame floor stance RIGHT knee/shin +RIGHT palm fixedbench support and LEFT footfixedfloor, bodytorsoheadneutral position unchanged no twisting. Lift same LEFT blackhex dumbbell vertically toward LEFT lower ribs/sideofchest by bending LEFT elbow and driving elbowBACK closealongleftflank. Upperleftarm moves to beside torso, elbow abovebackline; forearmhangsdown underelbow, NOT bicepscurl handtowardshoulder. Left palm neutral towardbody wriststraight, accurategrip. Otherunuseddumbbell floor sameplace. Sameweightdimensions and bodyproportions. All supportingpoints headfeet bothweights/wholebench visiblemargins landscape3:2 realisticivory no captionslabelsarrows.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    },
+    {
+      "file": "03-destro-basso.png",
+      "description": "Cambio lato: ginocchio/mano sinistri appoggiati e piede destro a terra; braccio destro disteso.",
+      "prompt": "Create opposite-side setup for ONE-ARM DUMBBELL ROW by editing second exercise starting image. First original Misurami character sheet authoritative identity exact clothing/logo. SAME BLACK BENCH worldposition frame floor camera scale unchanged; athlete changes sides/turns aroundbench so HEAD nowatLEFT, HIPSatRIGHT. LEFT KNEE/SHIN now supported on RIGHTHALF ofbench; LEFT PALM planted on LEFTHALF underleftshoulder. RIGHT foot stands onfloor NEARSIDE by rightbenchleg, rightkneesoft. RIGHT ARM nearestcamera hangsVERTICALLY holding identicalblackhex dumbbell BELOWrightshoulder, elbowextended neutralgrip. Torso nearlyparallelfloor neutralspine squarehips/shoulders neckaligned gaze floorleft, no twisting. Must be anatomically opposite workingarm to prior phase, NOT just mirroredimage logo: originalleftchest logo stays on ANATOMICALLEFTCHEST even ifpartlyoccluded. Other unuseddumbbell remainsfloor atsameimageRIGHT position, do not moveequipment. Accurate2arms2legs handsgrip supports. Fullbody allfeet wholebenchbothweights margins landscape3:2 realisticivory no captionslabelsarrows.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    },
+    {
+      "file": "04-destro-alto.png",
+      "description": "Remata destra verso le costole con gomito arretrato.",
+      "prompt": "Edit second opposite-side one-arm row setup to RIGHT ARM CONTRACTION. First originalMisurami sheet authoritative identitylogo. EXACT fixedcamera benchfloor unuseddumbbell and LEFT knee/shin + LEFT palmbenchsupports RIGHT footfloor unchanged. AthleteheadLEFT hipsRIGHT; neutral nearlyhorizontal torso squarehips/chest no trunkrotation. Pull SAME RIGHT blackhex dumbbell toward RIGHT lower ribs by bending RIGHT elbow drivingit BACK closealongrightside until elbow beyondbackline. Do NOT curl towardshoulder; forearmhangsdown frombackdrivenelbow with neutralpalm towardtorso wriststraight. Keep otherLEFT elbowstraightpalm plantedbench, headneckneutral gaze floorleft. Samebody/loadscale plate/dumbbell shape, originalleftchestlogo anatomicalleft naturally partlyoccluded. Fullbodyallfeet entirebench bothweights margins realistic3:2 ivory no labelscaptionsarrows.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    }
+  ],
+  "executionSequence": [
+    "01-sinistro-basso.png",
+    "02-sinistro-alto.png",
+    "01-sinistro-basso.png",
+    "03-destro-basso.png",
+    "04-destro-alto.png",
+    "03-destro-basso.png"
+  ],
+  "executionNotes": "Complete left row and controlled return, safely put weight down and change support sides/body orientation around same bench, complete right row and controlled return. No mirrored whole-image shortcut.",
+  "sources": [
+    "exercises.json:One-Arm_Dumbbell_Row",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "Every phase visually inspected: both working arms and clear support knee/palm/oppositefoot; neutral nearlyhorizontal torso, elbows travelback rather than bicepscurl, consistent bench weights/load. Athlete turns around same bench for opposite side to keep working arm visible.",
+    "fileValidation": "PNG3:2 decode verified",
+    "trainerReview": "not performed"
+  },
+  "correctionHistory": [],
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/One-Arm_Dumbbell_Row.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}
