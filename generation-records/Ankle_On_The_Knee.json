@@ -1,0 +1,30 @@
+{
+  "id": "Ankle_On_The_Knee",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-allungamento.png",
+      "description": "Supino, caviglia appoggiata alla coscia opposta sopra il ginocchio; mani dietro la coscia sottostante e gambe avvicinate al petto. Ripetere dall'altro lato.",
+      "prompt": "Create ONE realistic fitness illustration PNG landscape 3:2 ivory floor and backdrop soft shadows. Original attached Misurami character sheet authoritative: exact same man face hair beard proportions charcoal shirt small original yellow/white Misurami logo anatomical left chest charcoal yellow-trim shorts black shoes. Full body no crops generous margins, no captions arrows numbers panels. Static SUPINE FIGURE FOUR GLUTE STRETCH: man lying comfortably on back head at left feet to right, head neck shoulders relaxed flat on floor. Left hip/knee flexed, left thigh drawn gently toward chest. Right ankle rests across left distal thigh just above left knee, right knee opened outward, clear figure four shape without joint twisting. Both hands reach behind LEFT thigh clasping hamstring to gently pull toward torso, do NOT push crossed knee. Knee angles comfortable. Clear elevated side/front three-quarter camera allowing visible separation of crossed legs and both hands. Exactly two arms two legs; anatomically correct joints fingers and crossed contact. Shirt logo visible naturally if chest projection allows. Only this held stretch, no equipment."
+    }
+  ],
+  "corrections": [
+    {
+      "prompt": "Correct second image to true supine figure-four glute stretch; first original sheet identity authoritative. BOTH FEET MUST BE OFF FLOOR. Left hip flexed toward torso, left knee bent 90 degrees and left shin floating horizontally extending toward right. Right ankle laid across left thigh just above LEFT KNEE; right knee opened sideways away torso. Both hands clasp BACK OF LEFT THIGH, one arm threads through triangular gap between legs, other around outside thigh. Do not hold crossed right shin or right knee. Lift currently grounded shoe and draw its underlying thigh toward chest; neck head shoulders rest relaxed on floor. Clear anatomic exactly two legs and two feet, naturally formed figure four without impossible twists. Keep same entire man identity face clothing logo, warm ivory 3:2 full body frame no labels arrows captions. Camera higher three-quarter view to make leg routing clear.",
+      "result": "accepted; both feet lifted and hands hold underlying thigh"
+    }
+  ],
+  "sources": [
+    "exercises.json:Ankle_On_The_Knee",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "passed: figure-four crossed ankle contact, both feet lifted, hands supporting underlying thigh, head and shoulders relaxed on floor, original identity/branding and complete framing. One static representative side; no artificial phases.",
+    "fileValidation": "passed: PNG decode and 1536x1024 3:2 aspect ratio",
+    "trainerReview": "not performed",
+    "technicalScope": "Illustrates repository exercise instructions; not a professionally validated prescription"
+  },
+  "rejectedDrafts": 1
+}

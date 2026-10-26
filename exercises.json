@@ -476,7 +476,10 @@
       "Terminato il lato destro, ripeti con il sinistro."
     ],
     "category": "stretching",
-    "id": "Ankle_Circles"
+    "id": "Ankle_Circles",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Ankle_Circles/01-circonduzione.png"
+    ]
   },
   {
     "name": "Allungamento dei glutei con caviglia sul ginocchio",
@@ -494,7 +497,10 @@
       "Afferra coscia o ginocchio della gamba sotto e avvicina entrambe le gambe al petto. Rilassa collo e spalle, mantieni 10–20 secondi e cambia lato."
     ],
     "category": "stretching",
-    "id": "Ankle_On_The_Knee"
+    "id": "Ankle_On_The_Knee",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Ankle_On_The_Knee/01-allungamento.png"
+    ]
   },
   {
     "name": "Automassaggio del tibiale anteriore",

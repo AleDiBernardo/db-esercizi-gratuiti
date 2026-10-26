@@ -1,0 +1,16 @@
+{
+  "id": "Anti-Gravity_Press",
+  "createdAt": "2026-10-26",
+  "status": "deferred",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [],
+  "sources": [
+    "exercises.json:Anti-Gravity_Press",
+    "https://www.muscleandstrength.com/exercises/anti-gravity-press"
+  ],
+  "reason": "Istruzioni tecniche ambigue sul percorso di spinta: il catalogo richiede braccia parallele al pavimento per tutto il movimento; la guida tecnica Muscle & Strength descrive una spinta diagonale su panca inclinata. Le fonti che ripetono la versione orizzontale non risolvono la differenza di variante. Rinviato per chiarimento tecnico prima della generazione.",
+  "checks": {
+    "trainerReview": "required; not performed",
+    "automaticVisualInspection": "not applicable; no generated images"
+  }
+}

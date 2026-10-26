@@ -1,0 +1,30 @@
+{
+  "id": "Ankle_Circles",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-circonduzione.png",
+      "description": "In piedi con appoggio stabile e piede leggermente sollevato; freccia indica la circonduzione della caviglia. Ripetere dall'altro lato.",
+      "prompt": "Create ONE realistic fitness illustration PNG landscape 3:2, ivory background floor soft shadows, no captions numbers panels. Original attached Misurami identity is authoritative: same adult man curly dark hair beard athletic proportions, charcoal T-shirt original small yellow/white Misurami logo on anatomical LEFT chest, charcoal shorts with thin yellow sides, black shoes. Exercise ANKLE CIRCLES: standing upright in slight frontal three-quarter view, left foot firmly planted, right foot lifted about 5 centimeters above floor in front without bending entire leg much; right ankle gently pointed and turned slightly inward as part of circumduction. Left hand gently holds a stable freestanding gym rack upright with wide grounded base at left side of frame, right arm relaxed. Add ONE small thin yellow circular arrow adjacent to the raised right shoe to indicate ankle rotation; arrow does not obscure anatomy. Knee and thigh remain stable, movement at ankle, natural correct limbs hands and grip. Entire body, both shoes, complete support visible with generous margins. No other equipment."
+    }
+  ],
+  "corrections": [
+    {
+      "prompt": "Correct second reference exercise illustration, preserve original man identity clothing left-chest Misurami logo from first original reference. SINGLE PNG 3:2 ivory realistic. Replace tall cropped support with waist-to-chest-high freestanding gym hand support post: top must end visibly below man's shoulder height with a rounded black cap, entire base visible and no edge crops. Keep gripping hand secure. Lower raised shoe so its sole hovers only about 5cm above floor, almost same height as grounded shoe; keep raised knee gently flexed. Small yellow circular ankle arrow around raised shoe only. Entire man and support all visible with margins. Anatomical leg/arm sides may remain as drawn; exercise transferable to other side. No captions text numbers except shirt branding.",
+      "result": "accepted; support fully visible and raised foot lowered"
+    }
+  ],
+  "sources": [
+    "exercises.json:Ankle_Circles",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "passed: stable foot and hand support, raised ankle rotation indicated by yellow arrow, accurate limbs/hands, original identity and branding, full body and entire support. One representative side; instructions specify repeating on other side.",
+    "fileValidation": "passed: PNG decode and 1536x1024 3:2 aspect ratio",
+    "trainerReview": "not performed",
+    "technicalScope": "Illustrates repository exercise instructions; not a professionally validated prescription"
+  },
+  "rejectedDrafts": 1
+}

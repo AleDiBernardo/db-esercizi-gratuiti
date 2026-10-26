@@ -9,7 +9,14 @@
     "Alternating_Deltoid_Raise",
     "All_Fours_Quad_Stretch",
     "Alternate_Hammer_Curl",
-    "Alternating_Hang_Clean"
+    "Alternating_Hang_Clean",
+    "Ankle_Circles",
+    "Ankle_On_The_Knee"
   ],
-  "needsReview": []
+  "needsReview": [
+    {
+      "id": "Anti-Gravity_Press",
+      "reason": "Istruzioni tecniche ambigue sul percorso di spinta: il catalogo richiede braccia parallele al pavimento per tutto il movimento; la guida tecnica Muscle & Strength descrive una spinta diagonale su panca inclinata. Le fonti che ripetono la versione orizzontale non risolvono la differenza di variante. Rinviato per chiarimento tecnico prima della generazione."
+    }
+  ]
 }
