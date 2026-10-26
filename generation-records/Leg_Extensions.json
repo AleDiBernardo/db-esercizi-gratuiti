@@ -1,0 +1,51 @@
+{
+  "id": "Leg_Extensions",
+  "createdAt": "2026-10-26",
+  "status": "needsReview",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [],
+  "executionSequence": [
+    "01-ginocchia-flesse.png",
+    "02-estensione.png",
+    "01-ginocchia-flesse.png"
+  ],
+  "returnDescription": "Flettere lentamente le ginocchia tornando alla stessa partenza a90gradi, poi ripetere.",
+  "sources": [
+    "IMAGE-ROUTINE.md",
+    "exercises.json:Leg_Extensions",
+    "https://www.heart.org/en/health-topics/cardiac-rehab/getting-physically-active/strength-and-balance-exercises"
+  ],
+  "technicalNotes": "Partenza90gradi usata come posa illustrativa delcatalogo, non come limiteclinico universale né dimostrazione di sicurezza a qualsiasi carico. Riferimento AHA supporta movimento controllato di estensione seduta, non dettaglispecificidimacchina.",
+  "correctionHistory": [
+    {
+      "prompt": "ONE3:2PNG LEG EXTENSION phase2 EXTENDED. Originalfirst Misurami identityclothingleftchestlogo exact. SecondSTART locks exact machine allfixedparts: seatback legs handles weightstack casing andpivots, camera scale light man's head pelvis thigh positions. Extend BOTH KNEES from90degrees until lowerlegs alignwiththighs horizontalforward, comfortable straight nothyperextended. ONLY existing knee-axislever ROTATES aroundsame pivotx490y505, preservingitslength: horizontalblackshinroller sweeps forward/up and remains incontact FRONT ofankles justaboveshoes now nearx280y550. Keepboththighspressedseat andbackrestsupported torsohandsfixedgrips. DoNOTaddrollersalterframe or slidepivots; selectedstackplatesliftmodestly samepinload. Two legs feet anatomical sound shoes pointforward neutrally. Fullbody machine roller shoestips uncropped margins ivorybackground. No captionslabelsnumbersarrows panels. Returncontrolled to90degree start.",
+      "result": "rejected: mainaxis translated upward"
+    },
+    {
+      "prompt": "Correct LEG EXTENSION extended phase second image MACHINE PIVOT CONTINUITY ONLY. ORIGINAL first Misurami identityauthoritative. Third startimage fixedgeometry master: mainleveraxis metalboltcenter MUST STAYatx490,y505 samekneeaxisheight; secondimage mistakenly movesit tox475,y430. Restore original axis/sidearmhousing atx490,y505 and fixedweightstack/seatframe. Rotate existingrollerlever around SAME axis withouttranslatingaxis. Keep man legsextended horizontal bothkneesstraightnotlocked, rollercontact frontsankles, torsoheadhandsseat fixed. No extra leverjoints or machine redesign. Entireapparatusbody uncropped3:2ivory no captionsarrows. Preserve exactsameplatesselected load and characterlogo.",
+      "result": "failed: translatedaxis persisted"
+    },
+    {
+      "prompt": "EDIT SECONDIMAGE minimally into legextension knee-straight phase. First originalMisurami exact identityclotheslogo. ABSOLUTELY FREEZE entiremachineincluding weightstack fullframe and ALL BOLTS: main circularmetalhingebolt atleftaroundx490y505 cannotmove evenonepixel. Onlyrotate longleverbelowthatbolt frompointingdown toforward and raiseits attachedblackankleroller. Bothlowerlegsrotateforwardattheknees tostraightlinewiththighs, rollerfollowsanklesnearx300y550 frontankles. No new attachment atx475y430, no bendingofupperfixedsupport. Keepmanheadbackhandsseatthighsunchanged. Neckneutral, twolegs anatomicallysound nofloatingrollers. Ivory3:2samecamera nozoom no captionslabelsarrows.",
+      "result": "pending_review: original lever support restored approximately sameaxis, rollertracks ankles; minor hinge renderoffset~25px for independentassessment"
+    }
+  ],
+  "checks": {
+    "automaticVisualInspection": "failed independent machine geometry/load consistency",
+    "trainerReview": "not performed"
+  },
+  "reason": "Independent review rejected: selected weightstack no clear stationary unselected remainder at same pin setting, plus pivot shift about25px. Two failed corrections; defer rather than publish.",
+  "draftPhases": [
+    {
+      "file": "01-ginocchia-flesse.png",
+      "description": "Seduto con ginocchia a circa90°, rullo davanti alle caviglie e mani sulle impugnature.",
+      "prompt": "ONE3:2landscape realistic fitness PNG LEG EXTENSION phase1 seated knees90degrees. ORIGINAL attached Misurami characterauthoritative identity facehairbeard build charcoal originalLEFTchestlogo shirt yellowtrimshorts blackshoes. Ivoryfloorbackgroundsoftshadow entirebody AND entiremachine margins uncropped no labelscaptionsarrows. Simple darkgraylegextension machine: fixedbackrest/seat blackpads, two fixedsidehandles, ONE shinroller horizontal acrossFRONT ofbothankles justaboveshoes. RollerattachedtoONE rigidL-shaped leverpivot besideoutsideknee, axisalignedwithkneeaxis. Smallfixedweightstack behindseat cablelinks pivot no extraneousrollers. Man seatedbackpelvisfirmlysupported kneesflexed90deg thighsflatseat, bothlowerlegsvertical feetforward, bothhands grippingfixedsidehandles. Lever atdownstart rollerkeepscontact frontankles. Anatomically accuratehandsjoints. Front-left3/4camera showing bothkneesroller and leftchestlogo. Keepfixedallmachinegeometry,camera,scale,seatpositions,selectorload fornextphase; onlykneejoint/leverrotate."
+    },
+    {
+      "file": "02-estensione.png",
+      "description": "Estensione delle ginocchia con busto e cosce fermi e rullo alle caviglie.",
+      "prompt": "EDIT SECONDIMAGE minimally into legextension knee-straight phase. First originalMisurami exact identityclotheslogo. ABSOLUTELY FREEZE entiremachineincluding weightstack fullframe and ALL BOLTS: main circularmetalhingebolt atleftaroundx490y505 cannotmove evenonepixel. Onlyrotate longleverbelowthatbolt frompointingdown toforward and raiseits attachedblackankleroller. Bothlowerlegsrotateforwardattheknees tostraightlinewiththighs, rollerfollowsanklesnearx300y550 frontankles. No new attachment atx475y430, no bendingofupperfixedsupport. Keepmanheadbackhandsseatthighsunchanged. Neckneutral, twolegs anatomicallysound nofloatingrollers. Ivory3:2samecamera nozoom no captionslabelsarrows."
+    }
+  ]
+}

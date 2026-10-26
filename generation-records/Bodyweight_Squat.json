@@ -1,0 +1,40 @@
+{
+  "id": "Bodyweight_Squat",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "status": "needsReview",
+  "reason": "Far foot shifts laterally between standing and bottom; two correction attempts did not preserve a fixed stance.",
+  "phases": [],
+  "draftPhases": [
+    {
+      "file": "01-partenza.png",
+      "description": "Standing start",
+      "prompt": "ONE 3:2 landscape realistic fitness PNG Bodyweight Squat phase1 START. ORIGINAL attached Misurami character authoritative same man face darkcurlyhair beard build, charcoal shirt small original yellowwhite Misurami LEFT chest logo, charcoalshorts yellowstripe blackshoes. Ivoryfloor/background subtle shadow, entire head shoes body generous margins, no captions titles arrows panels. Fixed front-left 3/4camera. Man stands erect feet shoulderwidth toes slightly outward, knees soft neutral spine chestopen gaze forward, both hands lightly beside temples elbowsopen (not pullinghead). Twoarms twolegs naturaljoints fivefingerhands. Noequipment. Fix camera, scale, feet, handplacement lightingfloor for loweredsquat phase. Head begins with enough margin no cropping."
+    },
+    {
+      "file": "02-discesa.png",
+      "description": "Squat bottom",
+      "prompt": "ONE separate3:2PNG Bodyweight Squat phase2 BOTTOM. ORIGINAL firstreference exact Misurami identity clothing small originalLEFTchestlogo; secondSTART fixes camera scale floor lightingfeet hand positions. Keep shoes flat in SAME exact positions shoulderwidth toesout. Bend hips andknees together, hips sit back/down until hipcrease around kneeheight, thighs justbelowparallel comfortable full depth, knees trackout in same directionas toes, natural forward shin inclination allowed. Heels stay down; neutralspine chestopen torso inclines naturally forward enough for balance, head aligned neutral not craned. Bothhands lightlybesidetemples elbowsopen same. No kneevalgus no lumbar rounding no exaggerated verticalshins. Allbody visible margins ivorybackground no captions labels arrows panels. One pose realistic anatomy. Return tostanding follows exact reverse motion."
+    }
+  ],
+  "correctionHistory": [
+    {
+      "prompt": "Correct squat bottom second image to SAME stance/footprints as third standing start. ORIGINAL first character authoritative identityclotheslogo. Keep squatting bottom torso hands knees depth and camera lighting scale, but ground BOTH SHOES in exactly third standing footprints: near shoe centerx610,y860 and far shoe centerx810,y850, at original narrow shoulderwidth. In squat knees track outward with toes but do not slide feet sideways; far foot must NOT shift tox900. Heels down full soles floor; hips sitback/down naturally with neutralspine chestopen hands besidetemples. Fullbody ivory3:2 original Misurami logo no captionsarrows. Anatomical thigh/calf lengths consistent, no kneevalgus.",
+      "result": "failed: far foot still shifted"
+    },
+    {
+      "prompt": "Create START STANDING phase matching EXACT footprints from second bottom squat image: far shoe atx900,y840 and nearshoe atx610,y860 in1536x1024, width shoulderwidth. First ORIGINAL Misurami authoritative identity clothes logo. Third old standing pose reference upright torso handslightlybesidetemples elbowsopen. Keep BOTH shoe pixels floor contacts from second squat image unchanged, simply straighten knees/hips tostand upright over samefeet, original scalecamera nozoom. Same man charcoal logo shirt yellowstripe shorts blackshoes. Both hands besidetemples, bodyfullvisible headmargin, ivorybackground softshadow no labelsarrows panels. Do not narrow stance tooldstart; samewidth from bottom.",
+      "result": "failed: start stance remains narrower than bottom"
+    }
+  ],
+  "sources": [
+    "IMAGE-ROUTINE.md",
+    "exercises.json:Bodyweight_Squat",
+    "https://pubmed.ncbi.nlm.nih.gov/14636100/"
+  ],
+  "checks": {
+    "automaticVisualInspection": "needsReview: anatomical squat poses individually plausible, feet contact clear, but far-foot stance changes between keyframes",
+    "trainerReview": "not performed"
+  }
+}

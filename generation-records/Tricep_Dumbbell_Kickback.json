@@ -1,0 +1,28 @@
+{
+  "id": "Tricep_Dumbbell_Kickback",
+  "status": "deferred",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [],
+  "reason": "Dopo due correzioni fallite non si ottiene assetto bilaterale verificabile: il braccio lontano continua a scendere dalla spalla invece di restare aderente al busto e parallelo al terreno con gomito alto, e il torso resta più eretto del previsto. Non pubblicare questa sequenza difettosa.",
+  "sources": [
+    "exercises.json:Tricep_Dumbbell_Kickback",
+    "IMAGE-ROUTINE.md"
+  ],
+  "draftPrompts": [
+    "ONE realisticfitnessPNG landscape3:2 ivoryfloorbackground. ORIGINALattached Misurami exactidentity curlyhairbeardfacebody charcoalshirt originalsmall yellowwhiteLEFTchestlogo charcoalshortsyellowsidesblackshoes. BILATERAL DUMBBELL TRICEPS KICKBACK phase1 bentelbows. Fullmanstandingfeet hipwidth planted, knees softlybent, HIPHINGE torsoalmost PARALLEL FLOOR around10-15degrees abovehorizontal, neutralflatspine andneck gaze floorahead not craninghead. BOTH UPPERARMS tuckedclosetoribs extend BACK towardhips PARALLEL FLOOR; BOTH elbows bent90degrees so forearms hang VERTICALLY towardfloor holdingtwo SAMEsmallblackhex dumbbells, palmsface eachother/body neutralgrips wristsstraight. Elbows stayhighbehindtorso, not hanging fromshoulders. Clear side/frontthreequarter camera headtowardRIGHT hipstowardLEFT, fararmandfardumbbell separatelyvisible notfused. Entirebodybothshoesbothweights hands allframe generousmargins. No bench equipment labels numberscaptionsarrowsghostlimbs. Fixcamerafeetbodyupperarmposition nextphase.",
+    "Correct second KICKBACK starting image: torso too upright and fararm hangs. First originalMisurami sheet identityexact. HINGE MORE AT HIPS so torso spine frompelvis toshoulders is NEARHORIZONTAL only10degrees abovefloor, hipsback knees softlyflexed stablefeet. Neutralneck gaze floorahead. BOTH UPPER ARMS includingFARARM must be tuckedagainstside ribs and extend BACK PARALLEL FLOOR to highelbows at SAMEHEIGHT nearhip. BOTHFOREARMS hangstraightDOWN vertical fromelbows bent90degrees, TWOidenticalblackhex dumbbells at sameheight UNDERELBOWS. Farupperarm mustNOT hangfromshoulder. Show fararm by slightfrontthreequarter perspective no fusion. Keep fullbody shoes allweights clear originalclothesLEFTchestlogo ivory3:2 no captions arrowsnumbers. Groundedfeet exactsamecamera andload.",
+    "ONE SINGLE MAN BILATERAL TRICEPS KICKBACK startingpose, landscape3:2 realisticivory. Originalattached Misurami exactidentityclothingLEFTchestlogo. Show man from HIGH FRONT THREEQUARTER view torso HORIZONTAL, headtowardRIGHT feetbelow, hipsfolded90degrees kneeslightbent solesflat. Backflatneutral neckinline eyesfloor. BOTH SHOULDERS PULL BOTH UPPERARMS BACK so BOTHELBOWS sit BEHIND SHOULDERS alongside WAIST at SAMEHEIGHT as SPINE. BOTHHUMERI parallel torso/floor. BOTHFOREARMS VERTICAL down to SAME two identicalsmallblackhex dumbbells belowelbows; elbows exactly90degrees. Keypose like BOTHARMS of bentoverrow at TOP but forearmsstayvertical. Far elbow must be visibly behind farshoulder nearhip NOT under frontchest. Space armsoutside torso enough to see TWO distinct elbowbends and TWO dangling forearms. Do not put one arm hangingstraightdownfromshoulder. Upperarmsstill closeto body. Entirebody shoesweights clearno cropping. No panels text captions arrows numbers ghostlimbs."
+  ],
+  "draftFiles": [
+    "/workspace/generated_images/exec-4f83828f-7f0c-4c47-bf50-0e4ea6617656.png",
+    "/workspace/generated_images/exec-e693ffc9-a63e-4bf7-afdf-9a854120b6d4.png",
+    "/workspace/generated_images/exec-4459af20-8de6-4eaf-9280-11b1f28b55be.png"
+  ],
+  "rejectedDrafts": 3,
+  "checks": {
+    "automaticVisualInspection": "failed after two correction attempts; no catalog candidate images",
+    "trainerReview": "not performed"
+  }
+}

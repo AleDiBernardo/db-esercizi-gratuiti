@@ -1,0 +1,64 @@
+{
+  "id": "Barbell_Incline_Bench_Press_-_Medium_Grip",
+  "status": "deferred",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [],
+  "executionOrder": [
+    "02-distensione.png",
+    "01-discesa.png",
+    "02-distensione.png"
+  ],
+  "executionNotes": "Staccare la barra dai supporti e partire dalla fase02 a braccia distese; scendere alla parte alta del petto fase01, risalire fase02 e ripetere. Al termine guidare la barra estesa indietro e appoggiarla nei ganci prima di lasciare la presa.",
+  "sources": [
+    "exercises.json:Barbell_Incline_Bench_Press_-_Medium_Grip",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "FAILED independent peer review",
+    "fileValidation": "Separate readable 1536x1024 PNGs (3:2) verified",
+    "trainerReview": "not performed"
+  },
+  "correctionHistory": [
+    {
+      "prompt": "ONE landscape3:2 realistic fitness illustration on warm ivory floor/background, full body all equipment generous margins no labels numbers captions panels. Original attached Misurami sheet authoritative exact face curlyhair beard athletic proportions charcoal shirt small original yellowwhite Misurami LEFT chest logo, charcoal shorts yellow stripe black shoes. Natural joints accurate hands closed thumbs safe grips. INCLINE BARBELL BENCHPRESS mediumgrip phase1 LOWERED to UPPER CHEST. Clear FRONT THREEQUARTER camera sees both hands and all bar ends, bench visibly reclined35degrees above floor. Man reclined with head/back/pelvis supported, feet flat. Straightsteel bar with one identical smallblackplate/collar each end held overhand mediumgrip somewhat wider than shoulders. Central SHAFT lightly contacts UPPER PECTORAL CHEST just BELOW COLLARBONES, below neckline, NEVER neck orface. Elbows bent90degrees forearmsvertical wristsstacked, upperarms45degrees fromtorso. Two blackrack uprights behind head have Jhooks at near extendedarmheight, no safetyarms crossing bar. Entire inclinebench rack all weights feet in frame margins. Natural head/neck onbackrest. No helper no equipmentcropping, originalcharacter chestlogo. Define exact apparatus camera load andsupport for nexttopphase.",
+      "result": "rejected: cropped rack and bar too near neck"
+    },
+    {
+      "prompt": "ONE landscape3:2 realistic fitness illustration on warm ivory floor/background, full body all equipment generous margins no labels numbers captions panels. Original attached Misurami sheet authoritative exact face curlyhair beard athletic proportions charcoal shirt small original yellowwhite Misurami LEFT chest logo, charcoal shorts yellow stripe black shoes. Natural joints accurate hands closed thumbs safe grips. CORRECT second incline barbellpress image twoerrors.1 Move entire bar and hands DOWN until centralshaft visibly touches upperchest at ORIGINAL LOGO HEIGHT, image y365 (currently neckheight315). Hands descend sameamount elbowsbend accordingly, wristsstacked. DO NOT cross throat or face, centralshaft lies across pectoral shirt BELOW neckline. 2 Zoomout camera15% uniformly so ENTIRE TWO RACK UPRIGHTS incl tops have margin, no equipment cropping. Same reclinedbench manbody support feet gripwidth and sameplates/collars, natural joints. We need bar at CHEST not neck in bottompress. No labels no arrows.",
+      "result": "correction failed: bar still above chest"
+    },
+    {
+      "prompt": "ONE landscape3:2 realistic fitness illustration on warm ivory floor/background, full body all equipment generous margins no labels numbers captions panels. Original attached Misurami sheet authoritative exact face curlyhair beard athletic proportions charcoal shirt small original yellowwhite Misurami LEFT chest logo, charcoal shorts yellow stripe black shoes. Natural joints accurate hands closed thumbs safe grips. Fix LOWERED INCLINE BENCHPRESS bar contact in secondimage. Original first sheet identity. Bar STILL crosses throat near neck, unacceptable. Move centralshaft DOWN to MIDPEC line y=490 in1536x1024 image, BELOW small shirtlogo; currently y430. Bothhands move60pixels down withbar; elbows bend further, wrists over elbows, upperarms45degfromtorso. There must be VISIBLE GAP between throat and bar, bar lightly meets pectoral chest notneck. Keep fixed entire rack fullyvisible, benchrecline, feet head backpelvis positions same, platecountsize/load andgripwidth unchanged. Fullframe noequipmentcut. Clearly show bar on chest in frontshirt, never floating aboveneck. No labels.",
+      "result": "accepted corrected chest-height bottom"
+    },
+    {
+      "prompt": "ONE landscape3:2 realistic fitness illustration on warm ivory floor/background, full body all equipment generous margins no labels numbers captions panels. Original attached Misurami sheet authoritative exact face curlyhair beard athletic proportions charcoal shirt small original yellowwhite Misurami LEFT chest logo, charcoal shorts yellow stripe black shoes. Natural joints accurate hands closed thumbs safe grips. INCLINE BARBELL BENCHPRESS phase2 TOP. Original first sheet authoritative identity, second correct LOWERED frame exactscene camera rackbench/headfeet contacts and weightload. Extend BOTH elbows pressing SAME bar vertically above UPPER CHEST to nearstraightarms, wristsstacked natural closedthumb overhand SAME mediumgrip at samepoints. Torso/headbackpelvis stay reclined supported samebenchangle, feetflat. SAME steelbar oneblackplate collar eachside, centralshaft nointersection withrack or Jhooks atpressposition. ENTIRE rack top and bases bench shoes bar ends fullyinframe margins. Camera remains exact samezoom so raised bar fits frame; no newequipment no loadchange. Returnlower incontrol to same chestposition, then after finalrep guideextended barback intoJhooks as source describes. No labels.",
+      "result": "rejected draft: generated comparison collage"
+    },
+    {
+      "prompt": "ONE landscape3:2 realistic fitness illustration on warm ivory floor/background, full body all equipment generous margins no labels numbers captions panels. Original attached Misurami sheet authoritative exact face curlyhair beard athletic proportions charcoal shirt small original yellowwhite Misurami LEFT chest logo, charcoal shorts yellow stripe black shoes. Natural joints accurate hands closed thumbs safe grips. ONE SINGLE MAN ONE SINGLE BENCH ONE SINGLE RACK ONLY. Generate ONLY TOP EXTENDED-ARM position incline barbellbenchpress, NOT comparison, NOT sidebyside NOT collage, NO duplicate person. Use second correctbottom reference SAME camera andscale scene as strict base, first original sheet identity. Change only both elbows to extended so barheld aboveupperchest; same headbackpelvisfeet contacts, same rack bench 35degrees inclination, medium pronated grip SAME steelbar platescollars. Allbar ends racktops/shoes visible generousmargins. Render no bottomposition at all. Entire canvas contains onlyone fullbody athlete pressingbar ontop of singlebench. No titles panels arrows.",
+      "result": "accepted single top phase"
+    },
+    {
+      "independentPeerReview": "images_b",
+      "verdict": "needs_correction",
+      "reason": "Top bar appears supported in both Jhooks instead of free press position",
+      "previousPhases": [
+        {
+          "file": "01-discesa.png",
+          "description": "Barra alla parte alta del petto con gomiti flessi e appoggio sulla panca inclinata.",
+          "prompt": "ONE landscape3:2 realistic fitness illustration on warm ivory floor/background, full body all equipment generous margins no labels numbers captions panels. Original attached Misurami sheet authoritative exact face curlyhair beard athletic proportions charcoal shirt small original yellowwhite Misurami LEFT chest logo, charcoal shorts yellow stripe black shoes. Natural joints accurate hands closed thumbs safe grips. Fix LOWERED INCLINE BENCHPRESS bar contact in secondimage. Original first sheet identity. Bar STILL crosses throat near neck, unacceptable. Move centralshaft DOWN to MIDPEC line y=490 in1536x1024 image, BELOW small shirtlogo; currently y430. Bothhands move60pixels down withbar; elbows bend further, wrists over elbows, upperarms45degfromtorso. There must be VISIBLE GAP between throat and bar, bar lightly meets pectoral chest notneck. Keep fixed entire rack fullyvisible, benchrecline, feet head backpelvis positions same, platecountsize/load andgripwidth unchanged. Fullframe noequipmentcut. Clearly show bar on chest in frontshirt, never floating aboveneck. No labels."
+        },
+        {
+          "file": "02-distensione.png",
+          "description": "Distensione sopra la parte alta del petto mantenendo gli appoggi.",
+          "prompt": "ONE landscape3:2 realistic fitness illustration on warm ivory floor/background, full body all equipment generous margins no labels numbers captions panels. Original attached Misurami sheet authoritative exact face curlyhair beard athletic proportions charcoal shirt small original yellowwhite Misurami LEFT chest logo, charcoal shorts yellow stripe black shoes. Natural joints accurate hands closed thumbs safe grips. ONE SINGLE MAN ONE SINGLE BENCH ONE SINGLE RACK ONLY. Generate ONLY TOP EXTENDED-ARM position incline barbellbenchpress, NOT comparison, NOT sidebyside NOT collage, NO duplicate person. Use second correctbottom reference SAME camera andscale scene as strict base, first original sheet identity. Change only both elbows to extended so barheld aboveupperchest; same headbackpelvisfeet contacts, same rack bench 35degrees inclination, medium pronated grip SAME steelbar platescollars. Allbar ends racktops/shoes visible generousmargins. Render no bottomposition at all. Entire canvas contains onlyone fullbody athlete pressingbar ontop of singlebench. No titles panels arrows."
+        }
+      ],
+      "failedCorrectionsTotal": 2
+    }
+  ],
+  "deferralReason": "After correction attempts, top bar still appears racked in Jhooks, so no clear free press top. Stopped after total two failed corrections. Existing candidate files are draft history, not catalog assets."
+}

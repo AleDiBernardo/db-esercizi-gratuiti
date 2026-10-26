@@ -1,0 +1,35 @@
+{
+  "id": "Barbell_Bench_Press_-_Medium_Grip",
+  "status": "deferred",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [],
+  "deferralReason": "Lowered bar remains too close to collarbones/neck rather than mid-chest after two corrections; safety-arm position also drifted. Do not publish incomplete/inaccurate sequence.",
+  "sources": [
+    "exercises.json:Barbell_Bench_Press_-_Medium_Grip",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "trainerReview": "not performed",
+    "automaticVisualInspection": "failed"
+  },
+  "correctionHistory": [
+    {
+      "prompt": "ONE landscape3:2 realistic fitness illustration on warm ivory floor/background, full body all equipment generous margins no labels numbers captions panels. Original attached Misurami sheet authoritative exact face curlyhair beard athletic proportions charcoal shirt small original yellowwhite Misurami LEFT chest logo, charcoal shorts yellow stripe black shoes. Natural joints accurate hands closed thumbs safe grips. Flat BARBELL BENCH PRESS medium grip phase1 unracked top. Elevated front threequarter side camera so BOTH hands and both barbell ends visible. Man supine on black flat bench with head/shoulders/pelvis supported, both feet firmly flat floor, natural small lumbar arch. ONE straight steel barbell with ONE identical black plate and collar EACH side. Grip overhand slightly wider than shoulder, wrists stacked elbows extended above MIDCHEST, bar clear of rack hooks. Black simple bench rack uprights behind head with two symmetrical Jhooks at top position and safety arms below chest height, entire rack visible. Body head LEFT feet RIGHT, bar axis across image diagonal. No helper. Frame camera so bar ends never hide hands. Consistent moderate load plate size. This defines fixed equipment/body camera for lowered and reracked phases.",
+      "draft": "/workspace/generated_images/exec-10a19a50-9ed2-4f54-8d5c-f57b8b5a0ba8.png"
+    },
+    {
+      "prompt": "ONE landscape3:2 realistic fitness illustration on warm ivory floor/background, full body all equipment generous margins no labels numbers captions panels. Original attached Misurami sheet authoritative exact face curlyhair beard athletic proportions charcoal shirt small original yellowwhite Misurami LEFT chest logo, charcoal shorts yellow stripe black shoes. Natural joints accurate hands closed thumbs safe grips. Flat mediumgrip barbell benchpress phase2 LOWERED. First original Misurami identity; second top image EXACT scene camera body bench rack safeties plates collars gripwidth floor all FIXED. Lower SAME bar slowly to just touch MIDCHEST, elbows flexed about90degrees forearms vertical wrists stacked over elbows, upperarms about45-60degrees from torso not flared90. Bar same horizontal physical axis and load, no bending steel, both hands closedthumb grip. Head shoulders pelvis supported bench and feet flat EXACT same places, modest natural back arch. Hands bar plates all visible no overlap impossible geometry. Return will reverse this motion back to top. Do not move rack or safeties to new position. No text.",
+      "draft": "/workspace/generated_images/exec-7a490802-ce56-48fe-830a-88a986710871.png"
+    },
+    {
+      "prompt": "ONE landscape3:2 realistic fitness illustration on warm ivory floor/background, full body all equipment generous margins no labels numbers captions panels. Original attached Misurami sheet authoritative exact face curlyhair beard athletic proportions charcoal shirt small original yellowwhite Misurami LEFT chest logo, charcoal shorts yellow stripe black shoes. Natural joints accurate hands closed thumbs safe grips. CORRECT second benchpress lowered image: bar currently above neck/face, wrong. Move bar AND both hands/forearms together TOWARD FEET by about120pixels image right+70pixels down so CENTRAL SHAFT contacts MID STERNUM across chest between nipple line, NOT collarbones neck or face. Elbows bend and track45degrees from sides, forearms nearlyvertical physically, wrists directly above elbows. Head remains fully visible unobstructed behind bar, shoulderblades pelvis feet same support fixed camera rack safety arms bench loadplate sizes. Original sheet identity clothes logo. No bar resting on rack at lowered phase. Need clear MIDCHEST bottom benchpress. Full body equipment no captions.",
+      "draft": "/workspace/generated_images/exec-8532d52d-522d-44b5-bb92-4c708a287ab1.png"
+    },
+    {
+      "prompt": "ONE landscape3:2 realistic fitness illustration on warm ivory floor/background, full body all equipment generous margins no labels numbers captions panels. Original attached Misurami sheet authoritative exact face curlyhair beard athletic proportions charcoal shirt small original yellowwhite Misurami LEFT chest logo, charcoal shorts yellow stripe black shoes. Natural joints accurate hands closed thumbs safe grips. Correct second barbellbench bottom frame. Move BAR AND HANDS DOWN on image by100pixels and RIGHT50pixels: central shaft should cross man at x=820,y=510 near MIDCHEST, currently crosses collarbone at y430. Target near grip x650,y540 far grip x985,y475. Bar MUST rest on mid-pectoral sternum not neckline logo collar. Bend elbows further with elbows directly below hands, upperarms angled toward feet near torso45degrees. Keep head shoulders pelvis feet bench rack SAME camera positions. Lower BOTH safety arms to well BELOW torso/pad level so bar cannot rest on them at chest position. Rack unchanged otherwise. Body head rests bench not raised. Plate/count same. Correct safe chest contact primary requirement. Full equipment 3:2 no labels.",
+      "draft": "/workspace/generated_images/exec-2583e8a1-ae8d-4fcb-8b8a-4394b1770a05.png"
+    }
+  ]
+}

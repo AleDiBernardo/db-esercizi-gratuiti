@@ -1,0 +1,14 @@
+{
+  "id": "Side_Bridge",
+  "status": "deferred",
+  "createdAt": "2026-10-26",
+  "phases": [],
+  "reason": "Missing exercise instructions in exercises.json; do not invent technique.",
+  "sources": [
+    "exercises.json:Side_Bridge",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "trainerReview": "not performed"
+  }
+}

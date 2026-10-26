@@ -1,0 +1,34 @@
+{
+  "id": "Close-Grip_Barbell_Bench_Press",
+  "status": "deferred",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [],
+  "deferralReason": "Bottom phase remained too close to collarbones/neck instead of clear mid-sternum contact after two corrections; first draft also generated incline rather than flat bench and cropped rack. No valid complete sequence published.",
+  "sources": [
+    "exercises.json:Close-Grip_Barbell_Bench_Press",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "trainerReview": "not performed",
+    "automaticVisualInspection": "failed"
+  },
+  "correctionHistory": [
+    {
+      "prompt": "ONE landscape3:2 realistic fitness illustration on warm ivory floor/background, full body all equipment generous margins no labels numbers captions panels. Original attached Misurami sheet authoritative exact face curlyhair beard athletic proportions charcoal shirt small original yellowwhite Misurami LEFT chest logo, charcoal shorts yellow stripe black shoes. Natural joints accurate hands closed thumbs safe grips. ONE MAN ONE FLAT BENCH ONLY CLOSE-GRIP BARBELL BENCHPRESS LOWERED. Camera elevated FRONTFOOT-END threequarter looking toward head enough to clearly see both palms/thumb grips and chestbarcontact. Athlete supine blackflatbench headupperLEFT feetlowerRIGHT head shoulders pelvis supported, feetflat. ONE straightsteelbarbell one SMALLblackplate collar EACHend. Hands OVERHAND SHOULDERWIDTH (not touching), thumbswrapped. Elbows TUCKED alongside torso20degrees fromribs flexed90degrees, forearmsvertical. Central SHAFT physically touches MIDDLE/LOWER STERNUM atlowerpectoral line, FAR FROM THROAT: neckline and small leftchestlogo remain ABOVE shaft, at least15cm clear gap between neck andbar. Bar over chest NOT face. Kneesfeet natural fixedsupport, modest backarch. Two simple rackuprights behindhead with visible top Jhooks at extendedarmheight, safeties belowbenchpad, whole equipment margins no crop. Fixedcamera rackbench load gripwidth for topphase. Chestcontact priority correct no neckpress.",
+      "draft": "/workspace/generated_images/exec-e32fd562-5872-4331-b1e5-acac65c27a33.png",
+      "result": "rejected: inclined bench and croppedrack"
+    },
+    {
+      "prompt": "ONE landscape3:2 realistic fitness illustration on warm ivory floor/background, full body all equipment generous margins no labels numbers captions panels. Original attached Misurami sheet authoritative exact face curlyhair beard athletic proportions charcoal shirt small original yellowwhite Misurami LEFT chest logo, charcoal shorts yellow stripe black shoes. Natural joints accurate hands closed thumbs safe grips. Correct second CLOSEGRIP BENCHPRESS bottom image. It must be FLAT HORIZONTAL bench, NOT incline: make entire long pad one LEVEL FLAT plane parallel to floor, man head shoulders back pelvis allrest on same horizontal pad. Show side perspective enough confirm flatpad. Keep centralshaft touching MIDCHEST BELOW shirtlogo, elbows TUCKED close ribs, hands SHOULDERWIDTH overhand (roughly35cm) naturalwristsclosedthumbs. BOTH rackuprights cropped currently: zoomOUT15% and render complete posttops with margins. Same smallplate eachend load collar grip, feet flat fullbodyall equipment no crop. No inclinedbackrest or uprighttorso. Floorivory exactoriginalMisuramiidentityclotheslogo. One single phase oneperson no captions.",
+      "draft": "/workspace/generated_images/exec-cab2b2ba-ca4f-498f-889f-b2da66abd2e6.png",
+      "result": "failed correction1: benchflat fixed but bar neck/collarbone"
+    },
+    {
+      "prompt": "ONE landscape3:2 realistic fitness illustration on warm ivory floor/background, full body all equipment generous margins no labels numbers captions panels. Original attached Misurami sheet authoritative exact face curlyhair beard athletic proportions charcoal shirt small original yellowwhite Misurami LEFT chest logo, charcoal shorts yellow stripe black shoes. Natural joints accurate hands closed thumbs safe grips. Correct second closegrip FLAT benchpress BOTTOM: bar too high atcollarbones. Move SAME bar and both hands DOWN60pixels on1536x1024 image so CENTER SHAFT crosses lowerpectoral MIDSTERNUM at x700,y510, BELOW shirtlogo notthroat. Chestcontact nearbottom ofpectoral muscles, neckclear gap15cm. Elbows TUCKED beside torso, bendmore until forearmsnearvertical and wristsstacked; keep shoulderwidthclosedthumbgrip. Entire bench remains FLAT HORIZONTAL, no inclination. Headshoulderspelvis feet positions same, natural head restsbench no neckcurl. Rack complete topsvisible samepositions, sameplatescollars camera. One phase oneperson allvisible no labels.",
+      "draft": "/workspace/generated_images/exec-4291fc30-ed12-45de-91b8-2c978d9b5175.png",
+      "result": "failed correction2: bar remains too near neckline; clear mid-sternum contact not achieved"
+    }
+  ]
+}

@@ -123,6 +123,34 @@
     {
       "id": "Lying_Leg_Curls",
       "reason": "Withdrawn after additional peer review found no rigid lever connecting ankle roller to machine knee pivot. Correction and repeat review required."
+    },
+    {
+      "id": "Barbell_Bench_Press_-_Medium_Grip",
+      "reason": "See generation record"
+    },
+    {
+      "id": "Barbell_Incline_Bench_Press_-_Medium_Grip",
+      "reason": "See generation record"
+    },
+    {
+      "id": "Close-Grip_Barbell_Bench_Press",
+      "reason": "See generation record"
+    },
+    {
+      "id": "Bodyweight_Squat",
+      "reason": "Far foot shifts laterally between standing and bottom; two correction attempts did not preserve a fixed stance."
+    },
+    {
+      "id": "Leg_Extensions",
+      "reason": "Independent review rejected: selected weightstack no clear stationary unselected remainder at same pin setting, plus pivot shift about25px. Two failed corrections; defer rather than publish."
+    },
+    {
+      "id": "Tricep_Dumbbell_Kickback",
+      "reason": "Dopo due correzioni fallite non si ottiene assetto bilaterale verificabile: il braccio lontano continua a scendere dalla spalla invece di restare aderente al busto e parallelo al terreno con gomito alto, e il torso resta più eretto del previsto. Non pubblicare questa sequenza difettosa."
+    },
+    {
+      "id": "Side_Bridge",
+      "reason": "Missing exercise instructions in exercises.json; do not invent technique."
     }
   ]
 }
