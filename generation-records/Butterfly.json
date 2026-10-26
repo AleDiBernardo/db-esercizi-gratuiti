@@ -1,0 +1,44 @@
+{
+  "id": "Butterfly",
+  "status": "accepted",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-apertura.png",
+      "description": "Schiena sostenuta e braccia aperte alle impugnature laterali.",
+      "prompt": "ONE landscape3:2 realistic fitness illustration on warm ivory floor/background, full body all equipment generous margins no labels numbers captions panels. Original attached Misurami sheet authoritative exact face curlyhair beard athletic proportions charcoal shirt small original yellowwhite Misurami LEFT chest logo, charcoal shorts yellow stripe black shoes. Natural joints accurate hands closed thumbs safe grips. ONE MAN ONLY seated BUTTERFLY PEC DECK phase1 OPEN. Slight frontthreequarter camera shows both full hands arms and entire plausible machine. Black metal pecdeck with blackseat uprightbackrest, overhead pivot abovebehindhead and TWO symmetric moving leverarms curving down to vertical BLACKHANDLES at midchest/shoulderheight; handles open at sides in line with chest, not behind torso. Man sits back/pelvis supported uprightbackrest bothfeet flat. Arms extended sideways at shoulderlevel elbows softlybent20degrees, BOTH hands closedthumbgrip their respective verticalhandles, neutral wrists. No forearmpads required on this handle-only pecdeck. ONE covered weightstack behindbackrest, smallselectorwindow yellowpin same lightload, cables within shroud no external spaghetti. Fullmachine includingtop/bases handsallfeet with margins. Exactoriginalcharacter chestlogo visible, no textlabels. Fixedcamera apparatus contacts load for closedphase."
+    },
+    {
+      "file": "02-chiusura.png",
+      "description": "Chiusura delle stesse leve e impugnature davanti al petto.",
+      "prompt": "ONE landscape3:2 realistic fitness illustration on warm ivory floor/background, full body all equipment generous margins no labels numbers captions panels. Original attached Misurami sheet authoritative exact face curlyhair beard athletic proportions charcoal shirt small original yellowwhite Misurami LEFT chest logo, charcoal shorts yellow stripe black shoes. Natural joints accurate hands closed thumbs safe grips. ONE SINGLE MAN ONLY. BUTTERFLY PECDECK phase2 CLOSED contraction. Originalfirstsheet exactidentity, second openpose EXACT scene camera size seatbackrestfeetpelvis contacts wholemachinegeometry and yellowloadpin. Rotate TWO SAME CURVED MOVING LEVERARMS FORWARD inward around SAME two OVERHEADPIVOTS until BOTH verticalblackhandles come close together infront MIDCHEST. Bothhands closedthumb on samehandles, armsshoulderlevel with same gentleelbowbend, no pressing elbows90degrees. Handles stop10cm apart so bothgrips separatelyvisible nohandcollision. Backandpelvis stayagainst samebackrest shouldersdown headneutral, feetflatfixed. Lever shapes SAME lengths andhandle attachments unchanged, rotationonly; fixedtowerseatbases unchanged, coveredstackselectedplates canlift. Fullapparatus topandbases allbodyhandsweights visible margins originalclothinglogo. No captionsarrowslabels."
+    }
+  ],
+  "executionOrder": [
+    "01-apertura.png",
+    "02-chiusura.png",
+    "01-apertura.png"
+  ],
+  "executionNotes": "Dalla posizione aperta01 chiudere lentamente le impugnature02 e mantenere un secondo, poi riaprire in controllo01. Regolare prima il sedile per mantenere le braccia all'altezza del petto.",
+  "sources": [
+    "exercises.json:Butterfly",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "Distinct wideopen-to-frontclose pecdeck motion; same two pivots/levers/handles, no extra parts, both grips feet backsupport visible, torso/head fixed, stack lift coherent.",
+    "fileValidation": "Separate readable 1536x1024 PNGs (3:2) verified",
+    "trainerReview": "not performed"
+  },
+  "rejectedDrafts": 0,
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Butterfly.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

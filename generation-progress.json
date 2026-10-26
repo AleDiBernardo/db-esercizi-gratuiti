@@ -58,7 +58,10 @@
     "One-Arm_Dumbbell_Row",
     "EZ-Bar_Curl",
     "Triceps_Pushdown_-_Rope_Attachment",
-    "Leg_Press"
+    "Leg_Press",
+    "Dumbbell_Flyes",
+    "Cable_Crossover",
+    "Butterfly"
   ],
   "needsReview": [
     {

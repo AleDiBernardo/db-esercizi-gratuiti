@@ -1,0 +1,44 @@
+{
+  "id": "Cable_Crossover",
+  "status": "accepted",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-apertura.png",
+      "description": "Apertura delle braccia sotto tensione dai cavi alti con gomiti morbidi.",
+      "prompt": "ONE landscape3:2 realistic fitness illustration on warm ivory floor/background, full body all equipment generous margins no labels numbers captions panels. Original attached Misurami sheet authoritative exact face curlyhair beard athletic proportions charcoal shirt small original yellowwhite Misurami LEFT chest logo, charcoal shorts yellow stripe black shoes. Natural joints accurate hands closed thumbs safe grips. ONE SINGLE MAN on DUAL HIGH CABLE CROSSOVER phase OPEN/strech. FRONT view slightthreequarter to see chest logo. Entire TWO BLACK CABLE TOWERS joinedbytopcrossbeam allbases highpulleys visible generousmargins. Opaque weightstack covers with small yellowselector, SAME lightloadbothsides. Man stands centered one smallstep forward of towerline, splitstance feetfirmlyflat, torso leanedforward10degrees fromhips neutralbracedspine knees soft. Hold ONE separate blackDhandle EACH hand, cables run taut from EACH HIGH PULLEY abovehead out left/right to matchinghandle, clean continuousconnection no extracables. Arms opened to sides slightly belowshoulderheight elbows softlybent20degrees fixedangle, not shoulderhyperextension behindbody. Palms faceforward/down naturally neutralclosedthumbgrip. Entirebody allhands handles machine withinframe. This defines exact tower geometry pulleypositions camera stance load for closingarc."
+    },
+    {
+      "file": "02-chiusura.png",
+      "description": "Chiusura in arco verso la parte bassa del petto con mani distinte.",
+      "prompt": "ONE landscape3:2 realistic fitness illustration on warm ivory floor/background, full body all equipment generous margins no labels numbers captions panels. Original attached Misurami sheet authoritative exact face curlyhair beard athletic proportions charcoal shirt small original yellowwhite Misurami LEFT chest logo, charcoal shorts yellow stripe black shoes. Natural joints accurate hands closed thumbs safe grips. ONE SINGLE MAN ONLY, CABLE CROSSOVER phase CLOSED. Originalfirstsheet exactidentity, second openposition fixes EXACT FRONTcamera scale tower/pulley geometry stance feet body angle allcontact points loadpin. Move ONLY botharms in widehugging ARC atshoulders so SAME Dhandles come together infront LOWER STERNUM/UPPER ABDOMEN, handsstop closebut don'tcross. Maintain SAME slightelbowbend as openphase, not90degreepress. Torso remainsforwardlean10degrees splitstance fixed. Both closedthumb hands clearlyvisible eachon ownhandle. Cables tautcontinuous from SAME HIGH LEFT/RIGHT pulleys to respectivehandlecenter, longerdiagonalsegments, no crossing cablethroughbody. Hands infrontchest lower than shoulders. Same entiremachine inframe allbases topbeam feetvisible margins. Fixed loadstack pin and machine same, selectedstack may lift. No captionspanelsarrows."
+    }
+  ],
+  "executionOrder": [
+    "02-chiusura.png",
+    "01-apertura.png",
+    "02-chiusura.png"
+  ],
+  "executionNotes": "Regolare i cavi alti e avanzare per mettere tensione; la fonte definisce la chiusura02 come partenza. Aprire in arco01 mantenendo angolo gomiti e busto fermi, richiudere02 e mantenere brevemente. Stesso percorso inverso, nessun incrocio forzato delle mani.",
+  "sources": [
+    "exercises.json:Cable_Crossover",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "Both handles and handgrips/cableattachments visible, highpulley origins unchanged, open/closed arc distinct with soft elbows and stable splitstance torso; entire machine and load coherent.",
+    "fileValidation": "Separate readable 1536x1024 PNGs (3:2) verified",
+    "trainerReview": "not performed"
+  },
+  "rejectedDrafts": 0,
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Cable_Crossover.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

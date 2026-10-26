@@ -2546,7 +2546,11 @@
       "Ripeti per il numero previsto."
     ],
     "category": "forza",
-    "id": "Butterfly"
+    "id": "Butterfly",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Butterfly/01-apertura.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Butterfly/02-chiusura.png"
+    ]
   },
   {
     "name": "Distensioni per il petto ai cavi",
@@ -2590,7 +2594,11 @@
       "Mantieni un secondo e ripeti per il numero previsto."
     ],
     "category": "forza",
-    "id": "Cable_Crossover"
+    "id": "Cable_Crossover",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Cable_Crossover/01-apertura.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Cable_Crossover/02-chiusura.png"
+    ]
   },
   {
     "name": "Crunch al cavo alto",
@@ -5182,7 +5190,11 @@
       "Mantieni la contrazione per un secondo e ripeti per il numero di ripetizioni previsto."
     ],
     "category": "forza",
-    "id": "Dumbbell_Flyes"
+    "id": "Dumbbell_Flyes",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Dumbbell_Flyes/01-partenza.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Dumbbell_Flyes/02-apertura.png"
+    ]
   },
   {
     "name": "Rematore con manubri a petto appoggiato su panca inclinata",

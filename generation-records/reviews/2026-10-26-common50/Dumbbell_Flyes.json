@@ -1,0 +1,10 @@
+{
+  "id": "Dumbbell_Flyes",
+  "verdict": "accepted",
+  "reviewer": "images_b",
+  "reviewedFiles": [
+    "01-partenza.png",
+    "02-apertura.png"
+  ],
+  "reason": "All PNGs fullsize and full instructions/record independently reviewed. Clear top-to-open arc, soft nearconstant elbow angle rather than pressing, neutral wrists and distinct weights, upper arms open near chest plane without excessive depth, head/pelvis supported feet flat. Minor perspective/translation variation does not obscure arc."
+}

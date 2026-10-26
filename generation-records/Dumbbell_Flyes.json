@@ -1,0 +1,44 @@
+{
+  "id": "Dumbbell_Flyes",
+  "status": "accepted",
+  "createdAt": "2026-10-26",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-partenza.png",
+      "description": "Manubri sopra il petto con presa neutra e gomiti morbidi.",
+      "prompt": "ONE landscape3:2 realistic fitness illustration on warm ivory floor/background, full body all equipment generous margins no labels numbers captions panels. Original attached Misurami sheet authoritative exact face curlyhair beard athletic proportions charcoal shirt small original yellowwhite Misurami LEFT chest logo, charcoal shorts yellow stripe black shoes. Natural joints accurate hands closed thumbs safe grips. ONE SINGLE PERSON ONLY. DUMBBELL FLY on FLAT BENCH phase1 TOP. Man supine on narrow horizontal blackbench headLEFT feetRIGHT with head/back/pelvis supported and feet flat. Elevated FRONT THREEQUARTER camera clearly shows both whole arms hands and ONE small identical blackhex dumbbell each hand. Arms extend vertically ABOVE MIDCHEST, elbows slightly bent15-20degrees NOT locked, palmsfaceeachother NEUTRALgrip so dumbbell axes headtofoot. Dumbbells close abovechest but nottouching, wristsstraight closedthumbgrip. This is FLY with FIXED gentle elbowbend, not press. Natural modest backcurve, chestopen. All equipment and body with wide margins, no rack. Samecamera scale equipment floor for wide-open phase."
+    },
+    {
+      "file": "02-apertura.png",
+      "description": "Apertura in arco ampio ai lati mantenendo lieve flessione dei gomiti.",
+      "prompt": "ONE landscape3:2 realistic fitness illustration on warm ivory floor/background, full body all equipment generous margins no labels numbers captions panels. Original attached Misurami sheet authoritative exact face curlyhair beard athletic proportions charcoal shirt small original yellowwhite Misurami LEFT chest logo, charcoal shorts yellow stripe black shoes. Natural joints accurate hands closed thumbs safe grips. ONE SINGLE PERSON ONE PHASE ONLY: dumbbell FLY phase2 WIDE OPEN. First original identity, second topfly image exactcamera body bench floor load headpelvis feetcontacts unchanged. Open BOTH arms out SIDES in a wide smooth arc at shoulders until upperarms level with chest/bench plane (notlowerthan torso). Elbows keep only SLIGHT20degree bend, forearms continue outward in almost same line with upperarms, NOT bent90degrees as press. Two smallsameblackhexdumbbells held in NEUTRALpalmsfaceceiling/inward orientation during arc, wristsstraight closedgrips. Arms spread like wide embracing T, one near arm extends toward lowerleft foreground and other toward upperright background, both weights fullyvisible separated frombenchbody. Chest stretched comfortably notexcessive shoulder depth. Allbody benchweights entireframe margins samecamera, no text arrows panels."
+    }
+  ],
+  "executionOrder": [
+    "01-partenza.png",
+    "02-apertura.png",
+    "01-partenza.png"
+  ],
+  "executionNotes": "Posizionare inizialmente i manubri sulle cosce e portarsi supini come descritto dal catalogo; dalla postura01 sopra il petto aprire in arco fino02, mantenendo angolo del gomito morbido e costante, e richiudere nello stesso arco fino01. Discesa controllata e ritorno senza piegare i gomiti come in una distensione.",
+  "sources": [
+    "exercises.json:Dumbbell_Flyes",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "Clear top-to-wide fly arc, extended soft elbows rather than90degree press; both neutral grips/weights visible, supported head/back/pelvis and feet flat; same bench/weights with small perspective variation.",
+    "fileValidation": "Separate readable 1536x1024 PNGs (3:2) verified",
+    "trainerReview": "not performed"
+  },
+  "correctionHistory": [],
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Dumbbell_Flyes.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}
