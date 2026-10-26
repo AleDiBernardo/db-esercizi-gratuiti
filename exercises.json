@@ -3582,7 +3582,10 @@
       "Una volta sui talloni, porta le mani accanto ai piedi e rilassati. Respira cercando di espandere la schiena e appoggia la fronte al pavimento. Evita questa posizione in caso di problemi alle ginocchia."
     ],
     "category": "stretching",
-    "id": "Childs_Pose"
+    "id": "Childs_Pose",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Childs_Pose/01-tenuta.png"
+    ]
   },
   {
     "name": "Trazioni alla sbarra a presa supina",
@@ -10425,7 +10428,11 @@
       "Scambia esplosivamente le gambe: distendi quella piegata appoggiandone la punta e porta avanti l’altra con anca e ginocchio flessi. Alterna per 20–30 secondi."
     ],
     "category": "pliometria",
-    "id": "Mountain_Climbers"
+    "id": "Mountain_Climbers",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Mountain_Climbers/01-ginocchio-avanti.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Mountain_Climbers/02-scambio-gambe.png"
+    ]
   },
   {
     "name": "Andatura di corsa con richiamo della gamba",

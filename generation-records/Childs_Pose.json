@@ -1,0 +1,36 @@
+{
+  "id": "Childs_Pose",
+  "phases": [
+    {
+      "file": "01-tenuta.png",
+      "description": "Seduto sui talloni, busto sulle cosce, fronte a terra e braccia rilassate accanto ai piedi.",
+      "prompt": "ONE realistic fitness illustration landscape3:2 PNG ivoryfloor/background softshadow originalMisurami character sheet authoritative exactcurlydarkhair beard athleticman charcoalshirt original small yellowwhitelogo anatomicalLEFTchest charcoalshortsyellowstripe blackshoes. CHILD'SPOSE final HELD posture per suppliedinstructions: mankneels headtowardRIGHT feettowardLEFT, kneescomfortablybent shinstopofshoesrestfloor, glutesrestONHEELS, torsofolds forward supportedonthighs, FOREHEAD visiblyrestsonfloor withoutnecktwist. BOTHARMSrest relaxed BACKALONGSIDES torso, handsbesidefeet nearheels palmsfacingUP; DO NOT extend armsforward. Shoulderssoft spinegentlyrounded, noforcingknees. Cameraelevatedside3quarterfront so wholebodyhands2shoesforeheadcontactvisible with generousmargin, exact2arms2legs naturaljoints. Originalshirtlogo maybenaturallyhiddenbetweenchestandthigh, donotmoveitto sleeve/back. Noequipment captions textarrowsnumbers. Singleheldstretch notnewdynamicphases."
+    }
+  ],
+  "executionOrder": [
+    "01-tenuta.png"
+  ],
+  "executionNotes": "Dalla quadrupedia arretrare verso i talloni e, come richiesto dal catalogo, portare le mani accanto ai piedi per la tenuta finale. Respirare rilassando la schiena, quindi risalire con controllo; non è la variante con braccia distese avanti.",
+  "createdAt": "2026-10-26",
+  "status": "accepted",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "sources": [
+    "IMAGE-ROUTINE.md",
+    "exercises.json:Childs_Pose"
+  ],
+  "checks": {
+    "automaticVisualInspection": "Provisional pass: eachPNG visually inspected for anatomy, original identity/clothes/logo, fullframe supports and actual alternating or static movement; pending independent review",
+    "fileValidation": "PNG decode3:2 verified",
+    "trainerReview": "not performed"
+  },
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Childs_Pose.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

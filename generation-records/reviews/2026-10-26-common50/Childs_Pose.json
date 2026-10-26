@@ -1,0 +1,13 @@
+{
+  "id": "Childs_Pose",
+  "verdict": "accepted",
+  "reviewer": "images_e",
+  "filesViewed": [
+    "01-tenuta.png"
+  ],
+  "findings": [
+    "Fullinstructions read, final staticpose correctly has hands besidefeet rather than inventing armsforward variant.",
+    "Knees folded, hips towardheels, torso restingthighs, foreheadfloorsupport visible and relaxedneck. Entirebody/shoes/hands seen.",
+    "Originalfaceclotheslogo naturallymostlyoccluded, no anatomical defect; oneheldpose adequate, prep/return described in record."
+  ]
+}

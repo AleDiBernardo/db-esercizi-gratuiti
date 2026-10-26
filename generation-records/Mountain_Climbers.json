@@ -1,0 +1,43 @@
+{
+  "id": "Mountain_Climbers",
+  "phases": [
+    {
+      "file": "01-ginocchio-avanti.png",
+      "description": "Plank alto con una gamba distesa e l'altra flessa sotto l'anca.",
+      "prompt": "ONE landscape3:2 realistic fitnessPNG warmivorybackgroundfloor fullbodygenerousmargins no labels text captions arrows. Original attached Misurami reference authoritative exactman facecurlsbeard athleticproportions charcoalTshirt originalsmallleftchestMisurami yellowwhitelogo charcoalshortsyellowstripe blackshoes. MOUNTAINCLIMBERS phase1 rightknee forward: HIGHPLANK on BOTHpalms, handsunder shoulders armsstraight elbowssoft notlocked, headtowardRIGHT feettowardLEFT, camera sidefront slightlyelevated so bothlegsandhands distinct. LEFTleg extendsstraight behind supported on itsTOES, rightHIPandKNEE flex so RIGHTKNEE is directly UNDERHIP not touchingchest, rightfoot hovers off floor naturally underabdomen. Backneutral hips level notpiked, abdomenbraced, neckaligned eyesfloorinfrontofhands. Exactly2arms2legs natural5fingerpalms stablehandcontacts. Entiremanallshoes hands visible, no equipment. Fixedcamera floor hips and hands fornext alternatephase."
+    },
+    {
+      "file": "02-scambio-gambe.png",
+      "description": "Scambio dei lati mantenendo mani e busto stabili.",
+      "prompt": "MountainClimbers phase2 SWITCHLEGS from SECOND scene, originalFIRST Misurami identityclothesleftchestlogo authoritative. EXACTsamecamera scale headtorsohips and bothhandfloorcoordinates. Change ONLY LEGS to OPPOSITE: nearleg with YELLOWSTRIPE on shorts (currentlystraight behind insecond) now BENDS hipandknee bringingitsknee forwardUNDERHIP with foothovering. Farleg (currentlybentunderabdomen) now extendsSTRAIGHTback towardLEFT and itstoescontactfloor. This MUST visibly reverse whichthigh hasyellowstripe atbentposition; do not repeat samepose. Bothpalmsplantedunder shouldersstraightarms stablebracedneutralback nohippike sagorrotation. Correct2arms2legs allfeet hands head fullyvisible, sameoriginalmanclotheslogo andshoes. Warmivoryfloor landscape3:2 realistic PNG noarrows labels captions numbers."
+    }
+  ],
+  "executionOrder": [
+    "01-ginocchio-avanti.png",
+    "02-scambio-gambe.png",
+    "01-ginocchio-avanti.png"
+  ],
+  "executionNotes": "Scambiare le gambe alternando per20–30secondi; la gamba piegata si estende e torna sull'avampiede mentre l'altra si flette sotto l'anca. Nessuna torsione del tronco.",
+  "createdAt": "2026-10-26",
+  "status": "accepted",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "sources": [
+    "IMAGE-ROUTINE.md",
+    "exercises.json:Mountain_Climbers"
+  ],
+  "checks": {
+    "automaticVisualInspection": "Provisional pass: eachPNG visually inspected for anatomy, original identity/clothes/logo, fullframe supports and actual alternating or static movement; pending independent review",
+    "fileValidation": "PNG decode3:2 verified",
+    "trainerReview": "not performed"
+  },
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Mountain_Climbers.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}
