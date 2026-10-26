@@ -61,7 +61,10 @@
     "Leg_Press",
     "Dumbbell_Flyes",
     "Cable_Crossover",
-    "Butterfly"
+    "Butterfly",
+    "Dumbbell_Incline_Row",
+    "Triceps_Stretch",
+    "Side_Leg_Raises"
   ],
   "needsReview": [
     {

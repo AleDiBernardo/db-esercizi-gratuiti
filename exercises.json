@@ -5218,7 +5218,11 @@
       "Fermati nella posizione alta, poi torna alla posizione iniziale."
     ],
     "category": "forza",
-    "id": "Dumbbell_Incline_Row"
+    "id": "Dumbbell_Incline_Row",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Dumbbell_Incline_Row/01-braccia-distese.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Dumbbell_Incline_Row/02-remata.png"
+    ]
   },
   {
     "name": "Spinte scapolari con manubri su panca inclinata",
@@ -14870,7 +14874,11 @@
       "Ripeti l’oscillazione 5–10 volte aumentando progressivamente l’ampiezza."
     ],
     "category": "stretching",
-    "id": "Side_Leg_Raises"
+    "id": "Side_Leg_Raises",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Side_Leg_Raises/01-apertura-laterale.png",
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Side_Leg_Raises/02-oscillazione-incrociata.png"
+    ]
   },
   {
     "name": "Allungamento dell’inguine sul fianco",
@@ -18450,7 +18458,10 @@
       "Porta una mano dietro la testa, afferra il gomito con l’altra e tira delicatamente. Mantieni 10–20 secondi, poi cambia lato."
     ],
     "category": "stretching",
-    "id": "Triceps_Stretch"
+    "id": "Triceps_Stretch",
+    "images": [
+      "https://raw.githubusercontent.com/AleDiBernardo/db-esercizi-gratuiti/main/images/Triceps_Stretch/01-allungamento.png"
+    ]
   },
   {
     "name": "Crunch con gambe raccolte",

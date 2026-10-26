@@ -1,0 +1,50 @@
+{
+  "id": "Dumbbell_Incline_Row",
+  "createdAt": "2026-10-26",
+  "status": "accepted",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "phases": [
+    {
+      "file": "01-braccia-distese.png",
+      "description": "Petto appoggiato alla panca inclinata, manubri sospesi con braccia distese.",
+      "prompt": "ONE realistic instructional fitness PNG landscape3:2 ivoryfloor/background fullbody ENTIRE inclinebench and two dumbbells visible margins. Originalattached Misurami sheet authoritative exactcurlyhair beardfacebody charcoal originalleftchestlogo shirt shortsyellowstripe blackshoes. CHEST-SUPPORTED DUMBBELL INCLINE ROW phase1 armsdown. Athlete lies FACE DOWN/PRONE with FRONT OF CHEST firmly resting against35degree blackinclinebackrest, NOT back againstpad and NOT benchpress. His head extends just beyondupperbench edge, neckneutral gaze downahead, abdomen/pelvis lightly supported, BOTHfeet stand onfloor BEHINDbench to stabilize, knees soft. Botharms hangvertically downward on EITHER SIDE of narrowpad, elbows extended, each handwraps own identicalsmallblackhex dumbbell neutralgrip palmstowardoneanother. Front threequarter camera from headend highenough to showboth hanginghands/dumbbells clearly separated frombench edges, fullhead allshoes allbenchfloorfeet. Originalleftchestlogo maybenaturallyoccluded bypad, neverputlogo onback. Correct2arms2legs fingerswristgrips, nofloatingchest. Camera/equipmentload fixednextphase. No labels captionsnumbersarrows panels.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    },
+    {
+      "file": "02-remata.png",
+      "description": "Remata dei due manubri verso le costole, gomiti arretrati e petto sul supporto.",
+      "prompt": "Edit second chest-supported incline ROW starting image to contraction. First original Misurami sheet authoritative identity and clothing. EXACT fixedcamera benchangle/geometry floorfeet bodyposition load. CHEST stays firmly ON inclinepad faceDOWN/prone, samefeetfloor and neckneutralgazedown, do NOT lift torso offpad. Bend BOTH elbows and drive them BACK closealongribs beyondbackline, retract shoulderblades, pull SAME two blackHEX dumbbells UP to SIDES OF LOWER RIBS/hips. Neutralgrip palmsfaceoneanother wristsstraight thumbwrapped naturalhands. Elbows must travelback not curlweights towardshoulders, both dumbbells/workingforearms separatelyvisible on eachsideofpad. Sameweightsize no newequipment. Fullbody allshoes benchsupportframe bothweights clear margins landscape3:2 ivory realistic no labels captions numbers arrowspanels.",
+      "references": [
+        "references/misurami-personaggio.png"
+      ]
+    }
+  ],
+  "executionSequence": [
+    "01-braccia-distese.png",
+    "02-remata.png",
+    "01-braccia-distese.png"
+  ],
+  "executionNotes": "Concentric01to02; controlled eccentric02to01; repeat.",
+  "sources": [
+    "exercises.json:Dumbbell_Incline_Row",
+    "IMAGE-ROUTINE.md"
+  ],
+  "checks": {
+    "automaticVisualInspection": "All phases visually reviewed: real chest support in prone orientation, distinct hanging/row positions both neutral grips/weights visible, same feet and bench, neck follows torso, no curl substitution.",
+    "fileValidation": "PNG3:2 decode verified",
+    "trainerReview": "not performed"
+  },
+  "correctionHistory": [],
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Dumbbell_Incline_Row.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

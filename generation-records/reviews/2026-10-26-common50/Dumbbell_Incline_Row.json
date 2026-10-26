@@ -1,0 +1,14 @@
+{
+  "id": "Dumbbell_Incline_Row",
+  "verdict": "accepted",
+  "reviewer": "images_a",
+  "filesReviewed": [
+    "01-braccia-distese.png",
+    "02-remata.png"
+  ],
+  "findings": [
+    "All PNGs and instructions viewed: chest clearly supported on inclinebench, feet stable and both neutral handgrips visible.",
+    "Hangingarms to elbowsbehindtorso with weights nearhips clear, no curlingforearmsup or wholebodyheave.",
+    "Samebench/bodycontacts/equipmentload, natural spine and neck; chestbranding naturally partly occluded by support."
+  ]
+}

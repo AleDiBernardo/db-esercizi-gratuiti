@@ -1,0 +1,13 @@
+{
+  "id": "Triceps_Stretch",
+  "verdict": "accepted",
+  "reviewer": "images_e",
+  "filesViewed": [
+    "01-allungamento.png"
+  ],
+  "findings": [
+    "Fullsource read and imageviewed: onearm flexed behindhead with oppositehand gentlyholding raisedelbow, neutraluprighttorso groundedfeet.",
+    "Natural elbow/handcontact no visible extralimbs, originalidentitylogo/clothing fullframe.",
+    "Static10–20secondhold and sideswitch requires1representativepose, no fictitiousdynamicphase."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "Side_Leg_Raises",
+  "verdict": "accepted",
+  "reviewer": "images_e",
+  "filesViewed": [
+    "01-apertura-laterale.png",
+    "02-oscillazione-incrociata.png"
+  ],
+  "findings": [
+    "Fullsource describes standing lateral leg swing then crossing supportleg; images show exactly this rather than lyingraise.",
+    "Same supporthand atstablechair, same plantedleg footcameraidentity. Workingleg extended outlaterally then clearlycrossing INFRONT ofsupportleg hovering rather than planting.",
+    "Wholechair feet hands fullframe and anatomicaljointpaths plausible;1→2→1 capturescomplete swingloop withoutduplicate neutralreturn."
+  ]
+}

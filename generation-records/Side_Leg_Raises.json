@@ -1,0 +1,43 @@
+{
+  "id": "Side_Leg_Raises",
+  "phases": [
+    {
+      "file": "01-apertura-laterale.png",
+      "description": "Gamba libera distesa lateralmente, mano sulla sedia e piede d'appoggio stabile.",
+      "prompt": "ONE realistic fitness illustration landscape3:2 PNG warmivoryfloorbackground fullbodyequipmentgenerousmargins no captionstextarrowslabels. ORIGINALattachedMisurami character authoritative exactman curlyhairbeardfacebuild charcoalTshirt originalsmallleftchest yellowwhiteMisuramilogo charcoalshortsyellowstripe blackshoes. SIDELEGRAISES lateralLEG SWING phase1 OUTWARD. ManstandsuprightFRONTslight3quarter view, balanceson LEFTLEG (viewerRIGHT shoe firmlyflatfloor), LEFTHAND gentlyrestson BACKREST of one stable simpleblackchair on viewerRIGHT side, chairall4legs grounded fullyvisible. RIGHTLEG (viewerLEFT) straight with softknee and toespointforward liftsSIDEWAYS OUT towardviewerLEFT about30degrees, workingfootfloats wellabovefloor. Pelvislevel chestforward no trunklean not turningtoesup, neckneutral. Rightarmrelaxedatside notsupportinghip. Fullmanheadbothshoes allhandsand entirechair inframe plentyspaceleftforswing; correct2arms2legs naturalfingers. Fixedcamera body chair supportfootsamepositions nextphasecrossesworkingleg."
+    },
+    {
+      "file": "02-oscillazione-incrociata.png",
+      "description": "La stessa gamba attraversa davanti alla gamba d'appoggio durante l'oscillazione.",
+      "prompt": "SIDELEGRAISES legSWING phase2 CROSSOVER from SECONDscene originalFIRST Misurami identityclothesleftchestlogo authoritative. EXACTsamecamera scale lightfloorchairgeometryposition lefthandbackrestcontact torsoheadandSUPPORTLEFTFOOT viewerRIGHT floorpoint. Move ONLY RIGHTworkingleg (viewerLEFT inreference) downward then ACROSS IN FRONT OF groundedleftleg towardviewerRIGHT. Rightlegremainscomfortablystraight softknee, workingfoot hoversjustabovefloor onfar sideofsupportleg nearleftankle but DOESNOTTOUCH supportshin/foot. Bothlegs must crossvisibly nearankles; rightfoot NOTplanted. Hipslevel chestforward pelvisstable no rotationaltwist, rightarmrelaxedatside. Fixedchair andsupprighthand same asreference. Correct2arms2legs naturaljointsrouting. Fullbodybothshoesallhandsandentirechairvisible noequipmentchange. One realisticivorylandscape3:2 PNG no labels arrows captions."
+    }
+  ],
+  "executionOrder": [
+    "01-apertura-laterale.png",
+    "02-oscillazione-incrociata.png",
+    "01-apertura-laterale.png"
+  ],
+  "executionNotes": "Dall'appoggio monopodalico oscillare la gamba distesa verso l'esterno e verso il basso attraversando la gamba d'appoggio, ripetendo5–10volte aumentando gradualmente l'ampiezza. La sedia rimane stabile; il piede libero non assume carico.",
+  "createdAt": "2026-10-26",
+  "status": "accepted",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "sources": [
+    "IMAGE-ROUTINE.md",
+    "exercises.json:Side_Leg_Raises"
+  ],
+  "checks": {
+    "automaticVisualInspection": "Provisional pass: everyPNG inspected for original identity/clothes/logo, wholebody all equipment, anatomical grip/support contacts and phase correspondence; pending independent audit",
+    "fileValidation": "PNG decode3:2 verified",
+    "trainerReview": "not performed"
+  },
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Side_Leg_Raises.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "Triceps_Stretch",
+  "phases": [
+    {
+      "file": "01-allungamento.png",
+      "description": "Braccio piegato dietro la testa, mano opposta sul gomito per una tenuta delicata.",
+      "prompt": "ONE realistic fitness illustration landscape3:2 PNG warmivoryfloorbackground softshadows. Attached ORIGINAL Misurami character sheet authoritative exactfacecurlsdarkhairbeard athleticbuild charcoalTshirt originalsmall yellowwhitelogo anatomicalLEFTchest charcoalshortsyellowstripe blackshoes. OVERHEADTRICEPSSTRETCH singleheldpose: manstandsupright bothfeetflat hipwidth, neutralpelvisspine ribsdown nolean. AnatomicalRIGHTarm raises overhead upperarmbesideear elbowflexeddeeply so righthand rests gentlybehindhead/upperback. LEFTarm reachesoverhead and lefthand gentlyCUPS rightELBOW to applylightstretch, no wristgrip noforcinghead. Rightelbowpointstowardceiling notlaterallyflared, neckneutralheadforward relaxedshoulders. CameraFRONT slight3quarter so twoarms routingclearlyseparate and supportinghand/elbowcontact visible. Correct2arms2hands naturalfingers noextraelbow, fullbodyheadallshoes bothhands armsvisible generousmarginsaboveelbow. Noequipment captionsarrowslabels textnumbers. Originalleftchestlogo remainvisible unaltered."
+    }
+  ],
+  "executionOrder": [
+    "01-allungamento.png"
+  ],
+  "executionNotes": "Portare una mano dietro la testa e sostenere delicatamente il gomito con l'altra, mantenere10–20secondi, rilasciare e cambiare lato. Nessuna forzatura del collo.",
+  "createdAt": "2026-10-26",
+  "status": "accepted",
+  "generator": "integrated image_gen",
+  "reference": "references/misurami-personaggio.png",
+  "sources": [
+    "IMAGE-ROUTINE.md",
+    "exercises.json:Triceps_Stretch"
+  ],
+  "checks": {
+    "automaticVisualInspection": "Provisional pass: everyPNG inspected for original identity/clothes/logo, wholebody all equipment, anatomical grip/support contacts and phase correspondence; pending independent audit",
+    "fileValidation": "PNG decode3:2 verified",
+    "trainerReview": "not performed"
+  },
+  "peerReview": {
+    "verdict": "accepted",
+    "record": "generation-records/reviews/2026-10-26-common50/Triceps_Stretch.json"
+  },
+  "rootReview": {
+    "verdict": "accepted",
+    "date": "2026-10-26",
+    "scope": "Every selected PNG visually checked after independent review; professional trainer review not performed."
+  }
+}
